@@ -2,16 +2,18 @@ name: Publish docs via GitHub Pages
 on:
   push:
     branches:
-      - main   
+      - main
+
 jobs:
   build:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
-        uses: actions/checkout@latest
+        uses: actions/checkout@v4
 
       - name: Deploy MkDocs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
