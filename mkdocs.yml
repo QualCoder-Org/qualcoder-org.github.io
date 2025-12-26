@@ -1,0 +1,10 @@
+site_name: QualCoder
+site_description: 'QualCoder Website'
+site_author: 'QualCoder Teams'
+docs_dir: docs/
+repo_name: 'ccbogel/qualcoder.github.io'
+repo_url: 'https://github.com/ccbogel/qualcoder.github.io'
+nav:
+    - Home: index.md
+theme:
+  name: 'material'
