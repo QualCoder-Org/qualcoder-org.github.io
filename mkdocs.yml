@@ -3,7 +3,7 @@ site_description: 'QualCoder Website'
 site_author: 'QualCoder Teams'
 docs_dir: docs/
 repo_name: 'QualCoder-Org/qualcoder-org.github.io'
-repo_url: 'https://github.com/QualCoder-Org/qualcoder-org.github.io/'
+repo_url: 'https://github.com/QualCoder-Org/qualcoder-org.github.io.git'
 nav:
     - Home: index.md
 theme:
