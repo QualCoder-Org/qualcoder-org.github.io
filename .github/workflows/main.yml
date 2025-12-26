@@ -4,8 +4,8 @@ on:
     branches:
       - main
   permissions:      
-      contents: read
-       pages: write   
+    contents: read
+    pages: write   
 jobs:
   build:
     name: Deploy docs
