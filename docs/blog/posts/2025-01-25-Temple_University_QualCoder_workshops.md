@@ -16,7 +16,7 @@ Temple University Libraries, is featuring QualCoder, a free, open-source qualita
     ](https://charlesstudy.temple.edu/event/13898970)Tue, Feb 18, 12:00 pm -- 1:00 pm
 -   [**Coding Scheme and Codebooks**\
     ](https://charlesstudy.temple.edu/event/13899188)Thu, Feb 27, 12:00 pm -- 1:00 pm
--   [**Transcription and Formatting Files for Qualitative Data Analysis **](https://charlesstudy.temple.edu/event/13899059)\
+-   [**Transcription and Formatting Files for Qualitative Data Analysis**](https://charlesstudy.temple.edu/event/13899059) \
     Fri, Feb 21, 12:00 pm -- 1:00 pm
 -   [**Coding Strategies and Data Processing**](https://charlesstudy.temple.edu/event/13899565)\
     Thu, Mar 13, 11:00 am -- 12:00 pm
