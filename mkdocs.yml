@@ -16,12 +16,12 @@ nav:
   - Documentation:
       - English:
           - Documentation: doc/en/index.md
-          - '__Setup__':
+          - 'Setup':
               - 'Installation': 'doc/en/2.1.-Installation.md'
               - 'Settings': 'doc/en/2.2.-Settings.md'
               - 'AI Setup': 'doc/en/2.3.-AI-Setup.md'
               - 'Working in a Team': 'doc/en/2.4.-Working-in-a-Team.md'
-          - '__Managing Data__':
+          - 'Managing Data':
               - 'Creating a New Project': 'doc/en/3.1.-Creating-a-New-Project.md'
               - 'Files': 'doc/en/3.2.-Files.md'
               - 'Cases': 'doc/en/3.3.-Cases.md'
