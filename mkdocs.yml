@@ -8,3 +8,21 @@ nav:
     - Home: index.md
 theme:
   name: 'material'
+  logo: images/logo.png
+  favicon: images/logo.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.indexes
+    - attr_list
+    - content.action.edit
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.footer
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/ccbogel/QualCoder
+
