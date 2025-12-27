@@ -11,6 +11,34 @@ nav:
     - Home: index.md
     - News: news/index.md
     - 'Documentation' : doc.md
+      - 'English':
+        - doc/en/index.md
+        - 'Home': doc/en/Home.md
+        - '2.1.-Installation': doc/en/2.1.-Installation.md
+        - '2.2.-Settings': doc/en/2.2.-Settings.md
+        - '2.3.-AI-Setup': doc/en/2.3.-AI-Setup.md
+        - '2.4.-Working-in-a-Team': doc/en/2.4.-Working-in-a-Team.md
+        - '3.1.-Creating-a-New-Project': doc/en/3.1.-Creating-a-New-Project.md
+        - '3.2.-Files': doc/en/3.2.-Files.md
+        - '3.3.-Cases': doc/en/3.3.-Cases.md
+        - '3.4.-Attributes': doc/en/3.4.-Attributes.md
+        - '4.1.-Coding-Text': doc/en/4.1.-Coding-Text.md
+        - '4.2.-AI-Assisted-Coding': doc/en/4.2.-AI-Assisted-Coding.md
+        - '4.3.-Coding-Text-on-PDFs': doc/en/4.3.-Coding-Text-on-PDFs.md
+        - '4.4.-Coding-Images': doc/en/4.4.-Coding-Images.md
+        - '4.5.-Coding-Audio-and-Video': doc/en/4.5.-Coding-Audio-and-Video.md
+        - '4.6-Code-Organiser': doc/en/4.6-Code-Organiser.md
+        - '5.1.-AI-chat-based-analysis': doc/en/5.1.-AI-chat-based-analysis.md
+        - '5.2.-Journals': doc/en/5.2.-Journals.md
+        - '5.3.-Reports': doc/en/5.3.-Reports.md
+        - '5.4.-Graph': doc/en/5.4.-Graph.md
+        - '6.1.-Imports-and-Exports': doc/en/6.1.-Imports-and-Exports.md
+        - '6.2.-AI-Prompt-Library': doc/en/6.2.-AI-Prompt-Library.md
+        - '7.1.-About-The-Developers': doc/en/7.1.-About-The-Developers.md
+        - '7.2.-QualCoder-Video-Tutorials': doc/en/7.2.-QualCoder-Video-Tutorials.md
+        - '7.3.-QualCoder-Development': doc/en/7.3.-QualCoder-Development.md
+        - '7.4.-SQlite-Data-Structure': doc/en/7.4.-SQlite-Data-Structure.md
+        - '7.5.-AI-Technical-Information': doc/en/7.5.-AI-Technical-Information.md
     - 'Studies using QualCoder': using.md
     - 'About Developers': about.md
 theme:
