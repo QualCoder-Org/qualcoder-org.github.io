@@ -5,7 +5,22 @@ edit_uri: edit/main/docs/
 docs_dir: docs/
 repo_name: 'QualCoder-Org/qualcoder-org.github.io'
 repo_url: 'https://github.com/QualCoder-Org/qualcoder-org.github.io'
-
+theme:
+  name: 'material'
+  logo: images/logo.png
+  favicon: images/logo.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.indexes
+    - attr_list
+    - content.action.edit
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.footer
 plugins:
   - blog
 nav:
@@ -82,22 +97,7 @@ nav:
   - 'Studies using QualCoder': using.md
   - 'About Developers': about.md
 
-theme:
-  name: 'material'
-  logo: images/logo.png
-  favicon: images/logo.png
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.indexes
-    - attr_list
-    - content.action.edit
-    - content.code.annotate
-    - content.tabs.link
-    - navigation.footer
+
 
 extra:
   social:
