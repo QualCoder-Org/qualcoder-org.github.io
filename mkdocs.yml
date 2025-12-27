@@ -10,8 +10,8 @@ plugins:
 nav:
     - Home: index.md
     - News: news/index.md
-    - 'Documentation' : doc.md
-      - 'English':
+    - Documentation : doc.md
+      - English:
         - doc/en/index.md
         - 'Home': doc/en/Home.md
         - '2.1.-Installation': doc/en/2.1.-Installation.md
