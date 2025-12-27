@@ -103,32 +103,33 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ccbogel/QualCoder
-  alternate:
-    - name: English
-      link: /
-      lang: en
-    - name: Deutsch
-      link: /de/
-      lang: de
-    - name: Français
-      link: /fr/
-      lang: fr
-    - name: Spanish
-      link: /es/
-      lang: es
-    - name: Italian
-      link: /it/
-      lang: it
-    - name: Japanese
-      link: /ja/
-      lang: ja
-    - name: Portugese
-      link: /pt/
-      lang: pt
-    - name: Swedish
-      link: /sv/
-      lang: sv
-    - name: Chinese
-      link: /zh/
-      lang: zh
+alternate:
+  - name: English
+    link: /
+    lang: en
+  - name: Deutsch
+    link: /de/
+    lang: de
+  - name: Français
+    link: /fr/
+    lang: fr
+  - name: Español
+    link: /es/
+    lang: es
+  - name: Italiano
+    link: /it/
+    lang: it
+  - name: 日本語
+    link: /ja/
+    lang: ja
+  - name: Português
+    link: /pt/
+    lang: pt
+  - name: Svenska
+    link: /sv/
+    lang: sv
+  - name: 中文
+    link: /zh/
+    lang: zh
+
 
