@@ -47,6 +47,7 @@ theme:
     - navigation.footer
 plugins:
   - blog
+  - rss
 nav:
   - Home: index.md
   - Blog: blog/
