@@ -5,6 +5,9 @@ author: ccbogel
 category: Misc
 ---
 
-[Images in coding reports](https://qualcoder.wordpress.com/2019/01/19/images-in-coding-reports/)
 
-Images in coding reports.
+
+I have made some improvements to the coding reports section. Reports now show coded image sections. Text and image codings can be exported to open document ODT format and to html format.
+
+coding report with images
+

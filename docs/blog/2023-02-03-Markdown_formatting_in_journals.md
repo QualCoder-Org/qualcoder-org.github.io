@@ -5,6 +5,8 @@ author: ccbogel
 category: Misc
 ---
 
-[Markdown formatting in journals](https://qualcoder.wordpress.com/2023/02/03/markdown-formatting-in-journals/)
+I have added markdown formatting in journals.
 
-Markdown formatting in journals.
+It does show the markdown symbols, but does help to frame journal entries. Note this is for the unreleased 3.3 version, which can be downloaded and manually installed from the main GitHub page.
+
+![](images/markdown.png)

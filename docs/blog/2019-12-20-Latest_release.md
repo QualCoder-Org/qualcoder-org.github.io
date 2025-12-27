@@ -5,6 +5,9 @@ author: ccbogel
 category: Misc
 ---
 
-[Latest release](https://qualcoder.wordpress.com/2019/12/20/latest-release/)
+The latest source code and a Linux debian release are now available.
 
-Latest release of QualCoder.
+Changes include the RQDA project import function and various bug fixes.
+
+https://github.com/ccbogel/QualCoder/releases
+

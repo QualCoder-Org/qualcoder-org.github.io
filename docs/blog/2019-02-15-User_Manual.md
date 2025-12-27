@@ -5,6 +5,4 @@ author: ccbogel
 category: Misc
 ---
 
-[User Manual](https://qualcoder.wordpress.com/2019/02/15/user-manual/)
-
-User manual for QualCoder.
+It was recommended that I make a user manual. So I have spent some time and written a QualCoder User Manual in PDF format. The manual is in English. This can be found on the github site: https://github.com/ccbogel/QualCoder

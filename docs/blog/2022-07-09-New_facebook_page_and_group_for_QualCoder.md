@@ -5,6 +5,12 @@ author: ccbogel
 category: Misc
 ---
 
-[New facebook page and group for QualCoder](https://qualcoder.wordpress.com/2022/07/09/new-facebook-page-and-group-for-qualcoder/)
+Hello everyone,
 
-New Facebook page and group for QualCoder.
+I have created a facebook page and group for QualCoder. The intention is for you to share your experiences using QualCoder. How to do things in QualCoder and describe problems using QualCoder and the solutions and work flows you have developed.
+
+The group may become a good community to describe your research. The qualitative approaches you use, the data you have collected, and how you collected the data. How you interpret the data and the methodological approaches you use.
+
+This is an updated link to a public group now.
+
+https://www.facebook.com/groups/1251478525589873

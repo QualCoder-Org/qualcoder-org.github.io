@@ -5,6 +5,5 @@ author: ccbogel
 category: Misc
 ---
 
-[QualCoder Workshop in India](https://qualcoder.wordpress.com/2025/04/14/qualcoder-workshop-in-india/)
-
-Workshop in India.
+Paul Solomon conducting a workshop in Chennai and supporting Open Source software.
+![](images/image.webp)
