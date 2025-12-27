@@ -11,12 +11,12 @@ Additionally, you will be able to change the overall style of QualCoder through 
 
 Blue style
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/11/blue.png?w=1024)](images/blue.webp)
+![](/images/blue.webp)
 
 Orange style
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/11/orange.png?w=1024)](images/orange.webp)
+![](/images/orange.webp)
 
 Dark with rainbow style
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/11/rainbow.png?w=1024)](images/rainbow.webp)
+![](/images/rainbow.webp)

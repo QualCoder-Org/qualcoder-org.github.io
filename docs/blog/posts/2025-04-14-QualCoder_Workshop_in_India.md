@@ -6,4 +6,4 @@ category: Misc
 ---
 
 Paul Solomon conducting a workshop in Chennai and supporting Open Source software.
-![](images/image.webp)
+![](/images/image.webp)

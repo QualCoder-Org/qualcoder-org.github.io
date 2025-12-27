@@ -10,7 +10,7 @@ Since I began releasing QualCoder, interest and use of the software has continue
 
 It would be really appreciated if there were independent researchers who could write and publish independent and in depth articles about the QualCoder software. How is has been used, what the advantages and disadvantages are.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/08/downloads_2024_08_09.png?w=889)](images/downloads_2024_08_09.png)
+![](/images/downloads_2024_08_09.png)
 
 This chart is from data obtained on 9th August 2024. It shows executables downloaded from the GitHub releases, <https://github.com/ccbogel/QualCoder/releases>. These executables comprise Linux Debian install files, Windows executables and Linux Ubuntu executables. The most recent bar comprises 1,049 Ubuntu executables and 3,590 Windows executables.
 

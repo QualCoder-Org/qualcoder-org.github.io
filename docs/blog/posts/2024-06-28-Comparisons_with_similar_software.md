@@ -9,4 +9,4 @@ category: Misc
 
 QualCoder is a favourable comparator to many paid and open software products. Charts below were from 28 June 2024.
 
-![](images/compare_2024.png)
+![](/images/compare_2024.png)

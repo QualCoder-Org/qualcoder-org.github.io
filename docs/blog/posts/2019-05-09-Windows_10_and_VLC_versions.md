@@ -19,4 +19,4 @@ python32.png
 
 This image, from the task manager,  shows vlc is running as 64 bit architecture. If it was 32 bit is would be noted as such in brackets.
 
-![](images/task_manager.png)
+![](/images/task_manager.png)

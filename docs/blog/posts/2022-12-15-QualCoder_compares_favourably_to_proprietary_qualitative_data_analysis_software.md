@@ -9,4 +9,4 @@ I am not sure how SaaSHub.com calculates the comparisons but here are a few grap
 
 It is nice to see that QualCoder does compare favourably primarily as a research tool. Even if it does not have all the functionalities of the big names. A lot of thanks goes to the end users who keep putting forward good ideas and giving feedback to make using QualCoder an easier and better experience. Also for suggesting extra functionalities that had not been thought of before. It is fascinating to see how many different workflows people use when doing their research.
 
-![](images/compare.png)
+![](/images/compare.png)

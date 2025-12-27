@@ -13,7 +13,7 @@ The other main change is that a bibliography can be imported in the RIS format.
 
 Further improvements to the REFI-QDA codebook and project exchange formats have been enacted.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2023/01/qc_3_2_charts.png?w=1024)](images/qc_3_2_charts.webp)
+![](/images/qc_3_2_charts.webp)
 
 How to get the latest release?
 ------------------------------

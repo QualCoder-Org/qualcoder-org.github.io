@@ -7,7 +7,7 @@ category: Misc
 
 We must be doing something right.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2025/03/happy.png?w=562)](images/happy.png)
+![](/images/happy.png)
 
 [](https://www.buymeacoffee.com/ccbogelB)
 

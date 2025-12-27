@@ -9,10 +9,10 @@ We are getting close to the release of the 3.6 version, which among other change
 
 There has been an impressive uptake of the 3.5 version that was released a year ago on 23rd December 2023 with over 10,000 downloads of the executables (as at 22 Jan 2024) for Windows and Ubuntu.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2025/01/image.png?w=561)](images/2025-1.png)
+![](/images/2025-1.png)
 
 It is great to see that saashub <https://www.saashub.com/> which shows comparisons between similar software indicated that QualCoder is very favourably viewed compared to the very well known Nvivo software (as at 22 Jan 2024).
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2025/01/image-1.png?w=1024)](images/2025-2.png)
+![](/images/2025-2.png)
 
 with regards Colin
