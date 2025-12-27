@@ -12,7 +12,7 @@ plugins:
 
 nav:
   - Home: index.md
-  - Blog: blog/
+  - Blog: blog/index.md
   - Documentation:
       - English:
           - Documentation: doc/en/index.md
