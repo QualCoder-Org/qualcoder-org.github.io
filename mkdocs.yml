@@ -90,6 +90,8 @@ theme:
   favicon: images/logo.png
   features:
     - navigation.tabs
+    - navigation.sections
+    - toc.integrate
     - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes
