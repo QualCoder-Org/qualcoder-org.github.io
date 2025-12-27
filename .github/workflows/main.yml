@@ -2,7 +2,7 @@ name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
-    branches: [ main ]  # Déclenche le workflow à chaque push sur la branche main
+    branches: [ main ]
 
 jobs:
   deploy:
@@ -20,5 +20,11 @@ jobs:
           pip install mkdocs mkdocs-material
 
       - name: Build and deploy
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          remote_url="https://${GH_PAT}@github.com/QualCoder-Org/qualcoder-org.github.io.git"
+          git remote set-url origin "$remote_url"
           mkdocs gh-deploy --force
