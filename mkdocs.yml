@@ -105,7 +105,7 @@ extra:
       link: https://github.com/ccbogel/QualCoder
   alternate:
     - name: English
-      link: /en/
+      link: /
       lang: en
     - name: Deutsch
       link: /de/
