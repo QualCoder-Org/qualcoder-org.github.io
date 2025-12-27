@@ -1,9 +1,10 @@
 # QualCoder Doc
-Please select your language.
+*Please select your language*
+
 ## Official Documentation
 
-- [English](/en){.button-link}
+- [English](/en)
 
 ## Community Translations
 
-- [Français](/en){.button-link}
+- [Français](/en)
