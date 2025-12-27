@@ -8,6 +8,7 @@ nav:
     - Home: index.md
     - 'Studies using QualCoder': using.md
     - 'About Developers': about.md
+    - 'Documentation' : doc.md
 theme:
   name: 'material'
   logo: images/logo.png

@@ -45,4 +45,12 @@ Also, if you like QualCoder a lot, or have developed a novel use for it, please 
 # Testing QualCoder
 It has taken many, many hours of work to create this software that is provided free to use. If you appreciate QualCoder please: [Buy me a coffee](https://www.buymeacoffee.com/ccbogelB)
 
+- [Mac - Apple Silicon](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Mac.Arm64.dmg)
+- [Mac - (x86)](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Mac.X86.dmg)
+- [Windows](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Win.Setup.exe)
+- [Windows - Portable Version](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Win.Portable.zip)
+
+
 QualCoder is written in python 3 using Qt6 for the graphical interface. A minimum python version of 3.10 should be used. A minimum screen resolution of 1024×600 pixels is recommended. QualCoder has been used on Ubuntu 24.04 and other Linux distros, Windows 10, Windows 11 and MacOS. Testing is performed on Windows 11.
+
+
