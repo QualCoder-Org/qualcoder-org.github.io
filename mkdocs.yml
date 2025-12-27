@@ -19,6 +19,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes
+    - navigation.path
     - attr_list
     - content.action.edit
     - content.code.annotate
@@ -27,6 +28,7 @@ theme:
 plugins:
   - blog
   - rss
+  - search
 nav:
   - Home: index.md
   - Blog: blog/
