@@ -104,12 +104,13 @@ nav:
   - 'Studies using QualCoder': using.md
   - 'About Developers': about.md
 
-
-
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ccbogel/QualCoder
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/groups/1251478525589873
+
 alternate:
   - name: English
     link: /
