@@ -12,8 +12,7 @@ nav:
     - Home: index.md
     - News: news/index.md
     - Documentation : doc.md
-          - 'English':
-              - doc/en/index.md
+          - English: doc/en/index.md
               - 'Installation et configuration':
                   - 'doc/en/2.1.-Installation.md'
                   - 'doc/en/2.2.-Settings.md'
