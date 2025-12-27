@@ -1,46 +1,46 @@
-# QualCoder: Powerful, Free Qualitative Data Analysis
+What is QualCoder
+=================
 
-**Unlock the Full Potential of Your Qualitative Data**
+QualCoder is free, open source desktop software for qualitative data analysis.
 
-QualCoder is **free, open-source desktop software** designed for researchers, analysts, and professionals who need a **reliable, flexible, and cost-free** tool to code and analyze text, images, audio, and video. Whether you’re working with interviews, case studies, or multimedia datasets, QualCoder gives you everything you need to organize, code, and visualize your data—**without expensive subscriptions or internet dependency**.
+With QualCoder you can code text and images, write journal notes and memos. You can categorise codes into a tree-like hierarchical categorisation scheme. Coding for audio and video can be performed and requires the VLC media player.
 
----
+Reports can be generated for text coding and for coder comparison. A graph displaying codes and categories can be generated to visualise the coding hierarchy. Many reports and charts can be created and exported.
 
-## Why Choose QualCoder?
+QualCoder is designed to be used as client-based software to be used by one person at a time. (A second coder can use the same project on the same computer, or the project folder can be transferred to the second coder's computer). QualCoder is not designed to be multi-accessed at the same instance in time.
 
-### ✅ 100% Free, Forever
-No hidden fees, no subscriptions, no restrictions. QualCoder is **100% free**, making it accessible to students, independent researchers, and professionals alike. Your research shouldn’t be limited by budget constraints.
+The most current QualCoder software is available from <https://github.com/ccbogel/QualCoder>. Software releases are available from: <https://github.com/ccbogel/QualCoder/releases> These contain source code and executables. The executables are an easy way to run QualCoder, double click to run, just be aware that it can take 10 to 20 seconds to open up. The minimum recommended screen size is 1024 x 600 pixels. For manual (Terminal or Command line) source code installation a minimum recommended python version is 3.10.
 
-### ✅ Simple, Intuitive, and Efficient
-A **clean, user-friendly interface** that gets straight to the point. Skip the steep learning curve: code your data, write memos, organize codes into hierarchical trees, and generate reports in just a few clicks. QualCoder lets you focus on **analysis**, not technical hurdles.
+Why use QualCoder?
+------------------
 
-### ✅ Work Anywhere, Your Way
-- **Offline-capable**: No internet? No problem.
-- **Cross-platform**: Runs seamlessly on **Linux, Windows, and macOS**—switch devices or operating systems without losing your work.
-- **Portable**: Take your projects with you and collaborate effortlessly, with no license tied to a single machine.
+**Qualcoder is free of charge**. Many qualitative analysis software requiring expensive one-time fees or monthly subscriptions. Not everyone can afford expensive fees.
 
-### ✅ Visualize and Share Your Insights
-- Generate **detailed reports** and **clear visualizations** to showcase your coding and inter-coder comparisons.
-- Export your data and charts for presentations, papers, or team reviews.
+**QualCoder is easy to use**. It has all you need to perform qualitative analysis without the complicated interfaces of some alternatives.
 
-### ✅ Built by the Community, for the Community
-QualCoder is **actively developed** by its users. Have a feature request or spot a bug? Contribute directly on [GitHub](https://github.com/ccbogel/QualCoder).
-- **Open-source**: Customize the software to fit your needs, or ask the community for help.
-- **Interoperable**: Supports the **REFI-QDA standard**, so you can exchange projects with other compatible tools.
+**QualCoder works offline**. Internet is not always available and QualCoder does not require internet to work.
 
-### ✅ No Strings Attached
-- Get started in seconds with **ready-to-run executables** (loads in 10–20 seconds).
-- Use it on **multiple devices** without restrictions.
-- **Minimum requirements**: 1024 x 600 screen resolution and Python 3.10 for manual installation.
+**QualCoder is not tied to a computer**. If you change workplace you do not have to worry about being tied to your former workplace's license or to buy a new license. QualCoder license allows you to use the software regardless of where you work or on what computer it is installed on.
 
----
+**QualCoder is multi-platform**. It runs on Linux, Windows and macOS, this means that you do not have to worry if you change operating systems, and it also means you can collaborate with colleagues on different platforms. See Note.
 
-> **Note**: A known issue affects audio/video coding on Linux Fedora (software crashes). The team is actively working on a fix.
+**QualCoder relies on the community**. If you find a bug or have a feature request or feedback, write it on QualCoder's page on github <https://github.com/ccbogel/QualCoder>.
 
----
+**QualCoder is always improving**. QualCoder is actively developed meaning that newer, improved versions are released with improvements.
 
-## Ready to Transform Your Qualitative Analysis?
+**QualCoder supports open standards**. QualCoder aims to support the REFI-QDA Standard, see <https://www.qdasoftware.org/> You may exchange codebooks and projects with your colleagues even if they do not use QualCoder, as long as the software they use supports the REFI-QDA Standard. It means that you do not risk your data being unavailable. REFI-QDA Project is not guaranteed 100% compliant yet. Further testing particularly for audio and video exports and imports and relatively-linked files is needed.
 
-📥 [Download the Latest Release](https://github.com/ccbogel/QualCoder/releases)
+**QualCoder can be modified**. You can modify and adapt QualCoder to your needs, or if you do not how you ask someone to do it for you, as long as you release your changes to everyone. This also means you can copy the software and give it to your colleagues or students free of charge.
 
+Note: There is an ongoing problem with audio/video coding on Linux Fedora -- the software crashes.
 
+Leave a review
+--------------
+
+If you like QualCoder and found it useful for your work. Please leave a review on these sites:
+
+<https://www.saashub.com/qualcoder-alternatives>
+
+<https://alternativeto.net/software/qualcoder>
+
+Also, if you like QualCoder a lot, or have developed a novel use for it, please write an article about QualCoder.
