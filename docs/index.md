@@ -1,5 +1,4 @@
-What is QualCoder
-=================
+# What is QualCoder
 
 QualCoder is free, open source desktop software for qualitative data analysis.
 
@@ -11,8 +10,7 @@ QualCoder is designed to be used as client-based software to be used by one pers
 
 The most current QualCoder software is available from <https://github.com/ccbogel/QualCoder>. Software releases are available from: <https://github.com/ccbogel/QualCoder/releases> These contain source code and executables. The executables are an easy way to run QualCoder, double click to run, just be aware that it can take 10 to 20 seconds to open up. The minimum recommended screen size is 1024 x 600 pixels. For manual (Terminal or Command line) source code installation a minimum recommended python version is 3.10.
 
-Why use QualCoder?
-------------------
+## Why use QualCoder?
 
 **Qualcoder is free of charge**. Many qualitative analysis software requiring expensive one-time fees or monthly subscriptions. Not everyone can afford expensive fees.
 
@@ -34,8 +32,7 @@ Why use QualCoder?
 
 Note: There is an ongoing problem with audio/video coding on Linux Fedora -- the software crashes.
 
-Leave a review
---------------
+## Leave a review
 
 If you like QualCoder and found it useful for your work. Please leave a review on these sites:
 
@@ -44,3 +41,8 @@ If you like QualCoder and found it useful for your work. Please leave a review o
 <https://alternativeto.net/software/qualcoder>
 
 Also, if you like QualCoder a lot, or have developed a novel use for it, please write an article about QualCoder.
+
+# Testing QualCoder
+It has taken many, many hours of work to create this software that is provided free to use. If you appreciate QualCoder please: [Buy me a coffee](https://www.buymeacoffee.com/ccbogelB)
+
+QualCoder is written in python 3 using Qt6 for the graphical interface. A minimum python version of 3.10 should be used. A minimum screen resolution of 1024×600 pixels is recommended. QualCoder has been used on Ubuntu 24.04 and other Linux distros, Windows 10, Windows 11 and MacOS. Testing is performed on Windows 11.

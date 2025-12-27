@@ -6,6 +6,8 @@ repo_name: 'QualCoder-Org/qualcoder-org.github.io'
 repo_url: 'https://github.com/QualCoder-Org/qualcoder-org.github.io'
 nav:
     - Home: index.md
+    - 'Studies using QualCoder': using.md
+    - 'About Developers': about.md
 theme:
   name: 'material'
   logo: images/logo.png
