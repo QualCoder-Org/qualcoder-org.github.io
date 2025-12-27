@@ -7,6 +7,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Autorise le workflow à écrire sur le dépôt
     steps:
       - uses: actions/checkout@v4
 
@@ -19,12 +21,14 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
-      - name: Build and deploy
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Configure Git credentials
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          remote_url="https://${GH_PAT}@github.com/QualCoder-Org/qualcoder-org.github.io.git"
-          git remote set-url origin "$remote_url"
+
+      - name: Build and deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/QualCoder-Org/qualcoder-org.github.io.git"
           mkdocs gh-deploy --force
