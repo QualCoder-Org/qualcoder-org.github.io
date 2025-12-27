@@ -12,9 +12,7 @@ nav:
     - Home: index.md
     - News: news/index.md
     - Documentation : doc.md
-      - English:
-        - doc/en/index.md
-        - 'Home': doc/en/Home.md
+      - English: doc/en/index.md
         - '2.1.-Installation': doc/en/2.1.-Installation.md
         - '2.2.-Settings': doc/en/2.2.-Settings.md
         - '2.3.-AI-Setup': doc/en/2.3.-AI-Setup.md
