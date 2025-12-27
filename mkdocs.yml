@@ -27,8 +27,7 @@ theme:
     - navigation.footer
 plugins:
   - blog
-  - rss:
-        match_path: blog/posts/.*
+  - rss
   - search
   - social
 nav:
