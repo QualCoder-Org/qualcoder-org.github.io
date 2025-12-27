@@ -44,7 +44,7 @@ nav:
                   - 'doc/en/7.3.-QualCoder-Development.md'
                   - 'doc/en/7.4.-SQlite-Data-Structure.md'
                   - 'doc/en/7.5.-AI-Technical-Information.md'
-    
+    - 'Ressources': ressources.md
     - 'Studies using QualCoder': using.md
     - 'About Developers': about.md
 theme:
