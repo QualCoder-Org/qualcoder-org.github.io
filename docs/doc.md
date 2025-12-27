@@ -3,8 +3,8 @@
 
 ## Official Documentation
 
-- [English](/en)
+- [English](/doc/en)
 
 ## Community Translations
 
-- [Français](/en)
+- [Français](/doc/fr)
