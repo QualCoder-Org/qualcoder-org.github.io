@@ -29,7 +29,6 @@ plugins:
   - blog
   - rss
   - search
-  - social
 nav:
   - Home: index.md
   - Blog: blog/
