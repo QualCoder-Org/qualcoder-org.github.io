@@ -45,6 +45,38 @@ nav:
           - 'QualCoder Development': 'doc/en/7.3.-QualCoder-Development.md'
           - 'SQLite Data Structure': 'doc/en/7.4.-SQlite-Data-Structure.md'
           - 'AI Technical Information': 'doc/en/7.5.-AI-Technical-Information.md'
+   - French: doc/fr/index.md
+      - 'Installation et configuration':
+          - 'Installation': 'doc/fr/2.1.-Installation.md'
+          - 'Settings': 'doc/fr/2.2.-Settings.md'
+          - 'AI Setup': 'doc/fr/2.3.-AI-Setup.md'
+          - 'Working in a Team': 'doc/fr/2.4.-Working-in-a-Team.md'
+      - 'Gestion des données':
+          - 'Creating a New Project': 'doc/fr/3.1.-Creating-a-New-Project.md'
+          - 'Files': 'doc/fr/3.2.-Files.md'
+          - 'Cases': 'doc/fr/3.3.-Cases.md'
+          - 'Attributes': 'doc/fr/3.4.-Attributes.md'
+      - 'Codage':
+          - 'Coding Text': 'doc/fr/4.1.-Coding-Text.md'
+          - 'AI-Assisted Coding': 'doc/fr/4.2.-AI-Assisted-Coding.md'
+          - 'Coding Text on PDFs': 'doc/fr/4.3.-Coding-Text-on-PDFs.md'
+          - 'Coding Images': 'doc/fr/4.4.-Coding-Images.md'
+          - 'Coding Audio and Video': 'doc/fr/4.5.-Coding-Audio-and-Video.md'
+          - 'Code Organiser': 'doc/fr/4.6-Code-Organiser.md'
+      - 'Analyser les résultats':
+          - 'AI Chat-based Analysis': 'doc/fr/5.1.-AI-chat-based-analysis.md'
+          - 'Journals': 'doc/fr/5.2.-Journals.md'
+          - 'Reports': 'doc/fr/5.3.-Reports.md'
+          - 'Graph': 'doc/fr/5.4.-Graph.md'
+      - 'Options avancées':
+          - 'Imports and Exports': 'doc/fr/6.1.-Imports-and-Exports.md'
+          - 'AI Prompt Library': 'doc/fr/6.2.-AI-Prompt-Library.md'
+      - 'Autres informations':
+          - 'About The Developers': 'doc/fr/7.1.-About-The-Developers.md'
+          - 'QualCoder Video Tutorials': 'doc/fr/7.2.-QualCoder-Video-Tutorials.md'
+          - 'QualCoder Development': 'doc/fr/7.3.-QualCoder-Development.md'
+          - 'SQLite Data Structure': 'doc/fr/7.4.-SQlite-Data-Structure.md'
+          - 'AI Technical Information': 'doc/fr/7.5.-AI-Technical-Information.md'
   - 'Ressources': ressources.md
   - 'Studies using QualCoder': using.md
   - 'About Developers': about.md
