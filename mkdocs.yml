@@ -7,19 +7,7 @@ repo_name: 'QualCoder-Org/qualcoder-org.github.io'
 repo_url: 'https://github.com/QualCoder-Org/qualcoder-org.github.io'
 
 plugins:
-  - blog:
-      blog_dir: blog
-      blog_toc: true
-      post_url_format: "{date}/{slug}"
-      post_date_format: "yyyy-MM-dd"
-      post_excerpt: required
-      post_excerpt_separator: "<!-- more -->"
-      archive: true
-      categories: true
-      tags: true
-      pagination: true
-      pagination_per_page: 5
-
+  - blog
 nav:
   - Home: index.md
   - Blog: blog/index.md
