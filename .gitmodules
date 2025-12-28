@@ -1,0 +1,3 @@
+[submodule "docs/doc/en"]
+	path = docs/doc/en
+	url = https://github.com/ccbogel/QualCoder.wiki.git
