@@ -34,7 +34,7 @@ nav:
   - Blog: blog/
   - Documentation:
       - English:
-          - Documentation: doc/en/index.md
+          - Documentation: doc/en/Home.md
           - 'Setup':
               - 'Installation': 'doc/en/2.1.-Installation.md'
               - 'Settings': 'doc/en/2.2.-Settings.md'
@@ -67,7 +67,7 @@ nav:
               - 'SQLite Data Structure': 'doc/en/7.4.-SQlite-Data-Structure.md'
               - 'AI Technical Information': 'doc/en/7.5.-AI-Technical-Information.md'
       - Français:
-          - Documentation: doc/fr/index.md
+          - Documentation: doc/fr/Home.md
           - 'Installation et configuration':
               - 'Installation': 'doc/fr/2.1.-Installation.md'
               - 'Settings': 'doc/fr/2.2.-Settings.md'
