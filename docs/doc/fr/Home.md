@@ -1,3 +1,5 @@
+ATTENTION : La traduction est en cours, une pré-traduction a été fait avec Deepl. Un travail de relecture est en cours
+
 Bienvenue sur le wiki de QualCoder !
 
 Ce wiki contient des instructions pour installer et utiliser le logiciel d'analyse de données qualitatives QualCoder. Les informations présentées ici concernent la version la plus récente de QualCoder.
