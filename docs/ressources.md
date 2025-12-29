@@ -1,5 +1,5 @@
 # Resources
-## Ressources in english
+## Resources in English
 
 ### QualCoder 3.3
 Thank you to Van Tran, social sciences librarian from Temple University, Philadelphia, for creating this detailed instructional video using the upcoming 3.3 version.
