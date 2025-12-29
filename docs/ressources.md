@@ -1,37 +1,5 @@
-# Ressources
+# Resources
 ## Ressources in english
-### QualCoder 2.7 (Windows Version)
-I have created my first YouTube video using the QualCoder 2.7 exe on Windows 10.
-
-This video shows the Settings options and how to manage files, cases and journals.
-
-<iframe width="500" height="281" src="https://www.youtube.com/embed/plwGHLw3Q2U" title="QualCoder 2.7 Settings Files Cases Journals" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-I have made another video . This one is about how to create codes and categories and do coding on text files. It uses the QualCoder 2.7 exe on Windows 10.
-
-<iframe width="500" height="375" src="https://www.youtube.com/embed/-8LnXfcM0cw" title="QualCoder 2.7 Text Coding" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-I have created a short YouTube video on image coding using Qualcoder 2.7 on Windows.
-
-<iframe width="500" height="281" src="https://www.youtube.com/embed/raUQ6ISWtqs" title="QualCoder 2.7 image coding" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-I have put out a YouTube videos of how to do coding with audio/video.
-
-<iframe width="500" height="281" src="https://www.youtube.com/embed/TjOfPvvXh7U" title="QualCoder 2.7 Video coding" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### QualCoder 3.1
-The video is full length – 45 minutes – and covers introduction, coding, reports and special function. Some of the early section is slightly blurry, and some is a bit quiet in volume.
-
-<iframe width="500" height="281" src="https://www.youtube.com/embed/WRB5Y5JLO4I" title="QualCoder Tutorial 3.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### QualCoder 3.2
-This 42 minute video workshop was created by the librarian at the University of Idaho, thank you. It uses QualCoder 3.2 on Windows.
-
-Update to some of the information in the video:
-
-You can merge a category into a category, by right clicking on a category and select Merge category into category.
-
-<iframe width="500" height="375" src="https://www.youtube.com/embed/119k-jNOl8I" title="Qualcoder - Data Hub Tool Talk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### QualCoder 3.3
 Thank you to Van Tran, social sciences librarian from Temple University, Philadelphia, for creating this detailed instructional video using the upcoming 3.3 version.
@@ -214,7 +182,7 @@ Agnese Vardanega of the Facoltà di Scienze Politiche, Università degli Studi d
 
 > [QualCoder per l'analisi qualitativa dei dati](https://www.agnesevardanega.eu/2022/01/03/qualcoder-caqdas-open-source-python/)
 
-## Ressources in Swedish
+## Resources in Swedish
 The librarian at the Uppasala University Library in Sweden has posted some videos showing how to use QualCoder in the Swedish language.
 
 https://libguides.ub.uu.se/databearbetning/kvalitativ/analys
@@ -227,12 +195,12 @@ Shin Kyogoku, Ph.D. Professor at Kibi International University has written a com
 
 https://www.thriver.one/free-qualitative-coding
 
-## Ressources in farsi
+## Resources in farsi
 There is a discussion of QualCoder in Persian here: در اینجا بحث QualCoder به زبان فارسی وجود دارد:
 
  https://yabesh.ir/4444873/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D9%88%D8%A7%D9%84-%DA%A9%D8%AF%D8%B1qualcoder
  
-## Ressources in German
+## Resources in German
 
 
 Hello everyone,
@@ -243,7 +211,7 @@ Dieses Video gibt eine praktische Einführung entlang verschiedener Stationen de
 
 [Webinar: KI-unterstütze Datenanalyse in QualCoder 3 .6](https://www.youtube.com/watch?v=JF64vbngedA)
 
-## Ressources in Malayalam
+## Resources in Malayalam
 Dr Chinchu has provided a video on using QualCoder with AI in Malayalam.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/sRHYGyHVcnE" title="Qualitative Data Analysis ചെയ്യാൻ QualCoder Free Software - Malayalam Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
