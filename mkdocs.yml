@@ -103,6 +103,7 @@ nav:
   - 'Ressources': ressources.md
   - 'Studies using QualCoder': using.md
   - 'About Developers': about.md
+  - 'Forum': 'https://github.com/ccbogel/QualCoder/discussions'
 
 extra:
   social:
