@@ -40,7 +40,9 @@ If you like QualCoder and found it useful for your work. Please leave a review o
 
 <https://alternativeto.net/software/qualcoder>
 
-Also, if you like QualCoder a lot, or have developed a novel use for it, please write an article about QualCoder.
+Many studies have been completed with QualCoder <https://qualcoder.wordpress.com/studies-using-qualcoder/>
+
+If you like QualCoder a lot, or have developed a novel use for it, please write an article about QualCoder.
 
 # Current binary releases
 
