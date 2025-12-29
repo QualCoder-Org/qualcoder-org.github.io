@@ -17,6 +17,22 @@ Dr USP an Associate Professor in Journalism and Mass Communication based in Kolk
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/4LqnG22NwXY" title="Master Qualitative Data Analysis  with QualCoder: The Best Free QDA Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+### QualCoder 3.6
+Thanks very much to Van Tran, Temple University Librarian for making installation videos for macOS and for showing how the Windows 11 installer and uninstaller works.
+
+<https://guides.temple.edu/qda/qualcoder#s-lg-box-wrapper-36509247>
+
+Sepp Meyer has developed Docker code to have an alternative way to run QualCoder through a webbrowser.
+
+I have not tried out out, and am interested to see comments on its use, but it might be a way especially for the various Linux distributions to run QualCoder.
+
+https://github.com/sepp-meyer/qualcoder-docker
+
+<iframe width="500" height="375" src="https://www.youtube.com/embed/Cqwu3mjJJHg" title="How does QualCoder compare with NVivo, ATLAS.ti, MAXQDA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+DeepWiki helps developers, students, and researchers interact with code repositories, such as GitHub. DeepWiki helps to quickly understand and navigate open-source code. So this might assist other developers and those wanting bespoke software implementations. https://deepwiki.com/ccbogel/QualCoder
+
 ### QualCoder 3.5
 I have finally managed to make a video for the 3.5 version of QualCoder.
 I am using the Window exe for this video. The Windows exe has a flaw with the Audio/Video coded segments – the context menu does not display (for playing, editing deleting coded A/V segments). This does not occur with the manual install method, and in the next 3.6 version I will add extra workaround for this issue.
@@ -41,21 +57,6 @@ https://www.youtube.com/watch?v=VPJzk5A1zkA
 
 How to generate report, charts, word cloud and export them ? || Qualcoder || Part-5
 https://www.youtube.com/watch?v=GUQcIDSqHLs
-
-### QualCoder 3.6
-Thanks very much to Van Tran, Temple University Librarian for making installation videos for macOS and for showing how the Windows 11 installer and uninstaller works.
-
-<https://guides.temple.edu/qda/qualcoder#s-lg-box-wrapper-36509247>
-
-Sepp Meyer has developed Docker code to have an alternative way to run QualCoder through a webbrowser.
-
-I have not tried out out, and am interested to see comments on its use, but it might be a way especially for the various Linux distributions to run QualCoder.
-
-https://github.com/sepp-meyer/qualcoder-docker
-
-<iframe width="500" height="375" src="https://www.youtube.com/embed/Cqwu3mjJJHg" title="How does QualCoder compare with NVivo, ATLAS.ti, MAXQDA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-DeepWiki helps developers, students, and researchers interact with code repositories, such as GitHub. DeepWiki helps to quickly understand and navigate open-source code. So this might assist other developers and those wanting bespoke software implementations. https://deepwiki.com/ccbogel/QualCoder
 
 ### QualCoder 3.3
 Thank you to Van Tran, social sciences librarian from Temple University, Philadelphia, for creating this detailed instructional video using the upcoming 3.3 version.
