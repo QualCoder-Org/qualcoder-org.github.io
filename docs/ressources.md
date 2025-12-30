@@ -11,7 +11,7 @@ I hope to add a second video a bit later showing additional features with this v
 
 I added another video using QualCoder 3.7. In this video I do some coding with the artificial intelligence enabled. I also show some hidden menu options in Code Text (and this uncovered an error I have to fix later also). I also look at the ode relations report.
 
-<iframe width="1235" height="695" src="https://www.youtube.com/embed/-HMtwHE4G5g" title="QualCoder 3.7 part 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/-HMtwHE4G5g" title="QualCoder 3.7 part 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Dr USP an Associate Professor in Journalism and Mass Communication based in Kolkata has prepared this video using the 3.7 version of QualCoder. Thank you Dr.
 
@@ -69,8 +69,6 @@ https://guides.temple.edu/qda/qualcoder
 
 
 
-Hello,
-
 This short video from Van Tran shows how to install the QualCoder software on macOS. I appreciate these videos, ad I (the developer do no have a mac to test or show these things.
 https://temple.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db149143-5c05-41d6-9b6c-b02e01181171&start=1.73274
 
@@ -82,20 +80,6 @@ I like the series of you tube videos from Grad Coach. I think they are clear and
 The librarian from the University of Albany has uploaded a video showing the use of Taguette and QualCoder.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/7Q6358q6aCk" title="Introduction to Qualitative Data Analysis Using Taguette and QualCoder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Édouard Hargrove has written an interesting essay on open source software with a particular interest in qualitative software titled: The Prefigurative Politics of Research Software. Available from here: https://gem-diamond.eu/blog/the-prefigurative-politics-of-research-software
-
-
-A practical guide to qualitative analysis , including QualCoder, has been written by Alzahrani et al. It is available through Temple University libraries:
-https://scholarshare.temple.edu/bitstream/handle/20.500.12613/10556/AlzahraniEtAl-Assignment-2024-05.pdf?sequence=1
-
-
-
-Open Qualitative Research with QualCoder is a series of pages about using some basic in QualCoder, put together by Nathaniel Porter. I think it is awork in development but looks good so far.
-
-https://ndporter.github.io/open-qualitative-research-qualcoder/index.html
-
-
 
 
 ### Comparison with other software
