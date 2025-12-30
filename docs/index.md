@@ -44,7 +44,7 @@ Many studies have been completed with QualCoder <https://qualcoder.wordpress.com
 
 If you like QualCoder a lot, or have developed a novel use for it, please write an article about QualCoder.
 
-# Current binary releases
+## Current binary releases
 
 - [Mac - Apple Silicon](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Mac.Arm64.dmg)
 - [Mac - (x86)](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Mac.X86.dmg)
@@ -52,7 +52,7 @@ If you like QualCoder a lot, or have developed a novel use for it, please write 
 - [Windows 11 - Portable Version](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Win.Portable.zip)
 
 
-# Testing QualCoder
+## Testing QualCoder
 
 It has taken many, many hours of work to create this software that is provided free to use. If you appreciate QualCoder please: [Buy me a coffee](https://www.buymeacoffee.com/ccbogelB)
 QualCoder is written in python 3 using Qt6 for the graphical interface. QualCoder has been used on Windows 11, macOS and various recent Linux distros: Ubuntu, Lubuntu, ZorinOS, Fedora. Testing is performed on Windows 11.
