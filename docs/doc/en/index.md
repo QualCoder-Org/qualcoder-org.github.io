@@ -1,6 +1,4 @@
-Welcome to the QualCoder wiki!
-
-The wiki covers instructions to install and use the QualCoder qualitative data analysis software. The information here refers to the most recent version of QualCoder.
+The instructions describe how to install and use QualCoder. The information here refers to the most recent version of QualCoder.
 
 ## What is QualCoder?
 QualCoder is free, open source software for qualitative data analysis. 
