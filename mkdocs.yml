@@ -60,7 +60,7 @@ nav:
           - 'Advanced Options':
               - 'doc/en/6.1.-Imports-and-Exports.md'
               - 'doc/en/6.2.-AI-Prompt-Library.md'
-          - 'Others informations':
+          - 'Other information':
               - 'doc/en/7.1.-About-The-Developers.md'
               - 'doc/en/7.2.-QualCoder-Video-Tutorials.md'
               - 'doc/en/7.3.-QualCoder-Development.md'
@@ -100,7 +100,7 @@ nav:
               - 'doc/fr/7.4.-SQlite-Data-Structure.md'
               - 'doc/fr/7.5.-AI-Technical-Information.md'
               - 'doc/fr/Translation.md'
-  - 'Ressources': ressources.md
+  - 'Resources': ressources.md
   - 'Studies using QualCoder': using.md
   - 'About Developers': about.md
   - 'Forum': 'https://github.com/ccbogel/QualCoder/discussions'
