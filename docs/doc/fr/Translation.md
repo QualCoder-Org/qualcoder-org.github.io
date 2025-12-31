@@ -10,7 +10,7 @@ Glossaire concernant la traduction, afin d’avoir une cohérence dans la traduc
 - Counts : occurrences
 - Automatic coding : autocodage
 - Mark : Surligner
-- Prompt AI : Commande IA
+- Prompt AI : [Instruction](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050185686)
 - Stop words: mots vides
 - Codebook : Grille de codage
 - Red weak : Protanomalie
