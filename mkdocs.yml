@@ -89,7 +89,7 @@ nav:
               - 'doc/fr/5.1.-AI-chat-based-analysis.md'
               - 'doc/fr/5.2.-Journals.md'
               - 'doc/fr/5.3.-Reports.md'
-              - doc/fr/5.4.-Graph.md'
+              - 'doc/fr/5.4.-Graph.md'
           - 'Options avancées':
               - 'doc/fr/6.1.-Imports-and-Exports.md'
               - 'doc/fr/6.2.-AI-Prompt-Library.md'
