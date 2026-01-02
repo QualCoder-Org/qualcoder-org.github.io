@@ -2,24 +2,13 @@
 
 {% block content %}
   {% if page and page.meta and page.meta.path %}
-    <div class="language-banner">
-      <div class="language-banner-content">
-        <span>Other languages:</span>
-        {% if 'fr' in page.meta.path %}
-          <a href="{{ page.meta.path|replace('fr', 'en') }}" class="md-button">English</a>
-        {% else %}
-          <a href="{{ page.meta.path|replace('en', 'fr') }}" class="md-button">Français</a>
-        {% endif %}
-        {% if 'fr' in page.meta.path %}
-          <a href="{{ page.meta.path }}" class="md-button" style="display: none;">Français</a>
-          <a href="{{ page.meta.path|replace('fr', 'en') }}" class="md-button">English</a>
-        {% else %}
-          <a href="{{ page.meta.path|replace('en', 'fr') }}" class="md-button">Français</a>
-          <a href="{{ page.meta.path }}" class="md-button" style="display: none;">English</a>
-        {% endif %}
-      </div>
+  <div class="language-banner">
+    <div class="language-banner-content">
+      <span>Other languages:</span>
+      <a href="/doc/fr/{% if page and page.meta and page.meta.path %}{{ page.meta.path }}{% endif %}">Français</a>
+      <a href="/doc/en/{% if page and page.meta and page.meta.path %}{{ page.meta.path }}{% endif %}">English</a>
     </div>
-  {% endif %}
+  </div>
+   {% endif %}
   {{ super() }}
 {% endblock %}
-
