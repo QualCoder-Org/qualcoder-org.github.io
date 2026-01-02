@@ -9,9 +9,17 @@ theme:
   name: 'material'
   logo: images/logo.png
   favicon: images/logo.png
+  lang: en
   palette:
     primary: deep purple
-    
+  extra:
+  alternate:
+    - name: English
+      link: /en/ # (1)!
+      lang: en
+    - name: Français
+      link: /fr/
+      lang: fr
   features:
     - navigation.tabs
     - navigation.sections
