@@ -14,7 +14,7 @@
     margin: 0 5px;
     background-color: #7e57c2; /* Couleur des boutons */
     color: white;
-    padding: 5px 10px;
+    padding: 0.1em;
     border-radius: 4px;
     text-decoration: none;
 }
