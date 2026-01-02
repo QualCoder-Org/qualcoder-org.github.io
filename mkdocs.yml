@@ -15,10 +15,10 @@ theme:
   extra:
   alternate:
     - name: English
-      link: /en/ # (1)!
+      link: /doc/en/
       lang: en
     - name: Français
-      link: /fr/
+      link: /doc/fr/
       lang: fr
   features:
     - navigation.tabs
