@@ -47,70 +47,70 @@ nav:
       - English Documentation:
           - Overview: doc/en/index.md
           - Setup:
-              - Installation: doc/en/2.1.-Installation.md
-              - Settings: doc/en/2.2.-Settings.md
-              - AI Setup: doc/en/2.3.-AI-Setup.md
-              - Working in a Team: doc/en/2.4.-Working-in-a-Team.md
+              - doc/en/2.1.-Installation.md
+              - doc/en/2.2.-Settings.md
+              - doc/en/2.3.-AI-Setup.md
+              - doc/en/2.4.-Working-in-a-Team.md
           - Managing Data:
-              - Creating a New Project: doc/en/3.1.-Creating-a-New-Project.md
-              - Files: doc/en/3.2.-Files.md
-              - Cases: doc/en/3.3.-Cases.md
-              - Attributes: doc/en/3.4.-Attributes.md
+              - doc/en/3.1.-Creating-a-New-Project.md
+              - doc/en/3.2.-Files.md
+              - doc/en/3.3.-Cases.md
+              - doc/en/3.4.-Attributes.md
           - Coding:
-              - Text Coding: doc/en/4.1.-Coding-Text.md
-              - AI-Assisted Coding: doc/en/4.2.-AI-Assisted-Coding.md
-              - Coding on PDFs: doc/en/4.3.-Coding-Text-on-PDFs.md
-              - Coding Images: doc/en/4.4.-Coding-Images.md
-              - Coding Audio and Video: doc/en/4.5.-Coding-Audio-and-Video.md
-              - Code Organiser: doc/en/4.6-Code-Organiser.md
+              - doc/en/4.1.-Coding-Text.md
+              - doc/en/4.2.-AI-Assisted-Coding.md
+              - doc/en/4.3.-Coding-Text-on-PDFs.md
+              - doc/en/4.4.-Coding-Images.md
+              - doc/en/4.5.-Coding-Audio-and-Video.md
+              - doc/en/4.6-Code-Organiser.md
           - Analyzing the Results:
-              - AI Chat Analysis: doc/en/5.1.-AI-chat-based-analysis.md
-              - Journals: doc/en/5.2.-Journals.md
-              - Reports: doc/en/5.3.-Reports.md
-              - Graphs: doc/en/5.4.-Graph.md
+              - doc/en/5.1.-AI-chat-based-analysis.md
+              - doc/en/5.2.-Journals.md
+              - doc/en/5.3.-Reports.md
+              - doc/en/5.4.-Graph.md
           - Advanced Options:
-              - Imports and Exports: doc/en/6.1.-Imports-and-Exports.md
-              - AI Prompt Library: doc/en/6.2.-AI-Prompt-Library.md
+              - doc/en/6.1.-Imports-and-Exports.md
+              - doc/en/6.2.-AI-Prompt-Library.md
           - Other Information:
-              - About the Developers: doc/en/7.1.-About-The-Developers.md
-              - Video Tutorials: doc/en/7.2.-QualCoder-Video-Tutorials.md
-              - Development: doc/en/7.3.-QualCoder-Development.md
-              - SQLite Data Structure: doc/en/7.4.-SQlite-Data-Structure.md
-              - AI Technical Information: doc/en/7.5.-AI-Technical-Information.md
+              - doc/en/7.1.-About-The-Developers.md
+              - doc/en/7.2.-QualCoder-Video-Tutorials.md
+              - doc/en/7.3.-QualCoder-Development.md
+              - doc/en/7.4.-SQlite-Data-Structure.md
+              - doc/en/7.5.-AI-Technical-Information.md
       - Documentation en français:
           - Aperçu: doc/fr/index.md
           - Installation et configuration:
-              - Installation: doc/fr/2.1.-Installation.md
-              - Paramètres: doc/fr/2.2.-Settings.md
-              - Configuration IA: doc/fr/2.3.-AI-Setup.md
-              - Travail d'équipe: doc/fr/2.4.-Working-in-a-Team.md
+              - doc/fr/2.1.-Installation.md
+              - doc/fr/2.2.-Settings.md
+              - doc/fr/2.3.-AI-Setup.md
+              - doc/fr/2.4.-Working-in-a-Team.md
           - Gestion des données:
-              - Créer un nouveau projet: doc/fr/3.1.-Creating-a-New-Project.md
+              - doc/fr/3.1.-Creating-a-New-Project.md
               - Fichiers: doc/fr/3.2.-Files.md
               - Cas: doc/fr/3.3.-Cases.md
               - Attributs: doc/fr/3.4.-Attributes.md
           - Codage:
-              - Codage de texte: doc/fr/4.1.-Coding-Text.md
-              - Codage assisté par IA: doc/fr/4.2.-AI-Assisted-Coding.md
-              - Codage sur PDF: doc/fr/4.3.-Coding-Text-on-PDFs.md
-              - Codage d'images: doc/fr/4.4.-Coding-Images.md
-              - Codage audio et vidéo: doc/fr/4.5.-Coding-Audio-and-Video.md
-              - Organisateur de codes: doc/fr/4.6-Code-Organiser.md
+              - doc/fr/4.1.-Coding-Text.md
+              - doc/fr/4.2.-AI-Assisted-Coding.md
+              - doc/fr/4.3.-Coding-Text-on-PDFs.md
+              - doc/fr/4.4.-Coding-Images.md
+              - doc/fr/4.5.-Coding-Audio-and-Video.md
+              - doc/fr/4.6-Code-Organiser.md
           - Analyser les résultats:
-              - Analyse par chat IA: doc/fr/5.1.-AI-chat-based-analysis.md
-              - Journaux: doc/fr/5.2.-Journals.md
-              - Rapports: doc/fr/5.3.-Reports.md
-              - Graphiques: doc/fr/5.4.-Graph.md
+              - doc/fr/5.1.-AI-chat-based-analysis.md
+              - doc/fr/5.2.-Journals.md
+              - doc/fr/5.3.-Reports.md
+              - doc/fr/5.4.-Graph.md
           - Options avancées:
-              - Imports et exports: doc/fr/6.1.-Imports-and-Exports.md
-              - Bibliothèque de prompts IA: doc/fr/6.2.-AI-Prompt-Library.md
+              - doc/fr/6.1.-Imports-and-Exports.md
+              - doc/fr/6.2.-AI-Prompt-Library.md
           - Autres informations:
-              - À propos des développeurs: doc/fr/7.1.-About-The-Developers.md
-              - Tutoriels vidéo: doc/fr/7.2.-QualCoder-Video-Tutorials.md
-              - Développement: doc/fr/7.3.-QualCoder-Development.md
-              - Structure SQLite: doc/fr/7.4.-SQlite-Data-Structure.md
-              - Informations techniques IA: doc/fr/7.5.-AI-Technical-Information.md
-              - Traduction: doc/fr/Translation.md
+              - doc/fr/7.1.-About-The-Developers.md
+              - doc/fr/7.2.-QualCoder-Video-Tutorials.md
+              - doc/fr/7.3.-QualCoder-Development.md
+              - doc/fr/7.4.-SQlite-Data-Structure.md
+              - doc/fr/7.5.-AI-Technical-Information.md
+              - doc/fr/Translation.md
   - Resources: ressources.md
   - 'Studies using QualCoder': using.md
   - 'About Developers': about.md
