@@ -34,7 +34,7 @@ nav:
   - Home: index.md
   - Blog: blog/
   - Documentation:
-      - en:
+      - English:
           - Documentation: doc/en/index.md
           - 'Setup':
               - 'doc/en/2.1.-Installation.md'
@@ -67,7 +67,7 @@ nav:
               - 'doc/en/7.3.-QualCoder-Development.md'
               - 'doc/en/7.4.-SQlite-Data-Structure.md'
               - 'doc/en/7.5.-AI-Technical-Information.md'
-      - fr:
+      - Français:
           - Documentation: doc/fr/index.md
           - 'Installation et configuration':
               - 'doc/fr/2.1.-Installation.md'
