@@ -19,7 +19,7 @@ jobs:
 
       - name: Install MkDocs and dependencies
         run: |
-          pip install mkdocs mkdocs-material mkdocs-blog-plugin mkdocs-rss-plugin mkdocs-static-i18n
+          pip install mkdocs mkdocs-material mkdocs-blog-plugin mkdocs-rss-plugin
 
       - name: Configure Git credentials
         run: |
