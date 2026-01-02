@@ -37,6 +37,21 @@ plugins:
   - blog
   - rss
   - search
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        fr: Français
+      nav_translations:
+        fr:
+          Home: Accueil
+          Blog: Blog
+          Documentation: Documentation
+          Resources: Ressources
+          Studies using QualCoder: Études utilisant QualCoder
+          About Developers: Équipe de développement
+          Forum: Forum
+
 nav:
   - Home: index.md
   - Blog: blog/
