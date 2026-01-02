@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirection...</title>
+    <script>
+      const availableLanguages = ['en', 'fr'];
+      const defaultLanguage = 'en';
+      const browserLanguage = navigator.language.split('-')[0];
+      if (availableLanguages.includes(browserLanguage)) {
+        window.location.href = `/${browserLanguage}/`;
+      } else {
+        window.location.href = `/${defaultLanguage}/`;
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirection en cours...</p>
+  </body>
+</html>
