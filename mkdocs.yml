@@ -34,71 +34,71 @@ nav:
   - Home: index.md
   - Blog: blog/
   - Documentation: doc/index.md
-      - English Documentation: doc/en/index.md
-          - 'Setup':
-              - 'doc/en/2.1.-Installation.md'
-              - 'doc/en/2.2.-Settings.md'
-              - 'doc/en/2.3.-AI-Setup.md'
-              - 'doc/en/2.4.-Working-in-a-Team.md'
-          - 'Managing Data':
-              - 'doc/en/3.1.-Creating-a-New-Project.md'
-              - 'doc/en/3.2.-Files.md'
-              - 'doc/en/3.3.-Cases.md'
-              - 'doc/en/3.4.-Attributes.md'
-          - 'Coding':
-              - 'doc/en/4.1.-Coding-Text.md'
-              - 'doc/en/4.2.-AI-Assisted-Coding.md'
-              - 'doc/en/4.3.-Coding-Text-on-PDFs.md'
-              - 'doc/en/4.4.-Coding-Images.md'
-              - 'doc/en/4.5.-Coding-Audio-and-Video.md'
-              - 'doc/en/4.6-Code-Organiser.md'
-          - 'Analyzing the Results':
-              - 'doc/en/5.1.-AI-chat-based-analysis.md'
-              - 'doc/en/5.2.-Journals.md'
-              - 'doc/en/5.3.-Reports.md'
-              - 'doc/en/5.4.-Graph.md'
-          - 'Advanced Options':
-              - 'doc/en/6.1.-Imports-and-Exports.md'
-              - 'doc/en/6.2.-AI-Prompt-Library.md'
-          - 'Other information':
-              - 'doc/en/7.1.-About-The-Developers.md'
-              - 'doc/en/7.2.-QualCoder-Video-Tutorials.md'
-              - 'doc/en/7.3.-QualCoder-Development.md'
-              - 'doc/en/7.4.-SQlite-Data-Structure.md'
-              - 'doc/en/7.5.-AI-Technical-Information.md'
+    - English Documentation: doc/en/index.md
+        - 'Setup':
+            - 'doc/en/2.1.-Installation.md'
+            - 'doc/en/2.2.-Settings.md'
+            - 'doc/en/2.3.-AI-Setup.md'
+            - 'doc/en/2.4.-Working-in-a-Team.md'
+        - 'Managing Data':
+            - 'doc/en/3.1.-Creating-a-New-Project.md'
+            - 'doc/en/3.2.-Files.md'
+            - 'doc/en/3.3.-Cases.md'
+            - 'doc/en/3.4.-Attributes.md'
+        - 'Coding':
+            - 'doc/en/4.1.-Coding-Text.md'
+            - 'doc/en/4.2.-AI-Assisted-Coding.md'
+            - 'doc/en/4.3.-Coding-Text-on-PDFs.md'
+             - 'doc/en/4.4.-Coding-Images.md'
+            - 'doc/en/4.5.-Coding-Audio-and-Video.md'
+            - 'doc/en/4.6-Code-Organiser.md'
+        - 'Analyzing the Results':
+            - 'doc/en/5.1.-AI-chat-based-analysis.md'
+            - 'doc/en/5.2.-Journals.md'
+            - 'doc/en/5.3.-Reports.md'
+            - 'doc/en/5.4.-Graph.md'
+        - 'Advanced Options':
+            - 'doc/en/6.1.-Imports-and-Exports.md'
+            - 'doc/en/6.2.-AI-Prompt-Library.md'
+        - 'Other information':
+            - 'doc/en/7.1.-About-The-Developers.md'
+            - 'doc/en/7.2.-QualCoder-Video-Tutorials.md'
+            - 'doc/en/7.3.-QualCoder-Development.md'
+            - 'doc/en/7.4.-SQlite-Data-Structure.md'
+            - 'doc/en/7.5.-AI-Technical-Information.md'
       - Documentation en français: doc/fr/index.md
-          - 'Installation et configuration':
-              - 'doc/fr/2.1.-Installation.md'
-              - 'doc/fr/2.2.-Settings.md'
-              - 'doc/fr/2.3.-AI-Setup.md'
-              - 'doc/fr/2.4.-Working-in-a-Team.md'
-          - 'Gestion des données':
-              - 'doc/fr/3.1.-Creating-a-New-Project.md'
-              - 'doc/fr/3.2.-Files.md'
-              - 'doc/fr/3.3.-Cases.md'
-              - 'doc/fr/3.4.-Attributes.md'
-          - 'Codage':
-              - 'doc/fr/4.1.-Coding-Text.md'
-              - 'doc/fr/4.2.-AI-Assisted-Coding.md'
-              - 'doc/fr/4.3.-Coding-Text-on-PDFs.md'
-              - 'doc/fr/4.4.-Coding-Images.md'
-              - 'doc/fr/4.5.-Coding-Audio-and-Video.md'
-              - 'doc/fr/4.6-Code-Organiser.md'
-          - 'Analyser les résultats':
-              - 'doc/fr/5.1.-AI-chat-based-analysis.md'
-              - 'doc/fr/5.2.-Journals.md'
-              - 'doc/fr/5.3.-Reports.md'
-              - 'doc/fr/5.4.-Graph.md'
-          - 'Options avancées':
-              - 'doc/fr/6.1.-Imports-and-Exports.md'
-              - 'doc/fr/6.2.-AI-Prompt-Library.md'
-          - 'Autres informations':
-              - 'doc/fr/7.1.-About-The-Developers.md'
-              - 'doc/fr/7.2.-QualCoder-Video-Tutorials.md'
-              - 'doc/fr/7.3.-QualCoder-Development.md'
-              - 'doc/fr/7.4.-SQlite-Data-Structure.md'
-              - 'doc/fr/7.5.-AI-Technical-Information.md'
-              - 'doc/fr/Translation.md'
+        - 'Installation et configuration':
+            - 'doc/fr/2.1.-Installation.md'
+            - 'doc/fr/2.2.-Settings.md'
+            - 'doc/fr/2.3.-AI-Setup.md'
+            - 'doc/fr/2.4.-Working-in-a-Team.md'
+        - 'Gestion des données':
+            - 'doc/fr/3.1.-Creating-a-New-Project.md'
+            - 'doc/fr/3.2.-Files.md'
+            - 'doc/fr/3.3.-Cases.md'
+            - 'doc/fr/3.4.-Attributes.md'
+        - 'Codage':
+            - 'doc/fr/4.1.-Coding-Text.md'
+            - 'doc/fr/4.2.-AI-Assisted-Coding.md'
+            - 'doc/fr/4.3.-Coding-Text-on-PDFs.md'
+            - 'doc/fr/4.4.-Coding-Images.md'
+            - 'doc/fr/4.5.-Coding-Audio-and-Video.md'
+            - 'doc/fr/4.6-Code-Organiser.md'
+        - 'Analyser les résultats':
+            - 'doc/fr/5.1.-AI-chat-based-analysis.md'
+            - 'doc/fr/5.2.-Journals.md'
+            - 'doc/fr/5.3.-Reports.md'
+            - 'doc/fr/5.4.-Graph.md'
+        - 'Options avancées':
+            - 'doc/fr/6.1.-Imports-and-Exports.md'
+            - 'doc/fr/6.2.-AI-Prompt-Library.md'
+        - 'Autres informations':
+            - 'doc/fr/7.1.-About-The-Developers.md'
+            - 'doc/fr/7.2.-QualCoder-Video-Tutorials.md'
+            - 'doc/fr/7.3.-QualCoder-Development.md'
+            - 'doc/fr/7.4.-SQlite-Data-Structure.md'
+            - 'doc/fr/7.5.-AI-Technical-Information.md'
+            - 'doc/fr/Translation.md'
   - 'Resources': ressources.md
   - 'Studies using QualCoder': using.md
   - 'About Developers': about.md
