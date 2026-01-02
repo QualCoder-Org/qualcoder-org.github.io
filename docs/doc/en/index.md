@@ -1,3 +1,7 @@
+---
+path: en/index
+---
+
 The instructions describe how to install and use QualCoder. The information here refers to the most recent version of QualCoder.
 
 ## What is QualCoder?

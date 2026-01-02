@@ -1,3 +1,7 @@
+---
+path: fr/index
+---
+
 **ATTENTION : La traduction est en cours, une pré-traduction a été fait avec Deepl. Un travail de relecture est en cours**
 Bienvenue sur le wiki de QualCoder !
 

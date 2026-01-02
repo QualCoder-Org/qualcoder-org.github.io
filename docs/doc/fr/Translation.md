@@ -1,3 +1,7 @@
+---
+path: fr/Translation
+---
+
 # Traduire le logiciel
 Il existe plusieurs fichiers de traduction, qui s’ouvrent avec [Poedit](https://poedit.net/). Les fichiers .qm se trouvent dans src/qualcoder/GUI. Les fichiers .po se trouvent dans src/qualcoder. Il est possible de mettre à jour le fichier langue en faisant ```python rebuild_lang.py --update``` et de compiler en faisant ```python rebuild_lang.py --compile```.
 
