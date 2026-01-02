@@ -2,8 +2,8 @@
 
 ## Official documentation
 
-- [Documentation in english](doc/en)
+- [Documentation in english](/en)
 
 ## Communauty translation
 
-- [Documentation en français](doc/en)
+- [Documentation en français](fr)
