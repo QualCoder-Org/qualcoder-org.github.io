@@ -1,4 +1,4 @@
-# QualCoder Doc
+# QualCoder Documentation
 *Please select your language*
 
 ## Official Documentation
