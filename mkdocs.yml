@@ -77,45 +77,48 @@ nav:
     - 'Resources': en/ressources.md
     - 'Studies using QualCoder': en/using.md
     - 'About Developers': en/about.md
-      - Français:
-          - Documentation:
-          - Aperçu: fr/doc/index.md
-          - 'Installation et configuration':
-              - 'fr/doc/2.1.-Installation.md'
-              - 'fr/doc/2.2.-Settings.md'
-              - 'fr/doc/2.3.-AI-Setup.md'
-              - 'fr/doc/2.4.-Working-in-a-Team.md'
-          - 'Gestion des données':
-              - 'fr/doc/3.1.-Creating-a-New-Project.md'
-              - 'fr/doc/3.2.-Files.md'
-              - 'fr/doc/3.3.-Cases.md'
-              - 'fr/doc/3.4.-Attributes.md'
-          - 'Codage':
-              - 'fr/doc/4.1.-Coding-Text.md'
-              - 'fr/doc/4.2.-AI-Assisted-Coding.md'
-              - 'fr/doc/4.3.-Coding-Text-on-PDFs.md'
-              - 'fr/doc/4.4.-Coding-Images.md'
-              - 'fr/doc/4.5.-Coding-Audio-and-Video.md'
-              - 'fr/doc/4.6-Code-Organiser.md'
-          - 'Analyser les résultats':
-              - 'fr/doc/5.1.-AI-chat-based-analysis.md'
-              - 'fr/doc/5.2.-Journals.md'
-              - 'fr/doc/5.3.-Reports.md'
-              - 'fr/doc/5.4.-Graph.md'
-          - 'Options avancées':
-              - 'fr/doc/6.1.-Imports-and-Exports.md'
-              - 'fr/doc/6.2.-AI-Prompt-Library.md'
-          - 'Autres informations':
-              - 'fr/doc/7.1.-About-The-Developers.md'
-              - 'fr/doc/7.2.-QualCoder-Video-Tutorials.md'
-              - 'fr/doc/7.3.-QualCoder-Development.md'
-              - 'fr/doc/7.4.-SQlite-Data-Structure.md'
-              - 'fr/doc/7.5.-AI-Technical-Information.md'
-              - 'fr/doc/Translation.md'
+    - 'Forum': 'https://github.com/ccbogel/QualCoder/discussions'
+  - fr:
+    - Home: index.md
+    - Blog: /blog/
+    - Documentation:
+      - Aperçu: fr/doc/index.md
+      - 'Installation et configuration':
+          - 'fr/doc/2.1.-Installation.md'
+          - 'fr/doc/2.2.-Settings.md'
+          - 'fr/doc/2.3.-AI-Setup.md'
+          - 'fr/doc/2.4.-Working-in-a-Team.md'
+      - 'Gestion des données':
+          - 'fr/doc/3.1.-Creating-a-New-Project.md'
+          - 'fr/doc/3.2.-Files.md'
+          - 'fr/doc/3.3.-Cases.md'
+          - 'fr/doc/3.4.-Attributes.md'
+      - 'Codage':
+          - 'fr/doc/4.1.-Coding-Text.md'
+          - 'fr/doc/4.2.-AI-Assisted-Coding.md'
+          - 'fr/doc/4.3.-Coding-Text-on-PDFs.md'
+          - 'fr/doc/4.4.-Coding-Images.md'
+          - 'fr/doc/4.5.-Coding-Audio-and-Video.md'
+          - 'fr/doc/4.6-Code-Organiser.md'
+      - 'Analyser les résultats':
+          - 'fr/doc/5.1.-AI-chat-based-analysis.md'
+          - 'fr/doc/5.2.-Journals.md'
+          - 'fr/doc/5.3.-Reports.md'
+          - 'fr/doc/5.4.-Graph.md'
+      - 'Options avancées':
+          - 'fr/doc/6.1.-Imports-and-Exports.md'
+          - 'fr/doc/6.2.-AI-Prompt-Library.md'
+      - 'Autres informations':
+          - 'fr/doc/7.1.-About-The-Developers.md'
+          - 'fr/doc/7.2.-QualCoder-Video-Tutorials.md'
+          - 'fr/doc/7.3.-QualCoder-Development.md'
+          - 'fr/doc/7.4.-SQlite-Data-Structure.md'
+          - 'fr/doc/7.5.-AI-Technical-Information.md'
+          - 'fr/doc/Translation.md'
     - 'Ressources': fr/ressources.md
     - 'Études utilisant QualCoder': fr/using.md
     - 'Équipe de développement': fr/about.md
-  - 'Forum': 'https://github.com/ccbogel/QualCoder/discussions'
+    - 'Forum': 'https://github.com/ccbogel/QualCoder/discussions'
 
 extra:
   social:
