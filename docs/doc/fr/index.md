@@ -1,5 +1,5 @@
 ---
-path: fr/index
+path: index
 ---
 
 **ATTENTION : La traduction est en cours, une pré-traduction a été fait avec Deepl. Un travail de relecture est en cours**

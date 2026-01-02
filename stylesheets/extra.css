@@ -1,6 +1,6 @@
 .language-banner {
     background-color: #f3e5f5; /* Couleur de fond du bandeau */
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     border-bottom: 1px solid #e1bee7;
     font-size: 14px;
@@ -11,7 +11,6 @@
 }
 
 .language-banner-content a.md-button {
-    margin: 0 5px;
     background-color: #7e57c2; /* Couleur des boutons */
     color: white;
     padding: 0.1em;
