@@ -81,6 +81,7 @@ nav:
               - doc/en/7.4.-SQlite-Data-Structure.md
               - doc/en/7.5.-AI-Technical-Information.md
       - Documentation en français:
+          - LISEZ-MOI: doc/fr/README.md
           - Aperçu: doc/fr/index.md
           - Installation et configuration:
               - doc/fr/2.1.-Installation.md
