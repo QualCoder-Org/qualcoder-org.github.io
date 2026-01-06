@@ -4,7 +4,7 @@ path: README
 
 # LISEZ-MOI
 
-<img src="https://github.com/ccbogel/QualCoder/blob/master/qualcoder.png" width=200 height=200>
+![](../../logo.png)
 
 # QualCoder
 QualCoder est une application d'analyse qualitative de données écrite en Python.
