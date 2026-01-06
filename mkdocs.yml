@@ -82,7 +82,7 @@ nav:
               - doc/en/7.5.-AI-Technical-Information.md
       - Documentation en français:
           - Aperçu: doc/fr/index.md
-          - LISEZ-MOI: doc/fr/README.md
+          - doc/fr/README.md
           - Installation et configuration:
               - doc/fr/2.1.-Installation.md
               - doc/fr/2.2.-Settings.md
