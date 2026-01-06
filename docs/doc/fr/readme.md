@@ -132,7 +132,9 @@ Si ces paquets d'applications ne fonctionnent pas pour vous et que vous souhaite
 
 **Sinon, installez à partir de la source :**
 
-Utilisez un environnement virtuel (commandes au point 6 ci-dessous)```bash
+Utilisez un environnement virtuel (commandes au point 6 ci-dessous)
+
+```bash
 cd Downloads/QualCoder-master
 ```
 
