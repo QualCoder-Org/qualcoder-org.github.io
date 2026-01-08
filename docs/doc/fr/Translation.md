@@ -1,8 +1,17 @@
 ---
 path: fr/Translation
 ---
+## Contribuer au code
 
-# Traduire le logiciel
+Merci de lire les [lignes directives de la contribution](https://github.com/ccbogel/QualCoder?tab=contributing-ov-file)
+
+## Contribuer à la traduction
+### Traduire la documentation
+
+Il est possible de traduire la documentation, en créant / modifiant les fichiers markdown dans docs/doc dans [le dépôt du site internet](https://github.com/QualCoder-Org/qualcoder-org.github.io).
+
+### Traduire le logiciel
+
 Il existe plusieurs fichiers de traduction, qui s’ouvrent avec [Poedit](https://poedit.net/). Les fichiers .qm se trouvent dans src/qualcoder/GUI. Les fichiers .po se trouvent dans src/qualcoder. Il est possible de mettre à jour le fichier langue en faisant ```python rebuild_lang.py --update``` et de compiler en faisant ```python rebuild_lang.py --compile```.
 
 Glossaire concernant la traduction, afin d’avoir une cohérence dans la traduction :
@@ -29,11 +38,10 @@ Glossaire concernant la traduction, afin d’avoir une cohérence dans la traduc
 
 
 
-
+```
 ---------------
 
 Notes for creating language files
-
 
 
 =================================
@@ -196,3 +204,4 @@ After translating, save will produce a name.po and a name.mo file
 
 
 The .mo file is placed in qualcoder/locale/name/LC_MESSAGES/name.mo
+```
