@@ -80,6 +80,7 @@ nav:
               - doc/en/7.3.-QualCoder-Development.md
               - doc/en/7.4.-SQlite-Data-Structure.md
               - doc/en/7.5.-AI-Technical-Information.md
+              - doc/en/7.6.-How-to-contribute.md
       - Documentation en français:
           - Aperçu: doc/fr/index.md
           - doc/fr/readme.md
@@ -114,6 +115,7 @@ nav:
               - doc/fr/7.3.-QualCoder-Development.md
               - doc/fr/7.4.-SQlite-Data-Structure.md
               - doc/fr/7.5.-AI-Technical-Information.md
+              - doc/fr/7.6.-How-to-contribute.md
               - doc/fr/Translation.md
   - Resources: ressources.md
   - 'Studies using QualCoder': using.md
