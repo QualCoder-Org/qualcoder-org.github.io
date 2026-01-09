@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+340 **Resistance and Memory in Polluted Territories: Social Mappings of Damage and Narratives of Well-Being in Quintero-Puchuncaví, Chile.** Yendry Vargas Trejos, Andrés Gómez Seguel. REDER 10(1) 2026. <https://doi.org/10.55467/reder.v10i1.209>
+
 339 Bagirova A, Olumekor M, Klyuev A Sandler D. (2025). **Parental co-production in public higher education during the COVID-19 crisis: A mixed methods study.** Public Policy and Administration, 0(0). <https://doi.org/10.1177/09520767251376870>
 
 338 **Interaction-With-Interference (I∩I): Unconcealing The Illusion of Media Spectacle in\
