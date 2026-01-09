@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+342 Zamora Vázquez, A. F., & Auxiliadora Santacruz , M. (2026). **Implicaciones de responsabilidad civil ante la inviabilidad de transferencia embrionaria por causas médicas o jurídicas.** Universidad Y Sociedad, 18(1), e5641. Recuperado a partir de <https://rus.ucf.edu.cu/index.php/rus/article/view/5641>
+
 341 Hertel, I. (2025). **“What a Cliché, Right?” Insights from Mothers Opting for Part-Time Employment in Germany.** Socialinė Teorija, Empirija, Politika Ir Praktika, 32, 91-109. <https://doi.org/10.15388/>
 
 340 **Resistance and Memory in Polluted Territories: Social Mappings of Damage and Narratives of Well-Being in Quintero-Puchuncaví, Chile.** Yendry Vargas Trejos, Andrés Gómez Seguel. REDER 10(1) 2026. <https://doi.org/10.55467/reder.v10i1.209>
