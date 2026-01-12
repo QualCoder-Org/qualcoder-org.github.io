@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+343 Bechtiger, Oliver Robert. 2025. **"Securitization in East Asia."** MA thesis. University of Vienna. doi:10.25365/thesis.79963
+
 342 Zamora Vázquez, A. F., & Auxiliadora Santacruz , M. (2026). **Implicaciones de responsabilidad civil ante la inviabilidad de transferencia embrionaria por causas médicas o jurídicas.** Universidad Y Sociedad, 18(1), e5641. Recuperado a partir de <https://rus.ucf.edu.cu/index.php/rus/article/view/5641>
 
 341 Hertel, I. (2025). **“What a Cliché, Right?” Insights from Mothers Opting for Part-Time Employment in Germany.** Socialinė Teorija, Empirija, Politika Ir Praktika, 32, 91-109. <https://doi.org/10.15388/>
