@@ -7,3 +7,4 @@
 ## Communauty translation
 
 - [Documentation en français](fr)
+- [Documentación en español](es)

@@ -116,6 +116,40 @@ nav:
               - doc/fr/7.4.-SQlite-Data-Structure.md
               - doc/fr/7.5.-AI-Technical-Information.md
               - doc/fr/7.6.-How-to-contribute.md
+      - Documentación en español:
+          - Resumen: doc/en/index.md
+          - Configuración:
+              - doc/es/2.1.-Installation.md
+              - doc/es/2.2.-Settings.md
+              - doc/es/2.3.-AI-Setup.md
+              - doc/es/2.4.-Working-in-a-Team.md
+          - Gestión de datos:
+              - doc/es/3.1.-Creating-a-New-Project.md
+              - doc/es/3.2.-Files.md
+              - doc/es/3.3.-Cases.md
+              - doc/es/3.4.-Attributes.md
+          - Codificación:
+              - doc/es/4.1.-Coding-Text.md
+              - doc/es/4.2.-AI-Assisted-Coding.md
+              - doc/es/4.3.-Coding-Text-on-PDFs.md
+              - doc/es/4.4.-Coding-Images.md
+              - doc/es/4.5.-Coding-Audio-and-Video.md
+              - doc/es/4.6-Code-Organiser.md
+          - Análisis de los resultados:
+              - doc/es/5.1.-AI-chat-based-analysis.md
+              - doc/es/5.2.-Journals.md
+              - doc/es/5.3.-Reports.md
+              - doc/es/5.4.-Graph.md
+          - Opciones avanzadas:
+              - doc/es/6.1.-Imports-and-Exports.md
+              - doc/es/6.2.-AI-Prompt-Library.md
+          - Otra información:
+              - doc/es/7.1.-About-The-Developers.md
+              - doc/es/7.2.-QualCoder-Video-Tutorials.md
+              - doc/es/7.3.-QualCoder-Development.md
+              - doc/es/7.4.-SQlite-Data-Structure.md
+              - doc/es/7.5.-AI-Technical-Information.md
+              - doc/es/7.6.-How-to-contribute.md
   - Resources: ressources.md
   - 'Studies using QualCoder': using.md
   - 'About Developers': about.md

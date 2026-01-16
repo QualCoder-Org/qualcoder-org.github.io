@@ -3,7 +3,7 @@ import os
 # Dossiers contenant les fichiers Markdown
 en_dir = "en"
 fr_dir = "fr"
-
+es_dir = "es"
 def add_path_metadata(directory, lang):
     """Ajoute le bloc `path` en haut des fichiers Markdown."""
     for root, _, files in os.walk(directory):
@@ -37,11 +37,9 @@ def add_path_metadata(directory, lang):
                             f.write(new_content)
                             f.truncate()
 
-# Ajouter les métadonnées `path` pour les fichiers en anglais
+
 add_path_metadata(en_dir, "en")
-
-# Ajouter les métadonnées `path` pour les fichiers en français
 add_path_metadata(fr_dir, "fr")
-
+add_path_metadata(es_dir, "es")
 print("Les métadonnées `path` ont été ajoutées à tous les fichiers Markdown.")
 
