@@ -117,7 +117,7 @@ nav:
               - doc/fr/7.5.-AI-Technical-Information.md
               - doc/fr/7.6.-How-to-contribute.md
       - Documentación en español:
-          - Resumen: doc/en/index.md
+          - Resumen: doc/es/index.md
           - Configuración:
               - doc/es/2.1.-Installation.md
               - doc/es/2.2.-Settings.md
