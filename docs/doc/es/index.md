@@ -2,51 +2,54 @@
 path: index
 ---
 
-The instructions describe how to install and use QualCoder. The information here refers to the most recent version of QualCoder.
+Las instrucciones describen cómo instalar y utilizar _QualCoder_. La información aquí se refiere a la versión más reciente de _QualCoder_.
 
-## What is QualCoder?
-QualCoder is free, open source software for qualitative data analysis. 
-With QualCoder you can code text, images, audio and video, write journal notes and memos. You can organise codes in a tree-like categorisation scheme. Various reports can be generated. Most reports can be exported as html, open document text (ODT), plain text or Excel files.
+## ¿Qué es QualCoder?
+_QualCoder_ es un software libre y de código abierto para el análisis de datos cualitativos.
+Con _QualCoder_ puedes codificar texto, imágenes, audio y video, así como redactar reflexiones en diarios de campo/trabajo y memorandos (Memos). Puedes organizar los códigos en un esquema de categorización en forma de árbol. Se pueden generar diversos informes, y la mayoría de ellos pueden exportarse como archivos HTML, texto en formato libre (ODT, compatible con Microsoft Word), texto plano (TXT, CSV) o archivos de Excel (XLSX).
 
-Since version 3.6, QualCoder includes a set of AI-assisted features that utilize GPT-4 or other Large Language Models to help explore, analyse, and interact with data in innovative ways. Familiarise yourself with new data by [exploring broad topics or concepts](https://qualcoder-org.github.io/doc/en/5.1.-AI-chat-based-analysis#topic-analysis-chat) in an interactive chat with the AI. Dive deeper into specific aspects with [AI-assisted coding](https://qualcoder-org.github.io/doc/en/4.3.-AI-Assisted-Coding) and [text analysis](https://qualcoder-org.github.io/doc/en/5.1.-AI-chat-based-analysis#text-analysis-chat). And if you reach the point where you must synthesize and consolidate your results, [discuss them in a code chat](https://qualcoder-org.github.io/doc/en/5.1.-AI-chat-based-analysis#code-analysis-chat) with the AI.
+Desde la versión 3.6, _QualCoder_ incluye un conjunto de funciones asistidas por IA que utilizan GPT-4 u otros Modelos de Lenguaje de Gran Tamaño (LLM) para ayudar a explorar, analizar e interactuar con los datos de formas innovadoras. Familiarízate con nuevos datos [explorando temas o conceptos generales](https://qualcoder-org.github.io/doc/es/5.1.-AI-chat-based-analysis#topic-analysis-chat) en un chat interactivo con la IA. Profundiza en aspectos específicos mediante la [codificación asistida por IA](https://qualcoder-org.github.io/doc/es/4.2.-AI-Assisted-Coding) y [análisis de texto](https://qualcoder-org.github.io/doc/es/5.1.-AI-chat-based-analysis#text-analysis-chat). Y si llegas al punto en el que necesitas sintetizar y consolidar tus resultados, [discútelos en un chat de análisis de códigos](https://qualcoder-org.github.io/doc/es/5.1.-AI-chat-based-analysis#code-analysis-chat) con la IA.
 
-QualCoder is designed to be used as client-based software to be used by one person at a time. (A second coder can use the same project on the same computer, or the project folder can be transferred to the second coder's computer). QualCoder is not designed to be multi-accessed at the same time. Accessing the project in a cloud location is not recommended, it may corrupt the database if a database connection is lost during any database updating processes. 
+_QualCoder_ está diseñado para usarse como software de escritorio por una solo usuario (codificador) a la vez. (Un segundo usuario o codificador puede utilizar el mismo proyecto en el mismo equipo, o bien la carpeta del proyecto puede transferirse al equipo del segundo usuario o codificador). _QualCoder_ no está diseñado para el acceso simultáneo de múltiples usuarios. No se recomienda acceder al proyecto desde una ubicación en la nube (Dropbox, GDrive, OneDrive), ya que la base de datos podría corromperse si se pierde la conexión a internet durante algún proceso de actualización de la base de datos. 
 
-There is also a Wordpress site for QualCoder at https://qualcoder.wordpress.com/ and here https://qualcoder-org.github.io/.
+También existe un sitio en WordPress para _QualCoder_ en https://qualcoder.wordpress.com/ y otro en https://qualcoder-org.github.io/.
+## ¿Por qué usar QualCoder?
+**QualCoder es gratuito.** Muchos programas de análisis cualitativo requieren tarifas elevadas o suscripciones mensuales.
 
-## Why use QualCoder?
-**Qualcoder is free of charge.** Many qualitative analysis software requiring expensive fees or monthly subscriptions.
+**QualCoder es fácil de usar.** Cuenta con todo lo necesario para realizar análisis cualitativo sin las interfaces complicadas de algunas alternativas.
 
-**QualCoder is easy to use.** It has all you need to perform qualitative analysis without the complicated interfaces of some alternatives.
+**QualCoder funciona sin conexión a internet.** Internet no siempre está disponible y _QualCoder_ no requiere conexión a internet para funcionar.
 
-**QualCoder works offline.** Internet is not always available and QualCoder does not require internet to work.
+**QualCoder no está atado a una sola computadora.** Si cambias de lugar o computadora de trabajo, no tienes que preocuparte por quedar atado a la licencia de tu equipo (computadora) anterior ni por comprar una nueva licencia. La licencia de _QualCoder_ te permite utilizar el software independientemente de dónde trabajes o en qué equipo esté instalado.
 
-**QualCoder is not tied to a computer.** If you change workplace you do not have to worry about being tied to your former workplace’s license or to buy a new license. QualCoder license allows you to use the software regardless of where you work or on what computer it is installed on.
+**QualCoder es multiplataforma.** Se ejecuta en Linux, Windows y macOS; esto significa que no tienes que preocuparte si cambias de sistema operativo y que también puedes colaborar con colegas que utilizan distintas plataformas.
 
-**QualCoder is multi-platform.** It runs on Linux, Windows and MacOS, this means that you do not have to worry if you change operating systems, and it also means you can collaborate with colleagues on different platforms.
+**QualCoder utiliza inteligencia artificial de manera transparente.** A diferencia de la mayoría del software comercial, _QualCoder_ te permite ver e incluso modificar los prompts (instrucciones) subyacentes de sus funciones de inteligencia artificial. También puedes elegir entre distintos modelos de IA o integrar los tuyos propios. Esto devuelve a las y los investigadores el control metodológico y convierte a _QualCoder_ en una plataforma ideal para experimentar con nuevas formas de análisis cualitativo de datos asistido por IA. Y sí, también puedes desactivar por completo las funciones de IA si decides no utilizarlas.
 
-**QualCoder uses AI transparently.** Unlike most commercial software, QualCoder allows you to see and even modify the underlying prompts of its AI features. You can also choose between different AI models or integrate your own. This gives methodological control back to us as researchers and makes QualCoder an ideal platform to experiment with new forms of AI-assisted qualitative data analysis. And yes—you can also disable the AI features completely if you choose not to use them.
+**QualCoder depende de la comunidad.** Si encuentras un error o tienes una solicitud de funcionalidad o comentarios, publícalos en la página de _QualCoder_ en GitHub: https://github.com/ccbogel/QualCoder.
 
-**QualCoder relies on the community.** If you find a bug or have a feature request or feedback, post it on QualCoder’s page on github https://github.com/ccbogel/QualCoder.
+**QualCoder está en constante mejora.** _QualCoder_ se desarrolla de manera activa, lo que significa que se publican nuevas versiones con mejoras en la funcionalidad y correcciones de errores.
 
-**QualCoder is always improving.** QualCoder is actively developed meaning that newer versions are released with functionality improvements and error fixes.
+**QualCoder admite estándares abiertos.** _QualCoder_ tiene como objetivo apoyar el estándar REFI-QDA; véase https://www.qdasoftware.org/. Puedes intercambiar libros de códigos y proyectos con tus colegas incluso si no utilizan _QualCoder_, siempre que el software que empleen sea compatible con el estándar REFI-QDA. Esto significa que no corres el riesgo de que tus datos queden inaccesibles. La exportación e importación de proyectos REFI-QDA aún es parcialmente experimental y no se garantiza que funcione en todos los casos.
 
-**QualCoder supports open standards.** QualCoder aims to support the REFI-QDA Standard, see https://www.qdasoftware.org/ You may exchange codebooks and projects with your colleagues even if they do not use QualCoder, as long as the software they use supports the REFI-QDA Standard. It means that you do not risk your data being unavailable. The REFI-QDA Project export/import is still somewhat experimental and not guaranteed to work.
+**QualCoder puede ser modificado.** Puedes modificar y adaptar _QualCoder_ a tus necesidades, siempre y cuando publiques tus cambios para que estén disponibles para todos. Esto también significa que puedes copiar el software y compartirlo con tus colegas o estudiantes de forma gratuita. A partir de la versión 3.6, se publica bajo la licencia LGPL v3.
 
-**QualCoder can be modified.** You can modify and adapt QualCoder to your needs, as long as you release your changes to everyone. This also means you can copy the software and give it to your colleagues or students free of charge. It is released from 3.6 and up under the LGPL v3 license.
+**QualCoder es una opción de software para apoyar la ciencia abierta.** [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
 
-**QualCoder is a software option to support open science. [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
+## Wiki en otros idiomas
 
-## Wiki in other languages
+[Wiki in English](https://qualcoder-org.github.io/doc/en/)
 
-[Wiki in Français](https://qualcoder-org.github.io/doc/fr/)
+[Wiki en Français](https://qualcoder-org.github.io/doc/fr/)
 
-## Collaboration on a Qualcoder project
+[Wiki en Español](https://qualcoder-org.github.io/doc/es/)
 
-[Page on how to work as a team with QualCoder](https://qualcoder-org.github.io/doc/en/2.4.-Working-in-a-Team)
+## Trabajo colaborativo en un proyecto de QualCoder
+
+[Página sobre cómo trabajar en equipo con QualCoder](https://qualcoder-org.github.io/doc/es/2.4.-Working-in-a-Team)
 
 
-**If you use and like QualCoder please support the development.**
+**Si utilizas QualCoder y te gusta, por favor apoya su desarrollo.**
 
 <a href="https://www.buymeacoffee.com/ccbogelB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
