@@ -31,34 +31,6 @@ https://github.com/sepp-meyer/qualcoder-docker
 
 <iframe width="500" height="375" src="https://www.youtube.com/embed/Cqwu3mjJJHg" title="How does QualCoder compare with NVivo, ATLAS.ti, MAXQDA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-DeepWiki helps developers, students, and researchers interact with code repositories, such as GitHub. DeepWiki helps to quickly understand and navigate open-source code. So this might assist other developers and those wanting bespoke software implementations. https://deepwiki.com/ccbogel/QualCoder
-
-### QualCoder 3.5
-I have finally managed to make a video for the 3.5 version of QualCoder.
-I am using the Window exe for this video. The Windows exe has a flaw with the Audio/Video coded segments – the context menu does not display (for playing, editing deleting coded A/V segments). This does not occur with the manual install method, and in the next 3.6 version I will add extra workaround for this issue.
-
-The video covers how to create a project and using files, cases and journals, as well as coding and creating reports. It does not cover audio/video transcription and a couple of other features.
-
-<iframe width="500" height="281" src="https://www.youtube.com/embed/wj5fY4F5Jxo" title="QualCoder 3.5 Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Thanks to Adrisya Tech for these videos
-
-How to install and set-up Qualcoder for Qualitative data analysis in windows? || Part-1
-https://www.youtube.com/watch?v=Ayf9_a6zApw
-
-How to create project, manage cases, files and do set-up in Qualcoder ? || Part-2
-https://www.youtube.com/watch?v=FMBFKRZdfk4
-
-How to do create code book and do coding in text files? || Part-3 || Qualcoder
-https://www.youtube.com/watch?v=CcHNdqsR_E4
-
-How to calculate intercoder reliability in Qualcoder ? || Part-4
-https://www.youtube.com/watch?v=VPJzk5A1zkA
-
-How to generate report, charts, word cloud and export them ? || Qualcoder || Part-5
-https://www.youtube.com/watch?v=GUQcIDSqHLs
-
-
 ### Comparison with other software
 
 Jess Hagman Social Sciences Research Librarian of the University of Illinois has written a comparative article of free QDA software including QualCoder for the Anthropology and Sociology Section for the Association of College Research Libraries. ANSS Currents, Vol 36, No 2, Fall 2021.
@@ -110,8 +82,9 @@ Thanks to Justin for making this video.
 
 ### QualCoder 3.8
 
-<iframe width="500" height="281" src="https://www.youtube.com/watch?v=OvR0IZTcxgY" title="Instalação do QualCoder 3.8 (Win): criar projeto, configurar usuário, idioma, documentos e codificar
-" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Instalação do QualCoder 3.8 (Win): criar projeto, configurar usuário, idioma, documentos e codificar
+
+https://www.youtube.com/watch?v=OvR0IZTcxgY
 
 Thank you to Alfonso Robles for creating this post in Spanish for Qualcoder 3.0.
 
