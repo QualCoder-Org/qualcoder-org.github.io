@@ -58,29 +58,6 @@ https://www.youtube.com/watch?v=VPJzk5A1zkA
 How to generate report, charts, word cloud and export them ? || Qualcoder || Part-5
 https://www.youtube.com/watch?v=GUQcIDSqHLs
 
-### QualCoder 3.3
-Thank you to Van Tran, social sciences librarian from Temple University, Philadelphia, for creating this detailed instructional video using the upcoming 3.3 version.
-
-See under this heading:
-
-Temple Libraries QualCoder Workshop using QualCoder 3.3 Codes
-
-https://guides.temple.edu/qda/qualcoder
-
-
-
-This short video from Van Tran shows how to install the QualCoder software on macOS. I appreciate these videos, ad I (the developer do no have a mac to test or show these things.
-https://temple.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db149143-5c05-41d6-9b6c-b02e01181171&start=1.73274
-
----
-
-I like the series of you tube videos from Grad Coach. I think they are clear and easy to follow.
-<iframe width="500" height="281" src="https://www.youtube.com/embed/NLelCELbwCY" title="Thematic Analysis in Qualitative Research: Simple Explanation with Examples (+ Free Template)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-The librarian from the University of Albany has uploaded a video showing the use of Taguette and QualCoder.
-
-<iframe width="500" height="281" src="https://www.youtube.com/embed/7Q6358q6aCk" title="Introduction to Qualitative Data Analysis Using Taguette and QualCoder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 ### Comparison with other software
 
@@ -130,9 +107,13 @@ Thanks to Justin for making this video.
 <iframe width="500" height="281" src="https://www.youtube.com/embed/7xBeMzewAWg" title="Tuto@76Mate# Justin Missaghieh–Poncet présente le CAQDAS CalCoder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Recursos en español
-Thank you to Alfonso Robles for creating this post in Spanish for Qualcoder 3.0.
 
-Instalación de Qualcoder 3 en Windows y crear proyecto.
+### QualCoder 3.8
+
+<iframe width="500" height="281" src="https://www.youtube.com/watch?v=OvR0IZTcxgY" title="Instalação do QualCoder 3.8 (Win): criar projeto, configurar usuário, idioma, documentos e codificar
+" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Thank you to Alfonso Robles for creating this post in Spanish for Qualcoder 3.0.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/edFRlug1bQg" title="Instalación de Qualcoder 3 en Windows y crear proyecto." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
