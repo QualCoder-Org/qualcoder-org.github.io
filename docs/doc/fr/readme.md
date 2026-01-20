@@ -126,8 +126,6 @@ Vous devez autoriser manuellement l'exécution de l'application si votre Gatekee
 
 Si ces paquets d'applications ne fonctionnent pas pour vous et que vous souhaitez **exécuter QualCoder à partir de la source**, procédez comme suit : 
 
-**Sinon, installez à partir de la source :**
-
 **Alternative : installation à partir du code source**
 
 Utilisez un environnement virtuel (commandes au point 6 ci-dessous). Ne pas utiliser d'environnement virtuel peut affecter d'autres logiciels Python que vous avez installés.
