@@ -2,19 +2,19 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
-350 Michele Guerini, Fabien Hoblea, Marco Giardino, Ludovic Ravane. **The role of participatory tools and vernacular knowledge in interpreted landscapes: Two examples from the French Alps.** International Journal of Geoheritage and Parks 2026 Preprint. https://doi.org/10.1016/j.ijgeop.2026.01.001.
+350 Michele Guerini, Fabien Hoblea, Marco Giardino, Ludovic Ravane. **The role of participatory tools and vernacular knowledge in interpreted landscapes: Two examples from the French Alps.** International Journal of Geoheritage and Parks 2026 Preprint. <https://doi.org/10.1016/j.ijgeop.2026.01.001>
 
-349 Dey C (2026;), **"Understanding the influence of AI-driven personalized recommendations on consumer buying behavior in halal marketing"** Journal of Islamic Marketing, Vol. ahead-of-print No. ahead-of-print. https://doi.org/10.1108/JIMA-05-2025-0311
+349 Dey C (2026;), **"Understanding the influence of AI-driven personalized recommendations on consumer buying behavior in halal marketing"** Journal of Islamic Marketing, Vol. ahead-of-print No. ahead-of-print. <https://doi.org/10.1108/JIMA-05-2025-0311>
 
-348 Dey, C. (2025). **Using systems theory to understand sustainable careers in Indian higher education** Journal of Higher Education Policy and Management, 1–18. https://doi.org/10.1080/1360080X.2025.2606658
+348 Dey, C. (2025). **Using systems theory to understand sustainable careers in Indian higher education** Journal of Higher Education Policy and Management, 1–18. <https://doi.org/10.1080/1360080X.2025.2606658>
 
-347 Buenavista Morallo, A. **Hijacked Victimhood: The Political Communication Strategy of Vice President Sara Duterte in Congress Hearings** KOME, 14(1). https://doi.org/10.17646/KOME.of.34
+347 Buenavista Morallo, A. **Hijacked Victimhood: The Political Communication Strategy of Vice President Sara Duterte in Congress Hearings** KOME, 14(1). <https://doi.org/10.17646/KOME.of.34>
 
-346 Jacquellyn Nambi Ssanyu, Catherine Birabwa, Kharim Mwebaza Muluya, Felix Kizito, Sarah Namutamba, Moses Kyangwa, Othman Kakaire, Peter Waiswa, Rornald Muhumuza Kananura. **Co-designing family planning interventions: Insights from religious leaders in urban eastern Uganda** SSM - Health Systems, Volume 6, 2026. https://doi.org/10.1016/j.ssmhs.2026.100176.
+346 Jacquellyn Nambi Ssanyu, Catherine Birabwa, Kharim Mwebaza Muluya, Felix Kizito, Sarah Namutamba, Moses Kyangwa, Othman Kakaire, Peter Waiswa, Rornald Muhumuza Kananura. **Co-designing family planning interventions: Insights from religious leaders in urban eastern Uganda** SSM - Health Systems, Volume 6, 2026. <https://doi.org/10.1016/j.ssmhs.2026.100176>
 
-345 **“Just Swapping One Drug Out for Another”: Beliefs and Attitudes Influencing Support for Medication-Assisted Treatment in Rural Communities** (2026). Georgetown Scientific Research Journal, 6(1), 22-49. https://doi.org/10.48091/0np39e98
+345 **“Just Swapping One Drug Out for Another”: Beliefs and Attitudes Influencing Support for Medication-Assisted Treatment in Rural Communities** (2026). Georgetown Scientific Research Journal, 6(1), 22-49. <https://doi.org/10.48091/0np39e98>
 
-344 **El pensamiento computacional en la población infantile latinoamericana: un análisis de la prueba BCTt (Computational Thinking in the Latin American Child Population: an Analysis of the BCTt Test)** Mabel Osnaya-Moreno, Jorge Luis Rodríguez Ortiz, Lina Marcela Ocampo y Sergio Augusto Cardona Torres. Interdisciplinary Journal of Didactics, Núm. 4, 2026, pp. 17-33. https://doi.org/10.14198/ijd.30616 
+344 **El pensamiento computacional en la población infantile latinoamericana: un análisis de la prueba BCTt (Computational Thinking in the Latin American Child Population: an Analysis of the BCTt Test)** Mabel Osnaya-Moreno, Jorge Luis Rodríguez Ortiz, Lina Marcela Ocampo y Sergio Augusto Cardona Torres. Interdisciplinary Journal of Didactics, Núm. 4, 2026, pp. 17-33. <https://doi.org/10.14198/ijd.30616>
 
 343 Bechtiger, Oliver Robert. 2025. **"Securitization in East Asia."** MA thesis. University of Vienna. doi:10.25365/thesis.79963
 
