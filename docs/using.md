@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+352 BRASIL. Ministério da Justiça e Segurança Pública. Secretaria Nacional de Direitos Digitais. **Mecanismos de aferição de idade. Análise das Contribuições à Consulta Pública e Subsídios para Regulamentação da Lei (Age verification mechanisms. Analysis of contributions to the public consultation and input for the regulation of the law)** nº 15.211/2025. Brasília: MJSP, janeiro de 2026. <https://www.gov.br/mj/pt-br/assuntos/noticias/relatorio-sedigi-consulta-de-afericao-de-idade.pdf>
+
 351 Higgins K, Thompson AS, Sari NH, Collins O, Frewer LJ (2026;), "Exploring healthy and sustainable food choice in the Roma community". British Food Journal, Vol. ahead-of-print No. ahead-of-print. <https://doi.org/10.1108/BFJ-04-2025-0441>
 
 350 Michele Guerini, Fabien Hoblea, Marco Giardino, Ludovic Ravane. **The role of participatory tools and vernacular knowledge in interpreted landscapes: Two examples from the French Alps.** International Journal of Geoheritage and Parks 2026 Preprint. <https://doi.org/10.1016/j.ijgeop.2026.01.001>
