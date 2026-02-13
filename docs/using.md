@@ -2,6 +2,10 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+354 Banyani, M.A., Alananga, S., Masika, B.N. et al. **Tenant satisfaction with property management practices in Tanzania: selected cases in Dar es Salaam, Dodoma, and Arusha.** J Hous and the Built Environ (2026). <https://doi.org/10.1007/s10901-025-10270-6>
+
+353 Karousatou, N., & Brailas, A. (2026). **APPRECIATIVE QUALITATIVE INQUIRY AS A RESEARCH METHOD FOR EMPOWERING EDUCATORS: AN EXPLORATORY STUDY**. New Trends in Qualitative Research, 22(1), e1323. <https://doi.org/10.36367/ntqr.22.1.2026.e1323>
+
 352 BRASIL. Ministério da Justiça e Segurança Pública. Secretaria Nacional de Direitos Digitais. **Mecanismos de aferição de idade. Análise das Contribuições à Consulta Pública e Subsídios para Regulamentação da Lei (Age verification mechanisms. Analysis of contributions to the public consultation and input for the regulation of the law)** nº 15.211/2025. Brasília: MJSP, janeiro de 2026. <https://www.gov.br/mj/pt-br/assuntos/noticias/relatorio-sedigi-consulta-de-afericao-de-idade.pdf>
 
 351 Higgins K, Thompson AS, Sari NH, Collins O, Frewer LJ (2026;), "Exploring healthy and sustainable food choice in the Roma community". British Food Journal, Vol. ahead-of-print No. ahead-of-print. <https://doi.org/10.1108/BFJ-04-2025-0441>
