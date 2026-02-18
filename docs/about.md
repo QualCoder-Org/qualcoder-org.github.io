@@ -2,7 +2,7 @@
 
 Hello, my name is Colin Curtain and I am a lecturer from Australia at the [University of Tasmania](https://discover.utas.edu.au/colin.curtain). I have many interests including clinical pharmacy, computer programming, research, statistics and clinical decision support. I completed a PhD evaluating computerised clinical decision support in 2014. When doing my PhD I used R as the statistics program of choice. This is where my interest in qualitative data analysis and the use of RQDA came from, which ultimately led to this project. I am currently teaching in post-graduate clinical pharmacy and supervising Masters and PhD research.
 
-<https://scholar.google.com/citations?user=KTMRMWoAAAAJ&hl=en>
+[Google Scholar Publications](https://scholar.google.com/citations?user=KTMRMWoAAAAJ&hl=en)
 
 Originally when doing my PhD I analysed qualitative survey data via a thematic approach using RQDA. After some installation difficulties with RQDA, I thought this could be reproduced in Python. I thought I would share QualCoder in the hope that it may help others. I generally work with Linux, and Windows. I work on the programming for this in my spare time, as a hobby.
 
