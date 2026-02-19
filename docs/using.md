@@ -2,6 +2,9 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+355 Höglund, J. (2026). **Neocolonial Belt or Road to Prosperity? : A study on the framing of the Belt and Road Initiative** (Dissertation). <https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-576934>
+
+
 354 Banyani, M.A., Alananga, S., Masika, B.N. et al. **Tenant satisfaction with property management practices in Tanzania: selected cases in Dar es Salaam, Dodoma, and Arusha.** J Hous and the Built Environ (2026). <https://doi.org/10.1007/s10901-025-10270-6>
 
 353 Karousatou, N., & Brailas, A. (2026). **APPRECIATIVE QUALITATIVE INQUIRY AS A RESEARCH METHOD FOR EMPOWERING EDUCATORS: AN EXPLORATORY STUDY**. New Trends in Qualitative Research, 22(1), e1323. <https://doi.org/10.36367/ntqr.22.1.2026.e1323>
