@@ -48,15 +48,10 @@ Note: QualCoder 3.8.1 (patch update) has just been released (26 Feb 2026). The b
 
 These binaries are for version 3.8:
 
-https://github.com/ccbogel/QualCoder/releases/tag/3.8
-
-[QualCoder 3.8 Windows 11 Portable](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder_3_8_Win_Portable.exe)
-
-- [Mac - Apple Silicon](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder.3.8.Mac.Arm64.dmg)
-- [Mac - (x86)](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder.3.8.Mac.X86.dmg)
-- [Windows 11](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder.3.8.Win.Setup.exe)
-- [Windows 11 - Portable Version](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder.3.8.Win.Portable.zip)
-
+- [QualCoder 3.8 Winodw 11 Installer](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder_3_8_Win_Setup.exe)
+- [QualCoder 3.8 Windows 11 Portable](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder_3_8_Win_Portable.exe)
+- [QualCoder 3.8 macOS Silicon](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder_3_8_macOS_arm64.dmg)
+- [QualCoder 3.8 Ubuntu 24](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder_3_8_Ubuntu)
 
 ## Testing QualCoder
 
