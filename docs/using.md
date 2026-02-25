@@ -2,6 +2,15 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+360 Kavousi,E.,Ewing,M.,&Brunetto,Y. (2026). **Neuroleadership research in HRM: A systematic review.** Journal of Management & Organization, 1–23. <https://doi.org/10.1017/jmo.2026.10086>
+
+359 Jacquellyn Nambi Ssanyu, Shannon McMorrow, Leif Eriksson, Joan Nakayaga Kalyango, Mats Målqvist, Peter Waiswa,
+**Women's experiences negotiating barriers and asserting agency on family planning in urban east-central Uganda: A photovoice study**. SSM - Qualitative Research in Health, Volume 9, 2026, <https://doi.org/10.1016/j.ssmqr.2026.100736>
+
+358 **Integrating a Digital Medication Dispenser into Community Pharmacy Practice: Insights from Portuguese Pharmacists**. Martins et al. 10th PCNE Working Symposium, 17 Feb 2026, Innsbruck, Conference Abstract.
+
+357 Seeley JL, Curtis Maillet DG, Balcom S, Durepos P. **Navigating Privacy in Health Data Sharing: A Patient-Centric Approach to Health Information Exchange.** Healthcare Management Forum. 2025;0(0). doi:10.1177/08404704251371617
+
 356 Anusree K, Thomas S C (February 17, 2026) **Gendered Dynamics of Contraceptive Decision-Making Among Currently Married Couples in Kerala, India: Insights From Qualitative Interviews.** Cureus 18(2): e103796. DOI 10.7759/cureus.103796
 
 355 Höglund, J. (2026). **Neocolonial Belt or Road to Prosperity? : A study on the framing of the Belt and Road Initiative** (Dissertation). <https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-576934>
