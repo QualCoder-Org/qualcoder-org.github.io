@@ -44,15 +44,19 @@ If you like QualCoder a lot, or have developed a novel use for it, please write 
 
 ## Current binary releases
 
-- [Mac - Apple Silicon](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Mac.Arm64.dmg)
-- [Mac - (x86)](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Mac.X86.dmg)
-- [Windows 11](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Win.Setup.exe)
-- [Windows 11 - Portable Version](https://github.com/ccbogel/QualCoder/releases/download/3.7/QualCoder.3.7.Win.Portable.zip)
+Note: QualCoder 3.8.1 (patch update) has just been released (26 Feb 2026). The binaries will be uploaded very soon.
+
+These binaries are for version 3.8:
+
+- [Mac - Apple Silicon](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder.3.8.Mac.Arm64.dmg)
+- [Mac - (x86)](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder.3.8.Mac.X86.dmg)
+- [Windows 11](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder.3.8.Win.Setup.exe)
+- [Windows 11 - Portable Version](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder.3.8.Win.Portable.zip)
 
 
 ## Testing QualCoder
 
 It has taken many, many hours of work to create this software that is provided free to use. If you appreciate QualCoder please: [Buy me a coffee](https://www.buymeacoffee.com/ccbogelB)
-QualCoder is written in python 3 using Qt6 for the graphical interface. QualCoder has been used on Windows 11, macOS and various recent Linux distros: Ubuntu, Lubuntu, ZorinOS, Fedora. Testing is performed on Windows 11.
+QualCoder is written in python using Qt6 for the graphical interface. QualCoder has been used on Windows 11, macOS and various Linux distros: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora. Testing is performed on Windows 11.
 
 
