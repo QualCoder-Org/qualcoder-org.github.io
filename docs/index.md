@@ -44,7 +44,7 @@ If you like QualCoder a lot, or have developed a novel use for it, please write 
 
 ## Current binary releases
 
-Note: QualCoder 3.8.1 (patch update) has just been released (26 Feb 2026). The binaries will be uploaded very soon.
+Note: QualCoder 3.8.2 (patch update) has just been released (26 Feb 2026). The binaries will be uploaded very soon.
 
 These binaries are for version 3.8:
 
