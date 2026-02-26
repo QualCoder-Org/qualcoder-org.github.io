@@ -46,10 +46,12 @@ If you like QualCoder a lot, or have developed a novel use for it, please write 
 
 The curent release of QualCoder is 3.8.2 available on GitHub [https://github.com/ccbogel/QualCoder/releases/tag/3.8.2](https://github.com/ccbogel/QualCoder/releases/tag/3.8.2)
 
-Theexectuable binaries:
+The exectuable binaries:
 
 [Windows 11 QualCoder3.8.2 Installer](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/1.QualCoder_3_8_2_Win_setup.exe)
+
 [Windows 11 QualCoder 3.8.2 Portable (Entire software in one file, slower to start)](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/2.QualCoder_3_8_2_Win_Portable.exe)
+
 []()
 
 ## Testing QualCoder
