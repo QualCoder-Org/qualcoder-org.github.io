@@ -42,16 +42,15 @@ If you like QualCoder and found it useful for your work. Please leave a review o
 
 If you like QualCoder a lot, or have developed a novel use for it, please write an article about QualCoder.
 
-## Current binary releases
+## Current release
 
-Note: QualCoder 3.8.2 (patch update) has just been released (26 Feb 2026). The binaries will be uploaded very soon.
+The curent release of QualCoder is 3.8.2 available on GitHub [https://github.com/ccbogel/QualCoder/releases/tag/3.8.2](https://github.com/ccbogel/QualCoder/releases/tag/3.8.2)
 
-These binaries are for version 3.8:
+Theexectuable binaries:
 
-- [QualCoder 3.8 Windows 11 Installer](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder_3_8_Win_Setup.exe)
-- [QualCoder 3.8 Windows 11 Portable](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder_3_8_Win_Portable.exe)
-- [QualCoder 3.8 macOS Silicon](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder_3_8_macOS_arm64.dmg)
-- [QualCoder 3.8 Ubuntu 24](https://github.com/ccbogel/QualCoder/releases/download/3.8/QualCoder_3_8_Ubuntu)
+[Windows 11 QualCoder3.8.2 Installer](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/1.QualCoder_3_8_2_Win_setup.exe)
+[Windows 11 QualCoder 3.8.2 Portable (Entire software in one file, slower to start)](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/2.QualCoder_3_8_2_Win_Portable.exe)
+[]()
 
 ## Testing QualCoder
 
