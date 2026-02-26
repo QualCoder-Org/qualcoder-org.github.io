@@ -52,11 +52,11 @@ The exectuable binaries:
 
 [Windows 11 QualCoder 3.8.2 Portable (Entire software in one file, slower to start)](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/2.QualCoder_3_8_2_Win_Portable.exe)
 
-[]()
+[QualCoder_3_8_2_Ubuntu]()
 
-## Testing QualCoder
+## Donationr
 
 It has taken many, many hours of work to create this software that is provided free to use. If you appreciate QualCoder please: [Buy me a coffee](https://www.buymeacoffee.com/ccbogelB)
-QualCoder is written in python using Qt6 for the graphical interface. QualCoder has been used on Windows 11, macOS and various Linux distros: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora. Testing is performed on Windows 11.
+QualCoder is written in python using Qt6 for the graphical interface. QualCoder has been used on Windows 11, macOS and various Linux distros: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 
 
