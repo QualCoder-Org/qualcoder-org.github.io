@@ -52,7 +52,7 @@ The exectuable binaries:
 
 [Windows 11 QualCoder 3.8.2 Portable (Entire software in one file, slower to start)](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/2.QualCoder_3_8_2_Win_Portable.exe)
 
-[QualCoder_3_8_2_Ubuntu]()
+[QualCoder_3_8_2_Ubuntu](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_ubuntu)
 
 ## Donationr
 
