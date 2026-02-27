@@ -32,16 +32,6 @@ The most current QualCoder software is available from <https://github.com/ccboge
 
 Note: There is an ongoing problem with audio/video coding on Linux Fedora -- the software crashes.
 
-## Leave a review
-
-If you like QualCoder and found it useful for your work. Please leave a review on these sites:
-
-<https://www.saashub.com/qualcoder-alternatives>
-
-<https://alternativeto.net/software/qualcoder>
-
-If you like QualCoder a lot, or have developed a novel use for it, please write an article about QualCoder.
-
 ## Current release
 
 The curent release of QualCoder is 3.8.2 available on GitHub [https://github.com/ccbogel/QualCoder/releases/tag/3.8.2](https://github.com/ccbogel/QualCoder/releases/tag/3.8.2)
@@ -55,6 +45,16 @@ The exectuable binaries:
 [QualCoder_3.8.2 macOS arm64](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_macOs_arm64.dmg)
 
 [QualCoder_3.8.2_Ubuntu](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_ubuntu)
+
+## Leave a review
+
+If you like QualCoder and found it useful for your work. Please leave a review on these sites:
+
+<https://www.saashub.com/qualcoder-alternatives>
+
+<https://alternativeto.net/software/qualcoder>
+
+If you like QualCoder a lot, or have developed a novel use for it, please write an article about QualCoder.
 
 ## Donations
 
