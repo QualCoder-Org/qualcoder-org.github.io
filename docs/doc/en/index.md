@@ -37,6 +37,12 @@ There is also a Wordpress site for QualCoder at https://qualcoder.wordpress.com/
 
 **QualCoder is a software option to support open science. [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
 
+## Latest releases
+
+The latest release is QualCoder 3.8.2. At the end of the page there are executables for Windows 11, macOS and Linux Ubuntu.
+
+[https://github.com/ccbogel/QualCoder/releases/tag/3.8.2](https://github.com/ccbogel/QualCoder/releases/tag/3.8.2)
+
 ## Wiki in other languages
 
 [Wiki in Français](https://qualcoder-org.github.io/doc/fr/)
