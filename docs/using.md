@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+362 **“Just Swapping One Drug Out for Another”: Beliefs and Attitudes Influencing Support for Medication-Assisted Treatment in Rural Communities.**(2026). Georgetown Scientific Research Journal, 6(1), 22-49. <https://doi.org/10.48091/0np39e98>
+
 361 Barszczak, Rafal Sławomir (2025) **Precarity, Aspiration, Cultural and Ideological Capture: A Phenomenological Study of Generation Rent in Ireland’s Financialised Housing System.** Masters thesis, Dublin, National College of Ireland.
 
 360 Kavousi,E.,Ewing,M.,&Brunetto,Y. (2026). **Neuroleadership research in HRM: A systematic review.** Journal of Management & Organization, 1–23. <https://doi.org/10.1017/jmo.2026.10086>
