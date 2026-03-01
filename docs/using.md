@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+361 Barszczak, Rafal Sławomir (2025) **Precarity, Aspiration, Cultural and Ideological Capture: A Phenomenological Study of Generation Rent in Ireland’s Financialised Housing System.** Masters thesis, Dublin, National College of Ireland.
+
 360 Kavousi,E.,Ewing,M.,&Brunetto,Y. (2026). **Neuroleadership research in HRM: A systematic review.** Journal of Management & Organization, 1–23. <https://doi.org/10.1017/jmo.2026.10086>
 
 359 Jacquellyn Nambi Ssanyu, Shannon McMorrow, Leif Eriksson, Joan Nakayaga Kalyango, Mats Målqvist, Peter Waiswa,
