@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+364 MICHÁLKOVÁ, Gabriela. Dobrovolné digitální vyloučení a jeho vliv na každodenní život generace Z (Voluntary digital exclusion and its impact on everyday life of generation Z). Diplomová práce, vedoucí Jirků, Jan. Praha: Univerzita Karlova, Fakulta sociálních věd, Katedra žurnalistiky, 2026. 
+
 363 **Analyses of Employee Retention and Best Practices Strategies.** Bezerra, Alessandro (2026) Thesis Laurea University. <https://www.theseus.fi/handle/10024/911490>
 
 362 **“Just Swapping One Drug Out for Another”: Beliefs and Attitudes Influencing Support for Medication-Assisted Treatment in Rural Communities.**(2026). Georgetown Scientific Research Journal, 6(1), 22-49. <https://doi.org/10.48091/0np39e98>
