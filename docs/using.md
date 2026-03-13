@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+365 Escaño, C., Peterson Ferreira de Lima, S & Feltrero, R. (2026). **Educación Artística Inclusiva e Inteligencia Artificial: análisis discursivo comparativo entre Ana Mae Barbosa y su avatar digital.** Arte, Individuo y Sociedad, 38(3). Publicación en línea, 1-22.<https://dx.doi.org/10.5209/aris.105507>
+
 364 MICHÁLKOVÁ, Gabriela. Dobrovolné digitální vyloučení a jeho vliv na každodenní život generace Z (Voluntary digital exclusion and its impact on everyday life of generation Z). Diplomová práce, vedoucí Jirků, Jan. Praha: Univerzita Karlova, Fakulta sociálních věd, Katedra žurnalistiky, 2026. 
 
 363 **Analyses of Employee Retention and Best Practices Strategies.** Bezerra, Alessandro (2026) Thesis Laurea University. <https://www.theseus.fi/handle/10024/911490>
