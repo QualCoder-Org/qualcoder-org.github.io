@@ -36,6 +36,20 @@ También existe un sitio en WordPress para _QualCoder_ en https://qualcoder.word
 
 **QualCoder es una opción de software para apoyar la ciencia abierta.** [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
 
+## Versión actual
+
+La versión actual de _QualCoder_ es la 3.8.2, disponible en GitHub [https://github.com/ccbogel/QualCoder/releases/tag/3.8.2](https://github.com/ccbogel/QualCoder/releases/tag/3.8.2)
+
+Los archivos de instalación (binarios ejecutables):
+
+[QualCoder_3.8.2 Windows 11 Installer](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_Win_setup.exe)
+
+[QualCoder_3.8.2 Windows 11 Portable (Entire software in one file, slower to start)](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_Win_Portable.exe)
+
+[QualCoder_3.8.2 macOS arm64](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_macOs_arm64.dmg)
+
+[QualCoder_3.8.2_Ubuntu](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_ubuntu)
+
 ## Wiki en otros idiomas
 
 [Wiki in English](https://qualcoder-org.github.io/doc/en/)
