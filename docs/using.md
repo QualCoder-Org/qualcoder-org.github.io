@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+366 Marqueses, D., Eder, C. Implementierung des Delirscreenings auf einer Intensivstation: Evaluation auf Basis der Normalization Process Theory. HBScience (2026). <https://doi.org/10.1007/s16024-026-00441-y>
+
 365 Escaño, C., Peterson Ferreira de Lima, S & Feltrero, R. (2026). **Educación Artística Inclusiva e Inteligencia Artificial: análisis discursivo comparativo entre Ana Mae Barbosa y su avatar digital.** Arte, Individuo y Sociedad, 38(3). Publicación en línea, 1-22.<https://dx.doi.org/10.5209/aris.105507>
 
 364 MICHÁLKOVÁ, Gabriela. **Dobrovolné digitální vyloučení a jeho vliv na každodenní život generace Z (Voluntary digital exclusion and its impact on everyday life of generation Z).** Diplomová práce, vedoucí Jirků, Jan. Praha: Univerzita Karlova, Fakulta sociálních věd, Katedra žurnalistiky, 2026. 
