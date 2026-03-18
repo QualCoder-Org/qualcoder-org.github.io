@@ -2,7 +2,15 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
-366 Marqueses, D., Eder, C. Implementierung des Delirscreenings auf einer Intensivstation: Evaluation auf Basis der Normalization Process Theory. HBScience (2026). <https://doi.org/10.1007/s16024-026-00441-y>
+370 García-Frapolli, E., & Asara, V. (2026). **Navigating touristification through social entrepreneurship: Community-based tourism in the Yucatan Peninsula, Mexico.** Tourist Studies, 0(0).
+
+369 Yang D, Balai E, Jama GM, et al. **Paediatric septoplasty in the UK: a national survey of current attitudes and practice.** The Journal of Laryngology & Otology. Published online 2026:1-8. doi:10.1017/S0022215126104344
+
+368 Shen, M., Shi, Z., Shen, Y. et al. **Rehabilitation challenges and enablers for exercise in post-liver transplant patients with metabolic syndrome: a qualitative study.** BMC Nurs (2026). <https://doi.org/10.1186/s12912-026-04492-4>
+
+367 **From Ancient Tactics to Cyber Strategies: Adapting the Thirty-Six Stratagems for Modern Cyber Warfare.** Z Tayor Thesis 2026 CAPITOL TECHNOLOGY UNIVERSITY
+
+366 Marqueses, D., Eder, C. **Implementierung des Delirscreenings auf einer Intensivstation: Evaluation auf Basis der Normalization Process Theory.** HBScience (2026). <https://doi.org/10.1007/s16024-026-00441-y>
 
 365 Escaño, C., Peterson Ferreira de Lima, S & Feltrero, R. (2026). **Educación Artística Inclusiva e Inteligencia Artificial: análisis discursivo comparativo entre Ana Mae Barbosa y su avatar digital.** Arte, Individuo y Sociedad, 38(3). Publicación en línea, 1-22.<https://dx.doi.org/10.5209/aris.105507>
 
