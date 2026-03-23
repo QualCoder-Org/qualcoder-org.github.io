@@ -2,6 +2,17 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+375 Zaki, K., Alotaibi, R., & Raslan, A. (2026). From Desert Lands to Green Avenues: Understanding Sustainability Actions in the Saudi Arabian Tourism and Hospitality Sector Through Expert Perspectives. Sustainability, 18(6), 2982. https://doi.org/10.3390/su18062982
+
+374 Kabir M.S. Traditional and digital networking strategies and its impact on business sustainability for foreign entrepreneurs in Poland. J Innov Entrep (2026). https://doi.org/10.1186/ s13731-026-00630-z
+
+373 DESIGNING FOR USABILITY: AN AI-HUMAN HYBRID MENTAL HEALTH COUNSELING WEB APP FOR STUDENTS. ELGA THERESIA, TANTY OKTAVIA. Journal of Theoretical and Applied Information Technology 15th March 2026. Vol.104. No.5 
+
+372 Hess, L., & Häusermann, S. (2026). The quest for exposure: How pro-Palestine activists navigate algorithmic visibility and content moderation on TikTok. Platforms & Society, 3.
+Análisis cualitativo del impacto de la violencia institucional en las profesionales que intervienen en las violencias machistas, desde una perspectiva de derechos. Berrocal et al. Report 2025.
+
+371 Umsetzung von Keyline Design auf Schweizer Landwirtschaftsbetrieben: Praktische Erfahrungen und Entwicklung eines Leitfadens. S Waldner. Thesis. 2026. ETH Zürich  https://doi.org/10.3929/ethz-c-000796137
+
 370 García-Frapolli, E., & Asara, V. (2026). **Navigating touristification through social entrepreneurship: Community-based tourism in the Yucatan Peninsula, Mexico.** Tourist Studies, 0(0).
 
 369 Yang D, Balai E, Jama GM, et al. **Paediatric septoplasty in the UK: a national survey of current attitudes and practice.** The Journal of Laryngology & Otology. Published online 2026:1-8. doi:10.1017/S0022215126104344
