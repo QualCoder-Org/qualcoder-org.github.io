@@ -4,18 +4,15 @@ path: index
 > [!NOTE]
 > **ATTENTION : La traduction est en cours, une pré-traduction a été fait avec Deepl. Un travail de relecture est en cours**
 
-Bienvenue sur le wiki de QualCoder !
-
-Ce wiki contient des instructions pour installer et utiliser le logiciel d'analyse de données qualitatives QualCoder. Les informations présentées ici concernent la version la plus récente de QualCoder.
-
+Les instructions décrivent comment installer et utiliser QualCoder. Les informations font références à la version la plus récente de QualCoder.
 ## Qu'est-ce que QualCoder ?
-QualCoder est un logiciel gratuit et open source d'analyse de données qualitatives.
-Avec QualCoder, vous pouvez coder du texte, des images, de l'audio et de la vidéo, rédiger des notes de journal et des mémos. Vous pouvez organiser les codes dans un schéma hiérarchique en forme d'arbre. Le codage de l'audio et de la vidéo nécessite le lecteur multimédia VLC.
-Des rapports de comparaison entre codeurs peuvent être générés pour le codage de texte en utilisant la statistique Kappa de Cohen. Un graphique affichant les codes et les catégories peut être généré pour visualiser la hiérarchie de codage. La plupart des rapports peuvent être exportés au format HTML, en *OpenDocumentText* (ODT) ou en fichiers texte brut.
+QualCoder est un logiciel gratuit et open source d'analyse de données qualitatives. Avec QualCoder, vous pouvez coder du texte, des images, de l'audio et de la vidéo, rédiger des notes de journal et des mémos. Vous pouvez organiser les codes dans un schéma hiérarchique en forme d'arbre. Vous pouvez produire de nombreux rapports.  La plupart des rapports peuvent être exportés au format HTML, en *OpenDocumentText* (ODT) ou en fichiers texte brut.
 
 Depuis la version 3.6, QualCoder inclut un ensemble de fonctionnalités assistées par IA utilisant GPT-4 ou d'autres grands modèles de langage pour explorer, analyser et interagir avec les données de manière innovante. Familiarisez-vous avec de nouvelles données en [explorant des sujets ou concepts larges](https://qualcoder-fr.frama.io/5.1.-AI-chat-based-analysis#topic-analysis-chat) via un chat interactif avec l'IA. Approfondissez des aspects spécifiques grâce au [codage assisté par IA](https://qualcoder-fr.frama.io/4.3.-AI-Assisted-Coding) et à [l'analyse de texte](https://qualcoder-fr.frama.io/5.1.-AI-chat-based-analysis#text-analysis-chat). Et si vous en arrivez au point où vous devez synthétiser et consolider vos résultats, [discutez-en dans un chat de codage](https://qualcoder-fr.frama.io/5.1.-AI-chat-based-analysis#code-analysis-chat) avec l'IA.
 
 QualCoder est conçu pour être utilisé comme un logiciel client, par une seule personne à la fois (un deuxième codeur peut utiliser le même projet sur le même ordinateur, ou le dossier du projet peut être transféré sur l'ordinateur du deuxième codeur). QualCoder n'est pas conçu pour être utilisé simultanément par plusieurs personnes. L'accès au projet dans un espace cloud n'est pas recommandé, car cela peut corrompre la base de données si la connexion est perdue pendant une mise à jour de la base.
+
+Il existe un [wordpress](https://qualcoder.wordpress.com) consacré à QualCoder et [ici](https://qualcoder-org.github.io).
 
 ## Pourquoi utiliser QualCoder ?
 
@@ -41,6 +38,10 @@ QualCoder est conçu pour être utilisé comme un logiciel client, par une seule
 
 **QualCoder est une option logicielle pour soutenir la science ouverte.** [Recommandations de l'UNESCO sur la science ouverte](https://www.unesco.org/fr/science-ouverte?hub=686)
 
+# Dernière version
+La dernière version est QualCoder 3.8.2. À la fin de la page se trouve les executables pour Windows 11, MacOS et Linux Ubuntu.
+
+https://github.com/ccbogel/QualCoder/releases/tag/3.8.2
 
 ## Collaboration sur un projet QualCoder
 
