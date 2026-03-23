@@ -35,7 +35,7 @@ There is also a [Wordpress](https://qualcoder.wordpress.com) site for QualCoder 
 
 **QualCoder can be modified.** You can modify and adapt QualCoder to your needs, as long as you release your changes to everyone. This also means you can copy the software and give it to your colleagues or students free of charge. It is released from 3.6 and up under the LGPL v3 license.
 
-**QualCoder is a software option to support open science. [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
+**QualCoder is a software option to support open science**. [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
 
 ## Latest releases
 
