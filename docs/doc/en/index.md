@@ -12,7 +12,7 @@ Since version 3.6, QualCoder includes a set of AI-assisted features that utilize
 
 QualCoder is designed to be used as client-based software to be used by one person at a time. (A second coder can use the same project on the same computer, or the project folder can be transferred to the second coder's computer). QualCoder is not designed to be multi-accessed at the same time. Accessing the project in a cloud location is not recommended, it may corrupt the database if a database connection is lost during any database updating processes. 
 
-There is also a Wordpress site for QualCoder at https://qualcoder.wordpress.com/ and here https://qualcoder-org.github.io/.
+There is also a [Wordpress](https://qualcoder.wordpress.com) site for QualCoder and [here](https://qualcoder-org.github.io).
 
 ## Why use QualCoder?
 **Qualcoder is free of charge.** Many qualitative analysis software requiring expensive fees or monthly subscriptions.
