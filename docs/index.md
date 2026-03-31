@@ -34,7 +34,7 @@ Note: There is an ongoing problem with audio/video coding on Linux Fedora -- the
 
 ## Current release
 
-The curent release of QualCoder is 3.8.2 available on GitHub [https://github.com/ccbogel/QualCoder/releases/tag/3.8.2](https://github.com/ccbogel/QualCoder/releases/tag/3.8.2)
+The [latest release of QualCoder (3.8.2) available on GitHub](https://github.com/ccbogel/QualCoder/releases/latest).
 
 The exectuable binaries:
 
