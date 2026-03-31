@@ -2,16 +2,19 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
-375 Zaki, K., Alotaibi, R., & Raslan, A. (2026). From Desert Lands to Green Avenues: Understanding Sustainability Actions in the Saudi Arabian Tourism and Hospitality Sector Through Expert Perspectives. Sustainability, 18(6), 2982. https://doi.org/10.3390/su18062982
+377 Andrea Furnaro, Gregory Trencher. **Acknowledging while doubling down: Japan's responses to uncertainty in the hydrogen sector.** Technological Forecasting and Social Change. Volume 227. 2026. <https://doi.org/10.1016/j.techfore.2026.124654>
 
-374 Kabir M.S. Traditional and digital networking strategies and its impact on business sustainability for foreign entrepreneurs in Poland. J Innov Entrep (2026). https://doi.org/10.1186/ s13731-026-00630-z
+376 **Antifeministische Kräfte zur Absicherung patriarchaler Verhältnisse. Struktureller und bewegungsförmiger Antifeminismus in Westdeutschland zwischen 1945 und 1990.** Blum, Rebekka. 2026 Budrich Academic Press. <https://library.oapen.org/handle/20.500.12657/112125>
 
-373 DESIGNING FOR USABILITY: AN AI-HUMAN HYBRID MENTAL HEALTH COUNSELING WEB APP FOR STUDENTS. ELGA THERESIA, TANTY OKTAVIA. Journal of Theoretical and Applied Information Technology 15th March 2026. Vol.104. No.5 
+375 Zaki, K., Alotaibi, R., & Raslan, A. (2026). **From Desert Lands to Green Avenues: Understanding Sustainability Actions in the Saudi Arabian Tourism and Hospitality Sector Through Expert Perspectives.** Sustainability, 18(6), 2982. <https://doi.org/10.3390/su18062982>
 
-372 Hess, L., & Häusermann, S. (2026). The quest for exposure: How pro-Palestine activists navigate algorithmic visibility and content moderation on TikTok. Platforms & Society, 3.
-Análisis cualitativo del impacto de la violencia institucional en las profesionales que intervienen en las violencias machistas, desde una perspectiva de derechos. Berrocal et al. Report 2025.
+374 Kabir M.S. **Traditional and digital networking strategies and its impact on business sustainability for foreign entrepreneurs in Poland**. J Innov Entrep (2026). <https://doi.org/10.1186/ s13731-026-00630-z>
 
-371 Umsetzung von Keyline Design auf Schweizer Landwirtschaftsbetrieben: Praktische Erfahrungen und Entwicklung eines Leitfadens. S Waldner. Thesis. 2026. ETH Zürich  https://doi.org/10.3929/ethz-c-000796137
+373 **DESIGNING FOR USABILITY: AN AI-HUMAN HYBRID MENTAL HEALTH COUNSELING WEB APP FOR STUDENTS.** ELGA THERESIA, TANTY OKTAVIA. Journal of Theoretical and Applied Information Technology 15th March 2026. Vol.104. No.5 
+
+372 Hess, L., & Häusermann, S. (2026). **The quest for exposure: How pro-Palestine activists navigate algorithmic visibility and content moderation on TikTok.** Platforms & Society, 3. Análisis cualitativo del impacto de la violencia institucional en las profesionales que intervienen en las violencias machistas, desde una perspectiva de derechos. Berrocal et al. Report 2025.
+
+371 **Umsetzung von Keyline Design auf Schweizer Landwirtschaftsbetrieben: Praktische Erfahrungen und Entwicklung eines Leitfadens.** S Waldner. Thesis. 2026. ETH Zürich  https://doi.org/10.3929/ethz-c-000796137
 
 370 García-Frapolli, E., & Asara, V. (2026). **Navigating touristification through social entrepreneurship: Community-based tourism in the Yucatan Peninsula, Mexico.** Tourist Studies, 0(0).
 
