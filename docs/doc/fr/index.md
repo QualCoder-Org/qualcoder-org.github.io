@@ -1,8 +1,7 @@
 ---
 path: index
 ---
-> [!NOTE]
-> **ATTENTION : La traduction est en cours, une pré-traduction a été fait avec Deepl. Un travail de relecture est en cours**
+**ATTENTION : La traduction est en cours, une pré-traduction a été fait avec Deepl. Un travail de relecture est en cours**
 
 Les instructions décrivent comment installer et utiliser QualCoder. Les informations font références à la version la plus récente de QualCoder.
 ## Qu'est-ce que QualCoder ?
