@@ -2,6 +2,28 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+388 Chapter 12: **Reimagining African Futures Through Higher Education Policy: Evidence from South Africa.** Owen et al. Transforming Africa Book Chapter 2026. <https://doi.org/10.1108/978-1-83662-790-620261012>
+
+387 **Framställning av lägesenergi i gymnasiets Fysik 1: En deduktiv och induktiv innehållsanalys i läroböcker (The Representation of Gravitational Potential Energy in Upper Secondary Physics 1 : A Deductive and Inductive Content Analysis of Physics Textbooks).** L Halilovic. Thesis 2026. Linnaeus University.
+
+386 **Mezi supermarketem a zahradou: potravinová odolnost českých domácností. Šimon Jelinek (Between the supermarket and the garden: food resilience of Czech households)**. Thesis 2026 Mararykova Univerzita. 
+
+385 **GLOBAL HEALTH GOVERNANCE AND THE PERSISTENCE OF THE CIVILIZING MISSION: PROBLEMATIZING WHO FRAMEWORKS OF HEALTH EQUITY CREATION.** S Keenan. Thesis 2025. McGill University. 
+
+384 **From Grades to Greatness: Unveiling High School Grading Shifts Through Task Force Insights.** A Speidel. 2026. Thesis. California Lutheran University. 
+
+383 **Untangling Threads of Care: Exploring Family Practices that Support Elementary French Immersion Students in Mathematics in New Brunswick.** J Gerbrandt. Thesis. 2026. University of New Brunswick.
+
+382 Giguère, Maxe F., de Moissac, Danielle et Gueye, Ndeye Rokhaya, (2026). **Vers des soins pour toustes : l’accessibilité des soins pour les patient·e·s francoqueers au Manitoba (Towards care for all: accessibility of care for Francoqueer patients in Manitoba).** Collectif LGBTQ* du Manitoba. 
+
+381 **Vertriebsstärkung durch interne Reorganisation in Kleinst- und Kleinunternehmen (Strengthening sales through internal reorganization in micro and small companies).** Michael GÜHNE, Ulrike PIETRZYK. GfA, Sankt Augustin (Hrsg.): Conference Abstract. Frühjahrskongress 2026, Kassel
+
+380 **Understanding Fairness and Favouritism in AI-Based HR Appraisals: A Mixed-Methods Analysis of Employees in the Indian IT Sector.** E Yajikumar, G Sowmya. Preprint. 2026. Vellore Institute of Technology University. <https://doi.org/10.21203/rs.3.rs-8847797/v1>
+
+379 Parveen, K., Obidallah, W.J., Phuc, T.Q.B. et al. **Exploring key predictors of ChatGPT adoption in higher education: insights from UTAUT3 and ARCS model.** BMC Psychol 14, 397 (2026). <https://doi.org/10.1186/s40359-026-04042-2>
+
+378 **The TOBE Playbook: Identifying Barriers and Drivers of Digital Success in the Service Sector.** Csiki et al. Central European Business Review, 2026.  DOI: 10.18267/j.cebr.410
+
 377 Andrea Furnaro, Gregory Trencher. **Acknowledging while doubling down: Japan's responses to uncertainty in the hydrogen sector.** Technological Forecasting and Social Change. Volume 227. 2026. <https://doi.org/10.1016/j.techfore.2026.124654>
 
 376 **Antifeministische Kräfte zur Absicherung patriarchaler Verhältnisse. Struktureller und bewegungsförmiger Antifeminismus in Westdeutschland zwischen 1945 und 1990.** Blum, Rebekka. 2026 Budrich Academic Press. <https://library.oapen.org/handle/20.500.12657/112125>
