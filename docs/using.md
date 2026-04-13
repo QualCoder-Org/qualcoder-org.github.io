@@ -1,6 +1,7 @@
 # Studies using QualCoder
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
+389 Shen M, Xue S, Liu F and Lang J (2026) **Role reconstruction among double-qualified nursing educators in the generative AI era: a qualitative study.** Front. Med. 13:1776845. doi: 10.3389/fmed.2026.1776845
 
 388 Chapter 12: **Reimagining African Futures Through Higher Education Policy: Evidence from South Africa.** Owen et al. Transforming Africa Book Chapter 2026. <https://doi.org/10.1108/978-1-83662-790-620261012>
 
