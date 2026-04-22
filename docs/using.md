@@ -12,7 +12,7 @@ These are records that I have found on the internet, or that authors have inform
 
 391 Artificial Intelligence in Creative Industries [Book Chapter] **From Digital Craft to Automation. Exploring the Trade-Off Between Traditional Digital Skills and Automation in the Creative Arts.** Antonio Daniele. Edition 1st 2026.
 
-390 Sitering: Ovesen, E. (2026). Striving for interactivity. I L. Skregelid, C. B. Myrvold & R. Tronstad (Red.), Den kulturelle skolesekken: Forskning møter praksis (Kap. 6, s. 159–184). Cappelen Damm Akademisk. <https://doi.org/10.23865/cdf.286> ch6 Lisens: CC-BY-NC-ND 4.0
+390 Sitering: Ovesen, E. (2026). Striving for interactivity. I L. Skregelid, C. B. Myrvold & R. Tronstad (Red.), Den kulturelle skolesekken: Forskning møter praksis (Kap. 6, s. 159–184). Cappelen Damm Akademisk. ch6
 
 389 Shen M, Xue S, Liu F and Lang J (2026) **Role reconstruction among double-qualified nursing educators in the generative AI era: a qualitative study.** Front. Med. 13:1776845. doi: 10.3389/fmed.2026.1776845
 
