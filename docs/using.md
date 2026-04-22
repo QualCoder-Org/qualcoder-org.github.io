@@ -1,6 +1,19 @@
 # Studies using QualCoder
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
+
+395 Arifin, Misbahul, Muhammad Ilzamul Khoir, and Achmad Zahri N.A. 2026. **“Centralized Adaptive Governance for Curriculum Development in Islamic Education under Society 5.0”.** Journal of Educational Research and Practice 4 (1). Tulungagung, Indonesia:111-27. <https://doi.org/10.70376/jerp.v4i1.401.>
+
+394 Lee-Remond, S., Alavi, S., Ballouk, H., & Notari, M. (2026). **Designing together: student co-design of educational games in a complex interdisciplinary course.** CoDesign, 1–25. <https://doi.org/10.1080/15710882.2026.2655696>
+
+393 Olavesen ES, Helseth S, Haga SM, Sundrehagen T, Drozd F (2026) **Midwives' and Public Health Nurses' Experiences of Implementing a Guided Version of a Digital Intervention, Mamma Mia, in Maternity and Child Health Care Services: A Reflexive Thematic Analysis.** PLOS Digit Health 5(4): e0001348. <https://doi.org/10.1371/journal.pdig.0001348>
+
+392 **Retention of Rural/Small-Town Band Directors in Georgia.** Timothy M. Warren, Liberty University 2026. Thesis. 
+
+391 Artificial Intelligence in Creative Industries [Book Chapter] **From Digital Craft to Automation. Exploring the Trade-Off Between Traditional Digital Skills and Automation in the Creative Arts.** Antonio Daniele. Edition 1st 2026.
+
+390 Sitering: Ovesen, E. (2026). Striving for interactivity. I L. Skregelid, C. B. Myrvold & R. Tronstad (Red.), Den kulturelle skolesekken: Forskning møter praksis (Kap. 6, s. 159–184). Cappelen Damm Akademisk. <https://doi.org/10.23865/cdf.286.ch6> Lisens: CC-BY-NC-ND 4.0
+
 389 Shen M, Xue S, Liu F and Lang J (2026) **Role reconstruction among double-qualified nursing educators in the generative AI era: a qualitative study.** Front. Med. 13:1776845. doi: 10.3389/fmed.2026.1776845
 
 388 Chapter 12: **Reimagining African Futures Through Higher Education Policy: Evidence from South Africa.** Owen et al. Transforming Africa Book Chapter 2026. <https://doi.org/10.1108/978-1-83662-790-620261012>
