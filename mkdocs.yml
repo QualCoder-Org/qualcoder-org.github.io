@@ -1,4 +1,5 @@
 site_name: QualCoder
+site_url: https://qualcoder.org
 site_description: 'QualCoder Website'
 site_author: 'QualCoder Teams'
 edit_uri: edit/main/docs/
