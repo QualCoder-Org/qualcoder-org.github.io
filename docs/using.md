@@ -2,6 +2,13 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+398 **A BIM-based framework for enhancing office accommodation delivery in public–private partnerships: a case study of the Gauteng province.** P Mashinini. Thesis 2026 University of Johannesburg.
+
+397 **Appréhender le paysage sonore par la géomatique : vers une représentation sensible et située du territoire (étude de cas dans la commune de Carouge). Understanding the soundscape through geomatics: towards a sensitive and situated representation of the territory (case study in the commune of Carouge)**
+ N Cespedes. Thesis 2026. Université de Genevè.
+
+396 Rodrigo Olmedo Yúdico Becerril. **Développement de stratégies de production écrite en FLE à travers un dispositif hybride. Linguistique.** Université Grenoble Alpes [2020-..], 2025. Français. 
+
 395 Arifin, Misbahul, Muhammad Ilzamul Khoir, and Achmad Zahri N.A. 2026. **“Centralized Adaptive Governance for Curriculum Development in Islamic Education under Society 5.0”.** Journal of Educational Research and Practice 4 (1). Tulungagung, Indonesia:111-27. <https://doi.org/10.70376/jerp.v4i1.401>
 
 394 Lee-Remond, S., Alavi, S., Ballouk, H., & Notari, M. (2026). **Designing together: student co-design of educational games in a complex interdisciplinary course.** CoDesign, 1–25. <https://doi.org/10.1080/15710882.2026.2655696>
