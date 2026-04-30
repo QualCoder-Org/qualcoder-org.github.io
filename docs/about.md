@@ -25,6 +25,6 @@ Testing, software development transations into Spanish.
 
 ========
 
-There are also many other cotrinbutors who have added code or suggestions for improvements over the years since QualCoder was first released in 2019.
+There are also many other contributors who have added code or suggestions for improvements over the years since QualCoder was first released in 2019.
 
 
