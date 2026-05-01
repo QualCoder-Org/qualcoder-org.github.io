@@ -8,7 +8,7 @@ QualCoder includes a set of AI-assisted features that utilise Large Language Mod
 
 QualCoder is designed to be used as client-based software to be used by one person at a time. A second coder can use the same project on the same computer, or the project folder can be transferred to the second coder's computer. QualCoder is not designed to be multi-accessed at the same instance in time.
 
-The most current QualCoder software is available from <https://github.com/ccbogel/QualCoder>. Software releases are available from: <https://github.com/ccbogel/QualCoder/releases> These contain source code and executables. The executables are an easy way to run QualCoder, double click to run, just be aware that it can take up to 20 seconds to open. The minimum recommended screen size is 1024 x 600 pixels.
+The most current QualCoder software is available from <https://github.com/ccbogel/QualCoder>. Software releases are available from: <https://github.com/ccbogel/QualCoder/releases> These contain source code and executables. The executables are an easy way to run QualCoder, double click to run, just be aware that it can take up to 20 seconds to open.
 
 ## Why use QualCoder?
 
