@@ -16,7 +16,7 @@ Dr Kai Dröge has been heavily involved with Qualcoder development, particularly
 ========
 
 **Dr Justin Missaghieh--Poncet** [Université de Pau et des Pays de l'Adour](https://www.univ-pau.fr/fr/index.html)
-Testing, translation into French, software development. Other organtioatnal developments, such as this website.
+Testing, translation into French, software development. Other organisational developments, such as this website.
 
 ========
 
