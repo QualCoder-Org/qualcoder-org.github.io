@@ -2,7 +2,7 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
-
+401 Boocan, Aldrin. 2026. **Modular Learning and Educational Inequality in Rural Philippine Secondary Education.** Journal of Educational Research and Practice 4 (1). Tulungagung, Indonesia:144-61. <https://doi.org/10.70376/jerp.v4i1.439>
 
 400 Lee-Remond, S., Alavi, S., Ballouk, H., & Notari, M. (2026). **Designing together: student co-design of educational games in a complex interdisciplinary course.** CoDesign, 1–25. <https://doi.org/10.1080/15710882.2026.2655696>
 
