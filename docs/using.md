@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+402 Lepičnik Vodopivec, J., & Pugelj, Špela. (2026). **Digitalne kompetence učiteljev: osebni, profesionalni in kontekstualni dejavniki. (Digital competences of teachers: personal, professional and contextual factors)** Pedagoška Obzorja, 41(1), 147–160. <https://doi.org/10.55707/ds-po.v41i1.221>
+
 401 Boocan, Aldrin. 2026. **Modular Learning and Educational Inequality in Rural Philippine Secondary Education.** Journal of Educational Research and Practice 4 (1). Tulungagung, Indonesia:144-61. <https://doi.org/10.70376/jerp.v4i1.439>
 
 400 Lee-Remond, S., Alavi, S., Ballouk, H., & Notari, M. (2026). **Designing together: student co-design of educational games in a complex interdisciplinary course.** CoDesign, 1–25. <https://doi.org/10.1080/15710882.2026.2655696>
