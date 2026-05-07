@@ -2,7 +2,9 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
-399 Lee-Remond, S., Alavi, S., Ballouk, H., & Notari, M. (2026). **Designing together: student co-design of educational games in a complex interdisciplinary course.** CoDesign, 1–25. <https://doi.org/10.1080/15710882.2026.2655696>
+400 Lee-Remond, S., Alavi, S., Ballouk, H., & Notari, M. (2026). **Designing together: student co-design of educational games in a complex interdisciplinary course.** CoDesign, 1–25. <https://doi.org/10.1080/15710882.2026.2655696>
+
+399 Shen, M., Shi, Z., Shen, Y. et al. **Rehabilitation challenges and enablers for exercise in post-liver transplant patients with metabolic syndrome: a qualitative study.** BMC Nurs 25, 301 (2026). <https://doi.org/10.1186/s12912-026-04492-4>
 
 398 **A BIM-based framework for enhancing office accommodation delivery in public–private partnerships: a case study of the Gauteng province.** P Mashinini. Thesis 2026 University of Johannesburg.
 
