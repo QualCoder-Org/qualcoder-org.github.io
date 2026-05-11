@@ -1,11 +1,14 @@
 # Resources
 ## Resources in English
 
+### QualCoder 3.8
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/v=dF-7kxr_G9c" title="QualCoder 3.8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+This also applies to QualCoder 3.8.2 the latest and recommended version in the 3.8 series.
+
 ### QualCoder 3.7
 
-I finally managed to get time to make a video showing the main functions of the 3.7 release.
-
-I hope to add a second video a bit later showing additional features with this version.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/TCLCT893JcM" title="QualCoder 3.7 part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
