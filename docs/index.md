@@ -61,4 +61,8 @@ If you like QualCoder a lot, or have developed a novel use for it, please write 
 It has taken many, many hours of work to create this software that is provided free to use. If you appreciate QualCoder please: [Buy me a coffee](https://www.buymeacoffee.com/ccbogelB)
 QualCoder is written in python using Qt6 for the graphical interface. QualCoder has been used on Windows 11, macOS and various Linux distros: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 
+## License
+
+QualCoder is licensed under the LGPL v3 license.
+
 
