@@ -12,7 +12,7 @@ This also applies to QualCoder 3.8.2 the latest and recommended version in the 3
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/TCLCT893JcM" title="QualCoder 3.7 part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-I added another video using QualCoder 3.7. In this video I do some coding with the artificial intelligence enabled. I also show some hidden menu options in Code Text (and this uncovered an error I have to fix later also). I also look at the ode relations report.
+I added another video using QualCoder 3.7. In this video I do some coding with the artificial intelligence enabled. I also show some hidden menu options in Code Text (and this uncovered an error I have to fix later also). I also look at the Code Relations report.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-HMtwHE4G5g" title="QualCoder 3.7 part 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
