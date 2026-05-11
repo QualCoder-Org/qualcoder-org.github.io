@@ -3,7 +3,7 @@
 
 ### QualCoder 3.8
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/v=dF-7kxr_G9c" title="QualCoder 3.8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dF-7kxr_G9c?si=VVRj6UYCRpcxK2bu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 This also applies to QualCoder 3.8.2 the latest and recommended version in the 3.8 series.
 
