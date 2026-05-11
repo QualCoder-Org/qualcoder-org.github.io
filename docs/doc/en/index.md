@@ -8,7 +8,7 @@ The instructions describe how to install and use QualCoder. The information here
 QualCoder is free, open source software for qualitative data analysis. 
 With QualCoder you can code text, images, audio and video, write journal notes and memos. You can organise codes in a tree-like categorisation scheme. Various reports can be generated. Most reports can be exported as html, open document text (ODT), plain text or Excel files.
 
-Since version 3.6, QualCoder includes a set of AI-assisted features that utilize GPT-4 or other Large Language Models to help explore, analyse, and interact with data in innovative ways. Familiarise yourself with new data by [exploring broad topics or concepts](https://qualcoder-org.github.io/doc/en/5.1.-AI-chat-based-analysis#topic-analysis-chat) in an interactive chat with the AI. Dive deeper into specific aspects with [AI-assisted coding](https://qualcoder-org.github.io/doc/en/4.2.-AI-Assisted-Coding) and [text analysis](https://qualcoder-org.github.io/doc/en/5.1.-AI-chat-based-analysis#text-analysis-chat). And if you reach the point where you must synthesize and consolidate your results, [discuss them in a code chat](https://qualcoder-org.github.io/doc/en/5.1.-AI-chat-based-analysis#code-analysis-chat) with the AI.
+Recent versions contain optional AI-assisted features that utilize GPT-4 or other Large Language Models to help explore, analyse, and interact with data in innovative ways. Familiarise yourself with new data by [exploring broad topics or concepts](https://qualcoder-org.github.io/doc/en/5.1.-AI-chat-based-analysis#topic-analysis-chat) in an interactive chat with the AI. Dive deeper into specific aspects with [AI-assisted coding](https://qualcoder-org.github.io/doc/en/4.2.-AI-Assisted-Coding) and [text analysis](https://qualcoder-org.github.io/doc/en/5.1.-AI-chat-based-analysis#text-analysis-chat). And if you reach the point where you must synthesize and consolidate your results, [discuss them in a code chat](https://qualcoder-org.github.io/doc/en/5.1.-AI-chat-based-analysis#code-analysis-chat) with the AI.
 
 QualCoder is designed to be used as client-based software to be used by one person at a time. (A second coder can use the same project on the same computer, or the project folder can be transferred to the second coder's computer). QualCoder is not designed to be multi-accessed at the same time. Accessing the project in a cloud location is not recommended, it may corrupt the database if a database connection is lost during any database updating processes. 
 
@@ -40,6 +40,11 @@ QualCoder is designed to be used as client-based software to be used by one pers
 The latest release is QualCoder 3.8.2. At the end of the page there are executables for Windows 11, macOS and Linux Ubuntu.
 
 [https://github.com/ccbogel/QualCoder/releases/tag/3.8.2](https://github.com/ccbogel/QualCoder/releases/tag/3.8.2)
+
+Please note that QualCoder is not signed with Microsoft nor with macOS so a warning will pop up on first use of the executable file (The reason is that is costs a subtantial amount of money on an ongoing basis). Click on more info and allow to run.
+
+<img width="525" height="479" alt="image" src="https://github.com/user-attachments/assets/12d00e05-3844-4b48-9dc9-ff657aa7382f" />
+
 
 ## Wiki in other languages
 
