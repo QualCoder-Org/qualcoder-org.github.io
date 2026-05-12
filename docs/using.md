@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+404 Ge, A., Abou-Haiba, N., Ali, H. et al. **A Street Medicine Elective in Fostering Compassion and Professional Identity Development in Medical Students: A Qualitative Study.** J GEN INTERN MED (2026). https://doi.org/10.1007/s11606-026-10476-6
+
 403 Johnie Rose et al. **Understanding the Needs and Challenges of Cancer Registry Stakeholders.** JCO Clin Cancer Inform 10, e2500168(2026). DOI:10.1200/CCI-25-00168
 
 402 Lepičnik Vodopivec, J., & Pugelj, Špela. (2026). **Digitalne kompetence učiteljev: osebni, profesionalni in kontekstualni dejavniki. (Digital competences of teachers: personal, professional and contextual factors)** Pedagoška Obzorja, 41(1), 147–160. <https://doi.org/10.55707/ds-po.v41i1.221>
