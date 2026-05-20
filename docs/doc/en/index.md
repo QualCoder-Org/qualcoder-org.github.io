@@ -47,7 +47,7 @@ The latest release is QualCoder 3.8.2. At the end of the page there are executab
 
 Please note that QualCoder executables are not signed with Microsoft nor with macOS so a warning will pop up on first use of the executable file (The reason is that is costs a subtantial amount of money on an ongoing basis). Click on more info and allow to run.
 
-<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/12d00e05-3844-4b48-9dc9-ff657aa7382f" />
+<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/12d00e05-3844-4b48-9dc9-ff657aa7382f" />
 
 ## Latest code - software under development
 
