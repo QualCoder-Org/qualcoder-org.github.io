@@ -35,7 +35,11 @@ Recent versions contain optional AI-assisted features that utilize GPT-4 or othe
 
 **QualCoder is a software option to support open science**. [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
 
-## Latest releases
+## Collaboration on a Qualcoder project
+
+[Page on how to work as a team with QualCoder](https://qualcoder-org.github.io/doc/en/2.4.-Working-in-a-Team)
+
+## Latest release
 
 The latest release is QualCoder 3.8.2. At the end of the page there are executables for Windows 11, macOS and Linux Ubuntu.
 
@@ -45,11 +49,11 @@ Please note that QualCoder is not signed with Microsoft nor with macOS so a warn
 
 <img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/12d00e05-3844-4b48-9dc9-ff657aa7382f" />
 
+## Latest code - software under development
 
-## Collaboration on a Qualcoder project
+Download with the green button, unzip and follow the install instrucitons in the README document.
 
-[Page on how to work as a team with QualCoder](https://qualcoder-org.github.io/doc/en/2.4.-Working-in-a-Team)
-
+[https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
 **If you use and like QualCoder please support the development.**
 
