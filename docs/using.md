@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+410 **Framing circularity in urban redevelopment processes: Industrial heritage reuse in Varvsstaden, Malmö.** Lord, Joakim. Thesis 2026 KTH Royal Institute of Technology.
+
 409 **Al-Aqsa Flood: Misstep or Grand Strategy? The Geopolitics of Non-state Actors in a Globally Unstable Paradigm.** Hani Anouti and Adrian López Fleming. Volume 13, Issue 2. Contemporary Review of the Middle East. <https://doi.org/10.1177/23477989251405562>
 
 408 Aikaterina Manoli, Janet V.T. Pauketat, Ali Ladak, Hayoun Noh, Angel Hsing-Chi Hwang, and Jacy Reese Anthis. 2026. **Digital Companionship: Overlapping Uses of AI Companions and AI Assistants.** In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26). Association for Computing Machinery, New York, NY, USA, Article 372, 1–25. <https://doi.org/10.1145/3772318.3791331>
