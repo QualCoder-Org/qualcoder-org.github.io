@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+411 Brähmer, Sören and Boettcher, Johanna and Iffland, Benjamin and Bertino, Martina and Driessen, Martin and Steuwe, Carolin, **Piloting a digital tool for self-monitoring in residential Dialectical Behavior Therapy for Borderline Personality Disorder: mixed-methods study.**  <http://dx.doi.org/10.2139/ssrn.6588986>
+
 410 **Framing circularity in urban redevelopment processes: Industrial heritage reuse in Varvsstaden, Malmö.** Lord, Joakim. Thesis 2026 KTH Royal Institute of Technology.
 
 409 **Al-Aqsa Flood: Misstep or Grand Strategy? The Geopolitics of Non-state Actors in a Globally Unstable Paradigm.** Hani Anouti and Adrian López Fleming. Volume 13, Issue 2. Contemporary Review of the Middle East. <https://doi.org/10.1177/23477989251405562>
