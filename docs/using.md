@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+412 Rana. (2026). **Trans pregnancies in India: decolonial, anti‑caste feminist frameworks and transformative horizons.** International Journal of Transgender Health, 1–18. https://doi.org/10.1080/26895269.2026.2658250
+
 411 Brähmer, Sören and Boettcher, Johanna and Iffland, Benjamin and Bertino, Martina and Driessen, Martin and Steuwe, Carolin, **Piloting a digital tool for self-monitoring in residential Dialectical Behavior Therapy for Borderline Personality Disorder: mixed-methods study.**  <http://dx.doi.org/10.2139/ssrn.6588986>
 
 410 **Framing circularity in urban redevelopment processes: Industrial heritage reuse in Varvsstaden, Malmö.** Lord, Joakim. Thesis 2026 KTH Royal Institute of Technology.
