@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+416 Pascal Haberkorn, Corinna Mack, and Manuel Giuliani. 2026. **Exploring the Potential of Dialogue-Based Robots to Motivate Social Connection in Older Adults.** In Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction (HRI Companion ’26), March 16–19, 2026, Edinburgh, Scotland, UK. ACM, New York, NY, USA, 5 pages. <https: //doi.org/10.1145/3776734.3794483>
+
 415 **Shared Experiences in Post-Rehabilitation COPD Care Management: A Qualitative Study From Patient and Care Manager Perspectives.** Espérance Moine, Mathis Brusseau, François Alexandre, Sophie Gendrault, Nelly Heraud. 05 May 2026 Health Expectations. <https://doi.org/10.1111/hex.70680>
 
 414 **Navigating the Educational Shift: An In-Depth Analysis of the Intersection of Male Enrollments and Program of Study.** K S Minnocci, Thesis. Fairfield University. 2026
