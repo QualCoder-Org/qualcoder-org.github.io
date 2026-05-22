@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+408 Aikaterina Manoli, Janet V.T. Pauketat, Ali Ladak, Hayoun Noh, Angel Hsing-Chi Hwang, and Jacy Reese Anthis. 2026. **Digital Companionship: Overlapping Uses of AI Companions and AI Assistants.** In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26). Association for Computing Machinery, New York, NY, USA, Article 372, 1–25. <https://doi.org/10.1145/3772318.3791331>
+
 407 **ANALYSIS OF VIETNAM AS PRODUCTION AND LOGISTICS HUB FOR THE GERMAN PREMIUM CAR MANUFACATURER AUDI AG.** Mads Bornstein. Thesis Universidade Nova de Lisboa 2026.
 
 406 **Worry, efficacy and complexity: how the public thinks about the issue salience of climate change.** Sam Crawley. Victoria University of Wellington. 2026. Preprint. DOI: 10.31235/osf.io/gr64x_v1
