@@ -1,2 +1,2 @@
-Website : https://qualcoder-org.github.io/
-Software : https://github.com/ccbogel/QualCoder
+- Website : https://qualcoder.org/
+- Software (source code) : https://github.com/ccbogel/QualCoder
