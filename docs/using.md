@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+414 **Navigating the Educational Shift: An In-Depth Analysis of the Intersection of Male Enrollments and Program of Study.** K S Minnocci, Thesis. Fairfield University. 2026
+
 413 Wijesundarage, Muditha. **Empowering Globally Competent Professionals through Virtual Work-Integrated Learning.** University of Prince Edward Island, 2026, <https://islandscholar.ca/islandora/object/18413>
 
 412 Rana. (2026). **Trans pregnancies in India: decolonial, anti‑caste feminist frameworks and transformative horizons.** International Journal of Transgender Health, 1–18. https://doi.org/10.1080/26895269.2026.2658250
