@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+407 **ANALYSIS OF VIETNAM AS PRODUCTION AND LOGISTICS HUB FOR THE GERMAN PREMIUM CAR MANUFACATURER AUDI AG.** Mads Bornstein. Thesis Universidade Nova de Lisboa 2026.
+
 406 **Worry, efficacy and complexity: how the public thinks about the issue salience of climate change.** Sam Crawley. Victoria University of Wellington. 2026. Preprint. DOI: 10.31235/osf.io/gr64x_v1
 
 405 Nasiri, Bibi Zainab. 2026. **Education Policy As a Recursive System of Gendered Power: Evidence from Post-2021 Educational Restrictions in Afghanistan.** Journal of Educational Research and Practice 4 (1). Tulungagung, Indonesia:128-43. <https://doi.org/10.70376/jerp.v4i1.436>
