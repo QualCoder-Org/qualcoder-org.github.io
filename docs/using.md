@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+415 **Shared Experiences in Post-Rehabilitation COPD Care Management: A Qualitative Study From Patient and Care Manager Perspectives.** Espérance Moine, Mathis Brusseau, François Alexandre, Sophie Gendrault, Nelly Heraud. 05 May 2026 Health Expectations. <https://doi.org/10.1111/hex.70680>
+
 414 **Navigating the Educational Shift: An In-Depth Analysis of the Intersection of Male Enrollments and Program of Study.** K S Minnocci, Thesis. Fairfield University. 2026
 
 413 Wijesundarage, Muditha. **Empowering Globally Competent Professionals through Virtual Work-Integrated Learning.** University of Prince Edward Island, 2026, <https://islandscholar.ca/islandora/object/18413>
