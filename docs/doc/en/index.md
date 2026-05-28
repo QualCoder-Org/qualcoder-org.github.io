@@ -55,6 +55,10 @@ Download with the green button, unzip and follow the install instrucitons in the
 
 [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
+There is also a code repository at Codeberg:
+
+[https://codeberg.org/qualcoder](https://codeberg.org/qualcoder)
+
 **If you use and like QualCoder please support the development.**
 
 <a href="https://www.buymeacoffee.com/ccbogelB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
