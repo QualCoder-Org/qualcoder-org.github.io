@@ -1,4 +1,4 @@
-# Sync repo to the Forgejo mirror
+# Sync repo to the Forgejo mirror 
 name: Repo sync (GitHub -> Forgejo)
 on:
   push:
