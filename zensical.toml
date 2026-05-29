@@ -153,7 +153,8 @@ features = [
   "navigation.path",
   "navigation.indexes",
   "toc.integrate",
-  "search.highlight"
+  "search.highlight",
+  "navigation.tabs"
  
 ]
 
