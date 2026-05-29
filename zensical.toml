@@ -134,7 +134,7 @@ nav = [
 				 "doc/es/7.6.-How-to-contribute.md"
 			  ]}
 		]}
-	],
+	]},
 	{"Resources" = "ressources.md"},
 	{"Studies using QualCoder" = "using.md"},
 	{"About Developers" = "about.md"},
