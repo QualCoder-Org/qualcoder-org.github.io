@@ -142,7 +142,7 @@ nav = [
 ]
 
 [project.theme]
-variant = "classic"
+variant = "modern" # classic = old them vs modern
 language = "en"
 logo = "images/logo.png"
 features = [
