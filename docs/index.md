@@ -30,8 +30,9 @@ The most current QualCoder software is available from <https://github.com/ccboge
 
 **QualCoder can be modified**. You can modify and adapt QualCoder to your needs, as long as you release your changes for everyone. This also means you can copy the software and give it to your colleagues or students free of charge.
 
-Note: There is an ongoing problem with audio/video coding on Linux Fedora -- the software crashes.
-
+!!! note "Prerequisites"
+    There is an ongoing problem with audio/video coding on Linux Fedora -- the software crashes.
+    
 ## Current release
 
 The [latest release of QualCoder (3.8.2) available on GitHub](https://github.com/ccbogel/QualCoder/releases/latest).
