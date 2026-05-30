@@ -10,19 +10,18 @@ QualCoder is designed to be used as client-based software to be used by one pers
 
 The most current QualCoder software is available from <https://github.com/ccbogel/QualCoder>. Software releases are available from: <https://github.com/ccbogel/QualCoder/releases> These contain source code and executables. The executables are an easy way to run QualCoder, double click to run, just be aware that it can take up to 20 seconds to open.
 
-## Why use QualCoder?
-!!! note ""
-    **Qualcoder is free of charge**. Many qualitative analysis software requiring expensive one-time fees or monthly subscriptions.
-    **QualCoder is easy to use**. It has all you need to perform qualitative analysis without the complicated interfaces of some alternatives
-    **QualCoder works offline**. Internet is not always available and QualCoder does not require internet to work.
-    **QualCoder is not tied to a computer**. If you change workplace you do not have to worry about being tied to your former workplace's license or to buy a new license. QualCoder license allows you to use the software regardless of where you work or on what computer it is installed on.
-    **QualCoder is multi-platform**. It runs on Linux, Windows and macOS, this means that you do not have to worry if you change operating systems, and it also means you can collaborate with colleagues on different platforms. See Note.
-    **QualCoder relies on the community**. If you find an error or have a feature request or feedback, write about it on [QualCoder's page on github](https://github.com/ccbogel/QualCoder).
-    **QualCoder is always improving**. QualCoder is actively developed meaning that newer, improved versions are being released.
-    **QualCoder supports open standards**. QualCoder aims to support the [REFI-QDA Standard](https://www.qdasoftware.org/), you may exchange codebooks and projects with your colleagues even if they do not use QualCoder, as long as the software they use supports the REFI-QDA Standard. It means that you do not risk your data being unavailable. REFI-QDA Project is not guaranteed 100% compliant yet. Further testing particularly for audio and video exports and imports and relatively-linked files is needed.
-    **QualCoder can be modified**. You can modify and adapt QualCoder to your needs, as long as you release your changes for everyone. This also means you can copy the software and give it to your colleagues or students free of charge.
+!!! note "Why use QualCoder?"
+    - **Qualcoder is free of charge**. Many qualitative analysis software requiring expensive one-time fees or monthly subscriptions.
+    - **QualCoder is easy to use**. It has all you need to perform qualitative analysis without the complicated interfaces of some alternatives
+    - **QualCoder works offline**. Internet is not always available and QualCoder does not require internet to work.
+    - **QualCoder is not tied to a computer**. If you change workplace you do not have to worry about being tied to your former workplace's license or to buy a new license. QualCoder license allows you to use the software regardless of where you work or on what computer it is installed on.
+    - **QualCoder is multi-platform**. It runs on Linux, Windows and macOS, this means that you do not have to worry if you change operating systems, and it also means you can collaborate with colleagues on different platforms. See Note.
+    - **QualCoder relies on the community**. If you find an error or have a feature request or feedback, write about it on [QualCoder's page on github](https://github.com/ccbogel/QualCoder).
+    - **QualCoder is always improving**. QualCoder is actively developed meaning that newer, improved versions are being released.
+    - **QualCoder supports open standards**. QualCoder aims to support the [REFI-QDA Standard](https://www.qdasoftware.org/), you may exchange codebooks and projects with your colleagues even if they do not use QualCoder, as long as the software they use supports the REFI-QDA Standard. It means that you do not risk your data being unavailable. REFI-QDA Project is not guaranteed 100% compliant yet. Further testing particularly for audio and video exports and imports and relatively-linked files is needed.
+    - **QualCoder can be modified**. You can modify and adapt QualCoder to your needs, as long as you release your changes for everyone. This also means you can copy the software and give it to your colleagues or students free of charge.
 
-!!! note "Prerequisites"
+!!! warning "Prerequisites"
     There is an ongoing problem with audio/video coding on Linux Fedora -- the software crashes.
     
 ## Current release
