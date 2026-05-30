@@ -12,28 +12,17 @@ Recent versions contain optional AI-assisted features that utilize GPT-4 or othe
 
 **QualCoder is designed to be used as client-based software to be used by one person at a time. (A second coder can use the same project on the same computer, or the project folder can be transferred to the second coder's computer). QualCoder is not designed to be multi-accessed at the same time. Accessing the project in a cloud location is not recommended, it may corrupt the database if a database connection is lost during any database updating processes.**
 
-## Why use QualCoder?
-**Qualcoder is free of charge.** Many qualitative analysis software requiring expensive fees or monthly subscriptions.
-
-**QualCoder is easy to use.** It has all you need to perform qualitative analysis without the complicated interfaces of some alternatives.
-
-**QualCoder works offline.** Internet is not always available and QualCoder does not require internet to work.
-
-**QualCoder is not tied to a computer.** If you change workplace you do not have to worry about being tied to your former workplace’s license or to buy a new license. QualCoder license allows you to use the software regardless of where you work or on what computer it is installed on.
-
-**QualCoder is multi-platform.** It runs on Linux, Windows and MacOS, this means that you do not have to worry if you change operating systems, and it also means you can collaborate with colleagues on different platforms.
-
-**QualCoder uses AI transparently.** Unlike most commercial software, QualCoder allows you to see and even modify the underlying prompts of its AI features. You can also choose between different AI models or integrate your own. This gives methodological control back to us as researchers and makes QualCoder an ideal platform to experiment with new forms of AI-assisted qualitative data analysis. And yes—you can also disable the AI features completely if you choose not to use them.
-
-**QualCoder relies on the community.** If you find a bug or have a feature request or feedback, post it on QualCoder’s page on github https://github.com/ccbogel/QualCoder.
-
-**QualCoder is always improving.** QualCoder is actively developed meaning that newer versions are released with functionality improvements and error fixes.
-
-**QualCoder supports open standards.** QualCoder aims to support the REFI-QDA Standard, see https://www.qdasoftware.org/ You may exchange codebooks and projects with your colleagues even if they do not use QualCoder, as long as the software they use supports the REFI-QDA Standard. It means that you do not risk your data being unavailable. The REFI-QDA Project export/import is still somewhat experimental and not guaranteed to work.
-
-**QualCoder can be modified.** You can modify and adapt QualCoder to your needs, as long as you release your changes to everyone. This also means you can copy the software and give it to your colleagues or students free of charge. It is released from 3.6 and up under the LGPL v3 license.
-
-**QualCoder is a software option to support open science**. [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
+!!! note "Why use QualCoder?"
+    - **Qualcoder is free of charge**. Many qualitative analysis software requiring expensive one-time fees or monthly subscriptions.
+    - **QualCoder is easy to use**. It has all you need to perform qualitative analysis without the complicated interfaces of some alternatives
+    - **QualCoder works offline**. Internet is not always available and QualCoder does not require internet to work.
+    - **QualCoder is not tied to a computer**. If you change workplace you do not have to worry about being tied to your former workplace's license or to buy a new license. QualCoder license allows you to use the software regardless of where you work or on what computer it is installed on.
+    - **QualCoder is multi-platform**. It runs on Linux, Windows and macOS, this means that you do not have to worry if you change operating systems, and it also means you can collaborate with colleagues on different platforms. See Note.
+    - **QualCoder relies on the community**. If you find an error or have a feature request or feedback, write about it on [QualCoder's page on github](https://github.com/ccbogel/QualCoder).
+    - **QualCoder is always improving**. QualCoder is actively developed meaning that newer, improved versions are being released.
+    - **QualCoder supports open standards**. QualCoder aims to support the [REFI-QDA Standard](https://www.qdasoftware.org/), you may exchange codebooks and projects with your colleagues even if they do not use QualCoder, as long as the software they use supports the REFI-QDA Standard. It means that you do not risk your data being unavailable. REFI-QDA Project is not guaranteed 100% compliant yet. Further testing particularly for audio and video exports and imports and relatively-linked files is needed.
+    - **QualCoder can be modified**. You can modify and adapt QualCoder to your needs, as long as you release your changes for everyone. This also means you can copy the software and give it to your colleagues or students free of charge.
+    - **QualCoder is a software option to support open science**. [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
 
 ## Collaboration on a Qualcoder project
 
@@ -43,21 +32,17 @@ Recent versions contain optional AI-assisted features that utilize GPT-4 or othe
 
 The latest release is QualCoder 3.8.2. At the end of the page there are executables for Windows 11, macOS and Linux Ubuntu.
 
-[https://github.com/ccbogel/QualCoder/releases/tag/3.8.2](https://github.com/ccbogel/QualCoder/releases/tag/3.8.2)
+[:octicons-archive-24: Download latest version available on GitHub](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
 
-Please note that QualCoder executables are not signed with Microsoft nor with macOS so a warning will pop up on first use of the executable file (The reason is that is costs a subtantial amount of money on an ongoing basis). Click on more info and allow to run.
-
-<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/12d00e05-3844-4b48-9dc9-ff657aa7382f" />
+!!! info
+    Please note that QualCoder executables are not signed with Microsoft nor with macOS so a warning will pop up on first use of the executable file (The reason is that is costs a subtantial amount of money on an ongoing basis). Click on more info and allow to run.
+    <img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/12d00e05-3844-4b48-9dc9-ff657aa7382f" />
 
 ## Latest code - software under development
 
-Download with the green button, unzip and follow the install instrucitons in the README document.
+[Download the development version](https://github.com/ccbogel/QualCoder/archive/refs/heads/master.zip), unzip and follow the install instructions in the README document.
 
-[https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
-
-There is also a code repository at Codeberg:
-
-[https://codeberg.org/qualcoder](https://codeberg.org/qualcoder)
+There is also a code repository at [Codeberg](https://codeberg.org/qualcoder).
 
 **If you use and like QualCoder please support the development.**
 
