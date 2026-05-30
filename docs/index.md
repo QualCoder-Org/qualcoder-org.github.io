@@ -40,7 +40,10 @@ If you like QualCoder and found it useful for your work. Please leave a review o
 
 If you like QualCoder a lot, or have developed a novel use for it, please write an article about QualCoder.
 
-It has taken many, many hours of work to create this software that is provided free to use. If you appreciate QualCoder please: [Buy me a coffee](https://www.buymeacoffee.com/ccbogelB)
+It has taken many, many hours of work to create this software that is provided free to use.**If you use and like QualCoder please support the development.**
+
+<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 QualCoder is written in python using Qt6 for the graphical interface. QualCoder has been used on Windows 11, macOS and various Linux distros: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 
 ## License
