@@ -44,8 +44,6 @@ nav = [
 				 "doc/en/6.2.-AI-Prompt-Library.md"
 			  ]},
 			{"Other Information" = [
-				 "doc/en/7.1.-About-The-Developers.md",
-				 "doc/en/7.2.-QualCoder-Video-Tutorials.md",
 				 "doc/en/7.3.-QualCoder-Development.md",
 				 "doc/en/7.4.-SQlite-Data-Structure.md",
 				 "doc/en/7.5.-AI-Technical-Information.md",
@@ -85,8 +83,6 @@ nav = [
 				 "doc/fr/6.2.-AI-Prompt-Library.md"
 			  ]},
 			{"Autres informations" = [
-				 "doc/fr/7.1.-About-The-Developers.md",
-				 "doc/fr/7.2.-QualCoder-Video-Tutorials.md",
 				 "doc/fr/7.3.-QualCoder-Development.md",
 				 "doc/fr/7.4.-SQlite-Data-Structure.md",
 				 "doc/fr/7.5.-AI-Technical-Information.md",
@@ -126,8 +122,6 @@ nav = [
 				 "doc/es/6.2.-AI-Prompt-Library.md"
 			  ]},
 			{"Otra información" = [
-				 "doc/es/7.1.-About-The-Developers.md",
-				 "doc/es/7.2.-QualCoder-Video-Tutorials.md",
 				 "doc/es/7.3.-QualCoder-Development.md",
 				 "doc/es/7.4.-SQlite-Data-Structure.md",
 				 "doc/es/7.5.-AI-Technical-Information.md",
@@ -136,6 +130,7 @@ nav = [
 		]}
 	]},
 	{"Resources" = "ressources.md"},
+	{"Videos on QualCoder" = "videos.md"},
 	{"Studies using QualCoder" = "using.md"},
 	{"About Developers" = "about.md"},
 	{"Forum" = "https://github.com/ccbogel/QualCoder/discussions"}
