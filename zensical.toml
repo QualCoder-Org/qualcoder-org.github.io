@@ -10,7 +10,7 @@ edit_uri = "edit/main/docs/"
 nav = [
 	{"Home" = "index.md"},
 	{"Blog" = "https://qualcoder.wordpress.com/"},
-	{"English Documentation" = [
+	{"en" = [
 		"en/index.md",
 		"en/doc/1.-Overview.md",
 		"en/doc/2.1.-Installation.md",
@@ -39,7 +39,7 @@ nav = [
 		"en/doc/7.6.-How-to-contribute.md"						
 		
 	]},
-	{"Documentation en français" = [
+	{"fr" = [
 		"fr/index.md",
 		"fr/doc/1.-Overview.md",
 		"fr/doc/2.1.-Installation.md",
@@ -68,7 +68,7 @@ nav = [
 		"fr/doc/7.6.-How-to-contribute.md"						
 		
 	]},
-	{"Documentación en español" = [
+	{"es" = [
 		"es/index.md",
 		"es/doc/1.-Overview.md",
 		"es/doc/2.1.-Installation.md",
