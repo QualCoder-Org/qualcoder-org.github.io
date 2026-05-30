@@ -10,9 +10,8 @@ QualCoder est un logiciel gratuit et open source d'analyse de données qualitati
 
 Depuis la version 3.6, QualCoder inclut un ensemble de fonctionnalités assistées par IA utilisant GPT-4 ou d'autres grands modèles de langage pour explorer, analyser et interagir avec les données de manière innovante. Familiarisez-vous avec de nouvelles données en [explorant des sujets ou concepts larges](https://qualcoder-fr.frama.io/5.1.-AI-chat-based-analysis#topic-analysis-chat) via un chat interactif avec l'IA. Approfondissez des aspects spécifiques grâce au [codage assisté par IA](https://qualcoder-fr.frama.io/4.3.-AI-Assisted-Coding) et à [l'analyse de texte](https://qualcoder-fr.frama.io/5.1.-AI-chat-based-analysis#text-analysis-chat). Et si vous en arrivez au point où vous devez synthétiser et consolider vos résultats, [discutez-en dans un chat de codage](https://qualcoder-fr.frama.io/5.1.-AI-chat-based-analysis#code-analysis-chat) avec l'IA.
 
-QualCoder est conçu pour être utilisé comme un logiciel client, par une seule personne à la fois (un deuxième codeur peut utiliser le même projet sur le même ordinateur, ou le dossier du projet peut être transféré sur l'ordinateur du deuxième codeur). QualCoder n'est pas conçu pour être utilisé simultanément par plusieurs personnes. L'accès au projet dans un espace cloud n'est pas recommandé, car cela peut corrompre la base de données si la connexion est perdue pendant une mise à jour de la base.
-
-Il existe un [wordpress](https://qualcoder.wordpress.com) consacré à QualCoder et [ici](https://qualcoder-org.github.io).
+!!! note
+        QualCoder est conçu pour être utilisé comme un logiciel client, par une seule personne à la fois (un deuxième codeur peut utiliser le même projet sur le même ordinateur, ou le dossier du projet peut être transféré sur l'ordinateur du deuxième codeur). QualCoder n'est pas conçu pour être utilisé simultanément par plusieurs personnes. L'accès au projet dans un espace cloud n'est pas recommandé, car cela peut corrompre la base de données si la connexion est perdue pendant une mise à jour de la base.
 
 !!! note "Pourquoi utiliser QualCoder ?"
     - **QualCoder est gratuit.** De nombreux logiciels d'analyse qualitative nécessitent des frais onéreux ou des abonnements mensuels. Tout le monde ne peut pas se permettre ces coûts.
