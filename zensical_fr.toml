@@ -1,0 +1,102 @@
+[project]
+site_name = "QualCoder"
+site_url = "https://qualcoder.org"
+site_description = "Site officiel de QualCoder"
+site_author = "QualCoder Teams"
+docs_dir = "docs"
+repo_url = "https://github.com/QualCoder-Org/qualcoder-org.github.io"
+repo_name = "QualCoder-Org/qualcoder-org.github.io"
+edit_uri = "edit/main/docs/"
+
+nav = [
+	{"Accueil" = "index.md"},
+	{"Blog" = "https://qualcoder.wordpress.com/"},
+	{"Documentation" = [
+		{"Aperçu" = "doc/fr/index.md"},
+		{"Installation et configuration" = [
+			 "doc/fr/2.1.-Installation.md",
+			 "doc/fr/2.2.-Settings.md",
+			 "doc/fr/2.3.-AI-Setup.md",
+			 "doc/fr/2.4.-Working-in-a-Team.md"
+		  ]},
+		  {"Gestion des données" = [
+			 "doc/fr/3.1.-Creating-a-New-Project.md",
+			 "doc/fr/3.2.-Files.md",
+			 "doc/fr/3.3.-Cases.md",
+			 "doc/fr/3.4.-Attributes.md"
+		  ]},
+		  {"Codage" = [
+			 "doc/fr/4.1.-Coding-Text.md",
+			 "doc/fr/4.2.-AI-Assisted-Coding.md",
+			 "doc/fr/4.3.-Coding-Text-on-PDFs.md",
+			 "doc/fr/4.4.-Coding-Images.md",
+			 "doc/fr/4.5.-Coding-Audio-and-Video.md",
+			 "doc/fr/4.6-Code-Organiser.md"
+		  ]},
+		  {"Analyser les résultats" = [
+			 "doc/fr/5.1.-AI-chat-based-analysis.md",
+			 "doc/fr/5.2.-Journals.md",
+			 "doc/fr/5.3.-Reports.md",
+			 "doc/fr/5.4.-Graph.md"
+		  ]},
+		  {"Options avancées" = [
+			 "doc/fr/6.1.-Imports-and-Exports.md",
+			 "doc/fr/6.2.-AI-Prompt-Library.md"
+		  ]},
+		{"Autres informations" = [
+			 "doc/fr/7.3.-QualCoder-Development.md",
+			 "doc/fr/7.4.-SQlite-Data-Structure.md",
+			 "doc/fr/7.5.-AI-Technical-Information.md",
+			 "doc/fr/7.6.-How-to-contribute.md"
+		  ]}
+		]},
+	{"Ressources" = "ressources.md"},
+	{"Videos Sur QualCoder" = "videos.md"},
+	{"Études portant sur QualCoder" = "using.md"},
+	{"Les développeurs" = "about.md"},
+	{"Forum" = "https://github.com/ccbogel/QualCoder/discussions"}
+]
+
+[project.theme]
+variant = "modern" # classic = old them vs modern
+language = "en"
+logo = "images/logo.png"
+features = [
+  "content.action.edit", # Edit this page
+  "content.action.view",  # View source of this page
+  "navigation.sections",
+  "navigation.expand",
+  "navigation.path",
+  "navigation.indexes",
+  "toc.integrate",
+  "search.highlight",
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.footer"
+ 
+]
+
+[[project.theme.palette]]
+scheme = "deep purple"
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.extra]
+alternate = [
+    { name = "English", link = "/en/", lang = "en" },
+    { name = "Español", link = "/es/", lang = "es" },
+    { name = "Français", link = "/fr/", lang = "fr" }
+]
