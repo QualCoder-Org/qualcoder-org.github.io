@@ -1,3 +1,6 @@
+---
+path: index
+---
 # What is QualCoder
 
 QualCoder is free, open source desktop software for qualitative data analysis.
