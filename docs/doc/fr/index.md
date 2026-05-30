@@ -1,7 +1,8 @@
 ---
 path: index
 ---
-**ATTENTION : La traduction est en cours, une pré-traduction a été fait avec Deepl. Un travail de relecture est en cours**
+!!! warning
+        La traduction est en cours, une pré-traduction a été fait avec Deepl. Un travail de relecture est en cours
 
 Les instructions décrivent comment installer et utiliser QualCoder. Les informations font références à la version la plus récente de QualCoder.
 
@@ -33,7 +34,7 @@ Depuis la version 3.6, QualCoder inclut un ensemble de fonctionnalités assisté
 ## Dernière version
 La dernière version est QualCoder 3.8.2. Vous retrouverez en bas de la page les exécutables pour Windows 11, MacOS et Linux Ubuntu.
 
-[:octicons-archive-24: Download latest version available on GitHub](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
+[:octicons-archive-24: Télécharger la dernière version disponible sur GitHub](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
 
 !!! info
     Veuillez noter que les fichiers exécutables QualCoder ne sont signés ni par Microsoft ni par macOS ; un message d'avertissement s'affichera donc lors de la première utilisation du fichier exécutable (cette procédure implique en effet des coûts financiers importants sur le long terme). Cliquez sur « Plus d'informations » et autorisez l'exécution.
