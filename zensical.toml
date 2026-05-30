@@ -10,7 +10,125 @@ edit_uri = "edit/main/docs/"
 nav = [
 	{"Home" = "index.md"},
 	{"Blog" = "https://qualcoder.wordpress.com/"},
-	{Documentation" = "doc/"},
+	{"Documentation" = [
+		{"English Documentation" = [
+			{"Overview" = "en/doc/1.-Overview.md"},
+			{"Setup" = [
+				 "en/doc/2.1.-Installation.md",
+				 "en/doc/2.2.-Settings.md",
+				 "en/doc/2.3.-AI-Setup.md",
+				 "en/doc/2.4.-Working-in-a-Team.md"
+			  ]},
+			  {"Managing Data" = [
+				 "en/doc/3.1.-Creating-a-New-Project.md",
+				 "en/doc/3.2.-Files.md",
+				 "en/doc/3.3.-Cases.md",
+				 "en/doc/3.4.-Attributes.md"
+			  ]},
+			  {"Coding" = [
+				 "en/doc/4.1.-Coding-Text.md",
+				 "en/doc/4.2.-AI-Assisted-Coding.md",
+				 "en/doc/4.3.-Coding-Text-on-PDFs.md",
+				 "en/doc/4.4.-Coding-Images.md",
+				 "en/doc/4.5.-Coding-Audio-and-Video.md",
+				 "en/doc/4.6-Code-Organiser.md"
+			  ]},
+			  {"Analyzing the Results" = [
+				 "en/doc/5.1.-AI-chat-based-analysis.md",
+				 "en/doc/5.2.-Journals.md",
+				 "en/doc/5.3.-Reports.md",
+				 "en/doc/5.4.-Graph.md"
+			  ]},
+			  {"Advanced Options" = [
+				 "en/doc/6.1.-Imports-and-Exports.md",
+				 "en/doc/6.2.-AI-Prompt-Library.md"
+			  ]},
+			{"Other Information" = [
+				 "en/doc/7.3.-QualCoder-Development.md",
+				 "en/doc/7.4.-SQlite-Data-Structure.md",
+				 "en/doc/7.5.-AI-Technical-Information.md",
+				 "en/doc/7.6.-How-to-contribute.md"
+			  ]}
+		]},
+		{"Documentation en français" = [
+			{"Aperçu" = "fr/doc/1.-Overview.md"},
+			{"Installation et configuration" = [
+				 "fr/doc/2.1.-Installation.md",
+				 "fr/doc/2.2.-Settings.md",
+				 "fr/doc/2.3.-AI-Setup.md",
+				 "fr/doc/2.4.-Working-in-a-Team.md"
+			  ]},
+			  {"Gestion des données" = [
+				 "fr/doc/3.1.-Creating-a-New-Project.md",
+				 "fr/doc/3.2.-Files.md",
+				 "fr/doc/3.3.-Cases.md",
+				 "fr/doc/3.4.-Attributes.md"
+			  ]},
+			  {"Codage" = [
+				 "fr/doc/4.1.-Coding-Text.md",
+				 "fr/doc/4.2.-AI-Assisted-Coding.md",
+				 "fr/doc/4.3.-Coding-Text-on-PDFs.md",
+				 "fr/doc/4.4.-Coding-Images.md",
+				 "fr/doc/4.5.-Coding-Audio-and-Video.md",
+				 "fr/doc/4.6-Code-Organiser.md"
+			  ]},
+			  {"Analyser les résultats" = [
+				 "fr/doc/5.1.-AI-chat-based-analysis.md",
+				 "fr/doc/5.2.-Journals.md",
+				 "fr/doc/5.3.-Reports.md",
+				 "fr/doc/5.4.-Graph.md"
+			  ]},
+			  {"Options avancées" = [
+				 "fr/doc/6.1.-Imports-and-Exports.md",
+				 "fr/doc/6.2.-AI-Prompt-Library.md"
+			  ]},
+			{"Autres informations" = [
+				 "fr/doc/7.3.-QualCoder-Development.md",
+				 "fr/doc/7.4.-SQlite-Data-Structure.md",
+				 "fr/doc/7.5.-AI-Technical-Information.md",
+				 "fr/doc/7.6.-How-to-contribute.md"
+			  ]}
+		]},
+			{"Documentación en español" = [
+			{"Resumen" = "es/doc/1.-Overview.md"},
+			{"Configuración" = [
+				 "es/doc/2.1.-Installation.md",
+				 "es/doc/2.2.-Settings.md",
+				 "es/doc/2.3.-AI-Setup.md",
+				 "es/doc/2.4.-Working-in-a-Team.md"
+			  ]},
+			  {"Gestión de datos" = [
+				 "es/doc/3.1.-Creating-a-New-Project.md",
+				 "es/doc/3.2.-Files.md",
+				 "es/doc/3.3.-Cases.md",
+				 "es/doc/3.4.-Attributes.md"
+			  ]},
+			  {"Codificación" = [
+				 "es/doc/4.1.-Coding-Text.md",
+				 "es/doc/4.2.-AI-Assisted-Coding.md",
+				 "es/doc/4.3.-Coding-Text-on-PDFs.md",
+				 "es/doc/4.4.-Coding-Images.md",
+				 "es/doc/4.5.-Coding-Audio-and-Video.md",
+				 "es/doc/4.6-Code-Organiser.md"
+			  ]},
+			  {"Análisis de los resultados" = [
+				 "es/doc/5.1.-AI-chat-based-analysis.md",
+				 "es/doc/5.2.-Journals.md",
+				 "es/doc/5.3.-Reports.md",
+				 "es/doc/5.4.-Graph.md"
+			  ]},
+			  {"Opciones avanzadas" = [
+				 "es/doc/6.1.-Imports-and-Exports.md",
+				 "es/doc/6.2.-AI-Prompt-Library.md"
+			  ]},
+			{"Otra información" = [
+				 "es/doc/7.3.-QualCoder-Development.md",
+				 "es/doc/7.4.-SQlite-Data-Structure.md",
+				 "es/doc/7.5.-AI-Technical-Information.md",
+				 "es/doc/7.6.-How-to-contribute.md"
+			  ]}
+		]}
+	]},
 	{"Resources" = "ressources.md"},
 	{"Videos on QualCoder" = "videos.md"},
 	{"Studies using QualCoder" = "using.md"},
