@@ -2,7 +2,7 @@
 
 ## Official documentation
 
-- [Documentation in english](/en)
+- [Documentation in english](en)
 
 ## Communauty translation
 
