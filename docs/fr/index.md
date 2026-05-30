@@ -1,3 +1,6 @@
+---
+path: index
+---
 # QualCoder
 
 QualCoder est un logiciel de bureau gratuit et open source destiné à l'analyse de données qualitatives.
