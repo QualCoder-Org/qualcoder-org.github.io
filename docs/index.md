@@ -35,7 +35,7 @@ The most current QualCoder software is available from <https://github.com/ccboge
     
 ## Current release
 
-[:fontawesome-box-open: latest release of QualCoder (3.8.2) available on GitHub](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
+[:octicons-archive-24: latest release of QualCoder (3.8.2) available on GitHub](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
 
 [:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 Installer](https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_Win_setup.exe){ .md-button .md-button--primary }
 
