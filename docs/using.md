@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+418 **The Supreme Court and Climate Law: A Qualitative Analysis.** Tanner Blackington. Thesis 2026. University of San Diego
+
 417 **Students’ Narratives of Biology : Exploring How Students’ Stories Shape Decisions to Continue Studying Biology in a Finnish University.** Ihiekonye, Raphael. Thesis Åbo Akademi University  2026.
 
 416 Pascal Haberkorn, Corinna Mack, and Manuel Giuliani. 2026. **Exploring the Potential of Dialogue-Based Robots to Motivate Social Connection in Older Adults.** In Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction (HRI Companion ’26), March 16–19, 2026, Edinburgh, Scotland, UK. ACM, New York, NY, USA, 5 pages. <https: //doi.org/10.1145/3776734.3794483>
