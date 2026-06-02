@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+419 Lepičnik Vodopivec, J., & Pugelj, Špela. (2026). **Digitalne kompetence učiteljev: osebni, profesionalni in kontekstualni dejavniki. (Digital competences of teachers: personal, professional and contextual factors)** Pedagoška Obzorja, 41(1), 147–160. https://doi.org/10.55707/ds-po.v41i1.221
+
 418 **The Supreme Court and Climate Law: A Qualitative Analysis.** Tanner Blackington. Thesis 2026. University of San Diego
 
 417 **Students’ Narratives of Biology : Exploring How Students’ Stories Shape Decisions to Continue Studying Biology in a Finnish University.** Ihiekonye, Raphael. Thesis Åbo Akademi University  2026.
