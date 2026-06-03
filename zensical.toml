@@ -144,6 +144,7 @@ features = [
   "navigation.indexes",
   "toc.integrate",
   "search.highlight",
+  "navigation.tabs",
   "navigation.footer"
 ]
 
