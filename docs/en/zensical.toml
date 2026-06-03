@@ -1,0 +1,30 @@
+[project]
+{" " = [
+	"en/index.md",
+	"en/1.-Overview.md",
+	"en/2.1.-Installation.md",
+	"en/2.2.-Settings.md",
+	"en/2.3.-AI-Setup.md",
+	"en/2.4.-Working-in-a-Team.md",
+	"en/3.1.-Creating-a-New-Project.md",
+	"en/3.2.-Files.md",
+	"en/3.3.-Cases.md",
+	"en/3.4.-Attributes.md",
+	"en/4.1.-Coding-Text.md",
+	"en/4.2.-AI-Assisted-Coding.md",
+	"en/4.3.-Coding-Text-on-PDFs.md",
+	"en/4.4.-Coding-Images.md",
+	"en/4.5.-Coding-Audio-and-Video.md",
+	"en/4.6-Code-Organiser.md",
+	"en/5.1.-AI-chat-based-analysis.md",
+	"en/5.2.-Journals.md",
+	"en/5.3.-Reports.md",
+	"en/5.4.-Graph.md",
+	"en/6.1.-Imports-and-Exports.md",
+	"en/6.2.-AI-Prompt-Library.md",
+	"en/7.3.-QualCoder-Development.md",
+	"en/7.4.-SQlite-Data-Structure.md",
+	"en/7.5.-AI-Technical-Information.md",
+	"en/7.6.-How-to-contribute.md"						
+			
+]}
