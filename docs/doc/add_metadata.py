@@ -4,6 +4,8 @@ import os
 en_dir = "en"
 fr_dir = "fr"
 es_dir = "es"
+de_dir = "de"
+
 def add_path_metadata(directory, lang):
     """Ajoute le bloc `path` en haut des fichiers Markdown."""
     for root, _, files in os.walk(directory):
