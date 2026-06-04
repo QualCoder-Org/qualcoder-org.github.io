@@ -3,19 +3,32 @@
 <head>
   <title>Redirection...</title>
   <script>
-       const pathname = window.location.pathname;
+    const pathname = window.location.pathname;
 
-    // Vérifie si l'URL commence par "/doc/" suivi d'une langue (ex: /doc/fr, /doc/fr/SLUG, /doc/en, etc.)
+    // 1. Redirections pour /doc/LANG/ ou /doc/LANG/SLUG
     const docMatch = pathname.match(/^\/doc\/([a-z]{2})(\/.*)?$/);
-
     if (docMatch) {
       const lang = docMatch[1];
-      const slug = docMatch[2] || ''; // Si pas de slug, slug = chaîne vide
+      const slug = docMatch[2] || '';
       window.location.href = `/${lang}${slug}`;
-    } else {
-      // Si ce n'est pas une URL à rediriger, affiche une vraie page 404
-      document.write("Page non trouvée.");
+      exit;
     }
+
+    // 2. Redirections pour les liens de téléchargement
+    const downloadRedirects = {
+      '/latest-linux': 'https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_ubuntu',
+      '/latest-mac': 'https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_macOs_arm64.dmg',
+      '/latest-windows': 'https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_Win_setup.exe',
+      '/latest-windows-portable': 'https://github.com/ccbogel/QualCoder/releases/download/3.8.2/QualCoder_3_8_2_Win_Portable.exe'
+    };
+
+    if (pathname in downloadRedirects) {
+      window.location.href = downloadRedirects[pathname];
+      exit;
+    }
+
+    // 3. Si aucune redirection ne correspond, affiche une page 404
+    document.write("Page non trouvée.");
   </script>
 </head>
 <body>
