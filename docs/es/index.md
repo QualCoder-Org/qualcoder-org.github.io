@@ -24,7 +24,7 @@ QualCoder includes a set of AI-assisted features that utilise Large Language Mod
 ## Current release
 Software releases are available from [Github](https://github.com/ccbogel/QualCoder/releases). These contain source code and executables. The executables are an easy way to run QualCoder, double click to run, just be aware that it can take up to 20 seconds to open.
 
-[:octicons-archive-24: latest release of QualCoder (3.8.2) available on GitHub](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
+[:octicons-archive-24: latest release of QualCoder (3.8.2) available on GitHub](/latest){ .md-button .md-button--primary }
 
 [:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 Installer](/latest-windows){ .md-button .md-button--primary }
 
