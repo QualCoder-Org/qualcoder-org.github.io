@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirection...</title>
+  <script>
+    const pathname = window.location.pathname;
+
+    // Vérifie si l'URL commence par "/doc/" suivi d'une langue (ex: /doc/fr/, /doc/en/, etc.)
+    const docMatch = pathname.match(/^\/doc\/([a-z]{2})\/(.+)/);
+
+    if (docMatch) {
+      // docMatch[1] = langue (ex: "fr", "en")
+      // docMatch[2] = slug (tout ce qui suit la langue)
+      const lang = docMatch[1];
+      const slug = docMatch[2];
+      window.location.href = `/${lang}/${slug}`;
+    } else {
+      // Si ce n'est pas une URL à rediriger, affiche une vraie page 404
+      document.write("Page non trouvée.");
+    }
+  </script>
+</head>
+<body>
+  <p>Redirection en cours...</p>
+</body>
+</html>
