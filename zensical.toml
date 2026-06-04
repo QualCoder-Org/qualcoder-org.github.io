@@ -167,11 +167,4 @@ scheme = "slate"
 toggle.icon = "lucidoc/de/moon"
 toggle.name = "Switch to system preference"
 
-[project.extra]
-alternate = [
-    { name = "English", link = "/doc/en/", lang = "en" },
-    { name = "Español", link = "/doc/es/", lang = "es" },
-    { name = "Deutsch", link = "/doc/de/", lang = "de" },
-    { name = "Français", link = "/doc/fr/", lang = "fr" }
-]
 
