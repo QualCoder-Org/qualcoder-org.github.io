@@ -4,7 +4,7 @@
   <title>Redirection...</title>
   <script>
     const pathname = window.location.pathname;
-
+/*
     // 1. Redirections pour /doc/LANG/ ou /doc/LANG/SLUG
     const docMatch = pathname.match(/^\/doc\/([a-z]{2})(\/.*)?$/);
     if (docMatch) {
@@ -13,7 +13,7 @@
       window.location.href = `/${lang}${slug}`;
       exit;
     }
-
+*/
     // 2. Redirections pour les liens de téléchargement
     const downloadRedirects = {
       '/latest': 'https://github.com/ccbogel/QualCoder/releases/latest',
