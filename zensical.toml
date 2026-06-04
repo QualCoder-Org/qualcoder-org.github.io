@@ -152,19 +152,26 @@ features = [
 [[project.theme.palette]]
 scheme = "deep purple"
 media = "(prefers-color-scheme)"
-toggle.icon = "lucidoc/de/sun-moon"
+toggle.icon = "lucide/sun-moon"
 toggle.name = "Switch to light mode"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
-toggle.icon = "lucidoc/de/sun"
+toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
-toggle.icon = "lucidoc/de/moon"
+toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
+[project.extra]
+alternate = [
+    { name = "English", link = "/doc/en/", lang = "en" },
+    { name = "Español", link = "/doc/es/", lang = "es" },
+    { name = "Deutsch", link = "/doc/de/", lang = "de" },
+    { name = "Français", link = "/doc/fr/", lang = "fr" }
+]
 
