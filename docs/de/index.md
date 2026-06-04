@@ -28,7 +28,7 @@ QualCoder enthält eine Reihe von KI-gestützten Funktionen, die große Sprachmo
 ## Aktuelle Version
 Software-Versionen sind auf [GitHub](https://github.com/ccbogel/QualCoder/releases) verfügbar. Diese enthalten Quellcode und ausführbare Dateien. Die ausführbaren Dateien bieten eine einfache Möglichkeit, QualCoder auszuführen – einfach doppelklicken, um das Programm zu starten. Beachten Sie jedoch, dass das Öffnen bis zu 20 Sekunden dauern kann.
 
-[:octicons-archive-24: Neueste Version von QualCoder (3.8.2) auf GitHub verfügbar](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
+[:octicons-archive-24: Neueste Version von QualCoder (3.8.2) auf GitHub verfügbar](/latest){ .md-button .md-button--primary }
 
 [:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11-Installationsprogramm](/latest-windows){ .md-button .md-button--primary }
 
