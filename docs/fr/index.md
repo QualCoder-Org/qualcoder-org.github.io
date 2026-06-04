@@ -28,7 +28,7 @@ QualCoder comprend un ensemble de fonctionnalités assistées par l'IA qui utili
 ## Version actuelle
 Les versions du logiciel sont disponibles sur [Github](https://github.com/ccbogel/QualCoder/releases). Elles contiennent le code source et les fichiers exécutables. Les fichiers exécutables constituent un moyen simple d'exécuter QualCoder : il suffit de double-cliquer dessus pour le lancer, mais sachez que l'ouverture peut prendre jusqu'à 20 secondes.
 
-[:octicons-archive-24: Dernière version (3.8.2) Disponible sur GitHub](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
+[:octicons-archive-24: Dernière version (3.8.2) Disponible sur GitHub](/latest){ .md-button .md-button--primary }
 
 [:fontawesome-brands-windows: QualCoder_3.8.2 Installateur pour Windows 11](/latest-windows){ .md-button .md-button--primary }
 
