@@ -30,13 +30,13 @@ Software-Versionen sind auf [GitHub](https://github.com/ccbogel/QualCoder/releas
 
 [:octicons-archive-24: Neueste Version von QualCoder (3.8.2) auf GitHub verfügbar](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11-Installationsprogramm](/redirect/latest-windows){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11-Installationsprogramm](/latest-windows){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 Portable (Gesamte Software in einer Datei, langsamerer Start)](/redirect/latest-windows-portable){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 Portable (Gesamte Software in einer Datei, langsamerer Start)](/latest-windows-portable){ .md-button .md-button--primary }
 
-[:material-apple: QualCoder_3.8.2 macOS arm64](/redirect/latest-mac){ .md-button .md-button--primary }
+[:material-apple: QualCoder_3.8.2 macOS arm64](/latest-mac){ .md-button .md-button--primary }
 
-[:material-linux: QualCoder_3.8.2_Ubuntu](/redirect/latest-linux){ .md-button .md-button--primary }
+[:material-linux: QualCoder_3.8.2_Ubuntu](/latest-linux){ .md-button .md-button--primary }
 
 
 
