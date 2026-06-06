@@ -15,7 +15,7 @@ nav = [
 	{"Studies using QualCoder" = "using.md"},
 	{"About Developers" = "about.md"},
 	{"Forum" = "https://github.com/ccbogel/QualCoder/discussions"},
-	{"English" = [
+	{"en" = [
 		"doc/en/index.md",
 		"doc/en/1.-Overview.md",
 		"doc/en/2.1.-Installation.md",
@@ -43,7 +43,7 @@ nav = [
 		"doc/en/7.5.-AI-Technical-Information.md",
 		"doc/en/7.6.-How-to-contribute.md"						
 	]},
-	{"Français" = [
+	{"fr" = [
 		"doc/fr/index.md",
 		"doc/fr/1.-Overview.md",
 		"doc/fr/2.1.-Installation.md",
@@ -72,7 +72,7 @@ nav = [
 		"doc/fr/7.6.-How-to-contribute.md"						
 	
 	]},
-	{"Español" = [
+	{"es" = [
 		"doc/es/index.md",
 		"doc/es/1.-Overview.md",
 		"doc/es/2.1.-Installation.md",
@@ -101,7 +101,7 @@ nav = [
 		"doc/es/7.6.-How-to-contribute.md"						
 	
 	]},
-	{"Deutsch" = [
+	{"de" = [
 		"doc/de/index.md",
 		"doc/de/1.-Overview.md",
 		"doc/de/2.1.-Installation.md",
