@@ -12,7 +12,7 @@ QualCoder kann Text, Bilder, Audio- und Videodateien kodieren sowie Tagebuchnoti
 QualCoder enthält eine Reihe von KI-gestützten Funktionen, die große Sprachmodelle nutzen, um Daten auf innovative Weise zu erkunden, zu analysieren und mit ihnen zu interagieren. Machen Sie sich mit neuen Daten vertraut, indem Sie in einem interaktiven Chat mit der KI allgemeine Themen oder Konzepte erkunden. Tauchen Sie mit KI-gestützter Kodierung und Textanalyse tiefer in bestimmte Aspekte ein. Und wenn Sie an den Punkt gelangen, an dem Sie Ihre Ergebnisse zusammenfassen und konsolidieren müssen, besprechen Sie diese in einem Code-Chat mit der KI.
 
 
-!!! info: "Warum QualCoder verwenden?"
+!!! note: "Warum QualCoder verwenden?"
     - **QualCoder ist kostenlos**. Viele Programme zur qualitativen Analyse erfordern teure Einmalgebühren oder monatliche Abonnements.
     - **QualCoder ist benutzerfreundlich**. Es bietet alles, was Sie für die qualitative Analyse benötigen, ohne die komplizierten Benutzeroberflächen einiger Alternativen
     - **QualCoder funktioniert offline**. Internet ist nicht immer verfügbar, und QualCoder benötigt kein Internet, um zu funktionieren.
