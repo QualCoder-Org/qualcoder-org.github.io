@@ -1,0 +1,5 @@
+{% for nav_item in nav.items %}  
+  {% if nav_item.title not in ["en", "fr", "es", "de"] %}  
+    {# rendu de l'onglet #}  
+  {% endif %}  
+{% endfor %}
