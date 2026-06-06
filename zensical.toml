@@ -7,6 +7,7 @@ docs_dir = "docs"
 repo_url = "https://github.com/QualCoder-Org/qualcoder-org.github.io"
 repo_name = "QualCoder-Org/qualcoder-org.github.io"
 edit_uri = "edit/main/docs/"
+extra_css = ["stylesheets/extra.css"]
 nav = [
 	{"Home" = "index.md"},
 	{"Blog" = "https://qualcoder.wordpress.com/"},
