@@ -23,20 +23,20 @@ QualCoder comprend un ensemble de fonctionnalités assistées par l'IA qui utili
     - **QualCoder s'améliore constamment.** QualCoder est activement développé, ce qui signifie que des versions améliorées sont régulièrement publiées.
     - **QualCoder soutient les standards ouverts.** QualCoder vise à supporter le standard REFI-QDA, voir [qdasoftware.org](https://www.qdasoftware.org/). Vous pouvez échanger des livres de codes et des projets avec vos collègues, même s'ils n'utilisent pas QualCoder, tant que leur logiciel supporte le standard REFI-QDA. Cela signifie que vos données ne risquent pas de devenir inaccessibles.
     - **QualCoder peut être modifié.** Vous pouvez modifier et adapter QualCoder à vos besoins, ou demander à quelqu'un de le faire pour vous, à condition de publier vos modifications pour tous. Cela signifie également que vous pouvez copier le logiciel et le donner gratuitement à vos collègues ou étudiants. Il est publié sous licence LGPL v3 à partir de la version 3.6.
-    *- *QualCoder est une option logicielle pour soutenir la science ouverte.** [Recommandations de l'UNESCO sur la science ouverte](https://www.unesco.org/fr/science-ouverte?hub=686)
+    - **QualCoder est une option logicielle pour soutenir la science ouverte.** [Recommandations de l'UNESCO sur la science ouverte](https://www.unesco.org/fr/science-ouverte?hub=686)
     
 ## Version actuelle
 Les versions du logiciel sont disponibles sur [Github](https://github.com/ccbogel/QualCoder/releases). Elles contiennent le code source et les fichiers exécutables. Les fichiers exécutables constituent un moyen simple d'exécuter QualCoder : il suffit de double-cliquer dessus pour le lancer, mais sachez que l'ouverture peut prendre jusqu'à 20 secondes.
 
-[:octicons-archive-24: Dernière version (3.8.2) Disponible sur GitHub](/latest){ .md-button .md-button--primary }
+[:octicons-archive-24: Dernière version  Disponible sur GitHub](/latest){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_3.8.2 Installateur pour Windows 11](/latest-windows){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder Installateur pour Windows 11](/latest-windows){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 Portable (Ensemble du logicel dans un fichier, lent à lancer)](/latest-windows-portable){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder  Windows 11 Portable (Ensemble du logiciel dans un fichier, lent à lancer)](/latest-windows-portable){ .md-button .md-button--primary }
 
-[:material-apple: QualCoder_3.8.2 macOS arm64](/latest-mac){ .md-button .md-button--primary }
+[:material-apple: QualCoder macOS arm64](/latest-mac){ .md-button .md-button--primary }
 
-[:material-linux: QualCoder_3.8.2_Ubuntu](/latest-linux){ .md-button .md-button--primary }
+[:material-linux: QualCoder Ubuntu](/latest-linux){ .md-button .md-button--primary }
 
 ## Soutenir QualCoder
 
