@@ -1,6 +1,6 @@
 [project]
 site_name = "QualCoder"
-site_url = "https://qualcoder.org/doc/en"
+site_url = "https://qualcoder.org/"
 site_description = "QualCoder Website"
 site_author = "QualCoder Teams"
 docs_dir = "docs"
@@ -133,7 +133,6 @@ nav = [
 
 [project.theme]
 variant = "modern" # classic = old them vs modern
-language = "en"
 logo = "images/logo.png"
 custom_dir = "overrides"
 features = [
