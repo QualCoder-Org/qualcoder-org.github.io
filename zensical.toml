@@ -148,9 +148,9 @@ features = [
   "search.highlight",
   "navigation.tabs",
   #"navigation.sections",
-  "navigation.footer"
+  "navigation.footer",
+  "content.tabs.link"
 ]
-
 [[project.theme.palette]]
 scheme = "deep purple"
 media = "(prefers-color-scheme)"
@@ -178,3 +178,9 @@ alternate = [
 ]
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.pymdownx.tabbed.slugify]
+object = "pymdownx.slugs.slugify"
+kwds = { case = "lower" }
