@@ -17,7 +17,7 @@ nav = [
 		{"Videos on QualCoder" = "videos.md"},
 		{"Studies using QualCoder" = "using.md"},
 	]},
-	{"About Developers" = "about.md"},
+	{"Team" = "about.md"},
 	{"Communauty" = "communauty.md"},
 	{"en" = [
 		"doc/en/index.md",
