@@ -15,6 +15,7 @@ nav = [
 	{"Videos on QualCoder" = "videos.md"},
 	{"Studies using QualCoder" = "using.md"},
 	{"About Developers" = "about.md"},
+	{"Communauty" = "communauty.md"},
 	{"Forum" = "https://github.com/ccbogel/QualCoder/discussions"},
 	{"en" = [
 		"doc/en/index.md",
