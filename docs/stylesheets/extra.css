@@ -1,7 +1,7 @@
-.md-tabs__item:nth-child(9),
 .md-tabs__item:nth-child(10),
 .md-tabs__item:nth-child(11),
-.md-tabs__item:nth-child(12)
+.md-tabs__item:nth-child(12),
+.md-tabs__item:nth-child(13)
 { 
   display: none;
 }
