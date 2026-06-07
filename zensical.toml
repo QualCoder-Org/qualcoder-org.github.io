@@ -12,12 +12,13 @@ nav = [
 	{"Home" = "index.md"},
 	{"Blog" = "https://qualcoder.wordpress.com/"},
 	{"Documentation" = "doc/index.md"},
-	{"Resources" = "ressources.md"},
-	{"Videos on QualCoder" = "videos.md"},
-	{"Studies using QualCoder" = "using.md"},
+	{"Resources" = [
+		{"Resources" = "ressources.md"},
+		{"Videos on QualCoder" = "videos.md"},
+		{"Studies using QualCoder" = "using.md"},
+	]},
 	{"About Developers" = "about.md"},
 	{"Communauty" = "communauty.md"},
-	{"Forum" = "https://github.com/ccbogel/QualCoder/discussions"},
 	{"en" = [
 		"doc/en/index.md",
 		"doc/en/1.-Overview.md",
