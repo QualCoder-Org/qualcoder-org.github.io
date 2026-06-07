@@ -176,4 +176,5 @@ alternate = [
     { name = "Deutsch", link = "/doc/de/", lang = "de" },
     { name = "Français", link = "/doc/fr/", lang = "fr" }
 ]
-
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
