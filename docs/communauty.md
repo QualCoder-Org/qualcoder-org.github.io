@@ -25,5 +25,5 @@ Some languages are officially maintained by QualCoder (human periodic proofreadi
 |      Svenska (sv)      | 🟩🟩🟩🟩🟩🟩🟩🟩🟨🟥 80.7% (2292 / 2841) |officially maintained|
 |      中文 (zh)          | 🟩🟩🟩🟩🟩🟩🟩🟩🟨🟥 80.7% (2292 / 2840) |officially maintained|
 |      Português (pt)    | 🟩🟩🟩🟩🟩🟩🟩🟩🟨🟥 78.0% (2240 / 2872) |officially maintained|
-|      Italiano (it)     | 🟩🟩🟩🟩🟩🟩🟩🟩🟨🟥 78.0% (2240 / 2872) | communauty community|
-|     Română (ro)        | 🟩🟩🟩🟩🟨🟥🟥🟥🟥🟥 59.6% (1527 / 1983) | communauty community|
+|      Italiano (it)     | 🟩🟩🟩🟩🟩🟩🟩🟩🟨🟥 78.0% (2240 / 2872) |communauty maintained|
+|     Română (ro)        | 🟩🟩🟩🟩🟨🟥🟥🟥🟥🟥 59.6% (1527 / 1983) |communauty maintained|
