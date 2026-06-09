@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+421 **Interpreting Sustainability Information in Industrial Sourcing Decisions. A Qualitative Case Study.**    Periyasamy & Konakala. Thesis 2026 Uppsala Universitet.
+
 420 Customizing Conversation: Participatory Design of an LMM-Powered Digital Food List with Older Adults. N Doxander 2026 Thesis Halmstad University.
 
 419 Lepičnik Vodopivec, J., & Pugelj, Špela. (2026). **Digitalne kompetence učiteljev: osebni, profesionalni in kontekstualni dejavniki. (Digital competences of teachers: personal, professional and contextual factors)** Pedagoška Obzorja, 41(1), 147–160. https://doi.org/10.55707/ds-po.v41i1.221
