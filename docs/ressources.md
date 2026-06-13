@@ -1,4 +1,4 @@
-# Resources
+0# Resources
 ## Resources in English
 
 ### QualCoder 3.8
@@ -62,18 +62,6 @@ This presentation by Prof. Erin Owens from the Sam Houston State University show
 <iframe width="500" height="281" src="https://www.youtube.com/embed/ZggbnBWExtE" title="Free Tools for Qualitative Data Analysis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Ressources en français
-
-Thank you to Véronique for making a QualCoder installation video in French.
-
-This may help French speakers with the installation of QualCoder. More videos are to come.
-
-<iframe width="500" height="281" src="https://www.youtube.com/embed/iTnr5vKxdys" title="Installation de Qualcoder sur PC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Prof. Veronique has created another video in French discussing creating a new project, attributes, file loading and beginning the coding development. Thank you again!
-
-Nouveau projet sur Qualcoder : attributs, importation de documents, arbre hiérarchique.
-
-<iframe width="500" height="281" src="https://www.youtube.com/embed/mSUYaLBfRrw" title="Nouveau projet sur Qualcoder : attributs, importation de documents, arbre hiérarchique" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Pour les francophones, un blog sur l’utilisation de Qualcoder 3.5, (For French speakers a blog about using Qualcoder). https://libres.hypotheses.org/341
 
