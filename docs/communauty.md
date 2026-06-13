@@ -1,4 +1,4 @@
-# Communauty
+# Community
 ## Forum
 
 [forum](https://github.com/ccbogel/QualCoder/discussions)
