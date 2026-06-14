@@ -152,7 +152,10 @@ nav = [
 [project.theme]
 variant = "modern"  
 logo = "images/logo.png"  
-custom_dir = "overrides"  
+custom_dir = "overrides"
+features = [
+	"navigation.tabs"
+]
 #features = [  
 #  "content.action.edit",  
 #  "content.action.view",  
