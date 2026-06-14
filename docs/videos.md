@@ -1,4 +1,4 @@
-# Videos showing how to use QualCoder
+# Videos on QualCoder
 
 ## QualCoder 3.7
 

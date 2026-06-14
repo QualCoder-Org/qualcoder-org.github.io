@@ -1,4 +1,4 @@
-0# Resources
+# Resources
 ## Resources in English
 
 ### QualCoder 3.8
