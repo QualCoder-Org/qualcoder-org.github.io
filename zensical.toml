@@ -18,7 +18,7 @@ nav = [
 		{"Studies using QualCoder" = "using.md"},
 	]},
 	{"Team" = "about.md"},
-	{"Communauty" = "communauty.md"},
+	{"Community" = "community.md"},
 	{"en" = [
 		"doc/en/index.md",
 		"doc/en/1.-Overview.md",
@@ -180,10 +180,9 @@ alternate = [
 ]
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
+[project.markdown_extensions.pymdownx.emoji]
 [project.markdown_extensions.pymdownx.superfences]
 [project.markdown_extensions.pymdownx.tabbed]
-[project.markdown_extensions.pymdownx.emoji]
-
 alternate_style = true
 [project.markdown_extensions.pymdownx.tabbed.slugify]
 object = "pymdownx.slugs.slugify"
