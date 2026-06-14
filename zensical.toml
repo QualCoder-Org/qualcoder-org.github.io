@@ -182,6 +182,8 @@ alternate = [
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.pymdownx.superfences]
 [project.markdown_extensions.pymdownx.tabbed]
+[project.markdown_extensions.pymdownx.emoji]
+
 alternate_style = true
 [project.markdown_extensions.pymdownx.tabbed.slugify]
 object = "pymdownx.slugs.slugify"
