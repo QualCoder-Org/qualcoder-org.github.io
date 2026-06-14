@@ -153,22 +153,19 @@ nav = [
 variant = "modern"  
 logo = "images/logo.png"  
 custom_dir = "overrides"
-features = [
-	"navigation.tabs"
-]
-#features = [  
-#  "content.action.edit",  
-#  "content.action.view",  
+features = [  
+  "content.action.edit",  
+  "content.action.view",  
 #  "navigation.sections",  
 #  "navigation.expand",  
 #  "navigation.path",  
 #  "navigation.indexes",  
 #  "toc.integrate",  
 #  "search.highlight",  
-#  "navigation.tabs",  
+  "navigation.tabs",  
 #  "navigation.footer",  
 #  "content.tabs.link"  
-#]
+]
   
 [[project.theme.palette]]
 scheme = "default"  
