@@ -9,9 +9,6 @@ QualCoder can code text, images, audio and video, write journal notes and memos.
 
 QualCoder includes a set of AI-assisted features that utilise Large Language Models to help explore, analyse, and interact with data in innovative ways. Familiarise yourself with new data by exploring broad topics or concepts in an interactive chat with the AI. Dive deeper into specific aspects with AI-assisted coding and text analysis. And if you reach the point where you must synthesise and consolidate your results, discuss them in a code chat with the AI.
 
-
-## 
-
 !!! note "Why use QualCoder?"
     - **Qualcoder is free of charge**. Many qualitative analysis software requiring expensive one-time fees or monthly subscriptions.
     - **QualCoder is easy to use**. It has all you need to perform qualitative analysis without the complicated interfaces of some alternatives
@@ -27,15 +24,16 @@ QualCoder includes a set of AI-assisted features that utilise Large Language Mod
 ## Current release
 Software releases are available from [Github](https://github.com/ccbogel/QualCoder/releases). These contain source code and executables. The executables are an easy way to run QualCoder, double click to run, just be aware that it can take up to 20 seconds to open.
 
-[Latest release of QualCoder (3.8.2) available on GitHub](/latest){ .md-button .md-button--primary }
 
-[QualCoder_3.8.2 Windows 11 Installer](/latest-windows){ .md-button .md-button--primary }
+[:octicons-archive-24: Latest release of QualCoder (3.8.2) available on GitHub](/latest){ .md-button .md-button--primary }
 
-[QualCoder_3.8.2 Windows 11 Portable (Entire software in one file, slower to start)](/latest-windows-portable){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 Installer](/latest-windows){ .md-button .md-button--primary }
 
-[QualCoder_3.8.2 macOS arm64](/latest-mac){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 Portable (Entire software in one file, slower to start)](/latest-windows-portable){ .md-button .md-button--primary }
 
-[QualCoder_3.8.2_Ubuntu](/latest-linux){ .md-button .md-button--primary }
+[:material-apple: QualCoder_3.8.2 macOS arm64](/latest-mac){ .md-button .md-button--primary }
+
+[:material-linux: QualCoder_3.8.2_Ubuntu](/latest-linux){ .md-button .md-button--primary }
 
 ## Support QualCoder
 
