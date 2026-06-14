@@ -26,9 +26,9 @@ nav = [
 	{"Blog" = "https://qualcoder.wordpress.com/"},
 	{"Documentation" = "doc/index.md"},
 	{"Resources" = [
-		{"Resources" = "ressources.md"},
-		{"Videos on QualCoder" = "videos.md"},
-		{"Studies using QualCoder" = "using.md"},
+		"ressources.md",
+		"videos.md",
+		"using.md"
 	]},
 	{"Team" = "about.md"},
 	{"Community" = "community.md"},
