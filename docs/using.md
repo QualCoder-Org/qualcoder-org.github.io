@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+422 Butterfield, K. L., Galt, R. E., & Wilson, H. (2026).** Improving USDA’s public price and volume data for an equitable organic food value chain.** Journal of Agriculture, Food Systems, and Community Development. Advance online publication. <https://doi.org/10.5304/jafscd.2026.153.013>
+
 421 **Interpreting Sustainability Information in Industrial Sourcing Decisions. A Qualitative Case Study.**    Periyasamy & Konakala. Thesis 2026 Uppsala Universitet.
 
 420 **Customizing Conversation: Participatory Design of an LMM-Powered Digital Food List with Older Adults.** N Doxander 2026 Thesis Halmstad University.
