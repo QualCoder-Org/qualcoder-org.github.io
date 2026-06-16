@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+448 Ahmed, F. (2026). **Innovation Ecosystem around Additive Manufacturing (AM) in Swedish Healthcare : A Technology Innovation Systems (TIS) Approach**. (Dissertation). <https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-588581>
+
 447 **Entre el pueblo y el Estado: los procesos de enmarcamiento del discurso de Andrés Manuel López Obrador (Between the people and the State: the framing processes of Andrés Manuel López Obrador's speech).** Jorge Mejía Valenzuela Thesis 2026. FLACSO MEXICO.<https://flacso.repositorioinstitucional.mx/jspui/handle/1026/566>
 
 446 **Terapija i analiza ciljeva terapijskog rada:prikaz slučaja učenika sa specifičnim poremećajem učenja (Therapy and analysis of the goals of therapeutic work: presentation of the case of a student with a specific learning disorder).** Vulić, Nikolina. 2026 Diplomski SVEUČILIŠTE U RIJECI. <https://urn.nsk.hr/urn:nbn:hr:231:683582>
