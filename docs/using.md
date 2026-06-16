@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+435 Proske, U. and Staab, M.: **Hello world! An interdisciplinary climate modelling course.** Geosci. Commun., 9, 239–259, <https://doi.org/10.5194/gc-9-239-2026> 2026
+
 434 Tejeda Martínez, A., & de la Cruz, G. (2026). **Práctica inclusiva docente en bachillerato: experiencias narrativas a través de la fotovoz (Inclusive teaching practice in high school: narrative experiences through photovoice).** Revista AJAYU, 24(1), 1–22. https://doi.org/10.35319/ajayu.241366
 
 433 **Operational Enablers and Barriers in Hospital Incident Command: Insights from a Single-Center Table-Top Exercise at a Tertiary Care University Hospital—A Qualitative Phenomenological Study.** Markus Ries, Maik von der Forst, Hanne Schäfer, Kirsten Bikowski, Klaas Franzen, Paul Geoerg, Fabian Weykamp, Erik Popp, Janna Küllenberg. [Preprint] doi: https://doi.org/10.64898/2026.05.13.26353139
