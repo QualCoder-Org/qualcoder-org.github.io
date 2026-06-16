@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+444 **Redescobrir a Serra da Estrela : um itinerário sustentável contado através de lendas (Rediscovering Serra da Estrela: a sustainable itinerary told through legends).** Ana Marta Figueiredo de Castro,  2026 Master thesis. <http://hdl.handle.net/10400.5/118303>
+
 443 Schäfer, A. B. (2026). **Sound Awareness Using Austrian Sign Language for Deaf and Hard of Hearing Individuals** [Diploma Thesis, Technische Universität Wien]. reposiTUm. <https://doi.org/10.34726/hss.2026.132705>
 
 442 Berlowitz I., Timm E., Ertl J. et al. **Potentials and challenges of an integrative medicine protocol in intensive care: the perspective of
