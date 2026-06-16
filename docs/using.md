@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+428 **Why Does This Job Exist?: An Exploratory Study of the Perceptions of Role Alignment to Organizational Purpose** Bright, Adam.   Robert Morris University ProQuest Dissertations & Theses,  2026. 32735070.
+
 427 Nguyen MP, Do HPN, Vuong NA, van Gils S. **Disability employment as a human resource with shared value: A multi-stakeholder systematic review (2000–2025).** Journal of Management & Organization. Published online 2026:1-34. doi:10.1017/jmo.2026.10100
 
 426 Hryvko, Antonina and Herzing, Jessica M.E. and Erzinger, Andrea B., **A COMPREHENSIVE MIXED-METHODS FRAMEWORK FOR ASSESSING BELIEFS-PRACTICE ALIGNMENTS IN THE IMPLEMENTATION OF CROSS-CUTTING SKILLS CONCEPTION IN SCHOOLS.** <http://dx.doi.org/10.2139/ssrn.6827452>
