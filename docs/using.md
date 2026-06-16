@@ -2,6 +2,9 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+442 Berlowitz I., Timm E., Ertl J. et al. **Potentials and challenges of an integrative medicine protocol in intensive care: the perspective of
+intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.1186/s12906-026-05423-1>
+
 441 **Tekoäly Ja Automaatio Asiakaspalvelussa - Asiakaspalvelijoiden Kokemuksia (Artificial intelligence and automation in customer service - Experiences of customer service representatives).** Kesti, Atte. Thesis 2026 JYVÄSKYLÄN YLIOPISTO/JYVÄSKYLÄ UNIVERSITY. <https://urn.fi/URN:NBN:fi:jyu-202604223615>
 
 440 Pravalprukskul, P., C. Friis, and T. B. Bruun. 2026. **The Construction of an Environmental Villain: A Discourse Analysis of Upland Maize Farming in Thailand.** Asia Pacific Viewpoint1–15. <https://doi.org/10.1111/apv.70055>
