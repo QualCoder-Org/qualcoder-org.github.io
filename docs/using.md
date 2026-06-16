@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+426 Hryvko, Antonina and Herzing, Jessica M.E. and Erzinger, Andrea B., **A COMPREHENSIVE MIXED-METHODS FRAMEWORK FOR ASSESSING BELIEFS-PRACTICE ALIGNMENTS IN THE IMPLEMENTATION OF CROSS-CUTTING SKILLS CONCEPTION IN SCHOOLS.** <http://dx.doi.org/10.2139/ssrn.6827452>
+
 425 Dela Luna KLG, Sy ADR, Rama-Sabandal RLCM, Jacinto CBK, Malimban RC, Sales BEG, Marollano RA, Marin AC. **A Qualitative Program Evaluation Study on the Perceived Impact of Health and Nutrition Programs among Beneficiaries of a Civil Society Organization in the Philippines.** Acta Med Philipp. 2026 Apr 30;60(8):23-36. doi: 10.47895/amp.vi0.12745. PMID: 42256103
 
 424 Baquet E, Tarteret P, Deschamps A, Filali A, Foley RA, D'Acremont V. **Perceptions and Needs of Primary Healthcare Providers Regarding Electricity Shortages and Blackouts: A Qualitative Study Using a Realistic Narrative Approach.** Int J Public Health. 2026 Apr 20;71:1609319. doi: 10.3389/ijph.2026.1609319.
