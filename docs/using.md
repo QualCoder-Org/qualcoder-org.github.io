@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+450 Lampman, Douglas W. **Addressing Mental Health in College Athletics: Developing a MindfulnessCentered Curricular Intervention for Student-Athletes and Coaches.** (2026). Thesis. <https://scholarsarchive.library.albany.edu/etd/426>
+
 449 **LOCKING DOWN RELIGION: THE POLITICS OF EVANGELICAL CHURCHES’ RESPONSES TO THE COVID-19 LOCKDOWN IN THE PHILIPPINES (2020-2023).** Erron Medina. Thesis University of the Philippines 2026.
 
 448 Ahmed, F. (2026). **Innovation Ecosystem around Additive Manufacturing (AM) in Swedish Healthcare : A Technology Innovation Systems (TIS) Approach**. (Dissertation). <https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-588581>
