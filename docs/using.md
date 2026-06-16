@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+446 **Terapija i analiza ciljeva terapijskog rada:prikaz slučaja učenika sa specifičnim poremećajem učenja (Therapy and analysis of the goals of therapeutic work: presentation of the case of a student with a specific learning disorder).** Vulić, Nikolina. 2026 Diplomski SVEUČILIŠTE U RIJECI. <https://urn.nsk.hr/urn:nbn:hr:231:683582>
+
 445 **Seed and Shield: A Qualitative Investigation of Black Middle-Class Families and Their Literacy Practices.** Taylor Toniese McElwain. Dissertation 2026  Virginia Polytechnic Institute <https://hdl.handle.net/10919/143353>
 
 444 **Redescobrir a Serra da Estrela : um itinerário sustentável contado através de lendas (Rediscovering Serra da Estrela: a sustainable itinerary told through legends).** Ana Marta Figueiredo de Castro,  2026 Master thesis. <http://hdl.handle.net/10400.5/118303>
