@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+429 Nazer, Ben and Carver, Mark, **Learning from Student Perspectives on Pre-sessional Writing from Sources: A Reflexive Thematic Analysis.** Available at SSRN: https://ssrn.com/abstract=6922746 or http://dx.doi.org/10.2139/ssrn.6922746
+
 428 **Why Does This Job Exist?: An Exploratory Study of the Perceptions of Role Alignment to Organizational Purpose** Bright, Adam.   Robert Morris University ProQuest Dissertations & Theses,  2026. 32735070.
 
 427 Nguyen MP, Do HPN, Vuong NA, van Gils S. **Disability employment as a human resource with shared value: A multi-stakeholder systematic review (2000–2025).** Journal of Management & Organization. Published online 2026:1-34. doi:10.1017/jmo.2026.10100
