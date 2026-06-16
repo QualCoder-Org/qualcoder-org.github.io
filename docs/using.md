@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+436 **Design Considerations for AI-Based Creativity Support Tools in Tabletop Role-Playing Games.** Hanna Dodd. Thesis. 2026. University of Waterloo.
+
 435 Proske, U. and Staab, M.: **Hello world! An interdisciplinary climate modelling course.** Geosci. Commun., 9, 239–259, <https://doi.org/10.5194/gc-9-239-2026> 2026
 
 434 Tejeda Martínez, A., & de la Cruz, G. (2026). **Práctica inclusiva docente en bachillerato: experiencias narrativas a través de la fotovoz (Inclusive teaching practice in high school: narrative experiences through photovoice).** Revista AJAYU, 24(1), 1–22. https://doi.org/10.35319/ajayu.241366
