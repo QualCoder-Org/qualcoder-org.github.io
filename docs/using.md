@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+432 **A sustentabilidade sob o olhar de profissionais da contabilidade: racionalidades coexistentes em um campo em transição (Sustainability from the perspective of accounting professionals: coexisting rationalities in a field in transition).** Da Silva et al. USP International Conference on Accounting. 2026. 
+
 431 Cabello, Violeta and Barandiaran, Xabier and Gonzalez-Mon, Blanca and Zaragoza, Juan Manuel and Siqueiros, Jesús Mario and Brugnach, Marcela (2026) **Socialecological affective arrangements: diving with a small sea of many seas.** [Preprint] <https://philsci-archive.pitt.edu/29264/>
 
 430 **Johto kyberresilienssin rakentajana : rooli ja onnistumisen edellytykset kyberharjoittelussa (Management as a builder of cyber resilience: role and prerequisites for success in cyber training).** Honkala, Kristian (2026) Thesis Jyväskylä University of Applied Sciences
