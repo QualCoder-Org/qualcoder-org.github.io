@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+443 Schäfer, A. B. (2026). **Sound Awareness Using Austrian Sign Language for Deaf and Hard of Hearing Individuals** [Diploma Thesis, Technische Universität Wien]. reposiTUm. <https://doi.org/10.34726/hss.2026.132705>
+
 442 Berlowitz I., Timm E., Ertl J. et al. **Potentials and challenges of an integrative medicine protocol in intensive care: the perspective of
 intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.1186/s12906-026-05423-1>
 
