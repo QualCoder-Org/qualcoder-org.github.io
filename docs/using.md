@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+433 **Operational Enablers and Barriers in Hospital Incident Command: Insights from a Single-Center Table-Top Exercise at a Tertiary Care University Hospital—A Qualitative Phenomenological Study.** Markus Ries, Maik von der Forst, Hanne Schäfer, Kirsten Bikowski, Klaas Franzen, Paul Geoerg, Fabian Weykamp, Erik Popp, Janna Küllenberg. [Preprint] doi: https://doi.org/10.64898/2026.05.13.26353139
+
 432 **A sustentabilidade sob o olhar de profissionais da contabilidade: racionalidades coexistentes em um campo em transição (Sustainability from the perspective of accounting professionals: coexisting rationalities in a field in transition).** Da Silva et al. USP International Conference on Accounting. 2026. 
 
 431 Cabello, Violeta and Barandiaran, Xabier and Gonzalez-Mon, Blanca and Zaragoza, Juan Manuel and Siqueiros, Jesús Mario and Brugnach, Marcela (2026) **Socialecological affective arrangements: diving with a small sea of many seas.** [Preprint] <https://philsci-archive.pitt.edu/29264/>
