@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+439 Gümüş S, Belova X, Lu J. **Improving Mental Health and Well-Being in Schools: Exploring School Leaders’ Roles and Influence.** Education Sciences. 2026; 16(3):373. <https://doi.org/10.3390/educsci16030373>
+
 438 **Assessing the Just Promise of REDD+: Stakeholder Perspectives from the Bananal Island Project.** Guillaume Daous. Dissertation 2026. Universidade Federal do Rio de Janeiro
 
 437 **Adaptação do Programa Mentis Plus+ para Pessoas Migrantes e refugiadas: resultados prelimimares de Focus Groups.** Sandra Alpuim. III ENCONTRO INTERNACIONAL DE LITERACIA E SAÚDE MENTAL POSITIVA. Conference 2025
