@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+430 **Johto kyberresilienssin rakentajana : rooli ja onnistumisen edellytykset kyberharjoittelussa (Management as a builder of cyber resilience: role and prerequisites for success in cyber training).** Honkala, Kristian (2026) Thesis Jyväskylä University of Applied Sciences
+
 429 Nazer, Ben and Carver, Mark, **Learning from Student Perspectives on Pre-sessional Writing from Sources: A Reflexive Thematic Analysis.** Available at SSRN: https://ssrn.com/abstract=6922746 or http://dx.doi.org/10.2139/ssrn.6922746
 
 428 **Why Does This Job Exist?: An Exploratory Study of the Perceptions of Role Alignment to Organizational Purpose** Bright, Adam.   Robert Morris University ProQuest Dissertations & Theses,  2026. 32735070.
