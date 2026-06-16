@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+440 Pravalprukskul, P., C. Friis, and T. B. Bruun. 2026. **The Construction of an Environmental Villain: A Discourse Analysis of Upland Maize Farming in Thailand.** Asia Pacific Viewpoint1–15. <https://doi.org/10.1111/apv.70055>
+
 439 Gümüş S, Belova X, Lu J. **Improving Mental Health and Well-Being in Schools: Exploring School Leaders’ Roles and Influence.** Education Sciences. 2026; 16(3):373. <https://doi.org/10.3390/educsci16030373>
 
 438 **Assessing the Just Promise of REDD+: Stakeholder Perspectives from the Bananal Island Project.** Guillaume Daous. Dissertation 2026. Universidade Federal do Rio de Janeiro
