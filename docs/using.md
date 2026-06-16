@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+437 **Adaptação do Programa Mentis Plus+ para Pessoas Migrantes e refugiadas: resultados prelimimares de Focus Groups.** Sandra Alpuim. III ENCONTRO INTERNACIONAL DE LITERACIA E SAÚDE MENTAL POSITIVA. Conference 2025
+
 436 **Design Considerations for AI-Based Creativity Support Tools in Tabletop Role-Playing Games.** Hanna Dodd. Thesis. 2026. University of Waterloo.
 
 435 Proske, U. and Staab, M.: **Hello world! An interdisciplinary climate modelling course.** Geosci. Commun., 9, 239–259, <https://doi.org/10.5194/gc-9-239-2026> 2026
