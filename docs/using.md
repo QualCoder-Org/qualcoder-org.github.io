@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+441 **Tekoäly Ja Automaatio Asiakaspalvelussa - Asiakaspalvelijoiden Kokemuksia (Artificial intelligence and automation in customer service - Experiences of customer service representatives).** Kesti, Atte. Thesis 2026 JYVÄSKYLÄN YLIOPISTO/JYVÄSKYLÄ UNIVERSITY. <https://urn.fi/URN:NBN:fi:jyu-202604223615>
+
 440 Pravalprukskul, P., C. Friis, and T. B. Bruun. 2026. **The Construction of an Environmental Villain: A Discourse Analysis of Upland Maize Farming in Thailand.** Asia Pacific Viewpoint1–15. <https://doi.org/10.1111/apv.70055>
 
 439 Gümüş S, Belova X, Lu J. **Improving Mental Health and Well-Being in Schools: Exploring School Leaders’ Roles and Influence.** Education Sciences. 2026; 16(3):373. <https://doi.org/10.3390/educsci16030373>
