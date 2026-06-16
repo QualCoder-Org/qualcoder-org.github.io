@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+423 K. Q. Nguyen, Q. N. Vo, and L. T. T. To, **An Exploratory Comparison of the THPT English Exam and an IELTS Benchmark: A Question of Equivalence.** TTU Journal of Science, vol. 1, no. 2, pp. 71–77, Jun. 2026.
+
 422 Butterfield, K. L., Galt, R. E., & Wilson, H. (2026). **Improving USDA’s public price and volume data for an equitable organic food value chain.** Journal of Agriculture, Food Systems, and Community Development. Advance online publication. <https://doi.org/10.5304/jafscd.2026.153.013>
 
 421 **Interpreting Sustainability Information in Industrial Sourcing Decisions. A Qualitative Case Study.**    Periyasamy & Konakala. Thesis 2026 Uppsala Universitet.
