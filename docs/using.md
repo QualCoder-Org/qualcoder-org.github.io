@@ -2,6 +2,9 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+451 **Minecraft as a Scaffold for Diversity and Equity in the Lower Secondary Classroom.** Kieran R Bailey. Thesis 2026
+Murdoch University. DOI: https://doi.org/10.60867/00000090
+
 450 Lampman, Douglas W. **Addressing Mental Health in College Athletics: Developing a MindfulnessCentered Curricular Intervention for Student-Athletes and Coaches.** (2026). Thesis. <https://scholarsarchive.library.albany.edu/etd/426>
 
 449 **LOCKING DOWN RELIGION: THE POLITICS OF EVANGELICAL CHURCHES’ RESPONSES TO THE COVID-19 LOCKDOWN IN THE PHILIPPINES (2020-2023).** Erron Medina. Thesis University of the Philippines 2026.
