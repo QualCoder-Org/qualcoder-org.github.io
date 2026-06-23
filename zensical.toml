@@ -76,19 +76,19 @@ nav = [
 	{"fr" = [
 		"doc/fr/index.md",  
 		"doc/fr/1.-Overview.md",
-		{"Setup" = [
+		{"Démarrer" = [
 				"doc/fr/2.1.-Installation.md",  
 				"doc/fr/2.2.-Settings.md",  
 				"doc/fr/2.3.-AI-Setup.md",  
 				"doc/fr/2.4.-Working-in-a-Team.md"
 		]},
-		{"Managing Data" = [
+		{"Gérer les données" = [
 				"doc/fr/3.1.-Creating-a-New-Project.md",  
 				"doc/fr/3.2.-Files.md",  
 				"doc/fr/3.3.-Cases.md",  
 				"doc/fr/3.4.-Attributes.md" 
 		]},
-		{"Coding" = [
+		{"Coder" = [
 			"doc/fr/4.1.-Coding-Text.md",  
 			"doc/fr/4.2.-AI-Assisted-Coding.md",  
 			"doc/fr/4.3.-Coding-Text-on-PDFs.md",  
@@ -96,17 +96,17 @@ nav = [
 			"doc/fr/4.5.-Coding-Audio-and-Video.md",  
 			"doc/fr/4.6-Code-Organiser.md"
 		]},
-		{"Analyzing the Results" = [
+		{"Analyser" = [
 			"doc/fr/5.1.-AI-chat-based-analysis.md",  
 			"doc/fr/5.2.-Journals.md",  
 			"doc/fr/5.3.-Reports.md",  
 			"doc/fr/5.4.-Graph.md"
 		]},
-		{"Advanced Options" = [
+		{"Options avancées" = [
 			"doc/fr/6.1.-Imports-and-Exports.md",  
 			"doc/fr/6.2.-AI-Prompt-Library.md"
 		]},
-		{"Other Information" = [
+		{"Informations complémentaires" = [
 			"doc/fr/7.3.-QualCoder-Development.md",  
 			"doc/fr/7.4.-SQlite-Data-Structure.md",  
 			"doc/fr/7.5.-AI-Technical-Information.md",  
