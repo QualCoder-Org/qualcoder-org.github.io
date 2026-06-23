@@ -155,7 +155,11 @@ custom_dir = "overrides"
 features = [  
   "content.action.edit",  
   "content.action.view",  
-  "navigation.sections",  
+  "navigation.sections",
+  "navigation.expand",
+  "navigation.tabs",
+  "navigation.path",  
+  "navigation.indexes",
   "toc.follow",
   "toc.integrate",  
   "search.highlight",  
