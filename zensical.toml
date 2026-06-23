@@ -21,8 +21,6 @@ extra_css = ["stylesheets/extra.css"]
 alternate_style = true  
 combine_header_slug = true  
 
-[project.markdown_extensions.toc]
-permalink = true
 
 nav = [  
 	{"Home" = "index.md"},  
