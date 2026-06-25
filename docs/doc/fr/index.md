@@ -5,8 +5,6 @@ path: index
 
 QualCoder est un logiciel de bureau gratuit et open source destiné à l'analyse de données qualitatives.
 
-<img width="1402" height="520" alt="Écran de codage de texte" src="https://github.com/user-attachments/assets/3ecb4d97-86df-4688-8280-69108022dda0" />
-
 QualCoder permet de coder du texte, des images, des fichiers audio et vidéo, ainsi que de rédiger des notes de journal et des mémos. Vous pouvez organiser les codes selon une structure hiérarchique de type arborescent. Divers rapports peuvent être générés. La plupart des rapports peuvent être exportés au format HTML, OpenDocument Text (ODT), texte brut ou Excel.
 
 QualCoder comprend un ensemble de fonctionnalités assistées par l'IA qui utilisent de grands modèles linguistiques pour vous aider à explorer, analyser et interagir avec les données de manière innovante. Familiarisez-vous avec de nouvelles données en explorant des thèmes ou des concepts généraux lors d'une conversation interactive avec l'IA. Approfondissez des aspects spécifiques grâce au codage et à l'analyse de texte assistés par l'IA. Et si vous arrivez au stade où vous devez synthétiser et consolider vos résultats, discutez-en dans un chat de codage avec l'IA.
