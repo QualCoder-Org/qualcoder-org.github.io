@@ -1,5 +1,5 @@
 ---
-sökväg: index
+path: index
 ---
 # Vad är QualCoder?
 
