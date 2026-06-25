@@ -9,7 +9,7 @@ QualCoder kan koda text, bilder, ljud och video samt skriva dagboksanteckningar 
 
 QualCoder innehåller en uppsättning AI-stödda funktioner som använder stora språkmodeller för att hjälpa dig att utforska, analysera och interagera med data på innovativa sätt. Bekanta dig med nya data genom att utforska breda ämnen eller begrepp i en interaktiv chatt med AI:n. Fördjupa dig i specifika aspekter med AI-stödd kodning och textanalys. Och när du når den punkt där du måste sammanfatta och konsolidera dina resultat kan du diskutera dem i en kodchatt med AI:n.
 
-!!! note: "Varför använda QualCoder?"
+!!! note "Varför använda QualCoder?"
     - **QualCoder är kostnadsfritt**. Många program för kvalitativ analys kräver dyra engångsavgifter eller månadsabonnemang.
     - **QualCoder är lätt att använda**. Det har allt du behöver för att utföra kvalitativ analys utan de komplicerade gränssnitten som vissa alternativ har
     - **QualCoder fungerar offline**. Internet är inte alltid tillgängligt, och QualCoder kräver inte internet för att fungera.
