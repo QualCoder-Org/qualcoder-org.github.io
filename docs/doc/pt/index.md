@@ -9,7 +9,7 @@ O QualCoder permite codificar texto, imagens, áudio e vídeo, bem como escrever
 
 O QualCoder inclui um conjunto de funcionalidades assistidas por IA que utilizam Grandes Modelos de Linguagem para ajudar a explorar, analisar e interagir com os dados de formas inovadoras. Familiarize-se com novos dados explorando temas ou conceitos amplos num chat interativo com a IA. Aprofunde-se em aspetos específicos com a codificação e a análise de texto assistidas por IA. E se chegar ao ponto em que tenha de sintetizar e consolidar os seus resultados, discuta-os num chat de codificação com a IA.
 
-!!! nota "Porquê utilizar o QualCoder?"
+!!! note "Porquê utilizar o QualCoder?"
     - **O QualCoder é gratuito**. Muitos softwares de análise qualitativa exigem taxas únicas dispendiosas ou assinaturas mensais.
     - **O QualCoder é fácil de utilizar**. Tem tudo o que precisa para realizar análises qualitativas sem as interfaces complicadas de algumas alternativas
     - **O QualCoder funciona offline**. A Internet nem sempre está disponível e o QualCoder não requer ligação à Internet para funcionar.
