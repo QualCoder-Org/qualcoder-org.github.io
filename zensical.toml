@@ -192,7 +192,13 @@ nav = [
 			"doc/de/7.5.-AI-Technical-Information.md",  
 			"doc/de/7.6.-How-to-contribute.md"
 		]}
-	]}
+	]},
+	{"pt" = ["doc/pt/index.md"]},
+	{"sv" = ["doc/sv/index.md"]},
+	{"zh" = ["doc/zh/index.md"]},
+	{"ja" = ["doc/ja/index.md"]},
+	{"ro" = ["doc/ro/index.md"]},
+	{"it" = ["doc/it/index.md"]}
 ]
   
 [project.theme]
@@ -248,5 +254,11 @@ alternate = [
     { name = "English", link = "/doc/en/", lang = "en" },  
     { name = "Español", link = "/doc/es/", lang = "es" },  
     { name = "Deutsch", link = "/doc/de/", lang = "de" },  
-    { name = "Français", link = "/doc/fr/", lang = "fr" }  
+    { name = "Français", link = "/doc/fr/", lang = "fr" },
+	{ name = "Português", link = "/doc/pt/", lang = "pt" },
+	{ name = "Svenska", link = "/doc/sv/", lang = "sv" },
+	{ name = "中文", link = "/doc/zh/", lang = "zh" },
+	{ name = "日本語", link = "/doc/ja/", lang = "ja" },
+	{ name = "Română", link = "/doc/ro/", lang = "ro" },
+	{ name = "Italiano", link = "/doc/it/", lang = "it" }
 ]
