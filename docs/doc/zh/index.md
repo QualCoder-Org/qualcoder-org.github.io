@@ -1,6 +1,3 @@
----
-path：index
----
 # 什么是 QualCoder
 
 QualCoder 是一款用于定性数据分析的免费开源桌面软件。
