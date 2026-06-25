@@ -11,8 +11,7 @@
 .md-tabs__item:nth-child(16),
 .md-tabs__item:nth-child(17),
 .md-tabs__item:nth-child(18),
-.md-tabs__item:nth-child(19),
-
+.md-tabs__item:nth-child(19)
 { 
   display: none;
 }
