@@ -198,7 +198,10 @@ nav = [
 	{"zh" = ["doc/zh/index.md"]},
 	{"ja" = ["doc/ja/index.md"]},
 	{"ro" = ["doc/ro/index.md"]},
-	{"it" = ["doc/it/index.md"]}
+	{"it" = ["doc/it/index.md"]},
+	{"eu" = ["doc/eu/index.md"]},
+	{"fa" = ["doc/fa/index.md"]},
+	{"eo" = ["doc/eo/index.md"]}
 ]
   
 [project.theme]
@@ -260,5 +263,8 @@ alternate = [
 	{ name = "中文", link = "/doc/zh/", lang = "zh" },
 	{ name = "日本語", link = "/doc/ja/", lang = "ja" },
 	{ name = "Română", link = "/doc/ro/", lang = "ro" },
-	{ name = "Italiano", link = "/doc/it/", lang = "it" }
+	{ name = "Italiano", link = "/doc/it/", lang = "it" },
+	#{name = "فارسی", link="doc/fa/", lang="fa"},
+	#{name = "Esperanto", link="doc/eo/", lang="eo"},
+	{ name = "Euskara", link = "/doc/eu/", lang = "eu" }
 ]

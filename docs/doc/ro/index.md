@@ -25,15 +25,15 @@ QualCoder include un set de funcții asistate de IA care utilizează modele ling
 Versiunile software-ului sunt disponibile pe [Github](https://github.com/ccbogel/QualCoder/releases). Acestea conțin codul sursă și fișierele executabile. Fișierele executabile reprezintă o modalitate simplă de a rula QualCoder; faceți dublu clic pentru a-l rula, dar rețineți că deschiderea acestuia poate dura până la 20 de secunde.
 
 
-[:octicons-archive-24: Cea mai recentă versiune a QualCoder (3.8.2) disponibilă pe GitHub](/latest){ .md-button .md-button--primary }
+[:octicons-archive-24: Cea mai recentă versiune a QualCoder disponibilă pe GitHub](/latest){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_3.8.2 Instalator pentru Windows 11](/latest-windows){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder Instalator pentru Windows 11](/latest-windows){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 portabil (întregul software într-un singur fișier, pornire mai lentă)](/latest-windows-portable){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder Windows 11 portabil (întregul software într-un singur fișier, pornire mai lentă)](/latest-windows-portable){ .md-button .md-button--primary }
 
-[:material-apple: QualCoder_3.8.2 pentru macOS arm64](/latest-mac){ .md-button .md-button--primary }
+[:material-apple: QualCoder pentru macOS arm64](/latest-mac){ .md-button .md-button--primary }
 
-[:material-linux: QualCoder_3.8.2_Ubuntu](/latest-linux){ .md-button .md-button--primary }
+[:material-linux: QualCoder_Ubuntu](/latest-linux){ .md-button .md-button--primary }
 
 ## Susțineți QualCoder
 

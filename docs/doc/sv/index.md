@@ -25,15 +25,15 @@ QualCoder innehåller en uppsättning AI-stödda funktioner som använder stora 
 Programvaruversioner finns tillgängliga på [Github](https://github.com/ccbogel/QualCoder/releases). Dessa innehåller källkod och körbara filer. De körbara filerna är ett enkelt sätt att köra QualCoder – dubbelklicka för att starta, men tänk på att det kan ta upp till 20 sekunder att öppna programmet.
 
 
-[:octicons-archive-24: Senaste versionen av QualCoder (3.8.2) tillgänglig på GitHub](/latest){ .md-button .md-button--primary }
+[:octicons-archive-24: Senaste versionen av QualCoder tillgänglig på GitHub](/latest){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11-installationsprogram](/latest-windows){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder Windows 11-installationsprogram](/latest-windows){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 Portable (Hela programmet i en fil, tar längre tid att starta)](/latest-windows-portable){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder Windows 11 Portable (Hela programmet i en fil, tar längre tid att starta)](/latest-windows-portable){ .md-button .md-button--primary }
 
-[:material-apple: QualCoder_3.8.2 macOS arm64](/latest-mac){ .md-button .md-button--primary }
+[:material-apple: QualCoder macOS arm64](/latest-mac){ .md-button .md-button--primary }
 
-[:material-linux: QualCoder_3.8.2_Ubuntu](/latest-linux){ .md-button .md-button--primary }
+[:material-linux: QualCoder_Ubuntu](/latest-linux){ .md-button .md-button--primary }
 
 ## Stöd QualCoder
 
