@@ -11,7 +11,18 @@
 .md-tabs__item:nth-child(16),
 .md-tabs__item:nth-child(17),
 .md-tabs__item:nth-child(18),
-.md-tabs__item:nth-child(19)
+.md-tabs__item:nth-child(19),
+.md-tabs__item:nth-child(20),
+.md-tabs__item:nth-child(21),
+.md-tabs__item:nth-child(22),
+.md-tabs__item:nth-child(23),
+.md-tabs__item:nth-child(24),
+.md-tabs__item:nth-child(25),
+.md-tabs__item:nth-child(26),
+.md-tabs__item:nth-child(27),
+.md-tabs__item:nth-child(28),
+.md-tabs__item:nth-child(29),
+.md-tabs__item:nth-child(30)
 { 
   display: none;
 }
