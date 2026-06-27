@@ -29,4 +29,5 @@ Some languages are officially maintained by QualCoder (human periodic proofreadi
 |     [日本語 (ja)](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/ja.zip)          | 🟩🟩🟩🟩🟩🟩🟩🟩🟨🟥 78.3% (2268 / 2898) | community maintained |
 |        [Română (ro)](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/ro.zip)      | 🟩🟩🟩🟩🟩🟨🟥🟥🟥🟥 52.4% (1522 / 2903) | community maintained |
 |       [Italiano (it)](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/it.zip)     | 🟩🟩🟩🟩🟩🟩🟩🟩🟨🟥 75.7% (2216 / 2929) | community maintained |
+| Kreyòl ayisyen (ht) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥 94.8% (2611 / 2755) | community maintained |
 | (https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/fa.zip)[فارسی (fa)] | 🟨🟨🟨🟨🟨🟨🟥🟥🟥🟥 0.0% (0 / 2601) | community maintained |
