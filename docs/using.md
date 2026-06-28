@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+453 Mary Chun, Ngai Y., Aaron Simpson, Nikos Ntoumanis, Claire Willis, Marina Milyavskaya, and Timothy Budden. 2026. **Exploring Goal Flexibility and Mental Health in University Students: A Qualitative Approach.** Stress and Health: e70195. <https://doi.org/10.1002/smi.70195>
+
 452 Lien Imbrechts, João C. Azevedo, Rebekka Dossche, Matthias Bürgi, Peter H. Verburg. **Similar patterns, different processes: Persistence and change in path-dependent land systems.** Land Use Policy Volume 169, 2026, <https://doi.org/10.1016/j.landusepol.2026.108152>
 
 451 **Minecraft as a Scaffold for Diversity and Equity in the Lower Secondary Classroom.** Kieran R Bailey. Thesis 2026
