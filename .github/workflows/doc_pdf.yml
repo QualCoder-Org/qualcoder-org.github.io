@@ -1,0 +1,33 @@
+name: Generate Documentation PDFs
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'doc/**'
+      - 'docs/doc/**'
+jobs:
+  generate-pdfs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y pandoc texlive-xetex texlive-latex-extra texlive-fonts-extra
+
+      - name: Generate PDFs
+        env:
+          DOCS_PREFIX: "docs/doc"  # Adjust according to your structure
+        run: |
+          chmod +x docs_pdf.sh
+          ./docs_pdf.sh
+
+      - name: Upload PDFs as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: documentation-pdfs
+          path: output_pdfs/
+          retention-days: 30  # Keeps PDFs for 30 days
