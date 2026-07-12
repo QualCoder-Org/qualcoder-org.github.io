@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+455 **Desafíos pedagógicos en la educación superior para la atención a estudiantes con necesidades educativas específicas. (Pedagogical challenges in higher education regarding support for students with specific educational needs).** (2026). Revista Docencia Universitaria, 7(2), 239-253. <https://doi.org/10.46954/revistadusac.v7i2.181>
+
 454 Marcos Vinicius Cruz, Pragya Verma, and Grischa Liebel. 2026. **Experiences of Dyslexic Software Engineers - A Qualitative Study.** In Proceedings of the 19th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE'26). Association for Computing Machinery, New York, NY, USA, 155–165. <https://doi.org/10.1145/3794860.3794895>
 
 453 Mary Chun, Ngai Y., Aaron Simpson, Nikos Ntoumanis, Claire Willis, Marina Milyavskaya, and Timothy Budden. 2026. **Exploring Goal Flexibility and Mental Health in University Students: A Qualitative Approach.** Stress and Health: e70195. <https://doi.org/10.1002/smi.70195>
