@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+457 **Engaging Undergraduates in Ocean Science through Podcasts: Enhancing Connection, Belonging, and Career Awareness.** d'Alva Duchrow, Lucas; Capece, Lena R.; Wrobel, Alex ; Dornan, Natalie ; Raven, Morgan R.; Phillips, Alexandra Atlee The Ocean Sciences Meeting (OSM) 2026, held in Glasgow, Scotland, 22-27 February 2026, Session: Education, Public Engagement, and Arts / Coastal Community Science in the Undergraduate Classroom: Science That Matters to Students and Communities I Poster, Poster No. 007, id. ED24C-007.
+
 456 Agudelo García, J. D., Ávalos, I., Villalobos Soto, R., Carrera Gambetta, F., & (RLABM), R. L. d. B. M. (2026). **Gobernanza colaborativa en acción: Lecciones desde cuatro Bosques Modelo en América del Sur (Collaborative governance in action: Lessons from four Model Forests in South America).** CATIE - Centro Agronómico Tropical de Investigación y Enseñanza. <https://repositorio.catie.ac.cr/handle/11554/14283>
 
 455 **Desafíos pedagógicos en la educación superior para la atención a estudiantes con necesidades educativas específicas. (Pedagogical challenges in higher education regarding support for students with specific educational needs).** (2026). Revista Docencia Universitaria, 7(2), 239-253. <https://doi.org/10.46954/revistadusac.v7i2.181>
