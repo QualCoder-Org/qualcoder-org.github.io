@@ -3,7 +3,7 @@ path: index
 ---
 # Présentation de QualCoder
 
-QualCoder est un logiciel de bureau gratuit et open source destiné à l'analyse de données qualitatives.
+QualCoder est un logiciel de bureau gratuit et libre destiné à l'analyse de données qualitatives.
 
 QualCoder permet de coder du texte, des images, des fichiers audio et vidéo, ainsi que de rédiger des notes de journal et des mémos. Vous pouvez organiser les codes selon une structure hiérarchique de type arborescent. Divers rapports peuvent être générés. La plupart des rapports peuvent être exportés au format HTML, OpenDocument Text (ODT), texte brut ou Excel.
 
