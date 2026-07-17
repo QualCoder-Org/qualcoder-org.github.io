@@ -35,9 +35,7 @@ Software releases are available from [Github](https://github.com/ccbogel/QualCod
 
 [:material-linux: QualCoder_3.8.2_Ubuntu](/latest-linux){ .md-button .md-button--primary }
 
-The in development code is available here:
-
-[https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
+The in development code is available here: [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
 ## Support QualCoder
 
@@ -55,7 +53,7 @@ QualCoder is written in python using Qt6 for the graphical interface. QualCoder 
 
 Curtain, C. Dröge, K. Missaghieh--Poncet, J. Salomón, L. (2025) QualCoder 3.82 [Computer software]. Retrieved from https://github.com/ccbogel/QualCoder/releases/tag/3.8.2
 
-Replace the version number (3.8.2) as needed fo rthe version you are using.
+Replace the version number (3.8.2) as needed for the version you are using.
 
 ## License
 
