@@ -51,7 +51,7 @@ QualCoder is written in python using Qt6 for the graphical interface. QualCoder 
 
 ## Citation
 
-Curtain, C. Dröge, K. Missaghieh--Poncet, J. Salomón, L. (2025) QualCoder 3.82 [Computer software]. Retrieved from https://github.com/ccbogel/QualCoder/releases/tag/3.8.2
+Curtain, C. Dröge, K. Missaghieh--Poncet, J. Salomón, L. (2025) QualCoder 3.8.2 [Computer software]. Retrieved from https://github.com/ccbogel/QualCoder/releases/tag/3.8.2
 
 Replace the version number (3.8.2) as needed for the version you are using.
 
