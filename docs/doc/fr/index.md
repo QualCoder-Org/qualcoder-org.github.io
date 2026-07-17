@@ -35,6 +35,8 @@ Les versions du logiciel sont disponibles sur [Github](https://github.com/ccboge
 
 [:material-linux: QualCoder Ubuntu](/latest-linux){ .md-button .md-button--primary }
 
+La version en développement est disponible ici : [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
+
 ## Soutenir QualCoder
 
 Si vous appréciez QualCoder et que vous l'avez trouvé utile dans votre travail, n'hésitez pas à laisser un avis sur des sites tels que [Saashub](https://www.saashub.com/qualcoder-alternatives) ou [AlternativeTo](https://alternativeto.net/software/qualcoder).
@@ -46,6 +48,12 @@ La création de ce logiciel, mis à disposition gratuitement, a nécessité de t
 <a href="https://www.buymeacoffee.com/ccbogelB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 QualCoder est écrit en Python et utilise Qt6 pour l'interface graphique. QualCoder a été utilisé sous Windows 11, macOS et diverses distributions Linux : Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
+
+## Citation
+
+Curtain, C. Dröge, K. Missaghieh--Poncet, J. Salomón, L. (2025) QualCoder 3.8.2 [Logiciel]. Disponible à l’adresse suivante : https://github.com/ccbogel/QualCoder/releases/tag/3.8.2
+
+Remplacer le numéro de version (3.8.2) au besoin par la version que vous utilisez.
 
 ## Licence
 
