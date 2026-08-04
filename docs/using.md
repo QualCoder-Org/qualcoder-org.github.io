@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+459 Jemine, Grégory, and Fanny Roche. 2026. **The Mirages of Strategic Workforce Planning: A Critical Inquiry Into an Elusive HR Process.** Human Resource Management Journal: 1–16. <https://doi.org/10.1111/1748-8583.70060>
+
 458 Erol, İ. E. (2026). İletişim Araştırmalarında Dijital Simülasyon Yaklaşımları: Sistematik Bir İnceleme (DIGITAL SIMULATION APPROACHES IN COMMUNICATION STUDIES: A SYSTEMATIC REVIEW). The Turkish Online Journal of Design Art and Communication, 16 (3), 1533-1552. https://doi.org/10.7456/tojdac.1929130
 
 457 **Engaging Undergraduates in Ocean Science through Podcasts: Enhancing Connection, Belonging, and Career Awareness.** d'Alva Duchrow, Lucas; Capece, Lena R.; Wrobel, Alex ; Dornan, Natalie ; Raven, Morgan R.; Phillips, Alexandra Atlee The Ocean Sciences Meeting (OSM) 2026, held in Glasgow, Scotland, 22-27 February 2026, Session: Education, Public Engagement, and Arts / Coastal Community Science in the Undergraduate Classroom: Science That Matters to Students and Communities I Poster, Poster No. 007, id. ED24C-007.
