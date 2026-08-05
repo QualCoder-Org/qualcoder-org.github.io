@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+460 Mehlhorn/Schäfer/Bruischütz/Hambsch (2026), **Evaluation des Förderprogramms INVEST – Zuschuss für Wagniskapital im Auftrag des Bundesministeriums für Wirtschaft und Energie (BMWE)**, Betriebswirtschaftliches Forschungszentrum für Fragen der mittelständischen Wirtschaft e. V., Bayreuth. 
+
 459 Jemine, Grégory, and Fanny Roche. 2026. **The Mirages of Strategic Workforce Planning: A Critical Inquiry Into an Elusive HR Process.** Human Resource Management Journal: 1–16. <https://doi.org/10.1111/1748-8583.70060>
 
 458 Erol, İ. E. (2026). İletişim Araştırmalarında Dijital Simülasyon Yaklaşımları: Sistematik Bir İnceleme (DIGITAL SIMULATION APPROACHES IN COMMUNICATION STUDIES: A SYSTEMATIC REVIEW). The Turkish Online Journal of Design Art and Communication, 16 (3), 1533-1552. https://doi.org/10.7456/tojdac.1929130
