@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+461 **Collective Action Frames: A Bibliometric and Thematic Analysis.** Félix Wilmer Paguay Chávez. conference proceedings. CIVINEDU 2026. <https://doi.org/10.58909/adc26543777>
+
 460 Mehlhorn/Schäfer/Bruischütz/Hambsch (2026), **Evaluation des Förderprogramms INVEST – Zuschuss für Wagniskapital im Auftrag des Bundesministeriums für Wirtschaft und Energie (BMWE)**, Betriebswirtschaftliches Forschungszentrum für Fragen der mittelständischen Wirtschaft e. V., Bayreuth. 
 
 459 Jemine, Grégory, and Fanny Roche. 2026. **The Mirages of Strategic Workforce Planning: A Critical Inquiry Into an Elusive HR Process.** Human Resource Management Journal: 1–16. <https://doi.org/10.1111/1748-8583.70060>
