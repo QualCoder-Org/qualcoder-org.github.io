@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+462 E. García-Cabrera, L. M. Saavedra, F. Luna-Perejón, J. L. S. Ramos and L. Miró-Amarante, **Towards Ethical Video Game Design: Eliciting Requirements Through a Multidisciplinary Delphi Study.** 2026 International Conference on Computer, Information and Telecommunication Systems (CITS), Piraeus-Athens, Greece, 2026, pp. 1-6, <https://doi.org/10.1109/CITS70307.2026.11637206>
+
 461 **Collective Action Frames: A Bibliometric and Thematic Analysis.** Félix Wilmer Paguay Chávez. conference proceedings. CIVINEDU 2026. <https://doi.org/10.58909/adc26543777>
 
 460 Mehlhorn/Schäfer/Bruischütz/Hambsch (2026), **Evaluation des Förderprogramms INVEST – Zuschuss für Wagniskapital im Auftrag des Bundesministeriums für Wirtschaft und Energie (BMWE)**, Betriebswirtschaftliches Forschungszentrum für Fragen der mittelständischen Wirtschaft e. V., Bayreuth. 
