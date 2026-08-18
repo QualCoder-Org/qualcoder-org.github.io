@@ -270,4 +270,4 @@ alternate = [
 	{ name = "Euskara", link = "/doc/eu/", lang = "eu" }
 ]
 [[project.plugins]]
-"blog"
+blog = "true"
