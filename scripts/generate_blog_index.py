@@ -102,7 +102,7 @@ def render_index(posts: list[dict]) -> str:
         if p["category"]:
             meta_bits.append(f"· {p['category']}")
         lines.append(" ".join(meta_bits) + "\n")
-        ex = excerpt(p["body"])
+        ex = p["body"]
         if ex:
             lines.append(ex + "\n")
         lines.append("---\n")
