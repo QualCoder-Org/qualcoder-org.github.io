@@ -269,5 +269,3 @@ alternate = [
 	#{name = "Esperanto", link="doc/eo/", lang="eo"},
 	{ name = "Euskara", link = "/doc/eu/", lang = "eu" }
 ]
-[[project.plugins]]
-blog = "true"
