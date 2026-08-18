@@ -24,7 +24,8 @@ combine_header_slug = true
 
 nav = [  
 	{"Home" = "index.md"},  
-	{"Blog" = "https://qualcoder.wordpress.com/"},  
+	# {"Blog" = "https://qualcoder.wordpress.com/"},  
+	{"Blog" = "blog/index.md"},  
 	{"Documentation" = "doc/index.md"},  
 	{"Resources" = [  
 		"ressources.md",  
