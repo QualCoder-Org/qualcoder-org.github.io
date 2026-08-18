@@ -87,7 +87,7 @@ def excerpt(body: str, max_chars: int = 200) -> str:
 
 
 # --- Index generation ---------------------------------------------------
-def render_index(posts: list[dict]) -> str:
+def render_index_full(posts: list[dict]) -> str: # Full version (all content in the index)
     lines = ["# Blog\n"]
     for p in posts:
         d = p["date"].strftime("%d %B %Y")
@@ -95,7 +95,7 @@ def render_index(posts: list[dict]) -> str:
         lines.append(f"## [{p['title']}]({link})\n")
         meta_bits = [f"**{d}**"]
         if p["author"]:
-            meta_bits.append(f"par {p['author']}")
+            meta_bits.append(f"by {p['author']}")
         if p["category"]:
             meta_bits.append(f"· {p['category']}")
         lines.append(" ".join(meta_bits) + "\n")
@@ -105,7 +105,14 @@ def render_index(posts: list[dict]) -> str:
         lines.append("---\n")
     return "\n".join(lines).rstrip() + "\n"
 
-
+def render_index(posts: list[dict]) -> str: # only date and title
+    lines = ["# Blog\n"]
+    for p in posts:
+        d = p["date"].strftime("%d %B %Y")
+        link = f"posts/{p['slug']}/"
+        lines.append(f"- **{d}** [{p['title']}]({link})")
+    return "\n".join(lines).rstrip() + "\n"
+    
 def write_index(content: str) -> None:
     """Write index."""
     generated_block = f"{START_MARKER}\n{content}{END_MARKER}\n"
