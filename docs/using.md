@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+463 **Responsabilidade social universitária e evasão no ensino superior : análise sobre a percepção de estudantes de uma universidade pública (University social responsibility and higher education education: analysis of the perception of students at a public university).** Salles, Simone Corrêa. 026. 37 f. Monografia (Graduação em Engenharia de Produção) - Escola de Minas, Universidade Federal de Ouro Preto, Ouro Preto, 2026. <http://www.monografias.ufop.br/handle/35400000/9541>
+
 462 E. García-Cabrera, L. M. Saavedra, F. Luna-Perejón, J. L. S. Ramos and L. Miró-Amarante, **Towards Ethical Video Game Design: Eliciting Requirements Through a Multidisciplinary Delphi Study.** 2026 International Conference on Computer, Information and Telecommunication Systems (CITS), Piraeus-Athens, Greece, 2026, pp. 1-6, <https://doi.org/10.1109/CITS70307.2026.11637206>
 
 461 **Collective Action Frames: A Bibliometric and Thematic Analysis.** Félix Wilmer Paguay Chávez. conference proceedings. CIVINEDU 2026. <https://doi.org/10.58909/adc26543777>
