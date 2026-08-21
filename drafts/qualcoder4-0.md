@@ -119,9 +119,9 @@ The bookmark feature allows you to restore the position in the media and text in
 Proximity graphs allow you to visualize relationships between codes. You can also export your co-occurrence data in a format compatible with Gephi, a powerful network analysis tool.
 
 
-## Mind Maps: More Flexibility and Control
+## Graph: More Flexibility and Control
 
-Mind maps now offer more flexibility and control:
+Graph now offer more flexibility and control:
 
 - Object manipulation has been improved, allowing you to move, resize, and organize nodes more easily.
 - Export mind maps in a format compatible with draw.io for integration with other visualization tools.
