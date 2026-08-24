@@ -12,7 +12,7 @@ This version also marks an important evolution in data structure and analysis. B
 
 To ensure the highest quality user experience, QualCoder now focuses on four main languages: English, German, French, and Spanish. These languages benefit from regular human reviews and frequent updates to ensure accurate and natural translations.
 
-Additional languages remain available in the "Other Languages" folder, though they may not be as current or human-reviewed. If you would like to contribute translations for your language, please contact us.
+Additional languages remain available in the "Other Languages" folder, though they may not be as current or human-reviewed. You can help improve the translations into Esperanto, Basque, Farsi, Haitian Creole, Italian, Japanese, Portuguese, Romanian, Swedish and Mandarin, or suggest your own language. If you would like to contribute translations for your language, please contact us. 
 
 
 ## Structural Changes: More Organised Codes
