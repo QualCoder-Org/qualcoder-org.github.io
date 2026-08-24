@@ -9,7 +9,6 @@ This also applies to QualCoder 3.8.2 the latest and recommended version in the 3
 
 ### QualCoder 3.7
 
-
 <iframe width="500" height="281" src="https://www.youtube.com/embed/TCLCT893JcM" title="QualCoder 3.7 part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 I added another video using QualCoder 3.7. In this video I do some coding with the artificial intelligence enabled. I also show some hidden menu options in Code Text (and this uncovered an error I have to fix later also). I also look at the Code Relations report.
@@ -19,7 +18,6 @@ I added another video using QualCoder 3.7. In this video I do some coding with t
 Dr USP an Associate Professor in Journalism and Mass Communication based in Kolkata has prepared this video using the 3.7 version of QualCoder. Thank you Dr.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/4LqnG22NwXY" title="Master Qualitative Data Analysis  with QualCoder: The Best Free QDA Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 ### QualCoder 3.6
 Thanks very much to Van Tran, Temple University Librarian for making installation videos for macOS and for showing how the Windows 11 installer and uninstaller works.
@@ -70,6 +68,16 @@ Thanks to Justin for making this video.
 <iframe width="500" height="281" src="https://www.youtube.com/embed/7xBeMzewAWg" title="Tuto@76Mate# Justin Missaghieh–Poncet présente le CAQDAS CalCoder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Recursos en español
+
+## QualCoder 3.8.2 PDF
+
+Thank you to Marcelo López, National University of Jujuy, and his team for producing this written resource.
+
+[INSTRUCTIVO_QUALCODER-3.8.2.pdf](https://github.com/user-attachments/files/31394127/INSTRUCTIVO_QUALCODER-3.8.2.pdf)
+
+López, M. L., Huaranca, D. A., García Ramírez, C. E., Ricaldi, D. S., Salce, F. M. B. (2026). Introducción al uso del software de
+análisis cualitativo QualCoder. Instructivo en español confeccionado sobre la versión 3.8.2 para Windows 11. Ediciones El
+Siku.
 
 ### QualCoder 3.8
 
