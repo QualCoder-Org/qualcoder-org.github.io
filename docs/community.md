@@ -7,6 +7,7 @@
 ## QualCoder User groups
 <div class="grid cards" markdown>
 - [French speaker](https://framagroupes.org/sympa/info/qualcoder-fr)
+- [Spanish speaker](https://www.facebook.com/groups/qualcoder)
 </div>
 
 ## QualCoder in your language
