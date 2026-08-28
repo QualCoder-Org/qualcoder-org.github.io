@@ -16,8 +16,14 @@ You can use QualCoder in your language (go to the settings). If a translation do
 
 Some languages are officially maintained by QualCoder (human periodic proofreading - *officially maintained*), whilst we cannot guarantee that other languages will be updated (*community*). If you speak this language, please join us in making QualCoder more inclusive with translation and proofreading.
 
-For additional languages (community maintained), download the relevant .zip file and place it in the .qualcoder/i18n folder. Then, in the settings, select your language.
+For additional languages (community maintained), download the relevant .zip file and place it in the `.qualcoder/i18n` folder. Then, in the settings, select your language.
 
+<div class="grid cards" markdown>
+- English (en)
+    *officially maintained*
+- Français (fr)
+    *officially maintained*
+</div>
 
 | Language                                                                                                 | Status                |
 |----------------------------------------------------------------------------------------------------------|-----------------------|
