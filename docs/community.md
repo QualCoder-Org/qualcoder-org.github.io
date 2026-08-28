@@ -18,7 +18,7 @@ In addition, support materials are available in several languages.
 
     *Officially maintained. The language available by default in the software.*
     
-    [forum for English speakers](https://github.com/ccbogel/QualCoder/discussions)
+    [Forum for English speakers](https://github.com/ccbogel/QualCoder/discussions)
 
 -   **Français (fr)**
 
