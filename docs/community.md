@@ -20,38 +20,38 @@ For additional languages (community maintained), download the relevant .zip file
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+-   English (en)
 
     ---
 
-    Install [`zensical`](#) with [`pip`](#) and get up
-    and running in minutes
+    *officially maintained*
 
-    [:octicons-arrow-right-24: Getting started](#)
-
--   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+-   Français (fr)
 
     ---
 
-    Focus on your content and generate a responsive and searchable static site
+    *officially maintained*
 
-    [:octicons-arrow-right-24: Reference](#)
-
--   :material-format-font:{ .lg .middle } __Made to measure__
+-   Español (es)
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    *officially maintained*
 
-    [:octicons-arrow-right-24: Customization](#)
-
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+-   Deutsch (de)
 
     ---
 
-    Zensical is licensed under MIT and available on [GitHub]
+    *officially maintained*
 
-    [:octicons-arrow-right-24: License](#)
+
+-   Esperanto (eo)
+
+    ---
+
+    *community maintained*
+
+    [: octicons-arrow-right-24: Download language file]([#](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/eo.zip))
 
 </div>
 
