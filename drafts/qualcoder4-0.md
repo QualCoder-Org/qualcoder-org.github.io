@@ -64,9 +64,9 @@ Journals (logs, memos, etc.) benefit from several improvements:
 
 An "Import Survey" button now allows importing data from Excel (XLSX) or CSV files. Multiple row selection lets you choose several lines at once for importing as attributes or for qualitative processing.
 
-### PDF Import with Highlights
+### PDF Import with Highlights and Underlines
 
-You can now import annotated PDFs (with highlights) and automatically code the highlighted segments. Each highlight color is associated with a distinct code, created under a "PDF Highlights" category. Code colors are adapted to best match QualCoder's palette.
+You can now import annotated PDFs and automatically code the annotated segments. Two markup types are detected: highlights and underlines. QualCoder asks whether to code them, then creates a "PDF Highlights" category, a "PDF Underlines" category, or both, depending on what the files contain. One code is created per colour and markup type (for example "Highlight yellow" or "Underline blue"), with annotation colors adapted to best match QualCoder's palette. Comments written on a highlight or underline become the memo of the resulting coded segment, while other annotations that contain text (sticky notes and similar) are collected into the file memo, with their page number.
 
 ### LaTeX Import
 
@@ -96,14 +96,19 @@ Text coding has been enriched with many features for a smoother and more flexibl
 
 Keyboard shortcuts have been added: e.g. C to add a new category. The text edit mode now includes a search bar for easier navigation.
 
+!!! info
+Full Documents Instead of Chunks
+
+Text documents now always load complete. The "Code text chunk size" setting (50000, 40000, 30000 and 20000 characters) and the "next / previous characters" navigation have been removed. Loading by chunks saved some memory on very large files, but it put data at risk: editing a file while a partial chunk was loaded could save only the visible portion and overwrite the rest of the document, navigating chunks after an edit could crash, and returning to the first chunk could hide the beginning of the text. With full loading, character positions and codings always stay consistent.
+
 
 ## PDF Coding: A Revolutionised Experience
 
-Thanks to contributions from Lorenzo, PDF coding has been considerably improved. PDF presentation and manipulation now offer a smoother and more intuitive interface. You can code directly on the PDF page, whether it's text or image areas. AI-assisted text analysis can be applied directly from the PDF coding window.
+PDF coding has been considerably improved. PDF presentation and manipulation now offer a smoother and more intuitive interface. You can code directly on the PDF page, whether it's text or image areas. AI-assisted text analysis can be applied directly from the PDF coding window.
 
 A refactoring method has been added for existing QualCoder projects: text is re-extracted, and existing codings are remapped to the new extraction method. Codings that cannot be remapped are recorded in Journals as "lost codes" for your review.
 
-PDF highlight export generates a copy of the original PDF with coded segments embedded as native highlight annotations (in each code's color, with the code name as annotation comment). This allows the coded document to be opened and reviewed in any standard PDF reader. An ODT report feature also enables exporting a coding report in OpenDocument Text format (ODT), listing coded segments with their codes (text and images).
+PDF highlight export generates a copy of the original PDF with the codings embedded as native annotations: coded text as highlights and coded areas as rectangles, each in the code's color and carrying the code name, its memo and the coder. This allows the coded document to be opened and reviewed in any standard PDF reader. An ODT report feature also enables exporting a coding report in OpenDocument Text format (ODT), listing coded segments with their codes (text and images).
 
 
 ## Image Coding: Easy Resizing
@@ -118,7 +123,14 @@ The bookmark feature allows you to restore the position in the media and text in
 
 ## Co-occurrence Report: Visualisation and Export
 
-Proximity graphs allow you to visualise relationships between codes. You can also export your co-occurrence data in a format compatible with Gephi, a powerful network analysis tool.
+Proximity graphs allow you to visualise relationships between codes. Two graphs can be exported as high-resolution images: the co-occurrence graph, where the thickness of each line shows how often two codes were coded together, and the community clusters graph, which groups the codes into coloured clusters according to their strongest connections. Right-clicking each button sets the font size and whether the colour is applied to nodes or labels. The matrix itself can be exported to Excel, and the network can be exported in GraphML, a format compatible with Gephi, a powerful network analysis tool.
+
+!!! note
+Technical Note: How the co-ocurrence graphs are calculated
+
+Co-occurrence is counted file by file, between segments of two different codes. In text, two codings co-occur when they cover exactly the same passage, when one contains the other, or when they partly overlap. In images and PDF areas, those same three cases are obtained from the rectangles, within the same file and, for PDFs, the same page. The value of each pair is the sum of both directions of the matrix.
+
+The graphs are built with networkx and drawn with matplotlib. Nodes are the visible codes, edges are the pairs with a count above zero, and the weight of each edge is that count, with line thickness scaled to the highest value. The co-occurrence graph positions the nodes with a spring layout (Fruchterman-Reingold). The cluster graph first detects communities with the Louvain method (greedy modularity as a fallback), applied to the sub-network of edges whose weight is equal to or above the mean, so that only the strongest relationships define the groups; nodes are then positioned with Kamada-Kawai using the inverse of the count as distance, falling back to a spring layout when the network is not connected. The Gephi and GraphML exports carry those same nodes and weights.
 
 
 ## Graph: More Flexibility and Control
@@ -134,6 +146,14 @@ Graph offers more flexibility and control:
 - A scrollable mini-map helps you navigate large graphs more easily.
 - Choose from different node styles (box, oval, etc.).
 - Use multi-selection to manipulate multiple elements at once.
+
+### Automated Graph Models
+
+Six graph models can be generated automatically instead of building the graph by hand: category hierarchical, file hierarchical, file comparative (two files), case hierarchical, case comparative (two cases), and co-occurrence network. In the comparative models the connecting lines also show the frequency of each code or category in that case or file.
+
+### Relation Lines
+
+Lines between nodes can now carry a named relation, chosen from a set of theoretical frameworks: Grounded Theory (Strauss and Corbin), Qualitative Content Analysis (Mayring), Phenomenology (Moustakas and van Manen), Thematic Analysis (Braun and Clarke), Discourse Analysis, plus a User framework for your own relations. Each relation comes with a short definition, and the arrow direction and line style can be set per line. Labels are stored in English and displayed in the interface language, so a graph saved in one language reads correctly in another.
 
 
 ## SQL Queries: Simplified Execution
