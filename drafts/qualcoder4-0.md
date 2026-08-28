@@ -73,6 +73,13 @@ You can now import annotated PDFs and automatically code the annotated segments.
 LaTeX files can now be imported and converted to readable plain text. Note that complex presentations or files using commands like |input| or |include| may not import perfectly.
 
 
+## Reference Management: Attachments and Zotero
+
+Reference management has been extended with two import routes. RIS files can now be imported together with their attached documents: when the entry points to a PDF or EPUB, the file is imported into the project and linked to its reference, so the document and its bibliographic record travel together.
+
+References can also be imported directly from a local Zotero installation (version 7 or newer) through its local API, with their PDF attachments, without any account or key. Both routes share the same preview dialog, which lists the references found, flags those already in the project and their duplicated attachments, and lets you choose what to import and whether to bring the attachments in.
+
+
 ## Code Tree: More Intuitive and Powerful
 
 The code tree, present in all coding screens, has been significantly improved:
