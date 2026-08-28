@@ -21,7 +21,7 @@ Testing, translation into French, software development. Other organisational dev
 ========
 
 **Psic. Lorenzo Salomón Cárdenas** [Universidad Autónoma de Sinaloa](https://www.uas.edu.mx/)
-Testing, software development, translations into Spanish. Freelance Researcher and Human Rights Activist.
+Testing, software development enthusiast, translations into Spanish. Freelance Researcher and Human Rights Activist.
 
 ========
 
