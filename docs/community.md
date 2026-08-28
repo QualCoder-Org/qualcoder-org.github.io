@@ -1,14 +1,4 @@
 # Community
-## Forum
-
-[forum](https://github.com/ccbogel/QualCoder/discussions)
-
-
-## QualCoder User groups
-<div class="grid cards" markdown>
-- [French speaker](https://framagroupes.org/sympa/info/qualcoder-fr)
-- [Spanish speaker](https://www.facebook.com/groups/qualcoder)
-</div>
 
 ## QualCoder in your language
 
@@ -18,6 +8,8 @@ Some languages are officially maintained by QualCoder (human periodic proofreadi
 
 For additional languages (community maintained), download the relevant .zip file and place it in the `.qualcoder/i18n` folder. Then, in the settings, select your language.
 
+In addition, support materials are available in several languages.
+
 <div class="grid cards" markdown>
 
 -   English (en)
@@ -25,18 +17,21 @@ For additional languages (community maintained), download the relevant .zip file
     ---
 
     *officially maintained*
+    [forum for English speakers](https://github.com/ccbogel/QualCoder/discussions)
 
 -   Français (fr)
 
     ---
 
     *officially maintained*
+    [Mailing list for French speakers](https://framagroupes.org/sympa/info/qualcoder-fr)
 
 -   Español (es)
 
     ---
 
     *officially maintained*
+    [Facebook group for Spanish speakers](https://www.facebook.com/groups/qualcoder)
 
 -   Deutsch (de)
 
