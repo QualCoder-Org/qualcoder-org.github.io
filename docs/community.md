@@ -51,7 +51,7 @@ For additional languages (community maintained), download the relevant .zip file
 
     *community maintained*
 
-    [: octicons-arrow-right-24: Download language file]([#](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/eo.zip))
+    [:octicons-arrow-right-24: Download language file]([#](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/eo.zip))
 
 </div>
 
