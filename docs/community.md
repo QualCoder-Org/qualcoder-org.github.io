@@ -20,10 +20,10 @@ For additional languages (community maintained), download the relevant .zip file
 
 <div class="grid cards" markdown>
 - English (en)
-----
+    ---
     *officially maintained*
 - Français (fr)
-----
+    ---
     *officially maintained*
 </div>
 
