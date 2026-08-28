@@ -202,7 +202,8 @@ nav = [
 	{"it" = ["doc/it/index.md"]},
 	{"eu" = ["doc/eu/index.md"]},
 	{"fa" = ["doc/fa/index.md"]},
-	{"eo" = ["doc/eo/index.md"]}
+	{"eo" = ["doc/eo/index.md"]},
+	{"oc" = ["doc/oc/index.md"]}
 ]
   
 [project.theme]
@@ -256,16 +257,17 @@ toggle.name = "Switch to light mode"
 [project.extra]
 alternate = [  
     { name = "English", link = "/doc/en/", lang = "en" },  
+    { name = "Deutsch", link = "/doc/de/", lang = "de" },
     { name = "Español", link = "/doc/es/", lang = "es" },  
-    { name = "Deutsch", link = "/doc/de/", lang = "de" },  
     { name = "Français", link = "/doc/fr/", lang = "fr" },
-	{ name = "Português", link = "/doc/pt/", lang = "pt" },
-	{ name = "Svenska", link = "/doc/sv/", lang = "sv" },
-	{ name = "中文", link = "/doc/zh/", lang = "zh" },
-	{ name = "日本語", link = "/doc/ja/", lang = "ja" },
-	{ name = "Română", link = "/doc/ro/", lang = "ro" },
+	{ name = "Esperanto", link = "doc/eo/", lang = "eo" },
+	{ name = "Euskara", link = "/doc/eu/", lang = "eu" },
 	{ name = "Italiano", link = "/doc/it/", lang = "it" },
-	#{name = "فارسی", link="doc/fa/", lang="fa"},
-	#{name = "Esperanto", link="doc/eo/", lang="eo"},
-	{ name = "Euskara", link = "/doc/eu/", lang = "eu" }
+	{ name = "Occitan", link = "/doc/eo/", lang = "eo" },
+	{ name = "Português", link = "/doc/pt/", lang = "pt" },
+	{ name = "Română", link = "/doc/ro/", lang = "ro" },
+	{ name = "Svenska", link = "/doc/sv/", lang = "sv" },
+	{ name = "فارسی", link = "doc/fa/", lang = "fa" },
+	{ name = "中文", link = "/doc/zh/", lang = "zh" },
+	{ name = "日本語", link = "/doc/ja/", lang = "ja" }
 ]
