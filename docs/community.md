@@ -12,35 +12,38 @@ In addition, support materials are available in several languages.
 
 <div class="grid cards" markdown>
 
--   English (en)
+-   **English (en)**
 
     ---
 
     *officially maintained*
+    
     [forum for English speakers](https://github.com/ccbogel/QualCoder/discussions)
 
--   Français (fr)
+-   **Français (fr)**
 
     ---
 
     *officially maintained*
+    
     [Mailing list for French speakers](https://framagroupes.org/sympa/info/qualcoder-fr)
 
--   Español (es)
+-   **Español (es)**
 
     ---
 
     *officially maintained*
+    
     [Facebook group for Spanish speakers](https://www.facebook.com/groups/qualcoder)
 
--   Deutsch (de)
+-   **Deutsch (de)**
 
     ---
 
     *officially maintained*
 
 
--   Esperanto (eo)
+-   **Esperanto (eo)**
 
     ---
 
