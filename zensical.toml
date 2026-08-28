@@ -264,7 +264,7 @@ alternate = [
 	{ name = "Esperanto", link = "doc/eo/", lang = "eo" },
 	{ name = "Euskara", link = "/doc/eu/", lang = "eu" },
 	{ name = "Italiano", link = "/doc/it/", lang = "it" },
-	{ name = "Kreyòl ayisyen" link="/doc/ht", lang = "ht"},
+	{ name = "Kreyòl ayisyen", link="/doc/ht/", lang = "ht"},
 	{ name = "Occitan", link = "/doc/eo/", lang = "eo" },
 	{ name = "Português", link = "/doc/pt/", lang = "pt" },
 	{ name = "Română", link = "/doc/ro/", lang = "ro" },
