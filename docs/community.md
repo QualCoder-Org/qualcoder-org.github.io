@@ -2,7 +2,7 @@
 
 ## QualCoder in your language
 
-You can use QualCoder in your language (go to the settings). If a translation does not yet exist, you can [translate it](https://qualcoder.org/doc/en/7.6.-How-to-contribute/?h=translate#translate-the-software). [See all languages in QualCoder](https://github.com/ccbogel/QualCoder/tree/master/src/qualcoder/i18n).
+You can use QualCoder in your language (go to the settings). If a translation does not yet exist, you can [translate it](https://qualcoder.org/doc/en/7.6.-How-to-contribute/?h=translate#translate-the-software).
 
 Some languages are officially maintained by QualCoder (human periodic proofreading - *officially maintained*), whilst we cannot guarantee that other languages will be updated (*community*). If you speak this language, please join us in making QualCoder more inclusive with translation and proofreading.
 
