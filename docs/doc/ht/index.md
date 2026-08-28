@@ -25,15 +25,15 @@ QualCoder gen ladan l yon seri fonksyonalite ki asiste pa entèlijans atifisyèl
 Vèsyon lojisyèl yo disponib sou [Github](https://github.com/ccbogel/QualCoder/releases). Yo genyen ladan yo kòd sous ak fichye egzekitab. Fichye egzekitab yo se yon fason fasil pou w lanse QualCoder, fè yon doub-klike pou w lanse l, jis sonje li ka pran jiska 20 segonn pou l ouvri.
 
 
-[:octicons-archive-24: Dènye vèsyon QualCoder (3.8.2) ki disponib sou GitHub](/latest){ .md-button .md-button--primary }
+[:octicons-archive-24: Dènye vèsyon QualCoder ki disponib sou GitHub](/latest){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_3.8.2 Enstalatè Windows 11](/latest-windows){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder Enstalatè Windows 11](/latest-windows){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 Pòtab (Tout lojisyèl an nan yon sèl fichye, li demare pi dousman)](/latest-windows-portable){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder Windows 11 Pòtab (Tout lojisyèl an nan yon sèl fichye, li demare pi dousman)](/latest-windows-portable){ .md-button .md-button--primary }
 
-[:material-apple: QualCoder_3.8.2 macOS arm64](/latest-mac){ .md-button .md-button--primary }
+[:material-apple: QualCoder macOS arm64](/latest-mac){ .md-button .md-button--primary }
 
-[:material-linux: QualCoder_3.8.2_Ubuntu](/latest-linux){ .md-button .md-button--primary }
+[:material-linux: QualCoder_Ubuntu](/latest-linux){ .md-button .md-button--primary }
 
 Kòd ki an devlopman an disponib isit la: [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
