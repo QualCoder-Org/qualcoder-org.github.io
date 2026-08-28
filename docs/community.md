@@ -16,7 +16,7 @@ In addition, support materials are available in several languages.
 
     ---
 
-    *officially maintained*
+    *Officially maintained. The language available by default in the software.*
     
     [forum for English speakers](https://github.com/ccbogel/QualCoder/discussions)
 
@@ -24,7 +24,7 @@ In addition, support materials are available in several languages.
 
     ---
 
-    *officially maintained*
+    *Officially maintained. The language available by default in the software.*
     
     [Mailing list for French speakers](https://framagroupes.org/sympa/info/qualcoder-fr)
 
@@ -32,7 +32,7 @@ In addition, support materials are available in several languages.
 
     ---
 
-    *officially maintained*
+    *Officially maintained. The language available by default in the software.*
     
     [Facebook group for Spanish speakers](https://www.facebook.com/groups/qualcoder)
 
@@ -40,16 +40,97 @@ In addition, support materials are available in several languages.
 
     ---
 
-    *officially maintained*
+    *Officially maintained. The language available by default in the software.*
 
 
 -   **Esperanto (eo)**
 
     ---
 
-    *community maintained*
+    *Community maintained*
 
-    [:octicons-arrow-right-24: Download language file]([#](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/eo.zip))
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/eo.zip)
+
+-   **Euskara (eu)**
+
+    ---
+
+    *Community maintained*
+
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/eu.zip)
+
+-   **Italiano (it)**
+
+    ---
+
+    *Community maintained*
+
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/it.zip)
+
+
+-   **Kreyòl ayisyen (ht)**
+
+    ---
+
+    *Community maintained*
+
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/ht.zip)
+
+-   **Occitan (oc)**
+
+    ---
+
+    *Community maintained*
+
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/oc.zip)
+
+-   **Português (pt)**
+
+    ---
+
+    *Community maintained*
+
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/pt.zip)
+
+-   **Română (ro)**
+
+    ---
+
+    *Community maintained*
+
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/ro.zip)
+
+-   **Svenska (sv))**
+
+    ---
+
+    *Community maintained*
+
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/sv.zip)
+
+-   **فارسی (fa)**
+
+    ---
+
+    *Community maintained*
+
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/fa.zip)
+
+-   **中文 (zh)**
+
+    ---
+
+    *Community maintained*
+
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/zh.zip)
+
+-   **日本語 (ja)**
+
+    ---
+
+    *Community maintained*
+
+    [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/ja.zip)
 
 </div>
 
