@@ -99,7 +99,7 @@ Keyboard shortcuts have been added: e.g. C to add a new category. The text edit 
 !!! info
 Full Documents Instead of Chunks
 
-Text documents now always load complete. The "Code text chunk size" setting (50000, 40000, 30000 and 20000 characters) and the "next / previous characters" navigation have been removed. Loading by chunks saved some memory on very large files, but it put data at risk: editing a file while a partial chunk was loaded could save only the visible portion and overwrite the rest of the document, navigating chunks after an edit could crash, and returning to the first chunk could hide the beginning of the text. With full loading, character positions and codings always stay consistent.
+Text documents now always load complete. The "Code text chunk size" setting (50000 or 30000 characters) and the "next / previous characters" navigation have been removed. Loading by chunks saved some memory on very large files, but it put data at risk: editing a file while a partial chunk was loaded could save only the visible portion and overwrite the rest of the document, navigating chunks after an edit could crash, and returning to the first chunk could hide the beginning of the text. With full loading, character positions and codings always stay consistent.
 
 
 ## PDF Coding: A Revolutionised Experience
