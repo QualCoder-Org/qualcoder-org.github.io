@@ -19,12 +19,40 @@ Some languages are officially maintained by QualCoder (human periodic proofreadi
 For additional languages (community maintained), download the relevant .zip file and place it in the `.qualcoder/i18n` folder. Then, in the settings, select your language.
 
 <div class="grid cards" markdown>
-- English (en)
+
+-   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+
     ---
-    *officially maintained*
-- Français (fr)
+
+    Install [`zensical`](#) with [`pip`](#) and get up
+    and running in minutes
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
     ---
-    *officially maintained*
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Zensical is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
 </div>
 
 | Language                                                                                                 | Status                |
