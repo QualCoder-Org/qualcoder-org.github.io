@@ -100,7 +100,7 @@ In addition, support materials are available in several languages.
 
     [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/ro.zip)
 
--   **Svenska (sv))**
+-   **Svenska (sv)**
 
     ---
 
