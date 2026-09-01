@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+465 Nguyen, Q. K. (2026). **Comparing Learners’ Perceptions of AI-Enabled Writing Feedback and Human Teacher Feedback in IELTS Writing Preparation.** Asian Journal of Educational Sciences, 1(2), 62-83. <https://doi.org/10.52714/dthu.ajes.27.2022>
+
 464 Walmrath, L. L., & Barro, B. B. (2026). **A eletrificação automotiva brasileira: uma análise socioeconômica das recentes transformações tecnológicas (Automotive electrification in Brazil: a socio-economic analysis of recent technological changes).** TOMO Review, 45, e24789. <https://doi.org/10.21669/tomo.v45.24789>
 
 463 **Responsabilidade social universitária e evasão no ensino superior : análise sobre a percepção de estudantes de uma universidade pública (University social responsibility and higher education education: analysis of the perception of students at a public university).** Salles, Simone Corrêa. 026. 37 f. Monografia (Graduação em Engenharia de Produção) - Escola de Minas, Universidade Federal de Ouro Preto, Ouro Preto, 2026. <http://www.monografias.ufop.br/handle/35400000/9541>
