@@ -12,7 +12,7 @@ This version also marks an important evolution in data structure and analysis. B
 
 To ensure the highest quality user experience, QualCoder now focuses on four main languages: English, German, French, and Spanish. These languages benefit from regular human reviews and frequent updates to ensure accurate and natural translations.
 
-Additional languages remain available in the "Other Languages" folder, though they may not be as current or human-reviewed. You can help improve the translations into Esperanto, Basque, Farsi, Haitian Creole, Italian, Japanese, Portuguese, Romanian, Swedish and Mandarin, or suggest your own language. If you would like to contribute translations for your language, please contact us. 
+Additional languages remain available in the "Other Languages" folder, though they may not be as current or human-reviewed. You can help improve the translations into Esperanto, Basque, Farsi, Haitian Creole, Italian, Japanese, Portuguese, Romanian, Swedish and Mandarin, or suggest your own language. If you would like to contribute translations of your language, please contact us. 
 
 
 ## Structural Changes: More Organised Codes
@@ -24,12 +24,12 @@ One of the major new features of this version is the ability to create sub-codes
 
 ## Backups: Simpler and More Accessible
 
-Project backups are now stored in the same folder as the project itself. Everything is grouped in one place, simplifying management and restoration of your work.
+Project backups are now stored in the same folder as the project itself. Everything is grouped in one place, simplifying the management and restoration of your work.
 
 
 ## AI Enhancements
 
-The integration of artificial intelligence in QualCoder has been completely rethought. The AI chat is no longer just a conversational assistant; it has become an active collaborator that can interact with your data. Please note AI is optional within QualCoder.
+The integration of artificial intelligence into QualCoder has been completely rethought. The AI chat is no longer just a conversational assistant; it has become an active collaborator that can interact with your data. Please note AI is optional within QualCoder.
 
 We have implemented three access levels to secure data from accidental modifications and provide flexibility based on your needs and trust level:
 
@@ -104,7 +104,7 @@ Text coding has been enriched with many features for a smoother and more flexibl
 Keyboard shortcuts have been added: e.g. C to add a new category. The text edit mode now includes a search bar for easier navigation.
 
 !!! info
-Full Documents Instead of Chunks
+    Full Documents Instead of Chunks
 
 Text documents now always load complete. The "Code text chunk size" setting (50000 or 30000 characters) and the "next / previous characters" navigation have been removed. Loading by chunks saved some memory on very large files, but it put data at risk: editing a file while a partial chunk was loaded could save only the visible portion and overwrite the rest of the document, navigating chunks after an edit could crash, and returning to the first chunk could hide the beginning of the text. With full loading, character positions and codings always stay consistent.
 
@@ -133,7 +133,7 @@ The bookmark feature allows you to restore the position in the media and text in
 Proximity graphs allow you to visualise relationships between codes. Two graphs can be exported as high-resolution images: the co-occurrence graph, where the thickness of each line shows how often two codes were coded together, and the community clusters graph, which groups the codes into coloured clusters according to their strongest connections. Right-clicking each button sets the font size and whether the colour is applied to nodes or labels. The matrix itself can be exported to Excel, and the network can be exported in GraphML, a format compatible with Gephi, a powerful network analysis tool.
 
 !!! note
-Technical Note: How the co-ocurrence graphs are calculated
+    Technical Note: How the co-ocurrence graphs are calculated
 
 Co-occurrence is counted file by file, between segments of two different codes. In text, two codings co-occur when they cover exactly the same passage, when one contains the other, or when they partly overlap. In images and PDF areas, those same three cases are obtained from the rectangles, within the same file and, for PDFs, the same page. The value of each pair is the sum of both directions of the matrix.
 
