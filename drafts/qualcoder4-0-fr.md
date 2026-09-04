@@ -8,7 +8,7 @@ Nous sommes ravis de vous présenter la dernière version de QualCoder, une mise
 Cette version marque également une évolution importante dans la structure et l’analyse des données. Vous trouverez ci-dessous un aperçu détaillé des principales nouvelles fonctionnalités.
 
 
-## Prise en charge linguistique optimisée
+## Prise en charge linguistique améliorée
 
 Afin de garantir une expérience utilisateur de la plus haute qualité, QualCoder se concentre désormais sur quatre langues principales : l’anglais, l’allemand, le français et l’espagnol. Ces langues bénéficient de révisions humaines régulières et de mises à jour fréquentes afin d’assurer des traductions précises et naturelles.
 
