@@ -56,26 +56,26 @@ Les journaux (journaux de bord, notes, etc.) bénéficient de plusieurs amélior
 - Ouverture directe d’une URL : si votre journal contient des liens (commençant par http, https ou www), cliquez avec le bouton droit sur l’URL pour l’ouvrir directement dans votre navigateur.
 
 
-## Gestion des fichiers : importation et manipulation avancées
+## Gestion des fichiers : import et manipulation avancés
 
 Un menu contextuel propose les options « Supprimer » et « Exporter » accessibles par un clic droit. Dans la colonne « Nom du fichier », appuyer sur la touche Suppr supprime les fichiers sélectionnés.
 
-### Importation d’enquêtes
+### Import d’enquêtes
 
 Un bouton « Importer une enquête » permet désormais d’importer des données à partir de fichiers Excel (XLSX) ou CSV. La sélection de plusieurs lignes vous permet de choisir plusieurs lignes à la fois pour les importer en tant qu’attributs ou pour un traitement qualitatif.
 
-### Importation de PDF avec surlignages et soulignements
+### Import de PDF avec surlignages et soulignements
 
 Vous pouvez désormais importer des PDF annotés et coder automatiquement les segments annotés. Deux types d’annotations sont détectés : les surlignages et les soulignements. QualCoder vous demande si vous souhaitez les coder, puis crée une catégorie « Surlignages PDF », une catégorie « Soulignements PDF », ou les deux, en fonction du contenu des fichiers. Un code est créé par couleur et par type de surlignage (par exemple « Surlignage jaune » ou « Soulignement bleu »), les couleurs des annotations étant adaptées pour correspondre au mieux à la palette de QualCoder. Les commentaires écrits sur un surlignage ou un soulignement deviennent la note du segment codé résultant, tandis que les autres annotations contenant du texte (notes autocollantes et similaires) sont regroupées dans la note du fichier, avec leur numéro de page.
 
-### Importation LaTeX
+### Import LaTeX
 
 Les fichiers LaTeX peuvent désormais être importés et convertis en texte brut lisible. Notez que les présentations complexes ou les fichiers utilisant des commandes telles que |input| ou |include| peuvent ne pas s’importer parfaitement.
 
 
 ## Gestion des références : pièces jointes et Zotero
 
-La gestion des références a été étendue avec deux voies d’importation. Les fichiers RIS peuvent désormais être importés avec leurs documents joints : lorsque l’entrée pointe vers un PDF ou un EPUB, le fichier est importé dans le projet et lié à sa référence, de sorte que le document et sa notice bibliographique vont de pair.
+La gestion des références a été étendue avec deux voies d’import. Les fichiers RIS peuvent désormais être importés avec leurs documents joints : lorsque l’entrée pointe vers un PDF ou un EPUB, le fichier est importé dans le projet et lié à sa référence, de sorte que le document et sa notice bibliographique vont de pair.
 
 Les références peuvent également être importées directement depuis une installation locale de Zotero (version 7 ou plus récente) via son API locale, avec leurs pièces jointes au format PDF, sans aucun compte ni clé. Ces deux méthodes partagent la même boîte de dialogue de prévisualisation, qui répertorie les références trouvées, signale celles déjà présentes dans le projet ainsi que leurs pièces jointes en double, et vous permet de choisir ce que vous souhaitez importer et si vous souhaitez inclure les pièces jointes.
 
@@ -98,7 +98,7 @@ Le codage de texte a été enrichi de nombreuses fonctionnalités pour une expé
 
 - Personnalisez la police et la taille du texte de votre document.
 - Redimensionnez les étiquettes de code à l’aide des poignées de redimensionnement.
-- Basculez entre différents styles de mise en évidence : surlignage, soulignement ou rayures verticales pour les codes.
+- Basculez entre différents styles de mise en évidence : surlignage, soulignement ou rayures verticales aux marges pour les codes.
 - Exportez les documents codés au format ODF (OpenDocument Format), avec des surlignages par code couleur, les commentaires associés, ou sous forme de rapport analytique.
 
 Des raccourcis clavier ont été ajoutés : par exemple, la touche C pour ajouter une nouvelle catégorie. Le mode d’édition de texte comprend désormais une barre de recherche pour faciliter la navigation.
@@ -134,15 +134,14 @@ Les graphiques de proximité vous permettent de visualiser les relations entre l
 
 !!! Remarque
     Note technique : comment sont calculés les graphiques de cooccurrence
+    La cooccurrence est comptabilisée fichier par fichier, entre des segments correspondant à deux codes différents. Dans le texte, deux codages cooccur lorsqu’ils couvrent exactement le même passage, lorsque l’un     contient l’autre, ou lorsqu’ils se chevauchent partiellement. Dans les images et les zones PDF, ces trois     mêmes cas sont déterminés à partir des rectangles, au sein d’un même fichier et, pour les PDF, d’une même     page. La valeur de chaque paire correspond à la somme des deux directions de la matrice.
 
-La cooccurrence est comptabilisée fichier par fichier, entre des segments correspondant à deux codes différents. Dans le texte, deux codages cooccur lorsqu’ils couvrent exactement le même passage, lorsque l’un contient l’autre, ou lorsqu’ils se chevauchent partiellement. Dans les images et les zones PDF, ces trois mêmes cas sont déterminés à partir des rectangles, au sein d’un même fichier et, pour les PDF, d’une même page. La valeur de chaque paire correspond à la somme des deux directions de la matrice.
-
-Les graphes sont construits avec networkx et tracés avec matplotlib. Les nœuds correspondent aux codes visibles, les arêtes aux paires dont le nombre de cooccurrences est supérieur à zéro, et le poids de chaque arête correspond à ce nombre, l’épaisseur de la ligne étant proportionnelle à la valeur la plus élevée. Le graphe de cooccurrence positionne les nœuds selon une disposition de type « spring » (Fruchterman-Reingold). Le graphe de clusters détecte d’abord les communautés à l’aide de la méthode de Louvain (avec la modularité gloutonne comme solution de repli), appliquée au sous-réseau des arêtes dont le poids est égal ou supérieur à la moyenne, de sorte que seules les relations les plus fortes définissent les groupes ; les nœuds sont ensuite positionnés selon la méthode de Kamada-Kawai en utilisant l’inverse du nombre d’occurrences comme distance, en recourant à une disposition « spring » lorsque le réseau n’est pas connecté. Les exportations vers Gephi et GraphML contiennent ces mêmes nœuds et poids.
+    Les graphes sont construits avec networkx et tracés avec matplotlib. Les nœuds correspondent aux codes visibles, les arêtes aux paires dont le nombre de cooccurrences est supérieur à zéro, et le poids de chaque arête correspond à ce nombre, l’épaisseur de la ligne étant proportionnelle à la valeur la plus élevée. Le graphe de cooccurrence positionne les nœuds selon une disposition de type « spring » (Fruchterman-Reingold). Le graphe de clusters détecte d’abord les communautés à l’aide de la méthode de Louvain (avec la modularité gloutonne comme solution de repli), appliquée au sous-réseau des arêtes dont le poids est égal ou supérieur à la moyenne, de sorte que seules les relations les plus fortes définissent les groupes ; les nœuds sont ensuite positionnés selon la méthode de Kamada-Kawai en utilisant l’inverse du nombre d’occurrences comme distance, en recourant à une disposition « spring » lorsque le réseau n’est pas connecté. Les exportations vers Gephi et GraphML contiennent ces mêmes nœuds et poids.
 
 
-## Graph : plus de flexibilité et de contrôle
+## Graphe : plus de flexibilité et de contrôle
 
-Graph offre davantage de flexibilité et de contrôle :
+Graphe offre davantage de flexibilité et de contrôle :
 
 - La manipulation des objets a été améliorée, ce qui vous permet de déplacer, redimensionner et organiser les nœuds plus facilement.
 - Exportez des cartes mentales dans un format compatible avec draw.io pour les intégrer à d’autres outils de visualisation.
