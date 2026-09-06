@@ -25,6 +25,8 @@ In addition, support materials are available in several languages.
     ---
 
     *Officially maintained. The language available by default in the software.*
+
+    Translation coordinator: Justin
     
     [Mailing list for French speakers](https://framagroupes.org/sympa/info/qualcoder-fr)
 
@@ -33,6 +35,8 @@ In addition, support materials are available in several languages.
     ---
 
     *Officially maintained. The language available by default in the software.*
+
+    Translation coordinator: Lorenzo
     
     [Facebook group for Spanish speakers](https://www.facebook.com/groups/qualcoder)
 
@@ -41,6 +45,7 @@ In addition, support materials are available in several languages.
     ---
 
     *Officially maintained. The language available by default in the software.*
+    Translation coordinator: Kaï
 
 
 -   **Esperanto (eo)**
