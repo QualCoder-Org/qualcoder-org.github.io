@@ -48,7 +48,7 @@ nav = [
 				"doc/en/3.2.-Files.md",  
 				"doc/en/3.3.-Cases.md",  
 				"doc/en/3.4.-Attributes.md",
-				"doc/en/3.5.References.md"
+				"doc/en/3.5.-References.md"
 		]},
 		{"Coding" = [
 			"doc/en/4.1.-Coding-Text.md",  
