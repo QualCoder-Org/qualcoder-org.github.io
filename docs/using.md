@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+466 Kinnig, T., Rohmer, O., Timera, A., & Sanrey, C. (2026). **Poursuivre ses études à l’université: qu’en disent les étudiant· es en situation de handicap invisible?. L'orientation scolaire et professionnelle (Pursuing university studies: what do students with invisible disabilities say? Educational and vocational guidance.)**, (55/2), 265-290. <https://doi.org/10.4000/16da8>
+
 465 Nguyen, Q. K. (2026). **Comparing Learners’ Perceptions of AI-Enabled Writing Feedback and Human Teacher Feedback in IELTS Writing Preparation.** Asian Journal of Educational Sciences, 1(2), 62-83. <https://doi.org/10.52714/dthu.ajes.27.2022>
 
 464 Walmrath, L. L., & Barro, B. B. (2026). **A eletrificação automotiva brasileira: uma análise socioeconômica das recentes transformações tecnológicas (Automotive electrification in Brazil: a socio-economic analysis of recent technological changes).** TOMO Review, 45, e24789. <https://doi.org/10.21669/tomo.v45.24789>
