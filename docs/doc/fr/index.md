@@ -28,11 +28,11 @@ Les versions du logiciel sont disponibles sur [Github](https://github.com/ccboge
 [:octicons-archive-24: Dernière version en bêta (4.0) disponible sur Github](https://github.com/ccbogel/QualCoder/releases#release-4.0-Beta){ .md-button .md-button--primary }
 
 
-[:octicons-archive-24: Dernière version  Disponible sur GitHub](/latest){ .md-button .md-button--primary }
+[:octicons-archive-24: Dernière version stable disponible sur GitHub](/latest){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder Installateur pour Windows 11](/latest-windows){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: Installateur QualCoder pour Windows 11](/latest-windows){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder  Windows 11 Portable (Ensemble du logiciel dans un fichier, lent à lancer)](/latest-windows-portable){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder pour Windows 11 Portable (Ensemble du logiciel dans un fichier, lent à lancer)](/latest-windows-portable){ .md-button .md-button--primary }
 
 [:material-apple: QualCoder macOS arm64](/latest-mac){ .md-button .md-button--primary }
 
