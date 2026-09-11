@@ -56,7 +56,8 @@ nav = [
 			"doc/en/4.3.-Coding-Text-on-PDFs.md",  
 			"doc/en/4.4.-Coding-Images.md",  
 			"doc/en/4.5.-Coding-Audio-and-Video.md",  
-			"doc/en/4.6-Code-Organiser.md"
+			"doc/en/4.6-Code-Organiser.md",
+			"doc/en/4.7.-Codes-Tree.md"
 		]},
 		{"Analyzing the Results" = [
 			"doc/en/5.1.-AI-chat-based-analysis.md",  
