@@ -5,7 +5,7 @@ path: index
 
 QualCoder doako, iturburu irekiko mahaigaineko software programa bat da, datu kualitatiboen analisirako diseinatua.
 
-<img width="1402" height="520" alt="Écran de codage de texte" src="https://github.com/user-attachments/assets/3ecb4d97-86df-4688-8280-69108022dda0" />
+<img width="1402" height="520" alt="Écran de codage de texte" src="/images/3ecb4d97-86df-4688-8280-69108022dda0.png" />
 
 QualCoder-ek testuak, irudiak, audio- eta bideo-fitxategiak kodetzeko aukera ematen dizu, baita egunkari-sarrerak eta memoak idazteko ere. Kodek zuhaitz hierarkiko egitura batean antola ditzakezu. Txosten anitz sor daitezke. Txosten gehienak HTML, OpenDocument Testu (ODT), testu arrunt edo Excel formatuan esporta daitezke.
 
