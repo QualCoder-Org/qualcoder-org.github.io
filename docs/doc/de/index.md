@@ -5,7 +5,7 @@ path: index
 
 QualCoder ist eine kostenlose Open-Source-Desktop-Software zur qualitativen Datenanalyse.
 
-<img width="1402" height="520" alt="Bildschirm zur Textkodierung" src="https://github.com/user-attachments/assets/3ecb4d97-86df-4688-8280-69108022dda0" />
+<img width="1402" height="520" alt="Bildschirm zur Textkodierung" src="/images/3ecb4d97-86df-4688-8280-69108022dda0.png" />
 
 QualCoder kann Text, Bilder, Audio- und Videodateien kodieren sowie Tagebuchnotizen und Memos erstellen. Sie können Codes in einem baumartigen Kategorisierungsschema organisieren. Es können verschiedene Berichte erstellt werden. Die meisten Berichte lassen sich als HTML-, OpenDocument-Text- (ODT), Nur-Text- oder Excel-Dateien exportieren.
 
