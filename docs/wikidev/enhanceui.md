@@ -1,7 +1,11 @@
 # Enhance UI
 It's possible to enhance UI with PyQt6.
 
-Remove "old theme" to QC, keep Fusion.
+Key takeaways:
+- vertical tabs on the left
+- revamped home screen, with suggested actions
+- cleanup/simplification of style files (to suit system requirements)
+- 
 
 this text it's "brainstorming" with AI. I "vibecode" for have idea of UI.
 
