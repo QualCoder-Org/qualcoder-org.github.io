@@ -4,3 +4,5 @@ The developers' wiki for recording technical details, notes, and leads for futur
 
 - [Notes for creating language files](createlang/)
 - [macOS Key commands](macoskey/)
+- [Enhance UI](enhanceui)
+- [Enhance team work](enhanceteam)
