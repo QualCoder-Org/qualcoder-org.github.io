@@ -3,7 +3,7 @@ It's possible to enhance UI with PyQt6.
 
 Remove "old theme" to QC, keep Fusion.
 
-this text it's "brainstorming" with AI.
+this text it's "brainstorming" with AI. I "vibecode" for have idea of UI.
 
 # QualCoder UI Modernization — Summary
 
