@@ -1,4 +1,6 @@
 # macOS Key commands 
+
+```
 Menu key shortcuts
 Menu shortcuts
 Project menu shortcuts
@@ -162,3 +164,4 @@ Ctrl D Play/pause. On start rewind 1 second
 Ctrl S Start and stop av segment creation
 Ctrl Shift > Increase play rate
 Ctrl Shift < Decrease play rate
+```
