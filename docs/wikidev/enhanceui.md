@@ -7,6 +7,9 @@ Key takeaways:
 - cleanup/simplification of style files (to suit system requirements)
 - 
 
+<img width="1615" height="912" alt="image" src="https://github.com/user-attachments/assets/8fd6d8a7-e8c4-4178-91d7-f9d801104e3b" />
+
+
 this text it's "brainstorming" with AI. I "vibecode" for have idea of UI.
 
 # QualCoder UI Modernization — Summary
@@ -104,6 +107,5 @@ When coding text, hide sidebar/menubar and keep only the document + code palette
 
 Transform the main window into a QMainWindow with QDockWidgets for codes/files/inspector, letting the user rearrange and detach panels. This is the VS Code / Qt Creator model. More costly, but radically transforms perception and flexibility.
 
-<img width="1615" height="912" alt="image" src="https://github.com/user-attachments/assets/8fd6d8a7-e8c4-4178-91d7-f9d801104e3b" />
 
 
