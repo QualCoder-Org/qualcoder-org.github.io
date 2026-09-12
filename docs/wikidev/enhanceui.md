@@ -10,6 +10,10 @@ Key takeaways:
 <img width="1615" height="912" alt="image" src="https://github.com/user-attachments/assets/8fd6d8a7-e8c4-4178-91d7-f9d801104e3b" />
 
 
+Idea of themes for pyqt6
+https://dev.to/hi3ris/creer-des-interfaces-python-modernes-et-fluides-avec-pyqt6-b5m
+https://github.com/Wanderson-Magalhaes/Modern_GUI_PyDracula_PySide6_or_PyQt6
+
 this text it's "brainstorming" with AI. I "vibecode" for have idea of UI.
 
 # QualCoder UI Modernization — Summary
