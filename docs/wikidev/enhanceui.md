@@ -4,8 +4,7 @@ It's possible to enhance UI with PyQt6.
 Key takeaways:
 - vertical tabs on the left
 - revamped home screen, with suggested actions
-- cleanup/simplification of style files (to suit system requirements)
-- use system font, delete herited theme (original/dark/orange/yellow/green/blue/purple/rainbow)
+- cleanup/simplification of style files (to suit system requirements) : use system font, delete herited theme (original/dark/orange/yellow/green/blue/purple/rainbow)
 
 <img width="1615" height="912" alt="image" src="https://github.com/user-attachments/assets/8fd6d8a7-e8c4-4178-91d7-f9d801104e3b" />
 
