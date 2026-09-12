@@ -3,7 +3,7 @@ It's possible to enhance UI with PyQt6.
 
 Remove "old theme" to QC, keep Fusion.
 
-Adapt with dark or light color system (QGuiApplication.styleHints().colorScheme())
+this text it's "brainstorming" with AI.
 
 # QualCoder UI Modernization — Summary
 
@@ -45,3 +45,57 @@ QualCoder (PyQt6) already has a solid foundation for modernization:
 7. **Visual testing without breaking existing themes**: keep current themes as fallback for backward compatibility; add modern `auto` + `light` + `dark` as new defaults without removing legacy ones (original, rainbow, etc.).
 
 8. **(Optional, ambitious) Responsive layout**: use QSplitter with persistent proportions and a "Home" tab with start icons (Open project, New, Help) for a modern first impression.
+
+# Bolder Ideas (still PyQt6)
+
+The first PR modernized the styling. For a real leap in impression, you need to move the UI structure, not just the colors.
+
+## 1. From Tab Bar to Lateral Navigation (Sidebar)
+
+Today: a horizontal 5-tab QTabWidget at the top — the archetype of "2000s toolbox software." Modern apps (VS Code, Notion, Linear) use an icon rail on the left:
+- Replace the horizontal QTabWidget with `setTabPosition(QTabWidget.West)` + icon-only tabs (already available via qtawesome) + tooltips, label appearing only on hover or in wide mode.
+- A very cheap change (one line of QSS + `setTabPosition`) that instantly transforms the app's silhouette. Gains vertical space for content and reads like a 2024 app.
+
+## 2. Home Screen / "Home" Page
+
+Instead of landing on the action log, show a home page with:
+- Clickable cards (Open recent project, New project, Help)
+- Current project status (name, file count, code count, last activity)
+- Shortcuts to sections. Built with a QFrame + grid layout of qtawesome icons. Delivers the "first impression" that makes all the difference.
+
+## 3. Contextual Inspector Panel (macOS / Inspector style)
+
+Many dialogs (code_text, code_pdf, code_av) are large fixed 2-or-3-panel QSplitters. Adopt a retractable right side panel that changes with the selection: code properties, segment memo, coder comparison. A QStackedWidget driven by context. Reduces visual overload.
+
+## 4. Icon Toolbars Instead of Text Menus
+
+The QMenuBar is overloaded (11 menus in ui_main.ui). Extract the most frequent actions into an icon QToolBar (qtawesome icons + tooltips) at the top of the content area, and keep only rare actions in the menubar. QMenus remain accessible, but the visual bar gives a "pro app" feel.
+
+## 5. Subtle Animations and Transitions
+
+- QPropertyAnimation on retractable panels (AI sidebar, inspector) for a slide instead of a jarring appearance.
+- QGraphicsOpacityEffect on tab change (fade). Negligible cost, strong perceived effect.
+
+## 6. "Comfort" Density by Default + Global Zoom
+
+Offer an interface scale (small/comfort/large) that adjusts all metrics (padding, tree row height, icon size), not just the font. The user keeps control, but the default becomes airy rather than dense.
+
+## 7. Consistent, Color-Coded Icon System
+
+qtawesome is already wired. Currently icons use `highlight_color()`. Would benefit from a semantic icon set (codes = label, files = document, AI = robot) with a touch of color per category — gives immediate readability to the code tree and lists.
+
+## 8. Redesign the Code Tree
+
+`code_tree.py` (74k lines) is central. Move from a basic QTreeWidget to:
+- Clearer indentation and subtle guide lines (already partially in the QSS)
+- Frequency badges on each node (GitHub style)
+- Code color as a chip left of the label
+- Drag handle for reordering. It's the most-viewed element; modernizing it pays the most.
+
+## 9. "Focus" Mode for Coding
+
+When coding text, hide sidebar/menubar and keep only the document + code palette as a lateral overlay. QMainWindow allows dynamically hiding dock areas. Delivers a "distraction-free" experience highly valued in qualitative analysis.
+
+## 10. (Most Ambitious) Dockable Layout Overhaul
+
+Transform the main window into a QMainWindow with QDockWidgets for codes/files/inspector, letting the user rearrange and detach panels. This is the VS Code / Qt Creator model. More costly, but radically transforms perception and flexibility.
