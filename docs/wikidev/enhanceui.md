@@ -9,6 +9,8 @@ Key takeaways:
   
 <img width="1615" height="912" alt="image" src="https://github.com/user-attachments/assets/8fd6d8a7-e8c4-4178-91d7-f9d801104e3b" />
 
+<img width="1166" height="658" alt="image" src="https://github.com/user-attachments/assets/7a3e8a11-cfc0-4eaf-a557-b3d358f87f06" />
+
 
 Idea of themes for pyqt6
 https://dev.to/hi3ris/creer-des-interfaces-python-modernes-et-fluides-avec-pyqt6-b5m
