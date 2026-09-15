@@ -32,8 +32,7 @@ Ruhr-Universität Bochum
 
 [![](/images/image-4.png?w=837)](/images/image-4.png)
 
-Europa-Universität Flensburg 
+Europa-Universität Flensburg
 -----------------------------
 
 [![](/images/image-5.png?w=1024)](/images/image-5.png)
-

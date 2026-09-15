@@ -20,7 +20,7 @@ QualCoderには、大規模言語モデル（LLM）を活用したAI支援機能
     - **QualCoderはオープンスタンダードに対応しています**。QualCoderは[REFI-QDA標準](https://www.qdasoftware.org/)への対応を目指しており、同僚がQualCoderを使用していなくても、そのソフトウェアがREFI-QDA標準に対応していれば、コードブックやプロジェクトを交換することができます。つまり、データが利用できなくなるリスクはありません。REFI-QDAプロジェクトとの互換性は、現時点では100％保証されているわけではありません。特に音声・動画のエクスポートおよびインポート、ならびに相対パスでリンクされたファイルについては、さらなるテストが必要です。
     - **QualCoderはカスタマイズ可能です**。変更内容をすべての人に公開する限り、QualCoderを自分のニーズに合わせて変更・適応させることができます。これは、ソフトウェアをコピーして同僚や学生に無料で提供することも可能であることを意味します。
     - **QualCoderは、オープンサイエンスを支援するソフトウェアの選択肢の一つです**。[オープンサイエンスに関するユネスコの勧告](https://www.unesco.org/en/open-science?hub=686)
-    
+
 ## 現在のリリース
 ソフトウェアのリリースは [Github](https://github.com/ccbogel/QualCoder/releases) から入手できます。これにはソースコードと実行ファイルが含まれています。実行ファイルを使用すれば QualCoder を簡単に実行できます（ダブルクリックで起動）。ただし、起動までに最大 20 秒かかる場合がある点にご注意ください。
 
@@ -43,7 +43,7 @@ QualCoderを大変気に入っていただいた場合や、独自の活用方�
 
 このソフトウェアは、無料でご利用いただけるよう、数え切れないほどの時間を費やして開発されました。**QualCoderをご利用いただき、気に入っていただけた場合は、開発へのご支援をお願いいたします。**
 
-<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)</a>
 
 QualCoderはPythonで記述されており、グラフィカルインターフェースにはQt6が使用されています。QualCoderは、Windows 11、macOS、およびUbuntu、Lubuntu、ZorinOS、Arch、FedoraなどのさまざまなLinuxディストリビューションで動作確認されています。
 

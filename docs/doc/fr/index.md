@@ -21,7 +21,7 @@ QualCoder comprend un ensemble de fonctionnalités assistées par l'IA qui utili
     - **QualCoder prend en charge les normes ouvertes**. QualCoder vise à prendre en charge la [norme REFI-QDA](https://www.qdasoftware.org/) ; vous pouvez échanger des livrets de codes et des projets avec vos collègues même s’ils n’utilisent pas QualCoder, à condition que le logiciel qu’ils utilisent prenne en charge la norme REFI-QDA. Cela signifie que vous ne courez pas le risque de ne plus pouvoir accéder à vos données. La conformité à 100 % avec le projet REFI-QDA n’est pas encore garantie. Des tests supplémentaires sont nécessaires, notamment pour les exportations et importations audio et vidéo, ainsi que pour les fichiers liés de manière relative.
     - **QualCoder peut être modifié**. Vous pouvez modifier et adapter QualCoder à vos besoins, à condition de mettre vos modifications à la disposition de tous. Cela signifie également que vous pouvez copier le logiciel et le transmettre gratuitement à vos collègues ou à vos étudiants.
     - **QualCoder est un logiciel conçu pour soutenir la science ouverte**. [Recommandations de l’UNESCO sur la science ouverte](https://www.unesco.org/en/open-science?hub=686)
-    
+
 ## Version actuelle
 Les versions du logiciel sont disponibles sur [Github](https://github.com/ccbogel/QualCoder/releases). Elles contiennent le code source et les fichiers exécutables. Les fichiers exécutables constituent un moyen simple d'exécuter QualCoder : il suffit de double-cliquer dessus pour le lancer, mais sachez que l'ouverture peut prendre jusqu'à 20 secondes.
 

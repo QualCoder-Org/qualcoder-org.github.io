@@ -20,7 +20,7 @@ QualCoder innehåller en uppsättning AI-stödda funktioner som använder stora 
     - **QualCoder stöder öppna standarder**. QualCoder strävar efter att stödja [REFI-QDA-standarden](https://www.qdasoftware.org/). Du kan utbyta kodböcker och projekt med dina kollegor även om de inte använder QualCoder, så länge den programvara de använder stöder REFI-QDA-standarden. Det innebär att du inte riskerar att dina data blir otillgängliga. REFI-QDA-projektet är ännu inte garanterat 100 % kompatibelt. Ytterligare testning krävs, särskilt för export och import av ljud och video samt relativt länkade filer.
     - **QualCoder kan modifieras**. Du kan modifiera och anpassa QualCoder efter dina behov, så länge du gör dina ändringar tillgängliga för alla. Detta innebär också att du kan kopiera programvaran och ge den till dina kollegor eller studenter utan kostnad.
     - **QualCoder är ett programvarualternativ som stöder öppen vetenskap**. [UNESCO:s rekommendationer om öppen vetenskap](https://www.unesco.org/en/open-science?hub=686)
-    
+
 ## Aktuell version
 Programvaruversioner finns tillgängliga på [Github](https://github.com/ccbogel/QualCoder/releases). Dessa innehåller källkod och körbara filer. De körbara filerna är ett enkelt sätt att köra QualCoder – dubbelklicka för att starta, men tänk på att det kan ta upp till 20 sekunder att öppna programmet.
 
@@ -43,7 +43,7 @@ Om du gillar QualCoder väldigt mycket, eller har hittat ett nytt användningsom
 
 Det har tagit många, många timmars arbete att skapa denna programvara som erbjuds gratis. **Om du använder och gillar QualCoder, stöd gärna utvecklingen.**
 
-<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)</a>
 
 QualCoder är skrivet i Python med Qt6 för det grafiska gränssnittet. QualCoder har använts på Windows 11, macOS och olika Linux-distributioner: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 

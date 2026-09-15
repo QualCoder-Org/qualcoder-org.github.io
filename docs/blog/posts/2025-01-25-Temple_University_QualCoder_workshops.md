@@ -28,4 +28,3 @@ Temple University Libraries, is featuring QualCoder, a free, open-source qualita
     ](https://charlesstudy.temple.edu/event/13900377)Tue, Apr 01, 11:00 am -- 12:00 pm
 -   [**Writing and Disseminating Results for Qualitative Data Analysis**\
     ](https://charlesstudy.temple.edu/event/13900448)Thu, Apr 10, 12:30 pm -- 1:30 pm
-

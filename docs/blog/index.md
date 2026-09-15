@@ -67,5 +67,3 @@
 - **19 January 2019** [Images in coding reports](posts/2019-01-19-Images_in_coding_reports/)
 - **15 January 2019** [QualCoder  free qualitative data analysis](posts/2019-01-15-QualCoder__free_qualitative_data_analysis/)
 <!-- blog-index:generated:end -->
-
-

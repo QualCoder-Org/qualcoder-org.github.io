@@ -1,4 +1,4 @@
-# macOS Key commands 
+# macOS Key commands
 
 ```
 Menu key shortcuts
@@ -49,7 +49,7 @@ Alt U Charts
 Alt D Database queries
 
 Manage menu section key shortcuts
-Key   
+Key
 Manage files		Cases		Journals	References
 Ctrl 0	Help		Help		Help
 Ctrl 1 View file	Create case	Create journal
@@ -116,7 +116,7 @@ S Search text - may include current selection
 R Opens a context menu for recently used codes for marking text
 U Umark at clicked position in the text
 V assign in vivo code to selected text
-Alt + Left arrow Shrink coding to the left 
+Alt + Left arrow Shrink coding to the left
 Alt + Right arrow Shrink coding to the right
 Shift + Left arrow Extend coding to the left
 Shift + Right arrow Extend coding to the right

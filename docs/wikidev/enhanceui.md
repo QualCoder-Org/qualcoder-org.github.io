@@ -6,10 +6,10 @@ Key takeaways:
 - revamped home screen, with suggested actions
 - cleanup/simplification of style files (to suit system requirements) : use system font, delete herited theme (original/dark/orange/yellow/green/blue/purple/rainbow)
 - The idea: transform the window into a dockable workspace featuring a central area (the document currently being coded) surrounded by docks. Everything is visible, everything can be docked or undocked, and the layout is saved.
-  
-<img width="1615" height="912" alt="image" src="https://github.com/user-attachments/assets/8fd6d8a7-e8c4-4178-91d7-f9d801104e3b" />
 
-<img width="1166" height="658" alt="image" src="https://github.com/user-attachments/assets/7a3e8a11-cfc0-4eaf-a557-b3d358f87f06" />
+![image](https://github.com/user-attachments/assets/8fd6d8a7-e8c4-4178-91d7-f9d801104e3b)
+
+![image](https://github.com/user-attachments/assets/7a3e8a11-cfc0-4eaf-a557-b3d358f87f06)
 
 
 Idea of themes for pyqt6
@@ -354,4 +354,3 @@ Steps 1 + 2 alone deliver roughly 70% of the "QGIS feel" without touching the ex
 ## Key takeaway
 
 > A modern feel is mostly an **architecture** change (dockable workspace + central canvas + locator/status bar), not a **decoration** change. QGIS proves that PyQt can look modern; the difference is that QGIS is a `QMainWindow` with docks around a central canvas, while QualCoder currently launches functions as separate dialogs.
-

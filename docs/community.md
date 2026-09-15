@@ -2,7 +2,7 @@
 
 ## QualCoder in your language
 
-You can use QualCoder in your language (go to the settings). If a translation does not yet exist, you can [translate it](https://qualcoder.org/doc/en/7.6.-How-to-contribute/?h=translate#translate-the-software).
+You can use QualCoder in your language (go to the settings). If a translation does not yet exist, you can [translate it](doc/en/7.6.-How-to-contribute#translate-the-software).
 
 Some languages are officially maintained by QualCoder (human periodic proofreading - *officially maintained*), whilst we cannot guarantee that other languages will be updated (*community*). If you speak this language, please join us in making QualCoder more inclusive with translation and proofreading.
 
@@ -17,7 +17,7 @@ In addition, support materials are available in several languages.
     ---
 
     *Officially maintained. The language available by default in the software.*
-    
+
     [Forum for English speakers](https://github.com/ccbogel/QualCoder/discussions)
 
 -   **Français (fr)**
@@ -27,7 +27,7 @@ In addition, support materials are available in several languages.
     *Officially maintained. The language available by default in the software.*
 
     Translation coordinator: Justin
-    
+
     [Mailing list for French speakers](https://framagroupes.org/sympa/info/qualcoder-fr)
 
 -   **Español (es)**
@@ -37,7 +37,7 @@ In addition, support materials are available in several languages.
     *Officially maintained. The language available by default in the software.*
 
     Translation coordinator: Lorenzo
-    
+
     [Facebook group for Spanish speakers](https://www.facebook.com/groups/qualcoder)
 
 -   **Deutsch (de)**

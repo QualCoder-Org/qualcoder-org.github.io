@@ -14,7 +14,7 @@ These are records that I have found on the internet, or that authors have inform
 
 461 **Collective Action Frames: A Bibliometric and Thematic Analysis.** Félix Wilmer Paguay Chávez. conference proceedings. CIVINEDU 2026. <https://doi.org/10.58909/adc26543777>
 
-460 Mehlhorn/Schäfer/Bruischütz/Hambsch (2026), **Evaluation des Förderprogramms INVEST – Zuschuss für Wagniskapital im Auftrag des Bundesministeriums für Wirtschaft und Energie (BMWE)**, Betriebswirtschaftliches Forschungszentrum für Fragen der mittelständischen Wirtschaft e. V., Bayreuth. 
+460 Mehlhorn/Schäfer/Bruischütz/Hambsch (2026), **Evaluation des Förderprogramms INVEST – Zuschuss für Wagniskapital im Auftrag des Bundesministeriums für Wirtschaft und Energie (BMWE)**, Betriebswirtschaftliches Forschungszentrum für Fragen der mittelständischen Wirtschaft e. V., Bayreuth.
 
 459 Jemine, Grégory, and Fanny Roche. 2026. **The Mirages of Strategic Workforce Planning: A Critical Inquiry Into an Elusive HR Process.** Human Resource Management Journal: 1–16. <https://doi.org/10.1111/1748-8583.70060>
 
@@ -72,7 +72,7 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 433 **Operational Enablers and Barriers in Hospital Incident Command: Insights from a Single-Center Table-Top Exercise at a Tertiary Care University Hospital—A Qualitative Phenomenological Study.** Markus Ries, Maik von der Forst, Hanne Schäfer, Kirsten Bikowski, Klaas Franzen, Paul Geoerg, Fabian Weykamp, Erik Popp, Janna Küllenberg. [Preprint] doi: https://doi.org/10.64898/2026.05.13.26353139
 
-432 **A sustentabilidade sob o olhar de profissionais da contabilidade: racionalidades coexistentes em um campo em transição (Sustainability from the perspective of accounting professionals: coexisting rationalities in a field in transition).** Da Silva et al. USP International Conference on Accounting. 2026. 
+432 **A sustentabilidade sob o olhar de profissionais da contabilidade: racionalidades coexistentes em um campo em transição (Sustainability from the perspective of accounting professionals: coexisting rationalities in a field in transition).** Da Silva et al. USP International Conference on Accounting. 2026.
 
 431 Cabello, Violeta and Barandiaran, Xabier and Gonzalez-Mon, Blanca and Zaragoza, Juan Manuel and Siqueiros, Jesús Mario and Brugnach, Marcela (2026) **Socialecological affective arrangements: diving with a small sea of many seas.** [Preprint] <https://philsci-archive.pitt.edu/29264/>
 
@@ -145,7 +145,7 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 397 **Appréhender le paysage sonore par la géomatique : vers une représentation sensible et située du territoire (étude de cas dans la commune de Carouge). Understanding the soundscape through geomatics: towards a sensitive and situated representation of the territory (case study in the commune of Carouge)**
  N Cespedes. Thesis 2026. Université de Genevè.
 
-396 Rodrigo Olmedo Yúdico Becerril. **Développement de stratégies de production écrite en FLE à travers un dispositif hybride. Linguistique.** Université Grenoble Alpes [2020-..], 2025. Français. 
+396 Rodrigo Olmedo Yúdico Becerril. **Développement de stratégies de production écrite en FLE à travers un dispositif hybride. Linguistique.** Université Grenoble Alpes [2020-..], 2025. Français.
 
 395 Arifin, Misbahul, Muhammad Ilzamul Khoir, and Achmad Zahri N.A. 2026. **“Centralized Adaptive Governance for Curriculum Development in Islamic Education under Society 5.0”.** Journal of Educational Research and Practice 4 (1). Tulungagung, Indonesia:111-27. <https://doi.org/10.70376/jerp.v4i1.401>
 
@@ -153,7 +153,7 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 393 Olavesen ES, Helseth S, Haga SM, Sundrehagen T, Drozd F (2026) **Midwives' and Public Health Nurses' Experiences of Implementing a Guided Version of a Digital Intervention, Mamma Mia, in Maternity and Child Health Care Services: A Reflexive Thematic Analysis.** PLOS Digit Health 5(4): e0001348. <https://doi.org/10.1371/journal.pdig.0001348>
 
-392 **Retention of Rural/Small-Town Band Directors in Georgia.** Timothy M. Warren, Liberty University 2026. Thesis. 
+392 **Retention of Rural/Small-Town Band Directors in Georgia.** Timothy M. Warren, Liberty University 2026. Thesis.
 
 391 Artificial Intelligence in Creative Industries [Book Chapter] **From Digital Craft to Automation. Exploring the Trade-Off Between Traditional Digital Skills and Automation in the Creative Arts.** Antonio Daniele. Edition 1st 2026.
 
@@ -165,15 +165,15 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 387 **Framställning av lägesenergi i gymnasiets Fysik 1: En deduktiv och induktiv innehållsanalys i läroböcker (The Representation of Gravitational Potential Energy in Upper Secondary Physics 1 : A Deductive and Inductive Content Analysis of Physics Textbooks).** L Halilovic. Thesis 2026. Linnaeus University.
 
-386 **Mezi supermarketem a zahradou: potravinová odolnost českých domácností. Šimon Jelinek (Between the supermarket and the garden: food resilience of Czech households)**. Thesis 2026 Mararykova Univerzita. 
+386 **Mezi supermarketem a zahradou: potravinová odolnost českých domácností. Šimon Jelinek (Between the supermarket and the garden: food resilience of Czech households)**. Thesis 2026 Mararykova Univerzita.
 
-385 **GLOBAL HEALTH GOVERNANCE AND THE PERSISTENCE OF THE CIVILIZING MISSION: PROBLEMATIZING WHO FRAMEWORKS OF HEALTH EQUITY CREATION.** S Keenan. Thesis 2025. McGill University. 
+385 **GLOBAL HEALTH GOVERNANCE AND THE PERSISTENCE OF THE CIVILIZING MISSION: PROBLEMATIZING WHO FRAMEWORKS OF HEALTH EQUITY CREATION.** S Keenan. Thesis 2025. McGill University.
 
-384 **From Grades to Greatness: Unveiling High School Grading Shifts Through Task Force Insights.** A Speidel. 2026. Thesis. California Lutheran University. 
+384 **From Grades to Greatness: Unveiling High School Grading Shifts Through Task Force Insights.** A Speidel. 2026. Thesis. California Lutheran University.
 
 383 **Untangling Threads of Care: Exploring Family Practices that Support Elementary French Immersion Students in Mathematics in New Brunswick.** J Gerbrandt. Thesis. 2026. University of New Brunswick.
 
-382 Giguère, Maxe F., de Moissac, Danielle et Gueye, Ndeye Rokhaya, (2026). **Vers des soins pour toustes : l’accessibilité des soins pour les patient·e·s francoqueers au Manitoba (Towards care for all: accessibility of care for Francoqueer patients in Manitoba).** Collectif LGBTQ* du Manitoba. 
+382 Giguère, Maxe F., de Moissac, Danielle et Gueye, Ndeye Rokhaya, (2026). **Vers des soins pour toustes : l’accessibilité des soins pour les patient·e·s francoqueers au Manitoba (Towards care for all: accessibility of care for Francoqueer patients in Manitoba).** Collectif LGBTQ* du Manitoba.
 
 381 **Vertriebsstärkung durch interne Reorganisation in Kleinst- und Kleinunternehmen (Strengthening sales through internal reorganization in micro and small companies).** Michael GÜHNE, Ulrike PIETRZYK. GfA, Sankt Augustin (Hrsg.): Conference Abstract. Frühjahrskongress 2026, Kassel
 
@@ -191,7 +191,7 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 374 Kabir M.S. **Traditional and digital networking strategies and its impact on business sustainability for foreign entrepreneurs in Poland**. J Innov Entrep (2026). <https://doi.org/10.1186/ s13731-026-00630-z>
 
-373 **DESIGNING FOR USABILITY: AN AI-HUMAN HYBRID MENTAL HEALTH COUNSELING WEB APP FOR STUDENTS.** ELGA THERESIA, TANTY OKTAVIA. Journal of Theoretical and Applied Information Technology 15th March 2026. Vol.104. No.5 
+373 **DESIGNING FOR USABILITY: AN AI-HUMAN HYBRID MENTAL HEALTH COUNSELING WEB APP FOR STUDENTS.** ELGA THERESIA, TANTY OKTAVIA. Journal of Theoretical and Applied Information Technology 15th March 2026. Vol.104. No.5
 
 372 Hess, L., & Häusermann, S. (2026). **The quest for exposure: How pro-Palestine activists navigate algorithmic visibility and content moderation on TikTok.** Platforms & Society, 3. Análisis cualitativo del impacto de la violencia institucional en las profesionales que intervienen en las violencias machistas, desde una perspectiva de derechos. Berrocal et al. Report 2025.
 
@@ -209,7 +209,7 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 365 Escaño, C., Peterson Ferreira de Lima, S & Feltrero, R. (2026). **Educación Artística Inclusiva e Inteligencia Artificial: análisis discursivo comparativo entre Ana Mae Barbosa y su avatar digital.** Arte, Individuo y Sociedad, 38(3). Publicación en línea, 1-22.<https://dx.doi.org/10.5209/aris.105507>
 
-364 MICHÁLKOVÁ, Gabriela. **Dobrovolné digitální vyloučení a jeho vliv na každodenní život generace Z (Voluntary digital exclusion and its impact on everyday life of generation Z).** Diplomová práce, vedoucí Jirků, Jan. Praha: Univerzita Karlova, Fakulta sociálních věd, Katedra žurnalistiky, 2026. 
+364 MICHÁLKOVÁ, Gabriela. **Dobrovolné digitální vyloučení a jeho vliv na každodenní život generace Z (Voluntary digital exclusion and its impact on everyday life of generation Z).** Diplomová práce, vedoucí Jirků, Jan. Praha: Univerzita Karlova, Fakulta sociálních věd, Katedra žurnalistiky, 2026.
 
 363 **Analyses of Employee Retention and Best Practices Strategies.** Bezerra, Alessandro (2026) Thesis Laurea University. <https://www.theseus.fi/handle/10024/911490>
 
@@ -663,7 +663,7 @@ J Brosnan, R Shannon, S Krueger, K Wolgast. Journal of Forensic Nursing 2024. DO
 
 144 **DevOps Metrics and KPIs: A Multivocal Literature Review.** R Amaro, R Pereira, M da Silva. ACM Computing Surveys, Volume 56(9) 9 Article No.231. <https://doi.org/10.1145/3652508>
 
-143 **Opportunity Realized: Successful Implementation of Undergraduate Research at Three Geographically Diverse Community Colleges.** D Beugnet. Thesis 2024. Florida State University.    
+143 **Opportunity Realized: Successful Implementation of Undergraduate Research at Three Geographically Diverse Community Colleges.** D Beugnet. Thesis 2024. Florida State University.
 
 142 **Algorithm and Administrator: An exploration of responsible administrative practices when working with machine learning models.** LMB van der Neut. Thesis 2024. -- University of Twente. <https://essay.utwente.nl/103693/>
 

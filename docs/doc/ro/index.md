@@ -20,7 +20,7 @@ QualCoder include un set de funcții asistate de IA care utilizează modele ling
     - **QualCoder acceptă standarde deschise**. QualCoder își propune să accepte [standardul REFI-QDA](https://www.qdasoftware.org/); puteți face schimb de coduri și proiecte cu colegii dvs. chiar dacă aceștia nu utilizează QualCoder, atâta timp cât software-ul pe care îl folosesc acceptă standardul REFI-QDA. Aceasta înseamnă că nu riscați ca datele dvs. să devină indisponibile. Proiectul REFI-QDA nu este încă garantat ca fiind 100% conform. Sunt necesare teste suplimentare, în special pentru exporturile și importurile de fișiere audio și video, precum și pentru fișierele legate relativ.
     - **QualCoder poate fi modificat**. Puteți modifica și adapta QualCoder la nevoile dumneavoastră, atâta timp cât puneți la dispoziția tuturor modificările efectuate. Acest lucru înseamnă, de asemenea, că puteți copia software-ul și îl puteți oferi colegilor sau studenților dumneavoastră în mod gratuit.
     - **QualCoder este o opțiune software care susține știința deschisă**. [Recomandările UNESCO privind știința deschisă](https://www.unesco.org/en/open-science?hub=686)
-    
+
 ## Versiunea actuală
 Versiunile software-ului sunt disponibile pe [Github](https://github.com/ccbogel/QualCoder/releases). Acestea conțin codul sursă și fișierele executabile. Fișierele executabile reprezintă o modalitate simplă de a rula QualCoder; faceți dublu clic pentru a-l rula, dar rețineți că deschiderea acestuia poate dura până la 20 de secunde.
 
@@ -43,7 +43,7 @@ Dacă vă place foarte mult QualCoder sau ați găsit o utilizare inedită pentr
 
 A fost nevoie de foarte multe ore de muncă pentru a crea acest software, care este pus la dispoziție gratuit. **Dacă utilizați și vă place QualCoder, vă rugăm să susțineți dezvoltarea acestuia.**
 
-<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)</a>
 
 QualCoder este scris în Python, folosind Qt6 pentru interfața grafică. QualCoder a fost utilizat pe Windows 11, macOS și diverse distribuții Linux: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 

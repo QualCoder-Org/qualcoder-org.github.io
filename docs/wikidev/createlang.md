@@ -17,7 +17,7 @@ sudo apt install qtcreator
 sudo apt -y install linguist-qt6
 sudo apt install pyqt6-dev-tools
 
-In directory qualcoder/GUI 
+In directory qualcoder/GUI
 Need a .pro file  in the qualcoder/GUI directory
 
 run:
@@ -25,7 +25,7 @@ pylupdate5 project.pro -noobsolete
 Note pylupdate6 does not work well, it replaces with blank entries, instead of drawing from existing ts files.
 This helper file for this: rebuild_lang.py will updat all the placeholders fo rthe languages in both po and ts files. Run from the Qualcder-master efolder.
 
-ts files are released as app_name.qm 
+ts files are released as app_name.qm
 Release is placed in qualcoder/locale/name/name.qm
 
 #####################################
@@ -47,7 +47,7 @@ Note this is replaced with the above helper file.
 
 For individual update to po files see below example for Deutsch:
 
-xgettext -d de -j de.po __main__.py add_attribute.py add_item_name.py ai_chat.py ai_llm.py ai_prompts.py ai_search_dialog.py ai_vectorstore.py attributes.py case_file_manager.py cases.py code_color_scheme.py code_text.py code_in_all_files.py code_organiser.py code_pdf.py codebook.py color_selector.py confirm_delete.py edit_textfile.py helpers.py import_survey.py import_twitter_data.py information.py journals.py manage_files.py manage_links.py manage_references.py memo.py merge_projects.py move_resize_rectangle.py pseudonyms.py refi.py report_attributes.py report_codes.py report_code_summary.py report_codes_by_segments.py report_compare_coder_file.py report_cooccurrence.py report_exact_matches.py report_file_summary.py report_relations.py reports.py report_sql.py rqda.py save_sql_query.py select_items.py settings.py special_functions.py text_mining.py view_av.py view_charts.py view_graph.py view_image.py 
+xgettext -d de -j de.po __main__.py add_attribute.py add_item_name.py ai_chat.py ai_llm.py ai_prompts.py ai_search_dialog.py ai_vectorstore.py attributes.py case_file_manager.py cases.py code_color_scheme.py code_text.py code_in_all_files.py code_organiser.py code_pdf.py codebook.py color_selector.py confirm_delete.py edit_textfile.py helpers.py import_survey.py import_twitter_data.py information.py journals.py manage_files.py manage_links.py manage_references.py memo.py merge_projects.py move_resize_rectangle.py pseudonyms.py refi.py report_attributes.py report_codes.py report_code_summary.py report_codes_by_segments.py report_compare_coder_file.py report_cooccurrence.py report_exact_matches.py report_file_summary.py report_relations.py reports.py report_sql.py rqda.py save_sql_query.py select_items.py settings.py special_functions.py text_mining.py view_av.py view_charts.py view_graph.py view_image.py
 
 After translating, save will produce a name.po and a name.mo file
 ```

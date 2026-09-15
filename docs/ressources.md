@@ -136,7 +136,7 @@ https://www.thriver.one/free-qualitative-coding
 There is a discussion of QualCoder in Persian here: در اینجا بحث QualCoder به زبان فارسی وجود دارد:
 
  https://yabesh.ir/4444873/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D9%88%D8%A7%D9%84-%DA%A9%D8%AF%D8%B1qualcoder
- 
+
 ## Resources in German
 
 

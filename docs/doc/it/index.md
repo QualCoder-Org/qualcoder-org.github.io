@@ -20,7 +20,7 @@ QualCoder include una serie di funzionalità assistite dall’intelligenza artif
     - **QualCoder supporta gli standard aperti**. QualCoder mira a supportare lo [standard REFI-QDA](https://www.qdasoftware.org/); è possibile scambiare codebook e progetti con i propri colleghi anche se questi non utilizzano QualCoder, purché il software da loro utilizzato supporti lo standard REFI-QDA. Ciò significa che non si corre il rischio che i propri dati diventino inaccessibili. La conformità al progetto REFI-QDA non è ancora garantita al 100%. Sono necessari ulteriori test, in particolare per l’esportazione e l’importazione di file audio e video e per i file collegati in modo relativo.
     - **QualCoder può essere modificato**. È possibile modificare e adattare QualCoder alle proprie esigenze, a condizione che le modifiche apportate vengano rese disponibili a tutti. Ciò significa anche che è possibile copiare il software e distribuirlo gratuitamente ai propri colleghi o studenti.
     - **QualCoder è una soluzione software a sostegno della scienza aperta**. [Raccomandazioni dell’UNESCO sulla scienza aperta](https://www.unesco.org/en/open-science?hub=686)
-    
+
 ## Versione attuale
 Le versioni del software sono disponibili su [Github](https://github.com/ccbogel/QualCoder/releases). Queste contengono il codice sorgente e i file eseguibili. I file eseguibili rappresentano un modo semplice per avviare QualCoder: basta un doppio clic per eseguirlo, ma tieni presente che l’apertura può richiedere fino a 20 secondi.
 
@@ -43,7 +43,7 @@ Se QualCoder ti piace particolarmente o se hai trovato un modo innovativo per ut
 
 Ci sono volute moltissime ore di lavoro per creare questo software, che viene fornito gratuitamente. **Se utilizzi QualCoder e ti piace, ti preghiamo di sostenere lo sviluppo.**
 
-<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)</a>
 
 QualCoder è scritto in Python e utilizza Qt6 per l’interfaccia grafica. QualCoder è stato utilizzato su Windows 11, macOS e varie distribuzioni Linux: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 

@@ -675,7 +675,7 @@ Ruhr-Universität Bochum
 
 [![](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-4.png?w=837)](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-4.png)
 
-Europa-Universität Flensburg 
+Europa-Universität Flensburg
 -----------------------------
 
 [![](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-5.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-5.png)
@@ -866,35 +866,35 @@ October 3, 2023 - 8:21 am
 
 ### **What QDA Tool is Right for You?**
 
-Tue, October 3, 12:30pm Online via Zoom 
+Tue, October 3, 12:30pm Online via Zoom
 
-Register: <https://library.temple.edu/events/1529> 
+Register: <https://library.temple.edu/events/1529>
 
-Qualitative Data Analysis software can save time and support all stages of your research, from collecting, organizing, and processing qualitative data, to coding, annotating, querying, and visualizing your analyses. QDA platforms can also enhance teamwork, mixed methods analysis with quantitative data, writing, and reporting. This workshop introduces and compares Atlas.ti, NVivo, Dedoose, Taguette, and QualCoder. 
+Qualitative Data Analysis software can save time and support all stages of your research, from collecting, organizing, and processing qualitative data, to coding, annotating, querying, and visualizing your analyses. QDA platforms can also enhance teamwork, mixed methods analysis with quantitative data, writing, and reporting. This workshop introduces and compares Atlas.ti, NVivo, Dedoose, Taguette, and QualCoder.
 
 ### **ATLAS.ti for Qualitative Data Analysis**
 
-Wed, October 25, noon Online via Zoom 
+Wed, October 25, noon Online via Zoom
 
-Register: <https://library.temple.edu/events/1540> 
+Register: <https://library.temple.edu/events/1540>
 
-This online workshop will introduce ATLAS.ti, commercial qualitative data analysis software that can help save time and support many stages of qualitative research. You will learn how to manage, code, auto-code, annotate, and report on different types of qualitative data in ATLAS.ti, such as text, images, video, geoplaces, and focus group and survey response data. 
+This online workshop will introduce ATLAS.ti, commercial qualitative data analysis software that can help save time and support many stages of qualitative research. You will learn how to manage, code, auto-code, annotate, and report on different types of qualitative data in ATLAS.ti, such as text, images, video, geoplaces, and focus group and survey response data.
 
 ### **QualCoder for Qualitative Data Analysis**
 
-Fri, November 3, noon Online via Zoom 
+Fri, November 3, noon Online via Zoom
 
-Register: <https://library.temple.edu/events/1543> 
+Register: <https://library.temple.edu/events/1543>
 
-This online workshop will introduce QualCoder, free and open-source qualitative data analysis software that can help save time and support many stages of qualitative research. You will learn how to manage, code, auto-code, create relationships and annotate text, images, videos, survey responses and other types of qualitative data. You will also view different charts, graphs, and other visualization, reporting and export features. 
+This online workshop will introduce QualCoder, free and open-source qualitative data analysis software that can help save time and support many stages of qualitative research. You will learn how to manage, code, auto-code, create relationships and annotate text, images, videos, survey responses and other types of qualitative data. You will also view different charts, graphs, and other visualization, reporting and export features.
 
 ### **NVivo for Qualitative Data Analysis**
 
-Mon, November 13, 11am Online via Zoom 
+Mon, November 13, 11am Online via Zoom
 
-Register: <https://library.temple.edu/events/1546> 
+Register: <https://library.temple.edu/events/1546>
 
-This online workshop will introduce NVivo, commercial qualitative data analysis software that can help save time and support many stages of qualitative research. You will learn how to manage, code, auto-code, create relationships and annotate text, images, videos, survey responses, social media and other types of qualitative data. You will also view different charts, graphs, and other visualization, reporting and export features. 
+This online workshop will introduce NVivo, commercial qualitative data analysis software that can help save time and support many stages of qualitative research. You will learn how to manage, code, auto-code, create relationships and annotate text, images, videos, survey responses, social media and other types of qualitative data. You will also view different charts, graphs, and other visualization, reporting and export features.
 
 [Leave a comment](https://qualcoder.wordpress.com/2023/10/03/upcoming-talks-from-temple-university/#respond)
 

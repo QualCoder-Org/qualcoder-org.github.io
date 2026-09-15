@@ -20,7 +20,7 @@ QualCoder incluye un conjunto de funciones asistidas por IA que utilizan grandes
     - **QualCoder admite estándares abiertos**. QualCoder busca admitir el [estándar REFI-QDA](https://www.qdasoftware.org/), usted puede intercambiar libros de códigos y proyectos con sus colegas incluso si no usan QualCoder, siempre que el software que utilicen admita el estándar REFI-QDA. Esto significa que no corre el riesgo de que sus datos queden inaccesibles. Todavía no se garantiza que el proyecto REFI-QDA cumpla al 100 %. Se necesitan más pruebas, en particular para las exportaciones e importaciones de audio y video y para los archivos vinculados de forma relativa.
     - **QualCoder puede modificarse**. Usted puede modificar y adaptar QualCoder a sus necesidades, siempre que publique sus cambios para todos. Esto también significa que puede copiar el software y entregárselo a sus colegas o estudiantes de forma gratuita.
     - **QualCoder es una opción de software para apoyar la ciencia abierta**. [Recomendaciones de la UNESCO sobre ciencia abierta](https://www.unesco.org/en/open-science?hub=686)
-    
+
 ## Versión actual
 Las versiones del software están disponibles en [Github](https://github.com/ccbogel/QualCoder/releases). Estas contienen el código fuente y los ejecutables. Los ejecutables son una forma sencilla de ejecutar QualCoder, haga doble clic para ejecutarlo, solo tenga en cuenta que puede tardar hasta 20 segundos en abrirse.
 
@@ -45,7 +45,7 @@ Si le gusta mucho QualCoder, o ha desarrollado un uso novedoso para él, por fav
 
 Ha tomado muchísimas horas de trabajo crear este software que se ofrece de forma gratuita.**Si usa y le gusta QualCoder, por favor apoye su desarrollo.**
 
-<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)</a>
 
 QualCoder está escrito en python usando Qt6 para la interfaz gráfica. QualCoder se ha utilizado en Windows 11, macOS y varias distribuciones de Linux: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 

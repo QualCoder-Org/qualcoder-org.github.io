@@ -1,3 +1,7 @@
+---
+path: index
+---
+
 # 什么是 QualCoder
 
 QualCoder 是一款用于定性数据分析的免费开源桌面软件。
@@ -17,7 +21,7 @@ QualCoder 包含一系列人工智能辅助功能，这些功能利用大型语�
     - **QualCoder 支持开放标准**。QualCoder 致力于支持 [REFI-QDA 标准](https://www.qdasoftware.org/)，即使您的同事未使用 QualCoder，只要他们使用的软件支持 REFI-QDA 标准，您仍可与他们交换编码本和项目。这意味着您的数据不会面临无法访问的风险。目前尚不能保证 QualCoder 项目 100% 符合该标准。还需要进行进一步测试，特别是针对音频和视频的导出与导入，以及相对链接文件。
     - **QualCoder 支持修改**。您可以根据自身需求修改和调整 QualCoder，只要您将修改内容公开发布供所有人使用即可。这也意味着您可以复制该软件，并免费将其提供给您的同事或学生。
     - **QualCoder 是一款支持开放科学的软件选项**。[联合国教科文组织关于开放科学的建议](https://www.unesco.org/en/open-science?hub=686)
-    
+
 ## 当前版本
 软件版本可在 [GitHub](https://github.com/ccbogel/QualCoder/releases) 上获取。这些版本包含源代码和可执行文件。可执行文件是运行 QualCoder 的便捷方式，双击即可运行，但请注意，打开程序可能需要长达 20 秒的时间。
 
@@ -40,7 +44,7 @@ QualCoder 包含一系列人工智能辅助功能，这些功能利用大型语�
 
 开发这款免费软件耗费了无数个小时的工作时间。**如果您在使用并喜欢 QualCoder，请支持其开发。**
 
-<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="请我喝杯咖啡" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![请我喝杯咖啡](https://cdn.buymeacoffee.com/buttons/default-orange.png)</a>
 
 QualCoder 采用 Python 编写，并使用 Qt6 实现图形界面。QualCoder 已在 Windows 11、macOS 以及多种 Linux 发行版（包括 Ubuntu、Lubuntu、ZorinOS、Arch、Fedora）上运行。
 
