@@ -7,9 +7,9 @@ Key takeaways:
 - cleanup/simplification of style files (to suit system requirements) : use system font, delete herited theme (original/dark/orange/yellow/green/blue/purple/rainbow)
 - The idea: transform the window into a dockable workspace featuring a central area (the document currently being coded) surrounded by docks. Everything is visible, everything can be docked or undocked, and the layout is saved.
 
-![image](https://github.com/user-attachments/assets/8fd6d8a7-e8c4-4178-91d7-f9d801104e3b)
+![image](/images/gh-8fd6d8a7-e8c4-4178-91d7-f9d801104e3b.png)
 
-![image](https://github.com/user-attachments/assets/7a3e8a11-cfc0-4eaf-a557-b3d358f87f06)
+![image](/images/gh-7a3e8a11-cfc0-4eaf-a557-b3d358f87f06.png)
 
 
 Idea of themes for pyqt6

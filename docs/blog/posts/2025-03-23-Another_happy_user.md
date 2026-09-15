@@ -13,6 +13,6 @@ We must be doing something right.
 
 If you like QualCoder please buy me a coffee ...
 
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/ccbogelB)
+[![Buy Me A Coffee](/images/buymeacoffee-default-orange.png)](https://www.buymeacoffee.com/ccbogelB)
 
 [](https://www.buymeacoffee.com/ccbogelB)

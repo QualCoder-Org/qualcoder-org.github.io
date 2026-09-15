@@ -48,7 +48,7 @@ Si vous appréciez particulièrement QualCoder ou si vous en avez trouvé une ut
 
 La création de ce logiciel, mis à disposition gratuitement, a nécessité de très nombreuses heures de travail. **Si vous utilisez et appréciez QualCoder, merci de soutenir son développement.**
 
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/ccbogelB)
+[![Buy Me A Coffee](/images/buymeacoffee-default-orange.png)](https://www.buymeacoffee.com/ccbogelB)
 
 QualCoder est écrit en Python et utilise Qt6 pour l'interface graphique. QualCoder a été utilisé sous Windows 11, macOS et diverses distributions Linux : Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 

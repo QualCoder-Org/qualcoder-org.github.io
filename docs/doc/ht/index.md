@@ -45,7 +45,7 @@ Si w renmen QualCoder anpil, oswa si w devlope yon nouvo fason pou w itilize l, 
 
 Sa pran anpil, anpil èdtan travay pou kreye lojisyèl sa a ki disponib gratis pou itilize.**Si w itilize QualCoder epi w renmen l, tanpri sipòte devlopman an.**
 
-<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Achte M Yon Kafe](https://cdn.buymeacoffee.com/buttons/default-orange.png)
+<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Achte M Yon Kafe](/images/buymeacoffee-default-orange.png)
 
 QualCoder ekri an python avèk Qt6 pou entèfas grafik la. Yo itilize QualCoder sou Windows 11, macOS ak divès distribisyon Linux: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 
