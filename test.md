@@ -1,6 +1,6 @@
 # Markdown Quality Report
 
-Generated: 2026-09-15 08:20:40 UTC
+Generated: 2026-09-15 08:44:06 UTC
 
 ## Configuration
 
@@ -12,9 +12,9 @@ Generated: 2026-09-15 08:20:40 UTC
 ## Summary
 
 - **Status:** FAIL
-- **Errors:** 593
+- **Errors:** 589
 - **Warnings:** 38
-- **Files with issues:** 56
+- **Files with issues:** 55
 
 ### Issues by check
 
@@ -24,17 +24,15 @@ Generated: 2026-09-15 08:20:40 UTC
 | `frontmatter` | 1 | 0 |
 | `html` | 87 | 0 |
 | `i18n` | 342 | 6 |
-| `images-external` | 71 | 0 |
-| `images-missing` | 1 | 0 |
-| `links-broken` | 91 | 0 |
+| `images-external` | 29 | 0 |
+| `links-broken` | 130 | 0 |
 | `placeholders` | 0 | 5 |
 
 ## Files
 
 | File | Errors | Warnings |
 |---|---:|---:|
-| `blog/misc.md` | 49 | 0 |
-| `blog/posts/2021-02-06-QualCoder_2_4_release.md` | 1 | 0 |
+| `blog/misc.md` | 46 | 0 |
 | `blog/posts/2024-07-05-Workshops_on_QualCoder_appearing_worldwide.md` | 6 | 0 |
 | `blog/posts/2025-03-23-Another_happy_user.md` | 1 | 0 |
 | `blog/posts/2026-01-22-stoppwortliste.md` | 2 | 0 |
@@ -94,69 +92,57 @@ Generated: 2026-09-15 08:20:40 UTC
 
 ### `blog/misc.md`
 
-- Errors: 49
+- Errors: 46
 - Warnings: 0
 
 | Severity | Line | Check | Message |
 |---|---:|---|---|
-| error | 266 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2025/06/image-2.png?w=778' |
-| error | 288 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2025/06/image.png?w=641' |
-| error | 292 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2025/06/image-1.png?w=803' |
-| error | 344 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2025/04/image.png?w=1024' |
-| error | 357 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2025/03/happy.png?w=562' |
-| error | 363 | `images-external` | image hosted outside the site (must be stored locally): 'https://cdn.buymeacoffee.com/buttons/default-orange.png' |
-| error | 479 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2025/01/image.png?w=561' |
-| error | 483 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2025/01/image-1.png?w=1024' |
-| error | 530 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/11/gephi-network-visualisation.png?w=665' |
-| error | 603 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/08/downloads_2024_08_09.png?w=889' |
-| error | 656 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image.png?w=473' |
-| error | 661 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-1.png?w=605' |
-| error | 666 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-2.png?w=1024' |
-| error | 671 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-3.png?w=1024' |
-| error | 676 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-4.png?w=837' |
-| error | 681 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-5.png?w=1024' |
-| error | 709 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_nvivo.png?w=1024' |
-| error | 711 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_maxqda.png?w=1024' |
-| error | 713 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_atlas_ti.png?w=1024' |
-| error | 715 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_deedose.png?w=1024' |
-| error | 717 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_quirkos.png?w=1024' |
-| error | 719 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_taguette.png?w=1024' |
-| error | 776 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2023/12/wc.png?w=800' |
-| error | 924 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2023/09/with_graphics.jpg?w=931' |
-| error | 928 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2023/09/minimal_graphics.jpg?w=883' |
-| error | 1087 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2023/04/image.png?w=20' |
-| error | 1138 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2023/02/view_original_text.png?w=673' |
-| error | 1177 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2023/02/markdown.png?w=1016' |
-| error | 1196 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2023/01/qc_3_2_charts.png?w=1024' |
-| error | 1221 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_maxqda_20221215.png?w=1024' |
-| error | 1226 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_dedoose_20221215.png?w=1024' |
-| error | 1231 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_atlasti_20021215.png?w=1024' |
-| error | 1236 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_nvivio_20221215.png?w=1024' |
-| error | 1253 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2022/11/blue.png?w=1024' |
-| error | 1257 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2022/11/orange.png?w=1024' |
-| error | 1261 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2022/11/rainbow.png?w=1024' |
-| error | 1353 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2022/07/wordpressvisits2022.png?w=748' |
-| error | 1447 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2022/04/pic10.png?w=816' |
-| error | 1451 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2022/04/pic11.png?w=1024' |
-| error | 1583 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2021/11/qualcoder256.png' |
-| error | 1819 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2021/02/tabbed.png?w=1024' |
+| error | 266 | `links-broken` | broken relative link (target not found): '/images/wp-2025-06-image-2.png' |
+| error | 288 | `links-broken` | broken relative link (target not found): '/images/wp-2025-06-image.png' |
+| error | 292 | `links-broken` | broken relative link (target not found): '/images/wp-2025-06-image-1.png' |
+| error | 344 | `links-broken` | broken relative link (target not found): '/images/wp-2025-04-image.png' |
+| error | 357 | `links-broken` | broken relative link (target not found): '/images/wp-2025-03-happy.png' |
+| error | 363 | `links-broken` | broken relative link (target not found): '/images/buymeacoffee-default-orange.png' |
+| error | 479 | `links-broken` | broken relative link (target not found): '/images/wp-2025-01-image.png' |
+| error | 483 | `links-broken` | broken relative link (target not found): '/images/wp-2025-01-image-1.png' |
+| error | 530 | `links-broken` | broken relative link (target not found): '/images/wp-2024-11-gephi-network-visualisation.png' |
+| error | 603 | `links-broken` | broken relative link (target not found): '/images/wp-2024-08-downloads_2024_08_09.png' |
+| error | 656 | `links-broken` | broken relative link (target not found): '/images/wp-2024-07-image.png' |
+| error | 661 | `links-broken` | broken relative link (target not found): '/images/wp-2024-07-image-1.png' |
+| error | 666 | `links-broken` | broken relative link (target not found): '/images/wp-2024-07-image-2.png' |
+| error | 671 | `links-broken` | broken relative link (target not found): '/images/wp-2024-07-image-3.png' |
+| error | 676 | `links-broken` | broken relative link (target not found): '/images/wp-2024-07-image-4.png' |
+| error | 681 | `links-broken` | broken relative link (target not found): '/images/wp-2024-07-image-5.png' |
+| error | 709 | `links-broken` | broken relative link (target not found): '/images/wp-2024-06-qc_vs_nvivo.png' |
+| error | 711 | `links-broken` | broken relative link (target not found): '/images/wp-2024-06-qc_vs_maxqda.png' |
+| error | 713 | `links-broken` | broken relative link (target not found): '/images/wp-2024-06-qc_vs_atlas_ti.png' |
+| error | 715 | `links-broken` | broken relative link (target not found): '/images/wp-2024-06-qc_vs_deedose.png' |
+| error | 717 | `links-broken` | broken relative link (target not found): '/images/wp-2024-06-qc_vs_quirkos.png' |
+| error | 719 | `links-broken` | broken relative link (target not found): '/images/wp-2024-06-qc_vs_taguette.png' |
+| error | 776 | `links-broken` | broken relative link (target not found): '/images/wp-2023-12-wc.png' |
+| error | 924 | `links-broken` | broken relative link (target not found): '/images/wp-2023-09-with_graphics.jpg' |
+| error | 928 | `links-broken` | broken relative link (target not found): '/images/wp-2023-09-minimal_graphics.jpg' |
+| error | 1087 | `links-broken` | broken relative link (target not found): '/images/wp-2023-04-image.png' |
+| error | 1138 | `links-broken` | broken relative link (target not found): '/images/wp-2023-02-view_original_text.png' |
+| error | 1177 | `links-broken` | broken relative link (target not found): '/images/wp-2023-02-markdown.png' |
+| error | 1196 | `links-broken` | broken relative link (target not found): '/images/wp-2023-01-qc_3_2_charts.png' |
+| error | 1221 | `links-broken` | broken relative link (target not found): '/images/wp-2022-12-qualcoder_vs_maxqda_20221215.png' |
+| error | 1226 | `links-broken` | broken relative link (target not found): '/images/wp-2022-12-qualcoder_vs_dedoose_20221215.png' |
+| error | 1231 | `links-broken` | broken relative link (target not found): '/images/wp-2022-12-qualcoder_vs_atlasti_20021215.png' |
+| error | 1236 | `links-broken` | broken relative link (target not found): '/images/wp-2022-12-qualcoder_vs_nvivio_20221215.png' |
+| error | 1253 | `links-broken` | broken relative link (target not found): '/images/wp-2022-11-blue.png' |
+| error | 1257 | `links-broken` | broken relative link (target not found): '/images/wp-2022-11-orange.png' |
+| error | 1261 | `links-broken` | broken relative link (target not found): '/images/wp-2022-11-rainbow.png' |
+| error | 1353 | `links-broken` | broken relative link (target not found): '/images/wp-2022-07-wordpressvisits2022.png' |
+| error | 1447 | `links-broken` | broken relative link (target not found): '/images/wp-2022-04-pic10.png' |
+| error | 1451 | `links-broken` | broken relative link (target not found): '/images/wp-2022-04-pic11.png' |
 | error | 2023 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2019/05/python32.png?w=500' |
-| error | 2027 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2019/05/task_manager.png?w=500' |
 | error | 2059 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2019/03/pic9.png?w=500' |
 | error | 2082 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2019/03/av_example.png?w=500' |
 | error | 2097 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2019/02/overlapping-picture.png?w=500' |
 | error | 2123 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2019/02/matrix1.png?w=500' |
 | error | 2136 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2019/01/coding-report-with-images.png?w=500' |
 | error | 2147 | `images-external` | image hosted outside the site (must be stored locally): 'https://qualcoder.wordpress.com/wp-content/uploads/2019/01/qualcoder.png?w=500' |
-
-### `blog/posts/2021-02-06-QualCoder_2_4_release.md`
-
-- Errors: 1
-- Warnings: 0
-
-| Severity | Line | Check | Message |
-|---|---:|---|---|
-| error | 5 | `images-missing` | image not found: 'images/tabbed.png' |
 
 ### `blog/posts/2024-07-05-Workshops_on_QualCoder_appearing_worldwide.md`
 

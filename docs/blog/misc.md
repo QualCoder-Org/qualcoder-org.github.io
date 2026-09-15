@@ -263,7 +263,7 @@ Filed under [Uncategorized](https://qualcoder.wordpress.com/category/uncategoriz
 [A plug on LinkedIn](https://qualcoder.wordpress.com/2025/06/25/a-plug-on-linkedin/)
 ------------------------------------------------------------------------------------
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2025/06/image-2.png?w=778)](https://qualcoder.wordpress.com/wp-content/uploads/2025/06/image-2.png)
+[![](/images/wp-2025-06-image-2.png)](/images/wp-2025-06-image-2.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2025/06/25/a-plug-on-linkedin/#respond)
 
@@ -285,11 +285,11 @@ June 6, 2025 - 10:20 am
 
 Definitely we feel that we are doing what's best:
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2025/06/image.png?w=641)](https://qualcoder.wordpress.com/wp-content/uploads/2025/06/image.png)
+[![](/images/wp-2025-06-image.png)](/images/wp-2025-06-image.png)
 
 There has been a lot of downloads of the executables, with minimal problems mentioned. There is a separate link for the Ubuntu executable, so those downloads are not listed below. However, it is hard to know how many people are just 'kicking the tyres' to see if QualCoder is something they can use, or if they are actively using the software. QualCoder does not contain any telemetry to get that kind of feedback.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2025/06/image-1.png?w=803)](https://qualcoder.wordpress.com/wp-content/uploads/2025/06/image-1.png)
+[![](/images/wp-2025-06-image-1.png)](/images/wp-2025-06-image-1.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2025/06/06/another-satisfied-user/#respond)
 
@@ -341,7 +341,7 @@ April 14, 2025 - 9:38 am
 
 Paul Solomon conducting a workshop in Chennai and supporting Open Source software.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2025/04/image.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2025/04/image.png)
+[![](/images/wp-2025-04-image.png)](/images/wp-2025-04-image.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2025/04/14/qualcoder-workshop-in-india/#respond)
 
@@ -354,13 +354,13 @@ March 23, 2025 - 9:05 am
 
 We must be doing something right.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2025/03/happy.png?w=562)](https://qualcoder.wordpress.com/wp-content/uploads/2025/03/happy.png)
+[![](/images/wp-2025-03-happy.png)](/images/wp-2025-03-happy.png)
 
 [](https://www.buymeacoffee.com/ccbogelB)
 
 If you like QualCoder please buy me a coffee ...
 
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/ccbogelB)
+[![Buy Me A Coffee](/images/buymeacoffee-default-orange.png)](https://www.buymeacoffee.com/ccbogelB)
 
 [](https://www.buymeacoffee.com/ccbogelB)
 
@@ -476,11 +476,11 @@ We are getting close to the release of the 3.6 version, which among other change
 
 There has been an impressive uptake of the 3.5 version that was released a year ago on 23rd December 2023 with over 10,000 downloads of the executables (as at 22 Jan 2024) for Windows and Ubuntu.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2025/01/image.png?w=561)](https://qualcoder.wordpress.com/wp-content/uploads/2025/01/image.png)
+[![](/images/wp-2025-01-image.png)](/images/wp-2025-01-image.png)
 
 It is great to see that saashub <https://www.saashub.com/> which shows comparisons between similar software indicated that QualCoder is very favourably viewed compared to the very well known Nvivo software (as at 22 Jan 2024).
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2025/01/image-1.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2025/01/image-1.png)
+[![](/images/wp-2025-01-image-1.png)](/images/wp-2025-01-image-1.png)
 
 with regards Colin
 
@@ -527,7 +527,7 @@ You need to extract the data in QualCoder and export to a csv file. The data sou
 
 **The network visualisation**
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/11/gephi-network-visualisation.png?w=665)](https://qualcoder.wordpress.com/wp-content/uploads/2024/11/gephi-network-visualisation.png)
+[![](/images/wp-2024-11-gephi-network-visualisation.png)](/images/wp-2024-11-gephi-network-visualisation.png)
 
 **The YouTube video (Spanish)**
 
@@ -600,7 +600,7 @@ Since I began releasing QualCoder, interest and use of the software has continue
 
 It would be really appreciated if there were independent researchers who could write and publish independent and in depth articles about the QualCoder software. How is has been used, what the advantages and disadvantages are.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/08/downloads_2024_08_09.png?w=889)](https://qualcoder.wordpress.com/wp-content/uploads/2024/08/downloads_2024_08_09.png)
+[![](/images/wp-2024-08-downloads_2024_08_09.png)](/images/wp-2024-08-downloads_2024_08_09.png)
 
 This chart is from data obtained on 9th August 2024. It shows executables downloaded from the GitHub releases, <https://github.com/ccbogel/QualCoder/releases>. These executables comprise Linux Debian install files, Windows executables and Linux Ubuntu executables. The most recent bar comprises 1,049 Ubuntu executables and 3,590 Windows executables.
 
@@ -653,32 +653,32 @@ A few universities around the world are presenting workshops on QualCoder.
 Universiti Malaya
 -----------------
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image.png?w=473)](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image.png)
+[![](/images/wp-2024-07-image.png)](/images/wp-2024-07-image.png)
 
 Temple University
 -----------------
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-1.png?w=605)](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-1.png)
+[![](/images/wp-2024-07-image-1.png)](/images/wp-2024-07-image-1.png)
 
 Illinois University
 -------------------
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-2.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-2.png)
+[![](/images/wp-2024-07-image-2.png)](/images/wp-2024-07-image-2.png)
 
 Uppsala Universitet
 -------------------
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-3.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-3.png)
+[![](/images/wp-2024-07-image-3.png)](/images/wp-2024-07-image-3.png)
 
 Ruhr-Universität Bochum
 -----------------------
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-4.png?w=837)](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-4.png)
+[![](/images/wp-2024-07-image-4.png)](/images/wp-2024-07-image-4.png)
 
 Europa-Universität Flensburg
 -----------------------------
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-5.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2024/07/image-5.png)
+[![](/images/wp-2024-07-image-5.png)](/images/wp-2024-07-image-5.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2024/07/05/workshops-on-qualcoder-appearing-worldwide/#respond)
 
@@ -706,17 +706,17 @@ June 28, 2024 - 9:59 am
 
 QualCoder is a favourable comparator to many paid and open software products. Charts below were from 28 June 2024.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_nvivo.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_nvivo.png)
+[![](/images/wp-2024-06-qc_vs_nvivo.png)](/images/wp-2024-06-qc_vs_nvivo.png)
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_maxqda.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_maxqda.png)
+[![](/images/wp-2024-06-qc_vs_maxqda.png)](/images/wp-2024-06-qc_vs_maxqda.png)
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_atlas_ti.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_atlas_ti.png)
+[![](/images/wp-2024-06-qc_vs_atlas_ti.png)](/images/wp-2024-06-qc_vs_atlas_ti.png)
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_deedose.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_deedose.png)
+[![](/images/wp-2024-06-qc_vs_deedose.png)](/images/wp-2024-06-qc_vs_deedose.png)
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_quirkos.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_quirkos.png)
+[![](/images/wp-2024-06-qc_vs_quirkos.png)](/images/wp-2024-06-qc_vs_quirkos.png)
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_taguette.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/qc_vs_taguette.png)
+[![](/images/wp-2024-06-qc_vs_taguette.png)](/images/wp-2024-06-qc_vs_taguette.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2024/06/28/comparions-with-similar-software/#respond)
 
@@ -773,7 +773,7 @@ Qualcoder can now create wordclouds using its own wordcloud code. All words will
 
 Also a 3.5 release version is coming out very soon.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2023/12/wc.png?w=800)](https://qualcoder.wordpress.com/wp-content/uploads/2023/12/wc.png)
+[![](/images/wp-2023-12-wc.png)](/images/wp-2023-12-wc.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2023/12/22/wordclouds/#respond)
 
@@ -921,11 +921,11 @@ There are quite a few limitations regarding displaying the graphics -- Images an
 
 This is an example pdf page with a lot of graphics (images, lines ,rectangles, and curve objects). My experimentation with pdfminer is on the right, the original is on the left..
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2023/09/with_graphics.jpg?w=931)](https://qualcoder.wordpress.com/wp-content/uploads/2023/09/with_graphics.jpg)
+[![](/images/wp-2023-09-with_graphics.jpg)](/images/wp-2023-09-with_graphics.jpg)
 
 Below is an example of a primarily text filled pdf. The rendering is a lot more similar to the original. The image on the right is my experimentation and the image on the left is the original. At the bottom of the image you can see I added some check boxes to show or hide some of these additional objects (text, lines, rectangles, curves, images) that are rendered on the page.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2023/09/minimal_graphics.jpg?w=883)](https://qualcoder.wordpress.com/wp-content/uploads/2023/09/minimal_graphics.jpg)
+[![](/images/wp-2023-09-minimal_graphics.jpg)](/images/wp-2023-09-minimal_graphics.jpg)
 
 Next I am trying to select text. The approach for now is to drag the mouse over an area to select the individual text boxes that make up the text portions of the pdf. Then try to match those with the plain text import of the pdf. This will be a first approach to then apply coding to the text of those selected text boxes.
 
@@ -1084,7 +1084,7 @@ April 21, 2023 - 9:28 am
 
 I failed installing RQDA on Debian 11, but I was able to install QualCoder to do qualitative analysis of text and imgages. It is also Free-Open Source, but it does not run in R but with Python virtual environment. **So far I have liked it more than Atlas.ti web version (which, in addition, is paid)**
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2023/04/image.png?w=20)](https://qualcoder.wordpress.com/wp-content/uploads/2023/04/image.png)
+[![](/images/wp-2023-04-image.png)](/images/wp-2023-04-image.png)
 
 Fracasé instalando RQDA en Debian 11, pero pude instalar QualCoder para hacer análisis cualitativo de text e imgagen. También es Free-Open Source, pero no corre en R sino con Python virtual environment. Hasta ahora me ha gustado más que Atlas.ti versión web (que, además, es de paga)
 
@@ -1135,7 +1135,7 @@ Now, with new projects, using the future 3.3 version, you will be able to open a
 
 You can install the latest QualCoder code using the green download button and doing a manual install.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2023/02/view_original_text.png?w=673)](https://qualcoder.wordpress.com/wp-content/uploads/2023/02/view_original_text.png)
+[![](/images/wp-2023-02-view_original_text.png)](/images/wp-2023-02-view_original_text.png)
 
 **Older projects**
 
@@ -1174,7 +1174,7 @@ I have added markdown formatting in journals.
 
 It does show the markdown symbols, but does help to frame journal entries. Note this is for the unreleased 3.3 version, which can be downloaded and manually installed from the main GitHub page.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2023/02/markdown.png?w=1016)](https://qualcoder.wordpress.com/wp-content/uploads/2023/02/markdown.png)
+[![](/images/wp-2023-02-markdown.png)](/images/wp-2023-02-markdown.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2023/02/03/markdown-formatting-in-journals/#respond)
 
@@ -1193,7 +1193,7 @@ The other main change is that a bibliography can be imported in the RIS format.
 
 Further improvements to the REFI-QDA codebook and project exchange formats have been enacted.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2023/01/qc_3_2_charts.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2023/01/qc_3_2_charts.png)
+[![](/images/wp-2023-01-qc_3_2_charts.png)](/images/wp-2023-01-qc_3_2_charts.png)
 
 How to get the latest release?
 ------------------------------
@@ -1218,22 +1218,22 @@ It is nice to see that QualCoder does compare favourably primarily as a research
 MAXQDA
 ------
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_maxqda_20221215.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_maxqda_20221215.png)
+[![](/images/wp-2022-12-qualcoder_vs_maxqda_20221215.png)](/images/wp-2022-12-qualcoder_vs_maxqda_20221215.png)
 
 Dedoose
 -------
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_dedoose_20221215.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_dedoose_20221215.png)
+[![](/images/wp-2022-12-qualcoder_vs_dedoose_20221215.png)](/images/wp-2022-12-qualcoder_vs_dedoose_20221215.png)
 
 Atlas.ti
 --------
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_atlasti_20021215.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_atlasti_20021215.png)
+[![](/images/wp-2022-12-qualcoder_vs_atlasti_20021215.png)](/images/wp-2022-12-qualcoder_vs_atlasti_20021215.png)
 
 NVivo
 -----
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_nvivio_20221215.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2022/12/qualcoder_vs_nvivio_20221215.png)
+[![](/images/wp-2022-12-qualcoder_vs_nvivio_20221215.png)](/images/wp-2022-12-qualcoder_vs_nvivio_20221215.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2022/12/15/qualcoder-compares-favourably-to-proprietary-qualitative-data-analysis-software/#respond)
 
@@ -1250,15 +1250,15 @@ Additionally, you will be able to change the overall style of QualCoder through 
 
 Blue style
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/11/blue.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2022/11/blue.png)
+[![](/images/wp-2022-11-blue.png)](/images/wp-2022-11-blue.png)
 
 Orange style
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/11/orange.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2022/11/orange.png)
+[![](/images/wp-2022-11-orange.png)](/images/wp-2022-11-orange.png)
 
 Dark with rainbow style
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/11/rainbow.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2022/11/rainbow.png)
+[![](/images/wp-2022-11-rainbow.png)](/images/wp-2022-11-rainbow.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2022/11/28/latest-updates/#respond)
 
@@ -1350,7 +1350,7 @@ Visitors arriving at the home page on the QualCoder WordPress site have increase
 
 I guess this shows increased awareness and interest in the software. It is also impacted by the Windows 10 exe releases which I began creating with pyinstaller during 2021. This year, 2022, looks like it will be on track to reach 14,000 visits by December.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/07/wordpressvisits2022.png?w=748)](https://qualcoder.wordpress.com/wp-content/uploads/2022/07/wordpressvisits2022.png)
+[![](/images/wp-2022-07-wordpressvisits2022.png)](/images/wp-2022-07-wordpressvisits2022.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2022/07/01/increased-interest-in-qualcoder/#respond)
 
@@ -1444,11 +1444,11 @@ April 29, 2022 - 12:58 pm
 
 QualCoder 3.0 will be able to produce a range of charts -- pie charts, bar charts, treemap and sunburst charts. These are produced with plotly. The examples below come from the following dataset: *What do we mean by "data" in the arts and humanities? Interview transcripts (University of Bologna, FICLIT) and GTM coding.*
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/04/pic10.png?w=816)](https://qualcoder.wordpress.com/wp-content/uploads/2022/04/pic10.png)
+[![](/images/wp-2022-04-pic10.png)](/images/wp-2022-04-pic10.png)
 
 Bar charts.
 
-[![](https://qualcoder.wordpress.com/wp-content/uploads/2022/04/pic11.png?w=1024)](https://qualcoder.wordpress.com/wp-content/uploads/2022/04/pic11.png)
+[![](/images/wp-2022-04-pic11.png)](/images/wp-2022-04-pic11.png)
 
 Currently in development are heatmap charts for cases or files against codings.
 
@@ -1580,7 +1580,7 @@ November 6, 2021 - 10:17 am
 
 Thanks to Julius Reich for the smart and modern icon look for QualCoder:
 
-.![](https://qualcoder.wordpress.com/wp-content/uploads/2021/11/qualcoder256.png)
+.![](/images/wp-2021-11-qualcoder256.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2021/11/06/new-icon/#respond)
 
@@ -1816,7 +1816,7 @@ The latest release of QualCoder has been published: <https://github.com/ccbogel/
 
 It contains a major change from many opened dialog windows. to a tabbed interface with four tabs for *actions performed log, coding, manage* and *reports*.
 
-![](https://qualcoder.wordpress.com/wp-content/uploads/2021/02/tabbed.png?w=1024)
+![](/images/wp-2021-02-tabbed.png)
 
 Details of other updates are:
 
@@ -2024,7 +2024,7 @@ This image shows I am running Python in 32 bit architecture:
 
 This image, from the task manager,  shows vlc is running as 64 bit architecture. If it was 32 bit is would be noted as such in brackets.
 
-![task_manager.png](https://qualcoder.wordpress.com/wp-content/uploads/2019/05/task_manager.png?w=500)
+![task_manager.png](/images/wp-2019-05-task_manager.png)
 
 [Leave a comment](https://qualcoder.wordpress.com/2019/05/09/windows-10-and-vlc-versions/#respond)
 
