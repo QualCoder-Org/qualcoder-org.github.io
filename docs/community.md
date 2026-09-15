@@ -1,3 +1,11 @@
+    ---
+
+    *Officially maintained. The language available by default in the software.*
+
+    [Forum for English speakers](https://github.com/ccbogel/QualCoder/discussions)
+
+-   **Français (fr)**
+
 # Community
 
 ## QualCoder in your language
@@ -13,14 +21,6 @@ In addition, support materials are available in several languages.
 <div class="grid cards" markdown>
 
 -   **English (en)**
-
-    ---
-
-    *Officially maintained. The language available by default in the software.*
-
-    [Forum for English speakers](https://github.com/ccbogel/QualCoder/discussions)
-
--   **Français (fr)**
 
     ---
 

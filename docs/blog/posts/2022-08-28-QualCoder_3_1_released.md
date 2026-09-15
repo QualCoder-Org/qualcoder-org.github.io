@@ -18,4 +18,3 @@ Most changes in this release are fixing bugs, adding a lot of user manipulations
 For those who install from the command line or terminal, you need to also install the python vlc package (use py or python3):
 
 py -m pip install python-vlc
-

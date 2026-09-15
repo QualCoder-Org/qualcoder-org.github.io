@@ -1,3 +1,35 @@
+---
+
+# UI Modernization: Analysis and Roadmap
+
+## Why QualCoder's UI feels dated (despite using Qt)
+
+QualCoder runs on PyQt6, the same toolkit as QGIS, Krita, FreeCAD, and Qt Creator — all of which look modern and professional. The framework is not the limit. The difference is **architecture and styling discipline**, not the toolkit.
+
+### 1. Dialog-driven workflow instead of a unified workspace
+QualCoder's `MainWindow` (`src/qualcoder/__main__.py`, `class MainWindow(QtWidgets.QMainWindow)`) is a `QMainWindow` only in name. Its real structure is a horizontal `QSplitter` containing:
+- a `QTabWidget` with 5 tabs (Action Log, Manage, Coding, Reports, AI Agent), where **each tab holds only a placeholder `QTextBrowser`**;
+- a hand-built `sidebar` widget on the right.
+
+The actual work happens in **separate dialogs** launched on demand: `DialogCodeText`, `DialogCodeAV`, `DialogCodePdf`, `DialogManageFiles`, `DialogReportCodes`, `DialogCases`, `DialogJournals` (all in `src/qualcoder/`). These are `QDialog`/`QWidget` instances that get embedded into a tab via a `tab_layout_helper()` call, but they were designed as standalone dialogs with their own internal splitters (code tree | text | segments).
+
+**Effect:** the user opens a box, works, closes it, opens another. There is no persistent context. This is the single biggest reason the app feels old — it is the workflow model of early-2000s software, not a modern workspace.
+
+### 2. No use of QMainWindow's native facilities
+- **No `QDockWidget`s** — panels cannot be moved, undocked, or rearranged.
+- **No saved layout** — `saveState()` / `restoreState()` are never called; the dockable layout cannot persist.
+- **No status bar usage** — `QMainWindow.statusBar()` is not exploited for project info, current code/file, or a locator.
+- **No locator/command palette** — there is no quick way to find a code, open a file, or run an action by typing.
+
+### 3. Heavy custom QSS overrides native styling
+`App.merge_settings_with_default_stylesheet()` (`src/qualcoder/app.py`) returns ~230 lines of hardcoded QSS that override almost every widget (borders, padding, radius, tabs, splitters, scrollbars). This makes the app look unlike the rest of the OS and unlike other Qt apps. Modern Qt apps (QGIS included) use the native style + palette and adapt icons, rather than redrawing every control.
+
+### 4. Bundled font forced app-wide
+`Noto Sans` is installed and loaded as the application font (`install_noto_sans()` + `addApplicationFont`), regardless of platform. The system font (SF on macOS, Segoe UI on Windows, the GTK font on Linux) is ignored, so the typography does not match the OS.
+
+### 5. No system light/dark following
+There is no connection to `QGuiApplication.styleHints().colorSchemeChanged`; dark-mode detection is scattered as `== 'dark'` / `in ('dark', 'rainbow')` checks across `cases.py`, `helpers.py`, `report_sql.py`, `code_pdf.py`, `code_av.py`, `code_text.py`, `code_organiser.py`, `ai_chat.py`, and the waveform code.
+
 # Enhance UI
 It's possible to enhance UI with PyQt6.
 
@@ -18,7 +50,7 @@ https://github.com/Wanderson-Magalhaes/Modern_GUI_PyDracula_PySide6_or_PyQt6
 
 this text it's "brainstorming" with AI. I "vibecode" for have idea of UI.
 
-# QualCoder UI Modernization — Summary
+## QualCoder UI Modernization — Summary
 
 ## Current State
 
@@ -59,7 +91,7 @@ QualCoder (PyQt6) already has a solid foundation for modernization:
 
 8. **(Optional, ambitious) Responsive layout**: use QSplitter with persistent proportions and a "Home" tab with start icons (Open project, New, Help) for a modern first impression.
 
-# Bolder Ideas (still PyQt6)
+## Bolder Ideas (still PyQt6)
 
 The first PR modernized the styling. For a real leap in impression, you need to move the UI structure, not just the colors.
 
@@ -115,38 +147,6 @@ Transform the main window into a QMainWindow with QDockWidgets for codes/files/i
 
 Let me quickly verify a couple of technical facts so the wiki page is accurate (QGIS specifics and QualCoder's actual structure).
 Confirmed: no `QDockWidget`/`saveState`/`statusBar` usage today; the main window is a splitter + QTabWidget + a hand-built sidebar. Here is the synthesis for the wiki.
-
----
-
-# UI Modernization: Analysis and Roadmap
-
-## Why QualCoder's UI feels dated (despite using Qt)
-
-QualCoder runs on PyQt6, the same toolkit as QGIS, Krita, FreeCAD, and Qt Creator — all of which look modern and professional. The framework is not the limit. The difference is **architecture and styling discipline**, not the toolkit.
-
-### 1. Dialog-driven workflow instead of a unified workspace
-QualCoder's `MainWindow` (`src/qualcoder/__main__.py`, `class MainWindow(QtWidgets.QMainWindow)`) is a `QMainWindow` only in name. Its real structure is a horizontal `QSplitter` containing:
-- a `QTabWidget` with 5 tabs (Action Log, Manage, Coding, Reports, AI Agent), where **each tab holds only a placeholder `QTextBrowser`**;
-- a hand-built `sidebar` widget on the right.
-
-The actual work happens in **separate dialogs** launched on demand: `DialogCodeText`, `DialogCodeAV`, `DialogCodePdf`, `DialogManageFiles`, `DialogReportCodes`, `DialogCases`, `DialogJournals` (all in `src/qualcoder/`). These are `QDialog`/`QWidget` instances that get embedded into a tab via a `tab_layout_helper()` call, but they were designed as standalone dialogs with their own internal splitters (code tree | text | segments).
-
-**Effect:** the user opens a box, works, closes it, opens another. There is no persistent context. This is the single biggest reason the app feels old — it is the workflow model of early-2000s software, not a modern workspace.
-
-### 2. No use of QMainWindow's native facilities
-- **No `QDockWidget`s** — panels cannot be moved, undocked, or rearranged.
-- **No saved layout** — `saveState()` / `restoreState()` are never called; the dockable layout cannot persist.
-- **No status bar usage** — `QMainWindow.statusBar()` is not exploited for project info, current code/file, or a locator.
-- **No locator/command palette** — there is no quick way to find a code, open a file, or run an action by typing.
-
-### 3. Heavy custom QSS overrides native styling
-`App.merge_settings_with_default_stylesheet()` (`src/qualcoder/app.py`) returns ~230 lines of hardcoded QSS that override almost every widget (borders, padding, radius, tabs, splitters, scrollbars). This makes the app look unlike the rest of the OS and unlike other Qt apps. Modern Qt apps (QGIS included) use the native style + palette and adapt icons, rather than redrawing every control.
-
-### 4. Bundled font forced app-wide
-`Noto Sans` is installed and loaded as the application font (`install_noto_sans()` + `addApplicationFont`), regardless of platform. The system font (SF on macOS, Segoe UI on Windows, the GTK font on Linux) is ignored, so the typography does not match the OS.
-
-### 5. No system light/dark following
-There is no connection to `QGuiApplication.styleHints().colorSchemeChanged`; dark-mode detection is scattered as `== 'dark'` / `in ('dark', 'rainbow')` checks across `cases.py`, `helpers.py`, `report_sql.py`, `code_pdf.py`, `code_av.py`, `code_text.py`, `code_organiser.py`, `ai_chat.py`, and the waveform code.
 
 ---
 
@@ -245,7 +245,7 @@ Here is the synthesis, ready to paste into the developer wiki.
 
 ---
 
-# UI Modernization: Direction and Rationale
+## UI Modernization: Direction and Rationale
 
 ## Context
 
