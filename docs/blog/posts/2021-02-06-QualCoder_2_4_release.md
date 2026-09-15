@@ -9,7 +9,7 @@ The latest release of QualCoder has been published: <https://github.com/ccbogel/
 
 It contains a major change from many opened dialog windows. to a tabbed interface with four tabs for *actions performed log, coding, manage* and *reports*.
 
-![](images/tabbed.png)
+![](/images/tabbed.png)
 
 Details of other updates are:
 

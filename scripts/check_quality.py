@@ -248,6 +248,7 @@ def _resolve_md_target(
     """Resolve a relative link target to an existing .md file.
     Returns None if not found. Handles `folder/`, `file` and `file.md`."""
     target, _frag = _split_url_fragment(url)
+    target = target.split("?", 1)[0]            # strip query string
     if not target:
         # Pure anchor link (#...) -> target is the current file.
         return current_file
@@ -259,7 +260,7 @@ def _resolve_md_target(
     if candidate.suffix == ".md":
         candidates.append(candidate)
     else:
-        candidates.append(candidate.with_suffix(".md"))
+        candidates.append(Path(str(candidate) + ".md"))
         candidates.append(candidate / "index.md")
     for c in candidates:
         if c.exists():
