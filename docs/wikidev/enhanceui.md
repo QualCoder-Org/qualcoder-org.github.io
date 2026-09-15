@@ -18,7 +18,7 @@ https://github.com/Wanderson-Magalhaes/Modern_GUI_PyDracula_PySide6_or_PyQt6
 
 this text it's "brainstorming" with AI. I "vibecode" for have idea of UI.
 
-# QualCoder UI Modernization — Summary
+## QualCoder UI Modernization — Summary
 
 ## Current State
 
@@ -59,7 +59,7 @@ QualCoder (PyQt6) already has a solid foundation for modernization:
 
 8. **(Optional, ambitious) Responsive layout**: use QSplitter with persistent proportions and a "Home" tab with start icons (Open project, New, Help) for a modern first impression.
 
-# Bolder Ideas (still PyQt6)
+## Bolder Ideas (still PyQt6)
 
 The first PR modernized the styling. For a real leap in impression, you need to move the UI structure, not just the colors.
 
@@ -118,7 +118,7 @@ Confirmed: no `QDockWidget`/`saveState`/`statusBar` usage today; the main window
 
 ---
 
-# UI Modernization: Analysis and Roadmap
+## UI Modernization: Analysis and Roadmap
 
 ## Why QualCoder's UI feels dated (despite using Qt)
 
@@ -245,7 +245,7 @@ Here is the synthesis, ready to paste into the developer wiki.
 
 ---
 
-# UI Modernization: Direction and Rationale
+## UI Modernization: Direction and Rationale
 
 ## Context
 
