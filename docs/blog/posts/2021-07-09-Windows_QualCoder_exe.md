@@ -16,4 +16,3 @@ The QualCoder exe is available here:
 https://github.com/ccbogel/QualCoder/releases/tag/2.7
 
 The exe file was created using pyinstaller 4.2 and bundles python 3.8 into the exe file.
-

@@ -50,7 +50,7 @@ QualCoder estas skribita en Python uzante Qt6 por la grafika interfaco. QualCode
 
 
 
-# QualCoder en via lingvo
+QualCoder en via lingvo
 
 QualCoder estas libera programaro, konstruita sur kontribuoj de la tutmonda komunumo. Valora kontribuo estas traduki ĝin en vian denaskan lingvon. Ni strebas certigi [lingvan diversecon](../../community). Bonvolu helpi nin kun tradukoj, ĉu de la programaro mem, ĉu de la dokumentaro. Bonvolu kontakti nin, por ke ni povu organizi tion.
 

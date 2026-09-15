@@ -43,7 +43,7 @@ In terminal, run these scripts from the qualcoder folder to prepare the po files
 Note this is replaced with the above helper file.
 -d is default output name    e.g. fr
 -j option to join existing file
-# note dont use -j lang.po on first creating a po file
+note dont use -j lang.po on first creating a po file
 
 For individual update to po files see below example for Deutsch:
 
