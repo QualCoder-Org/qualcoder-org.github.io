@@ -1,32 +1,27 @@
 #!/usr/bin/env python3
-"""Unified Markdown quality tool: use --check to verify, --fix to correct.
+"""Unified Markdown quality tool: **check** and/or **fix** issues in docs/.
 
 This script merges the functionality of verify_quality.py and fix_quality.py
-into a single, optimized tool with shared logic and a simplified CLI.
+into a single, optimized tool with shared logic and a unified CLI.
 
-## Modes (simplified)
+## Modes
 
-### Default (no flags)
-  Run verification and generate a Markdown report.
-  Example: python quality_tool.py > report.md
+### check
+  Verify Markdown quality and emit a report (like verify_quality.py).
+  Example: python quality_tool.py check --docs-dir docs > report.md
 
-### --check
-  Verify Markdown quality and emit a report.
-  Example: python quality_tool.py --check --docs-dir docs > report.md
+### fix
+  Auto-fix safe issues in place (like fix_quality.py).
+  Example: python quality_tool.py fix --docs-dir docs --dry-run
 
-### --fix
-  Auto-fix safe issues in place.
-  Example: python quality_tool.py --fix --docs-dir docs --dry-run
-
-### --check --fix
-  Run verification, then fix (in one command).
-  Example: python quality_tool.py --check --fix --docs-dir docs
+### check-fix
+  Run check, then fix (with --auto-fix to skip confirmation).
+  Example: python quality_tool.py check-fix --auto-fix
 
 ## Checks (verification)
 
 ### Errors (fail the check)
   --html              HTML tags detected (excluding comments and code blocks)
-  --headings          multiple H1 headings or inconsistent heading hierarchy (level skips)
   --links-absolute    internal links written as absolute URLs to the site domain
   --links-broken      relative links whose target does not exist
   --images-missing    images (markdown or <img>) whose file does not exist
@@ -43,7 +38,6 @@ into a single, optimized tool with shared logic and a simplified CLI.
 ## Fixes (automatic corrections)
 
   whitespace        -> rstrip each line, collapse trailing blank lines
-  headings         -> ensure single H1, fix heading level skips
   img              -> convert <img> HTML tags to ![alt](src)
   links-absolute   -> rewrite internal absolute links to relative paths
   images-absolute  -> rewrite absolute image URLs (site domain) to relative paths
@@ -53,24 +47,26 @@ into a single, optimized tool with shared logic and a simplified CLI.
 
 ## Usage Examples
 
-# Generate a quality report
-python quality_tool.py --check > report.md
-python quality_tool.py > report.md  # --check is default
+# Full check with report
+python quality_tool.py check --docs-dir docs > report.md
 
-# Auto-fix issues in place
-python quality_tool.py --fix --dry-run  # Preview changes
-python quality_tool.py --fix            # Apply fixes
+# Fix only whitespace and frontmatter issues
+python quality_tool.py fix --only whitespace frontmatter
 
-# Check then fix in one command
-python quality_tool.py --check --fix
+# Check then fix automatically
+python quality_tool.py check-fix --auto-fix --docs-dir docs
 
-# Target specific checks/fixes
-python quality_tool.py --check --only headings whitespace
-python quality_tool.py --fix --only headings frontmatter
+# Dry-run fix (show what would change)
+python quality_tool.py fix --dry-run
 
-# Custom options
-python quality_tool.py --check --strict --docs-dir mydocs
-python quality_tool.py --fix --dry-run --only images-external
+# Strict mode (warnings fail the check)
+python quality_tool.py check --strict
+
+# Skip specific checks
+python quality_tool.py check --skip i18n placeholders
+
+# Custom site domain
+python quality_tool.py check --site-domain mydomain.org
 
 ## Exit Codes
 
@@ -467,74 +463,6 @@ def _lang_of_file(docs_dir: Path, md_file: Path) -> str | None:
 # =============================================================================
 # CHECK FUNCTIONS (Verification Mode)
 # =============================================================================
-
-def check_headings(path: Path, text: str) -> list[Issue]:
-    """Check heading structure: only one H1 (#), consistent heading levels (no skips)."""
-    issues: list[Issue] = []
-    _, body = split_front_matter(text)
-    cleaned = strip_code_blocks_simple(body)
-    
-    headings: list[tuple[int, str, int]] = []  # (level, title, line_no)
-    
-    for line_no, line in enumerate(cleaned.splitlines(), start=1):
-        m = re.match(r"^(#{1,6})\s+(.+?)\s*#*\s*$", line)
-        if m:
-            level = len(m.group(1))
-            title = m.group(2)
-            headings.append((level, title, line_no))
-    
-    if not headings:
-        # No headings at all - this might be intentional (e.g., index files)
-        return issues
-    
-    # Check 1: Only one H1 (level 1) per file
-    h1_count = sum(1 for h in headings if h[0] == 1)
-    if h1_count > 1:
-        h1_positions = [h[2] for h in headings if h[0] == 1]
-        issues.append(
-            Issue(
-                "headings",
-                f"Multiple H1 headings found at lines: {h1_positions}. Only one H1 (#) allowed per file.",
-                h1_positions[0],
-            )
-        )
-    elif h1_count == 0:
-        # No H1 at all - warning (might be intentional for some files)
-        issues.append(
-            Issue(
-                "headings",
-                "No H1 heading (#) found. Consider adding a main title.",
-                1,
-                severity="warning",
-            )
-        )
-    
-    # Check 2: Consistent heading hierarchy (no level skips)
-    for i in range(1, len(headings)):
-        prev_level = headings[i-1][0]
-        curr_level = headings[i][0]
-        
-        # After H1, next can be H1, H2, H3, H4, H5, H6
-        # After H2, next can be H2, H3, H4, H5, H6 (not H1 or skip to H4+)
-        # General rule: curr_level should be <= prev_level + 1
-        # Exception: can jump back to any level (H3 -> H1 is fine for section breaks)
-        
-        if curr_level > prev_level + 1:
-            # Skipped a level (e.g., H1 -> H3, or H2 -> H4)
-            issues.append(
-                Issue(
-                    "headings",
-                    f"Heading level skip: from H{prev_level} to H{curr_level} (missing H{prev_level + 1}). "
-                    f"Line {headings[i][2]}: {headings[i][1]!r}",
-                    headings[i][2],
-                    severity="warning",
-                )
-            )
-    
-    return issues
-
-
-
 
 def check_html(path: Path, text: str) -> list[Issue]:
     """Check for HTML tags (excluding comments and code blocks)."""
@@ -1400,94 +1328,6 @@ def fix_images_external(
     return "\n".join(new_lines), count, warnings
 
 
-def fix_headings(text: str) -> tuple[str, int]:
-    """Fix heading structure: ensure only one H1, fix level skips.
-    
-    Rules:
-    - Keep only the first H1, demote others to H2
-    - Fix level skips by demoting to previous_level + 1
-    
-    Returns (new_text, count_of_fixes).
-    """
-    _, body = split_front_matter(text)
-    lines = text.splitlines()
-    new_lines: list[str] = []
-    count = 0
-    
-    # Track heading state
-    in_frontmatter = False
-    frontmatter_lines: list[str] = []
-    body_lines: list[str] = []
-    
-    # Separate frontmatter from body
-    for line in lines:
-        if line.strip() == "---":
-            if in_frontmatter:
-                in_frontmatter = False
-            else:
-                if not frontmatter_lines:  # First ---
-                    in_frontmatter = True
-                    frontmatter_lines.append(line)
-                    continue
-        
-        if in_frontmatter:
-            frontmatter_lines.append(line)
-        else:
-            body_lines.append(line)
-    
-    # Process body lines
-    new_body_lines: list[str] = []
-    
-    # State for heading fixes
-    h1_found = False
-    prev_level = 0  # 0 means no previous heading
-    
-    for line in body_lines:
-        m = re.match(r"^(#{1,6})\s+(.+?)\s*#*\s*$", line)
-        
-        if m:
-            level = len(m.group(1))
-            title = m.group(2)
-            
-            # Fix 1: Multiple H1 - demote to H2 after first H1
-            if level == 1:
-                if h1_found:
-                    # Demote to H2
-                    new_line = f"## {title}"
-                    new_body_lines.append(new_line)
-                    count += 1
-                    # Update prev_level to 2 since we demoted
-                    prev_level = 2
-                    continue
-                else:
-                    h1_found = True
-            
-            # Fix 2: Level skip - demote to prev_level + 1
-            if prev_level > 0 and level > prev_level + 1:
-                new_level = prev_level + 1
-                new_line = f"{'#' * new_level} {title}"
-                new_body_lines.append(new_line)
-                count += 1
-                prev_level = new_level
-                continue
-            
-            # Update previous level (only if not a skip back, e.g., H3 -> H1 is fine)
-            prev_level = level
-        
-        new_body_lines.append(line)
-    
-    # Reconstruct the file
-    new_lines = frontmatter_lines + new_body_lines
-    
-    # Preserve final newline if original had one
-    had_final_newline = text.endswith("\n")
-    new_text = "\n".join(new_lines)
-    if had_final_newline and not new_text.endswith("\n"):
-        new_text += "\n"
-    
-    return new_text, count
-
-
 def majority_md_ext(docs_dir: Path) -> bool:
     """Return True if the majority of relative .md links use the .md suffix."""
     with_ext = 0
@@ -1533,7 +1373,6 @@ def majority_md_ext(docs_dir: Path) -> bool:
 
 CHECKS = {
     "html": check_html,
-    "headings": check_headings,
     "links-absolute": check_links_absolute,
     "links-broken": check_links_broken,
     "anchors": check_anchors,
@@ -1552,7 +1391,6 @@ CROSS_CHECKS = {
 FIX_NAMES = (
     "whitespace",
     "img",
-    "headings",
     "links-absolute",
     "images-absolute",
     "links-md-ext",
@@ -1568,7 +1406,6 @@ FIX_FUNCTIONS = {
     "links-md-ext": fix_links_md_ext,
     "frontmatter": fix_frontmatter,
     "images-external": fix_images_external,
-    "headings": fix_headings,
 }
 
 
@@ -1764,10 +1601,6 @@ def fix_file(
         text, n = fix_frontmatter(text, docs_dir, current_file)
         counts["frontmatter"] = n
     
-    if "headings" in enabled:
-        text, n = fix_headings(text)
-        counts["headings"] = n
-    
     if "whitespace" in enabled:
         text, n = fix_whitespace(text)
         counts["whitespace"] = n
@@ -1802,156 +1635,249 @@ def fix_file(
 # =============================================================================
 
 def create_parser() -> argparse.ArgumentParser:
-    """Create the argument parser with simplified flags."""
+    """Create the argument parser with subcommands."""
     parser = argparse.ArgumentParser(
-        description="Unified Markdown quality tool: use --check to verify, --fix to correct.",
+        description="Unified Markdown quality tool: check and/or fix issues in docs/.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     
-    # Mode selection
-    parser.add_argument(
-        "--check",
-        action="store_true",
-        help="Run verification and generate a Markdown report (default: enabled if no --fix).",
-    )
-    parser.add_argument(
-        "--fix",
-        action="store_true",
-        help="Run auto-fix on safe issues. Use with --check to run both.",
-    )
+    subparsers = parser.add_subparsers(dest="command", help="Available commands")
     
-    # Common options
-    parser.add_argument(
+    # Check command
+    check_parser = subparsers.add_parser(
+        "check",
+        help="Verify Markdown quality and generate a report",
+    )
+    check_parser.add_argument(
         "--docs-dir", type=Path, default=Path("docs"),
         help="Docs root directory (default: docs).",
     )
-    parser.add_argument(
+    check_parser.add_argument(
         "--site-domain", default=DEFAULT_SITE_DOMAIN,
-        help="Domain considered internal (default: %s)." % DEFAULT_SITE_DOMAIN,
+        help="Domain considered internal.",
     )
-    parser.add_argument(
+    check_parser.add_argument(
         "--ref-lang", default=DEFAULT_REF_LANG,
-        help="Reference language for i18n consistency (default: %s)." % DEFAULT_REF_LANG,
+        help="Reference language for i18n consistency.",
     )
-    
-    # Check-specific options
-    parser.add_argument(
+    check_parser.add_argument(
         "--only", nargs="+",
-        help="Run only these checks/fixes (space-separated names).",
+        help="Run only these checks (space-separated names).",
     )
-    parser.add_argument(
+    check_parser.add_argument(
         "--skip", nargs="+",
-        help="Checks/fixes to ignore (space-separated names).",
+        help="Checks to ignore (space-separated names).",
     )
-    parser.add_argument(
+    check_parser.add_argument(
         "--quiet", "-q", action="store_true",
-        help="Only show files that have errors (check mode).",
+        help="Only show files that have errors.",
     )
-    parser.add_argument(
+    check_parser.add_argument(
         "--strict", action="store_true",
-        help="Warnings also cause failure (exit 1) in check mode.",
+        help="Warnings also cause failure (exit 1).",
     )
-    parser.add_argument(
+    check_parser.add_argument(
         "--no-report", action="store_true",
         help="Do not print the Markdown report (still sets exit code).",
     )
     
-    # Fix-specific options
-    parser.add_argument(
+    # Fix command
+    fix_parser = subparsers.add_parser(
+        "fix",
+        help="Auto-fix safe Markdown quality issues",
+    )
+    fix_parser.add_argument(
+        "--docs-dir", type=Path, default=Path("docs"),
+        help="Docs root directory (default: docs).",
+    )
+    fix_parser.add_argument(
+        "--site-domain", default=DEFAULT_SITE_DOMAIN,
+        help="Domain considered internal.",
+    )
+    fix_parser.add_argument(
+        "--only", nargs="+",
+        help="Run only these fixes (space-separated names).",
+    )
+    fix_parser.add_argument(
+        "--skip", nargs="+",
+        help="Fixes to ignore (space-separated names).",
+    )
+    fix_parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Print what would change without writing any file (fix mode).",
+        help="Print what would change without writing any file.",
     )
-    parser.add_argument(
+    fix_parser.add_argument(
         "--md-ext-style",
         choices=["auto", "with", "without"],
         default="auto",
-        help="Target .md extension style for relative links (default: auto).",
+        help="Target .md extension style for relative links (auto = majority across docs).",
     )
-    parser.add_argument(
+    fix_parser.add_argument(
         "--images-out",
         type=Path,
         default=None,
         help="Directory for downloaded external images (default: <docs-dir>/images).",
     )
-    parser.add_argument(
+    fix_parser.add_argument(
         "--no-network",
         action="store_true",
         help="Disable downloading external images; only rewrite URLs whose local file already exists.",
     )
-    parser.add_argument(
+    fix_parser.add_argument(
         "--delay",
         type=float,
         default=0.3,
         help="Seconds to wait between external image downloads (default: 0.3).",
     )
     
+    # Check-fix command
+    check_fix_parser = subparsers.add_parser(
+        "check-fix",
+        help="Run check, then fix (with confirmation or automatically)",
+    )
+    check_fix_parser.add_argument(
+        "--docs-dir", type=Path, default=Path("docs"),
+        help="Docs root directory (default: docs).",
+    )
+    check_fix_parser.add_argument(
+        "--site-domain", default=DEFAULT_SITE_DOMAIN,
+        help="Domain considered internal.",
+    )
+    check_fix_parser.add_argument(
+        "--ref-lang", default=DEFAULT_REF_LANG,
+        help="Reference language for i18n consistency.",
+    )
+    check_fix_parser.add_argument(
+        "--only-check", nargs="+",
+        help="Run only these checks (space-separated names).",
+    )
+    check_fix_parser.add_argument(
+        "--skip-check", nargs="+",
+        help="Checks to ignore (space-separated names).",
+    )
+    check_fix_parser.add_argument(
+        "--only-fix", nargs="+",
+        help="Run only these fixes (space-separated names).",
+    )
+    check_fix_parser.add_argument(
+        "--skip-fix", nargs="+",
+        help="Fixes to ignore (space-separated names).",
+    )
+    check_fix_parser.add_argument(
+        "--auto-fix",
+        action="store_true",
+        help="Automatically run fix after check without confirmation.",
+    )
+    check_fix_parser.add_argument(
+        "--strict", action="store_true",
+        help="Warnings also cause failure in check mode.",
+    )
+    check_fix_parser.add_argument(
+        "--md-ext-style",
+        choices=["auto", "with", "without"],
+        default="auto",
+        help="Target .md extension style for relative links.",
+    )
+    check_fix_parser.add_argument(
+        "--images-out",
+        type=Path,
+        default=None,
+        help="Directory for downloaded external images.",
+    )
+    check_fix_parser.add_argument(
+        "--no-network",
+        action="store_true",
+        help="Disable downloading external images.",
+    )
+    check_fix_parser.add_argument(
+        "--delay",
+        type=float,
+        default=0.3,
+        help="Seconds to wait between external image downloads.",
+    )
+    check_fix_parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Print what would change without writing any file (fix mode only).",
+    )
+    check_fix_parser.add_argument(
+        "--no-report", action="store_true",
+        help="Do not print the check report.",
+    )
+    
     return parser
 
 
-def run_check(
-    docs_dir: Path,
-    site_domain: str,
-    ref_lang: str,
-    enabled: set[str],
-    quiet: bool,
-    no_report: bool,
-    strict: bool,
-) -> tuple[int, int, dict[str, list[Issue]], list[Issue]]:
-    """Run verification checks and optionally print report."""
+def cmd_check(args: argparse.Namespace) -> int:
+    """Handle the 'check' command."""
+    docs_dir = args.docs_dir.resolve()
+    if not docs_dir.is_dir():
+        print(f"Directory not found: {docs_dir}", file=sys.stderr)
+        return 2
+    
+    all_checks = set(CHECKS) | set(CROSS_CHECKS)
+    if args.only:
+        enabled = set(args.only) & all_checks
+    else:
+        enabled = set(all_checks)
+    enabled -= set(args.skip or [])
+    
     error_count, warning_count, per_file, cross_issues = run_checks(
-        docs_dir, site_domain, ref_lang, enabled, quiet
+        docs_dir, args.site_domain, args.ref_lang, enabled, args.quiet
     )
     
-    exit_code = 1 if error_count or (strict and warning_count) else 0
+    exit_code = 1 if error_count or (args.strict and warning_count) else 0
     
-    if not no_report:
+    if not args.no_report:
         report = render_report(
             docs_dir,
-            site_domain,
-            ref_lang,
+            args.site_domain,
+            args.ref_lang,
             enabled,
             error_count,
             warning_count,
             per_file,
             cross_issues,
-            strict,
+            args.strict,
         )
         print(report)
     
-    return exit_code, error_count, warning_count, per_file, cross_issues
+    return exit_code
 
 
-def run_fix(
-    docs_dir: Path,
-    site_domain: str,
-    enabled: set[str],
-    md_ext_style: str,
-    images_out: Path,
-    dry_run: bool,
-    no_network: bool,
-    delay: float,
-) -> tuple[int, bool]:
-    """Run auto-fix on files. Returns (exit_code, had_error)."""
-    images_out_resolved = images_out.resolve() if images_out else (docs_dir / "images")
-    if "images-external" in enabled:
-        images_out_resolved.mkdir(parents=True, exist_ok=True)
+def cmd_fix(args: argparse.Namespace) -> int:
+    """Handle the 'fix' command."""
+    docs_dir = args.docs_dir.resolve()
+    if not docs_dir.is_dir():
+        print(f"Directory not found: {docs_dir}", file=sys.stderr)
+        return 2
     
-    # Determine .md extension style
-    if md_ext_style == "auto":
+    images_out = (args.images_out.resolve() if args.images_out else (docs_dir / "images"))
+    if "images-external" not in (args.skip or []) and (args.only is None or "images-external" in args.only):
+        images_out.mkdir(parents=True, exist_ok=True)
+    
+    all_fixes = set(FIX_NAMES)
+    if args.only:
+        enabled = set(args.only) & all_fixes
+    else:
+        enabled = set(all_fixes)
+    enabled -= set(args.skip or [])
+    
+    if args.md_ext_style == "auto":
         with_ext = majority_md_ext(docs_dir)
     else:
-        with_ext = md_ext_style == "with"
+        with_ext = args.md_ext_style == "with"
     
-    apply = not dry_run
-    allow_network = apply and not no_network
+    apply = not args.dry_run
+    allow_network = apply and not args.no_network
     mode = "APPLY" if apply else "DRY-RUN"
     
     print(f"Markdown quality fixer [{mode}]")
     print(f"  Docs directory: {docs_dir}")
-    print(f"  Internal site domain: {site_domain}")
+    print(f"  Internal site domain: {args.site_domain}")
     print(f"  .md extension style: {'with .md' if with_ext else 'without .md'}")
-    print(f"  Images out dir: {images_out_resolved}")
+    print(f"  Images out dir: {images_out}")
     print(f"  Network download: {'enabled' if allow_network else 'disabled (reuse local only)'}")
     print(f"  Active fixes: {', '.join(sorted(enabled)) if enabled else 'none'}")
     print()
@@ -1972,8 +1898,8 @@ def run_fix(
             continue
         
         new_text, counts, errors = fix_file(
-            original, docs_dir, md_file, site_domain, with_ext, enabled,
-            images_out_resolved, allow_network, delay,
+            original, docs_dir, md_file, args.site_domain, with_ext, enabled,
+            images_out, allow_network, args.delay,
         )
         for k, v in counts.items():
             total_counts[k] += v
@@ -2003,66 +1929,150 @@ def run_fix(
     print(f"  Warnings (untouched issues): {total_errors}")
     print("Result: " + ("DONE" if not had_error else "DONE with warnings"))
     
-    return 1 if had_error else 0, had_error
+    return 1 if had_error else 0
 
 
-def main(argv: list[str] | None = None) -> int:
-    """Main entry point with simplified CLI."""
-    parser = create_parser()
-    args = parser.parse_args(argv)
-    
+def cmd_check_fix(args: argparse.Namespace) -> int:
+    """Handle the 'check-fix' command."""
     docs_dir = args.docs_dir.resolve()
     if not docs_dir.is_dir():
         print(f"Directory not found: {docs_dir}", file=sys.stderr)
         return 2
     
-    # Determine mode
-    do_check = args.check or (not args.fix)
-    do_fix = args.fix
-    
-    # Prepare enabled checks/fixes
-    all_items = set(CHECKS) | set(CROSS_CHECKS) | set(FIX_NAMES)
-    if args.only:
-        enabled = set(args.only) & all_items
+    # Run check
+    all_checks = set(CHECKS) | set(CROSS_CHECKS)
+    if args.only_check:
+        check_enabled = set(args.only_check) & all_checks
     else:
-        enabled = all_items
-    enabled -= set(args.skip or [])
+        check_enabled = set(all_checks)
+    check_enabled -= set(args.skip_check or [])
     
-    # Split into check-enabled and fix-enabled
-    check_enabled = enabled & (set(CHECKS) | set(CROSS_CHECKS))
-    fix_enabled = enabled & set(FIX_NAMES)
+    error_count, warning_count, per_file, cross_issues = run_checks(
+        docs_dir, args.site_domain, args.ref_lang, check_enabled, False
+    )
     
-    exit_code = 0
+    check_exit_code = 1 if error_count or (args.strict and warning_count) else 0
     
-    # Run check if requested
-    if do_check:
-        check_exit, _, _, _, _ = run_check(
+    if not args.no_report:
+        report = render_report(
             docs_dir,
             args.site_domain,
             args.ref_lang,
             check_enabled,
-            args.quiet,
-            args.no_report,
+            error_count,
+            warning_count,
+            per_file,
+            cross_issues,
             args.strict,
         )
-        exit_code = check_exit
+        print(report)
     
-    # Run fix if requested
-    if do_fix:
-        fix_exit, had_error = run_fix(
-            docs_dir,
-            args.site_domain,
-            fix_enabled,
-            args.md_ext_style,
-            args.images_out.resolve() if args.images_out else None,
-            args.dry_run,
-            args.no_network,
-            args.delay,
+    # Ask for confirmation or auto-fix
+    if not args.auto_fix:
+        if check_exit_code == 0 and not warning_count:
+            print("No issues found. Nothing to fix.")
+            return 0
+        
+        response = input("Run fix now? [y/N]: ").strip().lower()
+        if response != "y":
+            print("Fix cancelled.")
+            return check_exit_code
+    
+    # Run fix
+    images_out = (args.images_out.resolve() if args.images_out else (docs_dir / "images"))
+    if "images-external" not in (args.skip_fix or []) and (args.only_fix is None or "images-external" in args.only_fix):
+        images_out.mkdir(parents=True, exist_ok=True)
+    
+    all_fixes = set(FIX_NAMES)
+    if args.only_fix:
+        fix_enabled = set(args.only_fix) & all_fixes
+    else:
+        fix_enabled = set(all_fixes)
+    fix_enabled -= set(args.skip_fix or [])
+    
+    if args.md_ext_style == "auto":
+        with_ext = majority_md_ext(docs_dir)
+    else:
+        with_ext = args.md_ext_style == "with"
+    
+    apply = not args.dry_run
+    allow_network = apply and not args.no_network
+    mode = "APPLY" if apply else "DRY-RUN"
+    
+    print(f"\nMarkdown quality fixer [{mode}]")
+    print(f"  Docs directory: {docs_dir}")
+    print(f"  .md extension style: {'with .md' if with_ext else 'without .md'}")
+    print(f"  Active fixes: {', '.join(sorted(fix_enabled)) if fix_enabled else 'none'}")
+    print()
+    
+    total_counts = {k: 0 for k in FIX_NAMES}
+    files_changed = 0
+    total_errors = 0
+    had_error = False
+    
+    md_files = sorted(p for p in docs_dir.rglob("*.md"))
+    for md_file in md_files:
+        rel = md_file.relative_to(docs_dir).as_posix()
+        try:
+            original = md_file.read_text(encoding="utf-8")
+        except OSError as e:
+            print(f"  ERROR reading {rel}: {e}", file=sys.stderr)
+            had_error = True
+            continue
+        
+        new_text, counts, errors = fix_file(
+            original, docs_dir, md_file, args.site_domain, with_ext, fix_enabled,
+            images_out, allow_network, args.delay,
         )
-        if had_error:
-            exit_code = 1
+        for k, v in counts.items():
+            total_counts[k] += v
+        total_errors += len(errors)
+        
+        if new_text != original:
+            files_changed += 1
+            print(f"### {rel}")
+            for k, v in counts.items():
+                if v:
+                    print(f"  - {k}: {v} fix(es)")
+            for err in errors:
+                print(f"  - WARNING: {err}")
+            if apply:
+                md_file.write_text(new_text, encoding="utf-8")
+        else:
+            for err in errors:
+                print(f"### {rel}")
+                print(f"  - WARNING: {err}")
     
-    return exit_code
+    print("\n" + "=" * 60)
+    print("Fix Summary:")
+    print(f"  Files scanned: {len(md_files)}")
+    print(f"  Files changed: {files_changed}")
+    for k, v in sorted(total_counts.items()):
+        print(f"  {k}: {v} fix(es)")
+    print(f"  Warnings (untouched issues): {total_errors}")
+    print("Result: " + ("DONE" if not had_error else "DONE with warnings"))
+    
+    return check_exit_code if had_error else check_exit_code
+
+
+def main(argv: list[str] | None = None) -> int:
+    """Main entry point."""
+    parser = create_parser()
+    args = parser.parse_args(argv)
+    
+    if args.command is None:
+        parser.print_help()
+        return 0
+    
+    if args.command == "check":
+        return cmd_check(args)
+    elif args.command == "fix":
+        return cmd_fix(args)
+    elif args.command == "check-fix":
+        return cmd_check_fix(args)
+    else:
+        parser.print_help()
+        return 0
 
 
 if __name__ == "__main__":
