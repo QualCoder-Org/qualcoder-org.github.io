@@ -39,6 +39,7 @@ Nous avons mis en place trois niveaux d’accès afin de protéger les données 
 | Mode bac à sable | Accès en lecture + écriture limitée : possibilité de créer de nouveaux codes et codages, mais impossibilité de modifier ou de supprimer ceux qui existent déjà. | Tests et expérimentations en toute sécurité. |
 | Accès complet | Toutes les autorisations, y compris la modification des codes, codages, attributs et cas existants. Les opérations destructives nécessitent une confirmation explicite de l’utilisateur. | Travail avancé avec validation humaine pour les actions critiques. |
 
+Un accès externe MCP est possible.
 
 ## Menus et onglets : une interface remaniée
 
@@ -72,6 +73,8 @@ Vous pouvez désormais importer des PDF annotés et coder automatiquement les se
 
 Les fichiers LaTeX peuvent désormais être importés et convertis en texte brut lisible. Notez que les présentations complexes ou les fichiers utilisant des commandes telles que |input| ou |include| peuvent ne pas s’importer parfaitement.
 
+# Import de fichiers Sonal pi
+Il est possible d'importer des projets issus u logiciel Sonal Pi
 
 ## Gestion des références : pièces jointes et Zotero
 
