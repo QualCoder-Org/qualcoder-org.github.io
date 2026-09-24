@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+472 K. Q. Nguyen, Q. N. Vo, and L. T. T. To, **An Exploratory Comparison of the THPT English Exam and an IELTS Benchmark: A Question of Equivalence.** TTU Journal of Science, vol.1, no.2, pp. 71–77, Jun. 2026.
+
 471 Soto Cumbicus, Olga del Carmen (2026). **Aprendizaje basado en proyectos en el desarrollo de habilidades blandas. (Project-based learning in the development of soft skills.)** UPSE, Matriz. Instituto de Postgrado. 33p. <https://repositorio.upse.edu.ec/handle/46000/17175>
 
 470 Valentin Brunel, Estelle Fourat, Emma Tapin. **Enquête sur l’engagement dans les dispositifs de recherches participatives en Occitanie et apports méthodologiques sur l’articulation quali/quanti. (Study on engagement in participatory research initiatives in Occitanie and methodological insights into the integration of qualitative and quantitative approaches.)** Séminaire SENS, Apr 2026, Montpellier, France. ⟨hal-05655746⟩
