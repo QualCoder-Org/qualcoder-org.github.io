@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+470 Valentin Brunel, Estelle Fourat, Emma Tapin. **Enquête sur l’engagement dans les dispositifs de recherches participatives en Occitanie et apports méthodologiques sur l’articulation quali/quanti.** Séminaire SENS, Apr 2026, Montpellier, France. ⟨hal-05655746⟩
+
 469 Swieczkowski D, Kwaśny A, Cubała WJ. **Exploratory Insights into 5-MeO-DMT Experiences on Reddit: A Thematic Analysis.** J Psychoactive Drugs. 2026 Sep 7:1-11. doi: 10.1080/02791072.2026.2727030. Epub ahead of print. PMID: 42704210.
 
 468 **Designer as Guest, Collaborating with Materials: Theorizing video game development practice through the Materializing Design Method.** Adrian Demleitner, Rilla Khaled, Courtney Blamey. FDG '26: Proceedings of the 21st International Conference on the Foundations of Digital Games. Article No.: 83, Pages 1 - 4. <https://doi.org/10.1145/3815598.3815688>
