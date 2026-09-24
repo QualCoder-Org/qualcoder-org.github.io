@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+469 Swieczkowski D, Kwaśny A, Cubała WJ. **Exploratory Insights into 5-MeO-DMT Experiences on Reddit: A Thematic Analysis.** J Psychoactive Drugs. 2026 Sep 7:1-11. doi: 10.1080/02791072.2026.2727030. Epub ahead of print. PMID: 42704210.
+
 468 **Designer as Guest, Collaborating with Materials: Theorizing video game development practice through the Materializing Design Method.** Adrian Demleitner, Rilla Khaled, Courtney Blamey. FDG '26: Proceedings of the 21st International Conference on the Foundations of Digital Games. Article No.: 83, Pages 1 - 4. <https://doi.org/10.1145/3815598.3815688>
 
 467 Nguyen, Khanh Linh and Do, Phuong Duy and Nguyen, Ngoc Khanh Linh and Nguyen, Dieu Huyen and Truong, Nguyen Hanh Quyen. **Protection Without Control? Gendered Formalisation Pathways for Female Informal Waste Pickers in Hanoi Amid Vietnam's Circular Transition.** (September 18, 2026). Available at SSRN: <http://dx.doi.org/10.2139/ssrn.7486899>
