@@ -2,9 +2,9 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
-471 Soto Cumbicus, Olga del Carmen (2026). **Aprendizaje basado en proyectos en el desarrollo de habilidades blandas.** UPSE, Matriz. Instituto de Postgrado. 33p. <https://repositorio.upse.edu.ec/handle/46000/17175>
+471 Soto Cumbicus, Olga del Carmen (2026). **Aprendizaje basado en proyectos en el desarrollo de habilidades blandas. (Project-based learning in the development of soft skills.)** UPSE, Matriz. Instituto de Postgrado. 33p. <https://repositorio.upse.edu.ec/handle/46000/17175>
 
-470 Valentin Brunel, Estelle Fourat, Emma Tapin. **Enquête sur l’engagement dans les dispositifs de recherches participatives en Occitanie et apports méthodologiques sur l’articulation quali/quanti.** Séminaire SENS, Apr 2026, Montpellier, France. ⟨hal-05655746⟩
+470 Valentin Brunel, Estelle Fourat, Emma Tapin. **Enquête sur l’engagement dans les dispositifs de recherches participatives en Occitanie et apports méthodologiques sur l’articulation quali/quanti. (Study on engagement in participatory research initiatives in Occitanie and methodological insights into the integration of qualitative and quantitative approaches.)** Séminaire SENS, Apr 2026, Montpellier, France. ⟨hal-05655746⟩
 
 469 Swieczkowski D, Kwaśny A, Cubała WJ. **Exploratory Insights into 5-MeO-DMT Experiences on Reddit: A Thematic Analysis.** J Psychoactive Drugs. 2026 Sep 7:1-11. doi: 10.1080/02791072.2026.2727030. Epub ahead of print. PMID: 42704210.
 
