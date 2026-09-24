@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+468 **Designer as Guest, Collaborating with Materials: Theorizing video game development practice through the Materializing Design Method.** Adrian Demleitner, Rilla Khaled, Courtney Blamey. FDG '26: Proceedings of the 21st International Conference on the Foundations of Digital Games. Article No.: 83, Pages 1 - 4. <https://doi.org/10.1145/3815598.3815688>
+
 467 Nguyen, Khanh Linh and Do, Phuong Duy and Nguyen, Ngoc Khanh Linh and Nguyen, Dieu Huyen and Truong, Nguyen Hanh Quyen. **Protection Without Control? Gendered Formalisation Pathways for Female Informal Waste Pickers in Hanoi Amid Vietnam's Circular Transition.** (September 18, 2026). Available at SSRN: <http://dx.doi.org/10.2139/ssrn.7486899>
 
 466 Kinnig, T., Rohmer, O., Timera, A., & Sanrey, C. (2026). **Poursuivre ses études à l’université: qu’en disent les étudiant· es en situation de handicap invisible?. L'orientation scolaire et professionnelle (Pursuing university studies: what do students with invisible disabilities say? Educational and vocational guidance.)**, (55/2), 265-290. <https://doi.org/10.4000/16da8>
