@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+473 Lee-Remond, S., Alavi, S., Ballouk, H., & Notari, M. (2026). **Designing together: student co-design of educational games in a complex interdisciplinary course.** CoDesign, 1–25. <https://doi.org/10.1080/15710882.2026.2655696>
+
 472 K. Q. Nguyen, Q. N. Vo, and L. T. T. To, **An Exploratory Comparison of the THPT English Exam and an IELTS Benchmark: A Question of Equivalence.** TTU Journal of Science, vol.1, no.2, pp. 71–77, Jun. 2026.
 
 471 Soto Cumbicus, Olga del Carmen (2026). **Aprendizaje basado en proyectos en el desarrollo de habilidades blandas. (Project-based learning in the development of soft skills.)** UPSE, Matriz. Instituto de Postgrado. 33p. <https://repositorio.upse.edu.ec/handle/46000/17175>
