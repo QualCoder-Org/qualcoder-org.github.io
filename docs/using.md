@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+494 Thrasher, T., Yarrington, K., Alarcon, L., & Varlik, E. (2026).** Virtual reality in the Spanish classroom: A longitudinal control-experimental research study.** Language Learning & Technology, 30(1), 1–25. <https://doi.org/10.64152/10125/73692>
+
 493 Rejaän, Z., Mol, C. R., van Dijk, R., & van der Valk, I. E. (2026). **A Systematic Review of Children’s Views and Experiences Regarding Their Participation in Divorce-Related Decision-Making at Home, in Court, and During Mediation.** Family Transitions, 67(6), 495–541. <https://doi.org/10.1080/28375300.2026.2693831>
 
 492 Jian Zheng and Eun Kyoung Choe. 2026. **To Stop or Not to Stop: Exploring the Intention-Behavior Gaps in Smartphone Usage.** Proc. ACM Hum.-Comput. Interact. 10, 5, Article MHCI3557 (August 2026), 26 pages. <https://doi.org/10.1145/3821659>
