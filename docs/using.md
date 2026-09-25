@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+474 BOUJIDA N, GUENNOUN PF. **La mobilisation des soft skills comme moteur de l’engagement social: Cas du mouvement GenZ 212 au Maroc. (Leveraging soft skills as a driver of social engagement: The case of the GenZ 212 movement in Morocco.)** L’Archétype. 2026 Jul 21;5(1):66-85.
+
 473 Lee-Remond, S., Alavi, S., Ballouk, H., & Notari, M. (2026). **Designing together: student co-design of educational games in a complex interdisciplinary course.** CoDesign, 1–25. <https://doi.org/10.1080/15710882.2026.2655696>
 
 472 K. Q. Nguyen, Q. N. Vo, and L. T. T. To, **An Exploratory Comparison of the THPT English Exam and an IELTS Benchmark: A Question of Equivalence.** TTU Journal of Science, vol.1, no.2, pp. 71–77, Jun. 2026.
