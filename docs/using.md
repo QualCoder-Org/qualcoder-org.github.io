@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+499 **Care in Meal Presentation: A Quantitative and Qualitative Analysis of the Effects of Aesthetic Meal Presentation in Healthcare Settings.** (2026). Dissertation Nursing, 5(2), 265-291. <https://doi.org/10.54103/dn/28798>
+
 498 Torres Terrazas, P. A. y Flores Flores, J. A. (2026). **La praxis docente con adolescentes infractores: un estudio de caso en el CERSAI 1 de Chihuahua, México.** Sinéctica, Revista Electrónica de Educación, (67), e1852. <https://doi.org/10.31391/XGEQ7007>
 
 497 Nguyen DV, Jumpamool A. **Strengthening evidence-based practice culture in nursing: An ethnographic study in the central highlands of Vietnam.** Belitung Nurs J. 2026 Aug 28;12(4):472-484. doi: 10.33546/bnj.4567. PMID: 42666576
