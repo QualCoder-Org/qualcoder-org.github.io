@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+483 **Integrating STEAM in Early Childhood Education Classrooms: A Reflexive Content Analysis of Teachers’ Experiences.** (2026). Qualitative Research in Education, 15(2), 171-194. <https://doi.org/10.17583/qre.19041>
+
 482 Arboleda SA, Richter K, Conde M, Fischedick S, Gross HM, Doering N, Raake A. **The Influence of Acquaintanceship on Co-Presence and Closeness in Robot-Mediated Communication with Older Adults.** [ResearchGate]
 
 481 Ons Sammari, Agnès Helme-Guizon, Soffien Bataoui, Catherine Pelachaud. **Defining and conceptualizing the Digitally-Mediated Collaboration Experience (DMCE): Preliminary Findings and Future Research Directions.** European Social Marketing Conference (ESMC), Jul 2026, Montpellier, France. ⟨hal-05692298⟩
