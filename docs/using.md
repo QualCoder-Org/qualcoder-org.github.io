@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+479 Pfister L, Mannheimer J, Hedkvist I, Stern RT, Sarkadi A. **The role of medical evidence certifying PTSD for legal outcomes in Swedish asylum cases 2016–2020**. Social Science & Medicine. 2026 Jun 26:119531. 10.1016/j.socscimed.2026.119531
+
 478 **Co-Creativity at the Table: A Qualitative Analysis of Creative Interactions in the Podcast "Adventure AI"**. Hanna Dodd, Daniel G. Brown. arXiv:2606.18010  <https://doi.org/10.48550/arXiv.2606.18010>
 
 477 **DEVELOPMENT OF ORGANIZATIONAL BEHAVIOR MANAGEMENT SYSTEMS IN THE IMPLEMENTATION OF ANTHROPOMORPHIC AI AGENTS IN ENTERPRISES.** (2026). SBS Journal of Applied Business Research, 2(1), 125-158. <https://doi.org/10.70301/SBS.MONO.2026.1.5>
