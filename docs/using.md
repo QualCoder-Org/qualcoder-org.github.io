@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+475 Abduljabbar N, Chauhan M, Alsakkaf KZ. **Evaluating the Early Adaptation of a Multi-Component Active Case Finding Strategy for Drug-Resistant Tuberculosis in Aden, Yemen: Implementation Science Study.** Preprint. <https://doi.org/10.21203/rs.3.rs-10319380/v1>
+
 474 BOUJIDA N, GUENNOUN PF. **La mobilisation des soft skills comme moteur de l’engagement social: Cas du mouvement GenZ 212 au Maroc. (Leveraging soft skills as a driver of social engagement: The case of the GenZ 212 movement in Morocco.)** L’Archétype. 2026 Jul 21;5(1):66-85.
 
 473 Lee-Remond, S., Alavi, S., Ballouk, H., & Notari, M. (2026). **Designing together: student co-design of educational games in a complex interdisciplinary course.** CoDesign, 1–25. <https://doi.org/10.1080/15710882.2026.2655696>
