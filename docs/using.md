@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+489 Jankowska, E., & Świeczkowski, D. (2026). **Perceptions and experiences of psychedelic substance use: a qualitative thematic analysis of Polish-language Reddit posts.** Drugs: Education, Prevention and Policy, 1–11. <https://doi.org/10.1080/09687637.2026.2729740>
+
 488 Anand Kumar V, Schreier M, Giné-Garriga M, Ortmann M, Belmokhtar FZ, Grineviciute S, Quan TN, Aluru L, Lippke S. **Cocreating a Digital Patient Preparedness Tool for International Students Accessing Primary Care in Germany: A Convergent Methods Study Within the Health CASCADE Network.** JMIR Hum Factors. 2026 Sep 14;13:e87519. doi: 10.2196/87519. PMID: 42735426
 
 487 Koivukangas, Hanna, 2026 Thesis. **Representing food preparedness : a WPR analysis of consultation responses to Swedish food preparedness strategy.** Second cycle, A2E. Uppsala: SLU, Dept. of Urban and Rural Development.
