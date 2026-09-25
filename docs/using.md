@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+477 **DEVELOPMENT OF ORGANIZATIONAL BEHAVIOR MANAGEMENT SYSTEMS IN THE IMPLEMENTATION OF ANTHROPOMORPHIC AI AGENTS IN ENTERPRISES.** (2026). SBS Journal of Applied Business Research, 2(1), 125-158. <https://doi.org/10.70301/SBS.MONO.2026.1.5>
+
 476 de Oliveira IS, de Oliveira FR, Maia PH, Santos IS. **Will I Be Replaced? Revisited: An Exploratory Replication on AI Tool Perceptions with Software Professionals in Brazil.** ISE 2026, September 11, 2026, São Paulo, SP, Brazil
 
 475 Abduljabbar N, Chauhan M, Alsakkaf KZ. **Evaluating the Early Adaptation of a Multi-Component Active Case Finding Strategy for Drug-Resistant Tuberculosis in Aden, Yemen: Implementation Science Study.** Preprint. <https://doi.org/10.21203/rs.3.rs-10319380/v1>
