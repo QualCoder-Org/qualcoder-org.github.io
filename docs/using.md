@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+482 Arboleda SA, Richter K, Conde M, Fischedick S, Gross HM, Doering N, Raake A. **The Influence of Acquaintanceship on Co-Presence and Closeness in Robot-Mediated Communication with Older Adults.** [ResearchGate]
+
 481 Ons Sammari, Agnès Helme-Guizon, Soffien Bataoui, Catherine Pelachaud. **Defining and conceptualizing the Digitally-Mediated Collaboration Experience (DMCE): Preliminary Findings and Future Research Directions.** European Social Marketing Conference (ESMC), Jul 2026, Montpellier, France. ⟨hal-05692298⟩
 
 480 Wodnicka, E., Swieczkowski, D.** Analysis of Serious Breach Cases Reported in the EU Clinical Trials Information System: Quantitative and Qualitative Assessment**. Ther Innov Regul Sci (2026). <https://doi.org/10.1007/s43441-026-01017-8>
