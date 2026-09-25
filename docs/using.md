@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+500 Samantha Marsh, Nikki Turner, Tony Dowell et al. **“Health is Wealth”: co-designing and piloting a respiratory winter preparedness intervention with a Samoan church community in Aotearoa New Zealand**, 29 August 2026, PREPRINT (Version 1) available at Research Square <https://doi.org/10.21203/rs.3.rs-10657495/v1>
+
 499 **Care in Meal Presentation: A Quantitative and Qualitative Analysis of the Effects of Aesthetic Meal Presentation in Healthcare Settings.** (2026). Dissertation Nursing, 5(2), 265-291. <https://doi.org/10.54103/dn/28798>
 
 498 Torres Terrazas, P. A. y Flores Flores, J. A. (2026). **La praxis docente con adolescentes infractores: un estudio de caso en el CERSAI 1 de Chihuahua, México.** Sinéctica, Revista Electrónica de Educación, (67), e1852. <https://doi.org/10.31391/XGEQ7007>
