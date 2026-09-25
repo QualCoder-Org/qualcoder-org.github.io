@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+495 Spognardi, Andres. 2026. **Conceptualización De Las Cooperativas Integrales: Un Estudio Exploratorio.** Ciriec-España, Revista De economía Pública, Social Y Cooperativa, no. 117 (July): 125-56. <https://doi.org/10.7203/CIRIEC-E.117.30222>
+
 494 Thrasher, T., Yarrington, K., Alarcon, L., & Varlik, E. (2026).** Virtual reality in the Spanish classroom: A longitudinal control-experimental research study.** Language Learning & Technology, 30(1), 1–25. <https://doi.org/10.64152/10125/73692>
 
 493 Rejaän, Z., Mol, C. R., van Dijk, R., & van der Valk, I. E. (2026). **A Systematic Review of Children’s Views and Experiences Regarding Their Participation in Divorce-Related Decision-Making at Home, in Court, and During Mediation.** Family Transitions, 67(6), 495–541. <https://doi.org/10.1080/28375300.2026.2693831>
