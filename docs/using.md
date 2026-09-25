@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+497 Nguyen DV, Jumpamool A. **Strengthening evidence-based practice culture in nursing: An ethnographic study in the central highlands of Vietnam.** Belitung Nurs J. 2026 Aug 28;12(4):472-484. doi: 10.33546/bnj.4567. PMID: 42666576
+
 496 Mandolini N, Cardoso D, Balbé A, Canli E, Álvares C. **Youngsters, graphic novels and (the limits of) empathy in gender-based violence awareness.** Open Research Europe. 2026 Aug 28;6:309. Waiting Peer Review.
 
 495 Spognardi, Andres. 2026. **Conceptualización De Las Cooperativas Integrales: Un Estudio Exploratorio.** Ciriec-España, Revista De economía Pública, Social Y Cooperativa, no. 117 (July): 125-56. <https://doi.org/10.7203/CIRIEC-E.117.30222>
