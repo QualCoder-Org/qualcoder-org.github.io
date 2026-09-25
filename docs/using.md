@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+488 Anand Kumar V, Schreier M, Giné-Garriga M, Ortmann M, Belmokhtar FZ, Grineviciute S, Quan TN, Aluru L, Lippke S. **Cocreating a Digital Patient Preparedness Tool for International Students Accessing Primary Care in Germany: A Convergent Methods Study Within the Health CASCADE Network.** JMIR Hum Factors. 2026 Sep 14;13:e87519. doi: 10.2196/87519. PMID: 42735426
+
 487 Koivukangas, Hanna, 2026 Thesis. **Representing food preparedness : a WPR analysis of consultation responses to Swedish food preparedness strategy.** Second cycle, A2E. Uppsala: SLU, Dept. of Urban and Rural Development.
 
 486 Paolo Diana, Valentina D'Auria, Giovannipaolo Ferrari, **Communicating disability in sports media. Paralympic visibility and everyday journalistic practices**. on "Rassegna Italiana di Sociologia, Rivista trimestrale fondata da Camillo Pellizzi" 2/2026, pp. 375-395, doi: 10.1423/121300
