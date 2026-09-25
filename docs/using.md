@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+476 de Oliveira IS, de Oliveira FR, Maia PH, Santos IS. **Will I Be Replaced? Revisited: An Exploratory Replication on AI Tool Perceptions with Software Professionals in Brazil.** ISE 2026, September 11, 2026, São Paulo, SP, Brazil
+
 475 Abduljabbar N, Chauhan M, Alsakkaf KZ. **Evaluating the Early Adaptation of a Multi-Component Active Case Finding Strategy for Drug-Resistant Tuberculosis in Aden, Yemen: Implementation Science Study.** Preprint. <https://doi.org/10.21203/rs.3.rs-10319380/v1>
 
 474 BOUJIDA N, GUENNOUN PF. **La mobilisation des soft skills comme moteur de l’engagement social: Cas du mouvement GenZ 212 au Maroc. (Leveraging soft skills as a driver of social engagement: The case of the GenZ 212 movement in Morocco.)** L’Archétype. 2026 Jul 21;5(1):66-85.
