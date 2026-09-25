@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+492 Jian Zheng and Eun Kyoung Choe. 2026. **To Stop or Not to Stop: Exploring the Intention-Behavior Gaps in Smartphone Usage.** Proc. ACM Hum.-Comput. Interact. 10, 5, Article MHCI3557 (August 2026), 26 pages. <https://doi.org/10.1145/3821659>
+
 491 Shen J, Oehlberg L. **Designing for Sustained Creativity: Insights from Online Art Challenges.** InProceedings of the 2026 Conference on Creativity and Cognition 2026 Jul 13 (pp. 1079-1091).
 
 490 Fleming, A. L. (2026). **Network warriors of God a social network analysis of the Quds Force and Iran-aligned actors. Dynamics of Asymmetric Conflict**, 1–34. <https://doi.org/10.1080/17467586.2026.2727365>
