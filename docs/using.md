@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+491 Shen J, Oehlberg L. **Designing for Sustained Creativity: Insights from Online Art Challenges.** InProceedings of the 2026 Conference on Creativity and Cognition 2026 Jul 13 (pp. 1079-1091).
+
 490 Fleming, A. L. (2026). **Network warriors of God a social network analysis of the Quds Force and Iran-aligned actors. Dynamics of Asymmetric Conflict**, 1–34. <https://doi.org/10.1080/17467586.2026.2727365>
 
 489 Jankowska, E., & Świeczkowski, D. (2026). **Perceptions and experiences of psychedelic substance use: a qualitative thematic analysis of Polish-language Reddit posts.** Drugs: Education, Prevention and Policy, 1–11. <https://doi.org/10.1080/09687637.2026.2729740>
