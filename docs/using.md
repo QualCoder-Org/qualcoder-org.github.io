@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+496 Mandolini N, Cardoso D, Balbé A, Canli E, Álvares C. **Youngsters, graphic novels and (the limits of) empathy in gender-based violence awareness.** Open Research Europe. 2026 Aug 28;6:309. Waiting Peer Review.
+
 495 Spognardi, Andres. 2026. **Conceptualización De Las Cooperativas Integrales: Un Estudio Exploratorio.** Ciriec-España, Revista De economía Pública, Social Y Cooperativa, no. 117 (July): 125-56. <https://doi.org/10.7203/CIRIEC-E.117.30222>
 
 494 Thrasher, T., Yarrington, K., Alarcon, L., & Varlik, E. (2026).** Virtual reality in the Spanish classroom: A longitudinal control-experimental research study.** Language Learning & Technology, 30(1), 1–25. <https://doi.org/10.64152/10125/73692>
