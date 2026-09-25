@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+478 **Co-Creativity at the Table: A Qualitative Analysis of Creative Interactions in the Podcast "Adventure AI"**. Hanna Dodd, Daniel G. Brown. arXiv:2606.18010  <https://doi.org/10.48550/arXiv.2606.18010>
+
 477 **DEVELOPMENT OF ORGANIZATIONAL BEHAVIOR MANAGEMENT SYSTEMS IN THE IMPLEMENTATION OF ANTHROPOMORPHIC AI AGENTS IN ENTERPRISES.** (2026). SBS Journal of Applied Business Research, 2(1), 125-158. <https://doi.org/10.70301/SBS.MONO.2026.1.5>
 
 476 de Oliveira IS, de Oliveira FR, Maia PH, Santos IS. **Will I Be Replaced? Revisited: An Exploratory Replication on AI Tool Perceptions with Software Professionals in Brazil.** ISE 2026, September 11, 2026, São Paulo, SP, Brazil
