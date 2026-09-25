@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+503 **Technology-mediated Group Idea Generation and Evaluation for Artistic Creations Across Disciplines.** Anthony Maocheia-Ricci Thesis 2026 University of Waterloo
+
 502 Burckard E, Bauer T, Reyes T, Aoussat A. **Exploratory study of the integrations of low-tech approaches for sustainability in industrial contexts.** Proceedings of the Design Society. 2026;6:2621-2630. doi:10.1017/pds.2026.10620
 
 501 Diane Lafarge, Joël Charbit, Antoine Lamer, Margot Trimbur, Louise Carton. **Barriers to prescribing methylphenidate for adults with ADHD: A qualitative study.** Therapies, 2026, ISSN 0040-5957.
