@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+504 **Library-Coordinated Institutional Membership in the Carpentries: A Qualitative Case Study.** Jamene Brooks-Kieffer. Johns Hopkins University Press Volume 26, Number 3, July 2026 pp. 541-565 10.1353/pla.2026.a994557
+
 503 **Technology-mediated Group Idea Generation and Evaluation for Artistic Creations Across Disciplines.** Anthony Maocheia-Ricci Thesis 2026 University of Waterloo
 
 502 Burckard E, Bauer T, Reyes T, Aoussat A. **Exploratory study of the integrations of low-tech approaches for sustainability in industrial contexts.** Proceedings of the Design Society. 2026;6:2621-2630. doi:10.1017/pds.2026.10620
