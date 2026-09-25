@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+506 **Engaged buddhism and jōdo shinshū: institutions, practitioners and social role.** Straukaitė, Raminta. Thesis 2026. Vilniaus universitetas.
+
 505 Krupets, Y., Balatsyuk, E., & Epanova, Y. (2026). **Activated citizenship: forms and meanings of youth civic participation in contemporary Russia.** Journal of Civil Society, 22(3), 227–240. <https://doi.org/10.1080/17448689.2026.2690913>
 
 504 **Library-Coordinated Institutional Membership in the Carpentries: A Qualitative Case Study.** Jamene Brooks-Kieffer. Johns Hopkins University Press Volume 26, Number 3, July 2026 pp. 541-565 10.1353/pla.2026.a994557
