@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+480 Wodnicka, E., Swieczkowski, D.** Analysis of Serious Breach Cases Reported in the EU Clinical Trials Information System: Quantitative and Qualitative Assessment**. Ther Innov Regul Sci (2026). <https://doi.org/10.1007/s43441-026-01017-8>
+
 479 Pfister L, Mannheimer J, Hedkvist I, Stern RT, Sarkadi A. **The role of medical evidence certifying PTSD for legal outcomes in Swedish asylum cases 2016–2020**. Social Science & Medicine. 2026 Jun 26:119531. 10.1016/j.socscimed.2026.119531
 
 478 **Co-Creativity at the Table: A Qualitative Analysis of Creative Interactions in the Podcast "Adventure AI"**. Hanna Dodd, Daniel G. Brown. arXiv:2606.18010  <https://doi.org/10.48550/arXiv.2606.18010>
