@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+502 Burckard E, Bauer T, Reyes T, Aoussat A. **Exploratory study of the integrations of low-tech approaches for sustainability in industrial contexts.** Proceedings of the Design Society. 2026;6:2621-2630. doi:10.1017/pds.2026.10620
+
 501 Diane Lafarge, Joël Charbit, Antoine Lamer, Margot Trimbur, Louise Carton. **Barriers to prescribing methylphenidate for adults with ADHD: A qualitative study.** Therapies, 2026, ISSN 0040-5957.
 
 500 Samantha Marsh, Nikki Turner, Tony Dowell et al. **“Health is Wealth”: co-designing and piloting a respiratory winter preparedness intervention with a Samoan church community in Aotearoa New Zealand**, 29 August 2026, PREPRINT (Version 1) available at Research Square <https://doi.org/10.21203/rs.3.rs-10657495/v1>
