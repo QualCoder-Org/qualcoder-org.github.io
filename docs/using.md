@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+486 Paolo Diana, Valentina D'Auria, Giovannipaolo Ferrari, **Communicating disability in sports media. Paralympic visibility and everyday journalistic practices**. on "Rassegna Italiana di Sociologia, Rivista trimestrale fondata da Camillo Pellizzi" 2/2026, pp. 375-395, doi: 10.1423/121300
+
 485 **Examining Job Demands and Resources Important for Employees with ADHD.** S Plotnick, Thesis Western University Canada, 2026. <https://hdl.handle.net/20.500.14721/40427>
 
 484 **Territórios em luta, saberes em rede: vivência como prática de aprendizado, afeto e política no Assentamento Santa Helena (SãoCarlos-SP) Territories in struggle, networked knowledges: lived experience as apractice of learning, affect, and politics at the Santa Helena settlement (SãoCarlos-SP)** BARBOSA et al. 13th Congresso Brasileiro de Agroecologia. v.21 n.1 2026
