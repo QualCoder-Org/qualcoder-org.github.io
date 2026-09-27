@@ -2,7 +2,7 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
-508 **The Many Futures of the Territory Stakeholder Imaginaries of Ecotourism in Bahía Solano, Chocó.** Mariana Domínguez Morán 2026 Thesis  WAGENINGEN UNIVERSITY 
+508 **The Many Futures of the Territory Stakeholder Imaginaries of Ecotourism in Bahía Solano, Chocó.** Mariana Domínguez Morán 2026 Thesis  WAGENINGEN UNIVERSITY
 
 507 Tufts LN, Napoli A, Salehi S. **Work-in-Progress: FLEX Journals as a Theory-to-Practice Framework for Formative Assessment of Student Design Processes.** In2026 ASEE Annual Conference & Exposition 2026 Jun 21.
 
