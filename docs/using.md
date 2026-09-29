@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+509 Wong, F. J., Tengku Hamzah, T. N. N., & Nor Azlida Mohd Nor. (2026). **DENTAL SCIENCE KIT AS A SUPPLEMENTARY ORAL HEALTH EDUCATION TOOL: PERSPECTIVE OF MALAYSIAN TEACHERS AND SCHOOLCHILDREN.** Malaysian Journal of Public Health Medicine, 26(2), 42–52. <https://doi.org/10.37268/mjphm/vol.26/no.2/art.3658>
+
 508 **The Many Futures of the Territory Stakeholder Imaginaries of Ecotourism in Bahía Solano, Chocó.** Mariana Domínguez Morán 2026 Thesis  WAGENINGEN UNIVERSITY
 
 507 Tufts LN, Napoli A, Salehi S. **Work-in-Progress: FLEX Journals as a Theory-to-Practice Framework for Formative Assessment of Student Design Processes.** In2026 ASEE Annual Conference & Exposition 2026 Jun 21.
