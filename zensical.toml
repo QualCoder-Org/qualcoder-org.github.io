@@ -112,7 +112,8 @@ nav = [
 		]},
 		{"Options avancées" = [
 			"doc/fr/6.1.-Imports-and-Exports.md",  
-			"doc/fr/6.2.-AI-Prompt-Library.md"
+			"doc/fr/6.2.-AI-Prompt-Library.md",
+			"doc/fr/6.3.-Survey-Imports.md"
 		]},
 		{"Informations complémentaires" = [
 			"doc/fr/7.3.-QualCoder-Development.md",  
