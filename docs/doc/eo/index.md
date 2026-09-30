@@ -8,7 +8,7 @@ QualCoder estas senpaga, malfermfonteca labortabla programaro por kvalita datuma
 
 QualCoder povas kodigi tekston, bildojn, sonon kaj videon, kaj verki ĵurnalajn notojn kaj memoraĵojn. Vi povas organizi kodojn en arb-simila kategoriiga skemo. Diversaj raportoj povas esti generitaj. Plej multaj raportoj povas esti eksportitaj kiel html-, malfermdokumenta teksto (ODT), simpla teksto aŭ Excel-dosieroj.
 
-QualCoder inkluzivas aron da artefaritinteligentec-helpitaj funkcioj, kiuj utiligas Grandajn Lingvajn Modelojn por helpi esplori, analizi kaj interagi kun datumoj per novigaj manieroj. Konatiĝu kun novaj datumoj esplorante vastajn temojn aŭ konceptojn en interaga babilado kun la AI. Pli profunde eniru specifajn aspektojn per artefaritinteligentec-helpitaj kodado kaj tekstanalizo. Kaj se vi atingas la punkton, kie vi devas sintezi kaj solidigi viajn rezultojn, diskutu ilin en kod-babilado kun la AI.
+QualCoder inkluzivas aron da artefaritinteligentecaj funkcioj, kiuj utiligas Grandajn Lingvajn Modelojn por helpi esplori, analizi kaj interagi kun datumoj per novigaj manieroj. Konatiĝu kun novaj datumoj esplorante vastajn temojn aŭ konceptojn en interaga babilado kun la AI. Pli profunde eniru specifajn aspektojn per AI-helpata kodado kaj tekstanalizo. Kaj se vi atingas la punkton, kie vi devas sintezi kaj solidigi viajn rezultojn, diskutu ilin en kod-babilado kun la AI.
 
 !!! note "Kial uzi QualCoder?"
     - **QualCoder estas senpaga**. Multaj programaroj por kvalita analizo postulas multekostajn unu-fojajn kotizojn aŭ monatajn abonojn.

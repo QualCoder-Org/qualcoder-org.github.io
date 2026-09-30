@@ -3,7 +3,7 @@ path: index
 ---
 # O que é o QualCoder
 
-O QualCoder é um software de secretária gratuito e de código aberto para a análise de dados qualitativos.
+O QualCoder é um software de desktop gratuito e de código aberto para a análise de dados qualitativos.
 
 O QualCoder permite codificar texto, imagens, áudio e vídeo, bem como escrever notas de diário e memorandos. É possível organizar os códigos num esquema de categorização em árvore. Podem ser gerados vários relatórios. A maioria dos relatórios pode ser exportada como ficheiros HTML, OpenDocument Text (ODT), texto simples ou Excel.
 
