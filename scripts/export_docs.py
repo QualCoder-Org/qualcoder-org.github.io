@@ -154,7 +154,10 @@ def run_pandoc(markdown: str, output: Path, title: str) -> None:
 
     command = [
         "pandoc",
-        "--from", "markdown",
+        # raw_tex off: the docs contain literal TeX-looking text (e.g.
+        # "\input et \include" in the file formats list); with raw_tex pandoc
+        # passes it through to LaTeX, which then fails to compile.
+        "--from", "markdown-raw_tex",
         "--to", "pdf",
         "--standalone",
         "--toc",
