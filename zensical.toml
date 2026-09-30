@@ -72,8 +72,6 @@ nav = [
 			"doc/en/6.3.-Survey-Imports.md"
 		]},
 		{"Other Information" = [
-			"doc/en/7.1.-About-The-Developers.md",
-			"doc/en/7.2.-QualCoder-Video-Tutorials.md",
 			"doc/en/7.3.-QualCoder-Development.md",  
 			"doc/en/7.4.-SQlite-Data-Structure.md",  
 			"doc/en/7.5.-AI-Technical-Information.md",  
@@ -118,8 +116,6 @@ nav = [
 			"doc/fr/6.3.-Survey-Imports.md"
 		]},
 		{"Informations complémentaires" = [
-			"doc/fr/7.1.-About-The-Developers.md",
-			"doc/fr/7.2.-QualCoder-Video-Tutorials.md",
 			"doc/fr/7.3.-QualCoder-Development.md",  
 			"doc/fr/7.4.-SQlite-Data-Structure.md",  
 			"doc/fr/7.5.-AI-Technical-Information.md",  
@@ -160,8 +156,6 @@ nav = [
 			"doc/es/6.2.-AI-Prompt-Library.md"
 		]},
 		{"Otra información" = [
-			"doc/es/7.1.-About-The-Developers.md",
-			"doc/es/7.2.-QualCoder-Video-Tutorials.md",
 			"doc/es/7.3.-QualCoder-Development.md",  
 			"doc/es/7.4.-SQlite-Data-Structure.md",  
 			"doc/es/7.5.-AI-Technical-Information.md",  
@@ -202,8 +196,6 @@ nav = [
 			"doc/de/6.2.-AI-Prompt-Library.md"
 		]},
 		{"Weitere Informationen" = [
-			"doc/de/7.1.-About-The-Developers.md",
-			"doc/de/7.2.-QualCoder-Video-Tutorials.md",
 			"doc/de/7.3.-QualCoder-Development.md",  
 			"doc/de/7.4.-SQlite-Data-Structure.md",  
 			"doc/de/7.5.-AI-Technical-Information.md",  
