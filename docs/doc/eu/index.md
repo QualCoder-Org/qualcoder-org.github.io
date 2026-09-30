@@ -5,7 +5,7 @@ path: index
 
 QualCoder doako, iturburu irekiko mahaigaineko software programa bat da, datu kualitatiboen analisirako diseinatua.
 
-![Écran de codage de texte](/images/3ecb4d97-86df-4688-8280-69108022dda0.png)
+![Testu-kodifikazioko pantaila](/images/3ecb4d97-86df-4688-8280-69108022dda0.png)
 
 QualCoder-ek testuak, irudiak, audio- eta bideo-fitxategiak kodetzeko aukera ematen dizu, baita egunkari-sarrerak eta memoak idazteko ere. Kodek zuhaitz hierarkiko egitura batean antola ditzakezu. Txosten anitz sor daitezke. Txosten gehienak HTML, OpenDocument Testu (ODT), testu arrunt edo Excel formatuan esporta daitezke.
 
@@ -22,8 +22,8 @@ QualCoderrek AI bidezko funtzionalitate sorta bat barne hartzen du, hizkuntza-er
     - **QualCoder komunitatean oinarritzen da.** Akats bat aurkitzen baduzu edo ezaugarri-eskaera edo iradokizunik baduzu, QualCoder-en GitHub orrialdean argitaratu: [github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder).
     - **QualCoder etengabe hobetzen ari da.** QualCoder aktiboki garatzen ari da, eta horrek esan nahi du bertsio hobeak aldian-aldian argitaratzen direla.
     - **QualCoder-ek estandar irekien alde egiten du.** QualCoder-ek REFI-QDA estandarra onartzea du helburu, ikus [qdasoftware.org](https://www.qdasoftware.org/). Zure lankideekin kode-liburuak eta proiektuak trukatu ditzakezu, QualCoder erabiltzen ez badute ere, beren softwareak REFI-QDA estandarra onartzen badu. Horrek esan nahi du zure datuak ez direla eskuragabe bihurtzeko arriskuan egongo.
-    - **QualCoder aldatu daiteke.** QualCoder zure beharretara egokitu eta aldatu dezakezu, edo zure izenean beste norbaiti eskatu dezakezu hori egiteko, betiere zure aldaketak denontzat eskuragarri jartzen badituzu. Horrek esan nahi du softwarea kopiatu eta zure lankideei edo ikasleei doan eman diezazukezula. 3.6 bertsioatik aurrera LGPL v3 lizentziaren pean argitaratzen da.
-    - **QualCoder zientzia irekia babesteko software aukera bat da.** [UNESCOren Zientzia Irekiko Gomendioak](https://www.unesco.org/fr/science-ouverte?hub=686)
+    - **QualCoder aldatu daiteke.** QualCoder zure beharretara egokitu eta aldatu dezakezu, edo zure izenean beste norbaiti eskatu dezakezu hori egiteko, betiere zure aldaketak denontzat eskuragarri jartzen badituzu. Horrek esan nahi du softwarea kopiatu eta zure lankideei edo ikasleei doan eman diezazukezula.
+    - **QualCoder zientzia irekia babesteko software aukera bat da.** [UNESCOren Zientzia Irekiko Gomendioak](https://www.unesco.org/en/open-science?hub=686)
 
 ## Egungo bertsioa
 Software bertsioak [GitHub](https://github.com/ccbogel/QualCoder/releases) helbidean daude eskuragarri. Iturburu-kodea eta exekutagarri-fitxategiak dituzte. Exekutagarri-fitxategiek QualCoder exekutatzeko modu erraza eskaintzen dute: egin klik bikoitza haien gainean programa abiarazteko, baina kontuan izan 20 segundo arte behar ditzakeela irekitzeko.

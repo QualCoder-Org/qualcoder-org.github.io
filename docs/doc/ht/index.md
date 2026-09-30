@@ -9,12 +9,12 @@ QualCoder ka kode tèks, imaj, odyo ak videyo, epi ekri nòt jounal ak memo. Ou 
 
 QualCoder gen ladan l yon seri fonksyonalite ki asiste pa entèlijans atifisyèl (AI) ki itilize Gwo Modèl Langaj (Large Language Models) pou ede eksplore, analize, epi kominike ak done yo nan fason inovatè. Fè tèt ou abitye ak nouvo done yo lè w ap eksplore gwo sijè oswa konsèp nan yon konvèsasyon entèaktif ak AI a. Plonje pi fon nan aspè espesifik yo avèk kodaj ak analiz tèks ki asiste pa AI. Epi si w rive nan pwen kote ou dwe sinteze epi konsolide rezilta w yo, diskite yo nan yon chat kòd ak AI a.
 
-!!! Nòt "Poukisa pou w itilize QualCoder?"
-    - **Qualcoder gratis**. Anpil lojisyèl analiz kalitatif mande frè inik ki chè oswa abònman chak mwa.
+!!! note "Poukisa pou w itilize QualCoder?"
+    - **QualCoder gratis**. Anpil lojisyèl analiz kalitatif mande frè inik ki chè oswa abònman chak mwa.
     - **QualCoder fasil pou itilize**. Li genyen tout sa w bezwen pou fè analiz kalitatif san entèfas konplike kèk lòt altènativ genyen.
     - **QualCoder fonksyone san entènèt**. Entènèt pa toujou disponib epi QualCoder pa bezwen entènèt pou l fonksyone.
     - **QualCoder pa mare ak yon òdinatè**. Si w chanje kote w travay, ou pa bezwen enkyete w pou w rete mare ak lisans ansyen kote w te travay la oswa pou w achte yon nouvo lisans. Lisans QualCoder la pèmèt ou itilize lojisyèl an kèlkeswa kote w ap travay oswa sou ki òdinatè li enstale.
-    - **QualCoder se yon lojisyèl milti-platfòm**. Li fonksyone sou Linux, Windows ak macOS, sa vle di ou pa bezwen enkyete w si w chanje sistèm operasyon, epi sa vle di tou ou ka kolabore ak kòlèg ki sou diferan platfòm. Gade Nòt.
+    - **QualCoder se yon lojisyèl milti-platfòm**. Li fonksyone sou Linux, Windows ak macOS, sa vle di ou pa bezwen enkyete w si w chanje sistèm operasyon, epi sa vle di tou ou ka kolabore ak kòlèg ki sou diferan platfòm. Gade Nòt la.
     - **QualCoder konte sou kominote a**. Si w jwenn yon erè, si w gen yon demann pou yon nouvo fonksyonalite oswa yon fidbak, ekri sou sa sou [paj QualCoder la sou github](https://github.com/ccbogel/QualCoder).
     - **QualCoder toujou ap amelyore**. QualCoder ap devlope aktivman, sa vle di gen nouvo vèsyon ki pi bon k ap soti.
     - **QualCoder sipòte estanda ouvè yo**. QualCoder vize sipòte [Estanda REFI-QDA a](https://www.qdasoftware.org/), ou ka echanje kodbòk ak pwojè ak kòlèg ou yo menm si yo pa itilize QualCoder, toutotan lojisyèl yo itilize a sipòte Estanda REFI-QDA a. Sa vle di ou pa riske pou done ou yo pa disponib. Pwojè REFI-QDA a poko garanti 100% konfòm. Fòk gen plis tès ki fèt, sitou pou ekspòtasyon ak enpòtasyon odyo ak videyo, epitou pou fichye ki lye youn ak lòt.
@@ -45,7 +45,7 @@ Si w renmen QualCoder anpil, oswa si w devlope yon nouvo fason pou w itilize l, 
 
 Sa pran anpil, anpil èdtan travay pou kreye lojisyèl sa a ki disponib gratis pou itilize.**Si w itilize QualCoder epi w renmen l, tanpri sipòte devlopman an.**
 
-<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Achte M Yon Kafe](/images/buymeacoffee-default-orange.png)
+<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Achte M Yon Kafe](/images/buymeacoffee-default-orange.png)</a>
 
 QualCoder ekri an python avèk Qt6 pou entèfas grafik la. Yo itilize QualCoder sou Windows 11, macOS ak divès distribisyon Linux: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 

@@ -5,7 +5,7 @@ path: index
 
 QualCoder är ett kostnadsfritt program med öppen källkod för kvalitativ dataanalys.
 
-QualCoder kan koda text, bilder, ljud och video samt skriva dagboksanteckningar och memon. Du kan organisera koder i ett trädliknande kategorisystem. Olika rapporter kan genereras. De flesta rapporter kan exporteras som HTML-, ODT- (Open Document Text), ren text- eller Excel-filer.
+QualCoder kan koda text, bilder, ljud och video samt skriva dagboksanteckningar och memoer. Du kan organisera koder i ett trädliknande kategorisystem. Olika rapporter kan genereras. De flesta rapporter kan exporteras som HTML-, ODT- (Open Document Text), ren text- eller Excel-filer.
 
 QualCoder innehåller en uppsättning AI-stödda funktioner som använder stora språkmodeller för att hjälpa dig att utforska, analysera och interagera med data på innovativa sätt. Bekanta dig med nya data genom att utforska breda ämnen eller begrepp i en interaktiv chatt med AI:n. Fördjupa dig i specifika aspekter med AI-stödd kodning och textanalys. Och när du når den punkt där du måste sammanfatta och konsolidera dina resultat kan du diskutera dem i en kodchatt med AI:n.
 
