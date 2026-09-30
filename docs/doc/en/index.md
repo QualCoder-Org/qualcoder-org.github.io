@@ -13,7 +13,7 @@ QualCoder includes a set of AI-assisted features that utilise Large Language Mod
     - **Qualcoder is free of charge**. Many qualitative analysis software requiring expensive one-time fees or monthly subscriptions.
     - **QualCoder is easy to use**. It has all you need to perform qualitative analysis without the complicated interfaces of some alternatives
     - **QualCoder works offline**. Internet is not always available and QualCoder does not require internet to work.
-    - **QualCoder is not tied to a computer**. If you change workplace you do not have to worry about being tied to your former workplace's license or to buy a new license. QualCoder license allows you to use the software regardless of where you work or on what computer it is installed on.
+    - **QualCoder is not tied to a computer**. If you change workplace you do not have to worry about being tied to your former workplace's licence or to buy a new licence. The QualCoder licence allows you to use the software regardless of where you work or on what computer it is installed on.
     - **QualCoder is multi-platform**. It runs on Linux, Windows and macOS, this means that you do not have to worry if you change operating systems, and it also means you can collaborate with colleagues on different platforms. See Note.
     - **QualCoder relies on the community**. If you find an error or have a feature request or feedback, write about it on [QualCoder's page on github](https://github.com/ccbogel/QualCoder).
     - **QualCoder is always improving**. QualCoder is actively developed meaning that newer, improved versions are being released.
@@ -58,4 +58,4 @@ Replace the version number (4.0) as needed for the version you are using.
 
 ## License
 
-QualCoder is licensed under the LGPL v3 license.
+QualCoder is licensed under the LGPL v3 licence.
