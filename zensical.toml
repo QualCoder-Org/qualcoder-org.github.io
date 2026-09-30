@@ -72,6 +72,8 @@ nav = [
 			"doc/en/6.3.-Survey-Imports.md"
 		]},
 		{"Other Information" = [
+			"doc/en/7.1.-About-The-Developers.md",
+			"doc/en/7.2.-QualCoder-Video-Tutorials.md",
 			"doc/en/7.3.-QualCoder-Development.md",  
 			"doc/en/7.4.-SQlite-Data-Structure.md",  
 			"doc/en/7.5.-AI-Technical-Information.md",  
@@ -116,6 +118,8 @@ nav = [
 			"doc/fr/6.3.-Survey-Imports.md"
 		]},
 		{"Informations complémentaires" = [
+			"doc/fr/7.1.-About-The-Developers.md",
+			"doc/fr/7.2.-QualCoder-Video-Tutorials.md",
 			"doc/fr/7.3.-QualCoder-Development.md",  
 			"doc/fr/7.4.-SQlite-Data-Structure.md",  
 			"doc/fr/7.5.-AI-Technical-Information.md",  
@@ -125,37 +129,39 @@ nav = [
 	{"es" = [
 		"doc/es/index.md",  
 		"doc/es/1.-Overview.md",
-		{"Setup" = [
+		{"Configuración" = [
 				"doc/es/2.1.-Installation.md",  
 				"doc/es/2.2.-Settings.md",  
 				"doc/es/2.3.-AI-Setup.md",  
 				"doc/es/2.4.-Working-in-a-Team.md"
 		]},
-		{"Managing Data" = [
+		{"Gestión de datos" = [
 				"doc/es/3.1.-Creating-a-New-Project.md",  
 				"doc/es/3.2.-Files.md",  
 				"doc/es/3.3.-Cases.md",  
 				"doc/es/3.4.-Attributes.md" 
 		]},
-		{"Coding" = [
+		{"Codificación" = [
 			"doc/es/4.1.-Coding-Text.md",  
 			"doc/es/4.2.-AI-Assisted-Coding.md",  
 			"doc/es/4.3.-Coding-Text-on-PDFs.md",  
 			"doc/es/4.4.-Coding-Images.md",  
 			"doc/es/4.5.-Coding-Audio-and-Video.md",  
-			"doc/es/4.6-Code-Organiser.md"
+			"doc/es/4.6.-Code-Organiser.md"
 		]},
-		{"Analyzing the Results" = [
+		{"Análisis de resultados" = [
 			"doc/es/5.1.-AI-chat-based-analysis.md",  
 			"doc/es/5.2.-Journals.md",  
 			"doc/es/5.3.-Reports.md",  
 			"doc/es/5.4.-Graph.md"
 		]},
-		{"Advanced Options" = [
+		{"Opciones avanzadas" = [
 			"doc/es/6.1.-Imports-and-Exports.md",  
 			"doc/es/6.2.-AI-Prompt-Library.md"
 		]},
-		{"Other Information" = [
+		{"Otra información" = [
+			"doc/es/7.1.-About-The-Developers.md",
+			"doc/es/7.2.-QualCoder-Video-Tutorials.md",
 			"doc/es/7.3.-QualCoder-Development.md",  
 			"doc/es/7.4.-SQlite-Data-Structure.md",  
 			"doc/es/7.5.-AI-Technical-Information.md",  
@@ -165,54 +171,56 @@ nav = [
 	{"de" = [
 		"doc/de/index.md",  
 		"doc/de/1.-Overview.md",
-		{"Setup" = [
+		{"Einrichtung" = [
 				"doc/de/2.1.-Installation.md",  
 				"doc/de/2.2.-Settings.md",  
 				"doc/de/2.3.-AI-Setup.md",  
 				"doc/de/2.4.-Working-in-a-Team.md"
 		]},
-		{"Managing Data" = [
+		{"Datenverwaltung" = [
 				"doc/de/3.1.-Creating-a-New-Project.md",  
 				"doc/de/3.2.-Files.md",  
 				"doc/de/3.3.-Cases.md",  
 				"doc/de/3.4.-Attributes.md" 
 		]},
-		{"Coding" = [
+		{"Kodierung" = [
 			"doc/de/4.1.-Coding-Text.md",  
 			"doc/de/4.2.-AI-Assisted-Coding.md",  
 			"doc/de/4.3.-Coding-Text-on-PDFs.md",  
 			"doc/de/4.4.-Coding-Images.md",  
 			"doc/de/4.5.-Coding-Audio-and-Video.md",  
-			"doc/de/4.6-Code-Organiser.md"
+			"doc/de/4.6.-Code-Organiser.md"
 		]},
-		{"Analyzing the Results" = [
+		{"Analyse der Ergebnisse" = [
 			"doc/de/5.1.-AI-chat-based-analysis.md",  
 			"doc/de/5.2.-Journals.md",  
 			"doc/de/5.3.-Reports.md",  
 			"doc/de/5.4.-Graph.md"
 		]},
-		{"Advanced Options" = [
+		{"Erweiterte Optionen" = [
 			"doc/de/6.1.-Imports-and-Exports.md",  
 			"doc/de/6.2.-AI-Prompt-Library.md"
 		]},
-		{"Other Information" = [
+		{"Weitere Informationen" = [
+			"doc/de/7.1.-About-The-Developers.md",
+			"doc/de/7.2.-QualCoder-Video-Tutorials.md",
 			"doc/de/7.3.-QualCoder-Development.md",  
 			"doc/de/7.4.-SQlite-Data-Structure.md",  
 			"doc/de/7.5.-AI-Technical-Information.md",  
 			"doc/de/7.6.-How-to-contribute.md"
 		]}
 	]},
-	{"pt" = ["doc/pt/index.md"]},
-	{"sv" = ["doc/sv/index.md"]},
-	{"zh" = ["doc/zh/index.md"]},
-	{"ja" = ["doc/ja/index.md"]},
-	{"ro" = ["doc/ro/index.md"]},
+	{"eo" = ["doc/eo/index.md"]},
+	{"eu" = ["doc/eu/index.md"]},
 	{"it" = ["doc/it/index.md"]},
 	{"ht" = ["doc/ht/index.md"]},
-	{"eu" = ["doc/eu/index.md"]},
+	{"oc" = ["doc/oc/index.md"]},
+	{"pt" = ["doc/pt/index.md"]},
+	{"ro" = ["doc/ro/index.md"]},
+	{"sv" = ["doc/sv/index.md"]},
 	{"fa" = ["doc/fa/index.md"]},
-	{"eo" = ["doc/eo/index.md"]},
-	{"oc" = ["doc/oc/index.md"]}
+	{"zh" = ["doc/zh/index.md"]},
+	{"ja" = ["doc/ja/index.md"]}
 ]
   
 [project.theme]
@@ -269,15 +277,15 @@ alternate = [
     { name = "Deutsch", link = "/doc/de/", lang = "de" },
     { name = "Español", link = "/doc/es/", lang = "es" },  
     { name = "Français", link = "/doc/fr/", lang = "fr" },
-	{ name = "Esperanto", link = "doc/eo/", lang = "eo" },
+	{ name = "Esperanto", link = "/doc/eo/", lang = "eo" },
 	{ name = "Euskara", link = "/doc/eu/", lang = "eu" },
 	{ name = "Italiano", link = "/doc/it/", lang = "it" },
-	{ name = "Kreyòl ayisyen", link="/doc/ht/", lang = "ht"},
-	{ name = "Occitan", link = "/doc/eo/", lang = "eo" },
+	{ name = "Kreyòl ayisyen", link = "/doc/ht/", lang = "ht" },
+	{ name = "Occitan", link = "/doc/oc/", lang = "oc" },
 	{ name = "Português", link = "/doc/pt/", lang = "pt" },
 	{ name = "Română", link = "/doc/ro/", lang = "ro" },
 	{ name = "Svenska", link = "/doc/sv/", lang = "sv" },
-	{ name = "فارسی", link = "doc/fa/", lang = "fa" },
+	{ name = "فارسی", link = "/doc/fa/", lang = "fa" },
 	{ name = "中文", link = "/doc/zh/", lang = "zh" },
 	{ name = "日本語", link = "/doc/ja/", lang = "ja" }
 ]
