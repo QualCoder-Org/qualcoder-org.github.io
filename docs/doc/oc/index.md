@@ -11,7 +11,7 @@ QualCoder pòt codar de tèxtes, d'imatges, d'àudio e de vidèos, e escriure de
 QualCoder inclutz un ensemble de foncionalitats assistidas per l'IA qu'utilizan de Grands Modèls de Lenga per ajudar a explorar, analisar e interagir amb las donadas de manièras innovantas. Familiarizatz-vos amb las donadas nòvas en explorant de subjèctes o de concèptes larges dins un chat interactiu amb l'IA. Aprofondissètz d'aspèctes especifics amb lo codatge e l'analisi de tèxt assistits per l'IA. E se arribatz al punt de dever sintetizar e consolidar vòstres resultats, discutissètz-ne dins un chat de codatge amb l'IA.
 
 !!! nòta "Perqué utilizar QualCoder?"
-    - **Qualcoder es gratuit**. Fòrça logicials d'analisi qualitativa demandan de còstes elevats, que sián de pagaments unics o d'abonaments mensuals.
+    - **QualCoder es gratuit**. Fòrça logicials d'analisi qualitativa demandan de còstes elevats, que sián de pagaments unics o d'abonaments mensuals.
     - **QualCoder es facil d'utilizar**. A tot çò que vos cal per realizar d'analisis qualitativas sens las interfàcias complicadas de cèrtas alternativas.
     - **QualCoder fonciona fòra connexion**. Internet es pas totjorn disponible e QualCoder a pas besonh d'internet per foncionar.
     - **QualCoder es pas ligat a un ordinator**. Se cambiatz de luòc de trabalh, avètz pas de vos preocupar d'èsser ligat a la licéncia de vòstre ancian luòc de trabalh o de comprar una licéncia novèla. La licéncia de QualCoder vos permet d'utilizar lo logicial quina que siá la vòstra luòc de trabalh o l'ordinator sus lo qual es installat.
@@ -46,7 +46,7 @@ Se vos agrada fòrça QualCoder, o s'avètz desvolopat un usatge novèl per el, 
 
 Calguèt fòrça, fòrça oras de trabalh per crear aqueste logicial que se provesís gratuitament.**S'utilizatz e vos agrada QualCoder, mercé de sosténer lo desvolopament.**
 
-<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Crompa-me un cafè](/images/buymeacoffee-default-orange.png)
+<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Crompa-me un cafè](/images/buymeacoffee-default-orange.png)</a>
 
 QualCoder es escrich en python en utilizant Qt6 per l'interfàcia grafica. QualCoder es estat utilizat sus Windows 11, macOS e divèrsas distribucions Linux : Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 
