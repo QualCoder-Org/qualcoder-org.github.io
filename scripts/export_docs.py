@@ -31,6 +31,23 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_FILE = REPO_ROOT / "zensical.toml"
 DOC_DIR = REPO_ROOT / "docs" / "doc"
 
+# Mapping of admonition markers to a bold label inserted at the start of the
+# block (e.g. "!!! note \"Why?\"" -> "> **Note** (Why?)").
+ADMONITIONS = {"note": "Note", "warning": "Warning", "info": "Info",
+               "tip": "Tip", "example": "Example", "question": "Question",
+               "success": "Success", "failure": "Failure", "danger": "Danger",
+               "bug": "Bug", "abstract": "Abstract"}
+# Admonition blocks: `!!! note "Title"` or collapsible details `??? tip "Title"`.
+ADMONITION_RE = re.compile(r'^(!{3,}|\?{3}) ?(\w+)?(?:\s+"([^"]*)")?\s*$')
+# Tabbed content blocks: `=== "Tab name"` (pymdownx.tabbed).
+TAB_RE = re.compile(r'^=== "([^"]*)"\s*$')
+# attr_list suffixes on links or images, e.g. `{ .md-button .md-button--primary }`.
+ATTR_LIST_RE = re.compile(r'\{\s*\.[^}]*\}\s*$')
+# Icon shortcodes, e.g. `[:octicons-archive-24: Text](url)` -> `[Text](url)`,
+# or bare `:material-apple:`. Restricted to known icon namespaces so time
+# formats like [hh:mm:ss] in the docs are left untouched.
+ICON_RE = re.compile(r"\[?:(octicons|fontawesome|material|mdi|lucide)[a-z0-9-]*: ?")
+
 FRONT_MATTER_RE = re.compile(r"\A---\s*\n.*?\n---\s*\n", re.DOTALL)
 IMAGE_RE = re.compile(r"(\!\[[^\]]*\]\()/images/")
 # Site-wide links such as (/latest) or (/community) are resolved by the
@@ -121,8 +138,67 @@ def rewrite_internal_links(text: str, anchors: dict[str, str]) -> str:
     return DOC_LINK_RE.sub(doc_link_sub, text)
 
 
+def convert_authoring_syntax(text: str) -> str:
+    """Convert Zensical/MkDocs-specific syntax to plain Markdown for pandoc.
+
+    Handles admonitions (`!!! note "..."`), collapsible details
+    (`??? note "..."`), tabbed content (`=== "..."`), attr_list suffixes
+    (`{ .md-button ... }`) and icon shortcodes (`:octicons-archive-24:`).
+    Anything unrecognised is left untouched.
+    """
+    out_lines: list[str] = []
+    # 'quote' while inside an admonition/details block, 'dedent' inside a tab
+    # block; None otherwise.
+    block: str | None = None
+    for raw_line in text.splitlines():
+        line = ATTR_LIST_RE.sub("", raw_line).rstrip()
+        def icon_sub(m: re.Match) -> str:
+            return "[" if m.group(0).startswith("[") else ""
+
+        line = ICON_RE.sub(icon_sub, line)
+
+        match = ADMONITION_RE.match(line)
+        if match:
+            kind = match.group(2) or "Note"
+            label = ADMONITIONS.get(kind.lower(), kind.capitalize())
+            extra = f" ({match.group(3)})" if match.group(3) else ""
+            out_lines.append("")
+            out_lines.append(f"> **{label}**{extra}")
+            block = "quote"
+            continue
+
+        tab_match = TAB_RE.match(line)
+        if tab_match:
+            out_lines.append("")
+            out_lines.append(f"**{tab_match.group(1)}**")
+            block = "dedent"
+            continue
+
+        if block == "quote":
+            if not line.strip():
+                out_lines.append(">")
+                continue
+            if line.startswith(("    ", "\t")):
+                out_lines.append("> " + line.strip())
+                continue
+            block = None
+        elif block == "dedent":
+            if not line.strip():
+                out_lines.append("")
+                continue
+            if line.startswith(("    ", "\t")):
+                out_lines.append(line.strip())
+                continue
+            block = None
+
+        out_lines.append(line)
+
+    return "\n".join(out_lines)
+
+
 def page_to_markdown(path: Path, anchors: dict[str, str]) -> str:
-    """Read one page: strip front-matter, rewrite images and cross-page links.
+    """Read one page: strip front-matter, rewrite images and cross-page links,
+    and convert Zensical-specific syntax to plain Markdown.
 
     Pages already contain their own level-1 heading, so no title is inserted.
     """
@@ -130,6 +206,7 @@ def page_to_markdown(path: Path, anchors: dict[str, str]) -> str:
     text = FRONT_MATTER_RE.sub("", text, count=1)
     text = IMAGE_RE.sub(r"\1images/", text)
     text = rewrite_internal_links(text, anchors)
+    text = convert_authoring_syntax(text)
     return text.strip()
 
 
@@ -154,7 +231,10 @@ def run_pandoc(markdown: str, output: Path, title: str) -> None:
 
     command = [
         "pandoc",
-        "--from", "markdown",
+        # raw_tex off: the docs contain literal TeX-looking text (e.g.
+        # "\input et \include" in the file formats list); with raw_tex pandoc
+        # passes it through to LaTeX, which then fails to compile.
+        "--from", "markdown-raw_tex",
         "--to", "pdf",
         "--standalone",
         "--toc",
