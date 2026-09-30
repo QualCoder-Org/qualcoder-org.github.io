@@ -1,28 +1,24 @@
 #!/usr/bin/env python3
-"""Export the documentation of one language to a single self-contained file.
+"""Export the documentation of one language to a standalone PDF.
 
 Reads docs/doc/<lang>/ according to the nav defined in zensical.toml, strips the
 YAML front-matter from each page, concatenates them in nav order, rewrites image
 paths to the local docs/images/ directory, converts cross-page links into
-same-document anchors, and converts the result with pandoc to the requested
-output format.
+same-document anchors, and converts the result with pandoc into a standalone
+PDF with a table of contents, titled "QualCoder - <generation date>".
 
-Examples:
-    python scripts/export_docs.py en -o qualcoder-doc-en.html
-    python scripts/export_docs.py fr -o qualcoder-doc-fr.docx
-    python scripts/export_docs.py es -f pdf -o qualcoder-doc-es.pdf
-    python scripts/export_docs.py de --standalone --toc -o qualcoder-doc-de.html
+Usage:
+    python scripts/export_docs.py fr             # -> qualcoder-doc-fr.pdf
+    python scripts/export_docs.py en -o doc.pdf  # -> doc.pdf
 
-Supported languages: en, fr, es, de plus any single-page language
-(eo, eu, fa, ht, it, ja, oc, pt, ro, sv, zh).
-
-Requirements: pandoc installed. For PDF output, a LaTeX engine (pdflatex,
-xelatex or lualatex) must also be available. No third-party Python
-dependencies (tomllib is part of the standard library since Python 3.11).
+Requirements: pandoc and a LaTeX engine (pdflatex, xelatex or lualatex).
+No third-party Python dependencies (tomllib is in the standard library since
+Python 3.11).
 """
 from __future__ import annotations
 
 import argparse
+import datetime
 import re
 import shutil
 import subprocess
@@ -36,7 +32,7 @@ CONFIG_FILE = REPO_ROOT / "zensical.toml"
 DOC_DIR = REPO_ROOT / "docs" / "doc"
 
 FRONT_MATTER_RE = re.compile(r"\A---\s*\n.*?\n---\s*\n", re.DOTALL)
-IMAGE_RE = re.compile(r"(\!\[[^\]]*\]\()(/images/)")
+IMAGE_RE = re.compile(r"(\!\[[^\]]*\]\()/images/")
 # Site-wide links such as (/latest) or (/community) are resolved by the
 # website generator; keep only their label in the exported document.
 SITE_LINK_RE = re.compile(r"\[([^\]]+)\]\(/[^)]*\)")
@@ -132,7 +128,7 @@ def page_to_markdown(path: Path, anchors: dict[str, str]) -> str:
     """
     text = path.read_text(encoding="utf-8")
     text = FRONT_MATTER_RE.sub("", text, count=1)
-    text = IMAGE_RE.sub(r"\1(images/", text)
+    text = IMAGE_RE.sub(r"\1images/", text)
     text = rewrite_internal_links(text, anchors)
     return text.strip()
 
@@ -143,51 +139,30 @@ def build_markdown(pages: list[Path]) -> str:
     return "\n\n".join(parts) + "\n"
 
 
-def infer_format(output: Path) -> str:
-    """Guess the pandoc output format from the output file extension."""
-    suffix = output.suffix.lower().lstrip(".")
-    mapping = {
-        "html": "html", "htm": "html",
-        "docx": "docx", "odt": "odt", "rtf": "rtf", "epub": "epub",
-        "pdf": "pdf", "tex": "latex", "md": "markdown", "txt": "plain",
-    }
-    if suffix not in mapping:
-        sys.exit(f"error: cannot infer output format from '{output.name}'; use --format")
-    return mapping[suffix]
+def find_pdf_engine() -> str:
+    """Return the first available LaTeX engine."""
+    for engine in ("xelatex", "lualatex", "pdflatex"):
+        if shutil.which(engine):
+            return engine
+    sys.exit("error: PDF output requires a LaTeX engine (pdflatex, xelatex or lualatex)")
 
 
-def run_pandoc(markdown: str, args: argparse.Namespace) -> None:
-    """Convert the assembled Markdown via pandoc."""
+def run_pandoc(markdown: str, output: Path, title: str) -> None:
+    """Convert the assembled Markdown into a standalone PDF with pandoc."""
     if shutil.which("pandoc") is None:
         sys.exit("error: pandoc is not installed (see https://pandoc.org/installing.html)")
 
-    out_format = args.format or infer_format(args.output)
     command = [
         "pandoc",
         "--from", "markdown",
-        "--to", out_format,
+        "--to", "pdf",
+        "--standalone",
+        "--toc",
+        "--metadata", f"title={title}",
         "--resource-path", str(REPO_ROOT / "docs"),
+        "--pdf-engine", find_pdf_engine(),
+        "--output", str(output),
     ]
-    if args.standalone:
-        command.append("--standalone")
-    if args.toc:
-        command.append("--toc")
-    if args.title:
-        command += ["--metadata", f"title={args.title}"]
-    command.append("--output", str(args.output))
-
-    if out_format == "pdf":
-        engine = args.pdf_engine
-        if engine is None:
-            for candidate in ("xelatex", "lualatex", "pdflatex"):
-                if shutil.which(candidate):
-                    engine = candidate
-                    break
-        if engine is None:
-            sys.exit(
-                "error: PDF output requires a LaTeX engine (pdflatex, xelatex or lualatex)"
-            )
-        command += ["--pdf-engine", engine]
 
     with tempfile.NamedTemporaryFile(
         "w", suffix=".md", encoding="utf-8", delete=False
@@ -209,8 +184,8 @@ def run_pandoc(markdown: str, args: argparse.Namespace) -> None:
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Export the documentation of one language with pandoc.",
-        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+        description="Export the documentation of one language as a standalone PDF"
+                    " with a table of contents.",
     )
     parser.add_argument(
         "lang",
@@ -218,48 +193,27 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     )
     parser.add_argument(
         "-o", "--output", type=Path,
-        help="output file; format inferred from the extension unless --format is given"
-             " (required unless --dry-run)",
-    )
-    parser.add_argument(
-        "-f", "--format",
-        help="pandoc output format (html, docx, pdf, odt, epub, ...)",
-    )
-    parser.add_argument(
-        "--pdf-engine",
-        help="LaTeX engine for PDF output (default: auto-detect xelatex/lualatex/pdflatex)",
-    )
-    parser.add_argument(
-        "--standalone", action="store_true",
-        help="produce a standalone HTML file (with header and styles) instead of a fragment",
-    )
-    parser.add_argument("--toc", action="store_true", help="add a table of contents")
-    parser.add_argument(
-        "--title",
-        help="document title metadata (e.g. for the HTML <title> or PDF cover)",
-    )
-    parser.add_argument(
-        "--dry-run", action="store_true",
-        help="print the assembled Markdown to stdout instead of running pandoc",
+        help="output PDF file (default: qualcoder-doc-<lang>.pdf in the current"
+             " directory)",
     )
     return parser.parse_args(argv)
 
 
 def main(argv: list[str]) -> int:
     args = parse_args(argv)
-    if args.output is None and not args.dry_run:
-        sys.exit("error: -o/--output is required unless --dry-run is used")
+    output = args.output or Path(f"qualcoder-doc-{args.lang}.pdf")
+    if output.suffix.lower() != ".pdf":
+        sys.exit("error: the output file must end in .pdf")
 
     pages = load_lang_pages(args.lang)
     markdown = build_markdown(pages)
 
-    if args.dry_run:
-        sys.stdout.write(markdown)
-        return 0
+    generation_date = datetime.date.today().isoformat()
+    title = f"QualCoder - {generation_date}"
 
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    run_pandoc(markdown, args)
-    print(f"exported {len(pages)} page(s) of '{args.lang}' to {args.output}")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    run_pandoc(markdown, output, title)
+    print(f"exported {len(pages)} page(s) of '{args.lang}' to {output}")
     return 0
 
 
