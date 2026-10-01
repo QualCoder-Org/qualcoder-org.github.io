@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+511 Dindi PD, Sinchaya D, Stiegler N. **Assessing readiness for a register-based census: Institutional preconditions and evidence from Malawi.** Statistical Journal of the IAOS. 2026;0(0). doi:10.1177/18747655261488276
+
 510 **Digital Transformation And Accounting Information Quality As A Pathway To Economic Decision Making: A Qualitative Case Study In Algeria.** Mokhtari Mohamed. Revue Finance & marches, Volume 13, Numéro 2, Pages 208-226, 2026-09-25.
 
 509 Wong, F. J., Tengku Hamzah, T. N. N., & Nor Azlida Mohd Nor. (2026). **DENTAL SCIENCE KIT AS A SUPPLEMENTARY ORAL HEALTH EDUCATION TOOL: PERSPECTIVE OF MALAYSIAN TEACHERS AND SCHOOLCHILDREN.** Malaysian Journal of Public Health Medicine, 26(2), 42–52. <https://doi.org/10.37268/mjphm/vol.26/no.2/art.3658>
