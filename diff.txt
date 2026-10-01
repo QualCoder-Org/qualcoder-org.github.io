@@ -1,0 +1,494 @@
+diff --git a/docs/doc/en/6.1.-Imports-and-Exports.md b/docs/doc/en/6.1.-Imports-and-Exports.md
+index 6e29a6b..24cd34a 100644
+--- a/docs/doc/en/6.1.-Imports-and-Exports.md
++++ b/docs/doc/en/6.1.-Imports-and-Exports.md
+@@ -100,28 +100,6 @@ See page [Managing Data - References](3.5.-References)
+ 
+ This is useful for updating text files, such as blog post extracts, that change over time. Update a text file while attempting to keep the existing coded text segments. Select the text file that needs to be replaced and select the replacement file. Click the cogs button to run the update. This function works by finding the identical matching text in the replacement file as it parses through the file text. It may produce erroneously coded segments.
+ 
+-### Merge QualCoder Projects
++### Merge Projects
+ 
+-Select a QualCoder project to merge (source project) into the currently opened project (destination project), then click the _Run merge projects_, cogs button. **Before performing the merge, make a backup of the destination project.**
+-
+-Caution: If each project to be merged has the same coder name, e.g., 'default', then these will merge as such, and you will not be able to separate out which coder performed their own coding. This may or may not be an important consideration to your final merged project.
+-
+-The following occurs:
+-
+-* Copies unmatched files from source project folders to destination project folders.
+-* Adds new (unmatched) source categories to destination database.
+-* Adds new (unmatched) source code names to destination database.
+-* Adds journals and stored_sql to destination database, only if they have names that do not match existing destination names.
+-* Adds text codings, text annotations, image codings, A/V codings to destination database.
+-* Adds cases and case_text (links from cases to text file segments and images and A/V).
+-* Add attributes for files and cases.
+-* Adds attribute values. Existing destination attribute values are not over-written, unless they are blank.
+-
+-!!! info "Considerations before merging"
+-    Ideally, everyone would have the same identical files within the project.
+-    Ideally, using the same set of code names - but this could be worked around later if merging or renaming codes occurred in the collated project.
+-    Coder names - would need to be unique for each coder. So, when collating the individual coders' work can be identified.
+-    Alternatively, coder names could be the same, provided each coder worked on unique files. But that all depends on your end goals, really. If you had a need to collate all under one coder name.
+-
+-!!! warning "Warnings when merging"
+-    The main warning is if the source project and destination project contain the same text file. If the source project text file has been edited, and may be longer or shorter, then the imported text coding positions and annotations will be incorrect. This is because the original destination project text file text stored in the database is not replaced with the edited text file from the source project.
+\ No newline at end of file
++See page: [Merge QualCoder projects](https://qualcoder.org/doc/en/6.4.-Merge-Projects/)
+diff --git a/docs/doc/en/6.3.-Survey-Imports.md b/docs/doc/en/6.2.-Survey-Imports.md
+similarity index 55%
+rename from docs/doc/en/6.3.-Survey-Imports.md
+rename to docs/doc/en/6.2.-Survey-Imports.md
+index 4221cd2..827fa83 100644
+--- a/docs/doc/en/6.3.-Survey-Imports.md
++++ b/docs/doc/en/6.2.-Survey-Imports.md
+@@ -1,50 +1,66 @@
+----
+-path: 6.3.-Survey-Imports
+----
+-
+-# Survey Imports
+-
+-Open the Manage Files page and press the Import Survey button.
+-
+-![image](/images/gh-89acdf7b-7fe0-47a8-9538-715837aabbf2.png)
+-
+-## To Review
+-
+-This requires a CSV or Excel (xlsx format) file. You can try importing the survey.csv file in the Examples folder.
+-
+-Survey files in a CSV format are comma delimited, another delimiter can be chosen. For tab-delimited files type ta, tb, or tab in the Delimiter box so that QualCoder knows the csv file is tab delimited. **The first row must contain the headings for attributes. The first column must contain the unique identifiers for each survey respondent.**
+-
+-CSV quoting format can be NONE, MINIMAL or ALL. examples of each are shown below, please open your CSV file with a text editor or similar to check how it has been prepared.
+-
+-```
+-NONE
+-
+-colin, 44, male
+-
+-MINIMAL
+-
+-"colin", 44, "male"
+-
+-ALL
+-
+-"Colin", "44", "male"
+-```
+-
+-QualCoder will determine if the other columns (attributes) are Numeric or Character. For Numeric columns, every cell must contain a number, as even blank entries will default to Character.
+-
+-QualCoder cannot determine if an attribute is qualitative data. You must right-click and change the field type from character to qualitative for those fields that need to be qualitative.
+-
+-![image](/images/ae540730-b58c-484e-9beb-8aa40093e94d.png)
+-
+-The default option is that each qualitative response for each row will be stored in its own text file entry in the QualCoder database. This file will be attached to each case (each survey row entry, with the unique ID)
+-
+-When you click on the OK button, the cases and their attributes will be added.
+-
+-### Older versions of QualCoder, e.g. QualCoder 3.5.
+-Each qualitative question answer was appended to ONE text file. Preceding the answer was additional QualCoder-added text to show which case the answer was relevant to.
+-
+-In this format: _[unique id] The qualitative text._
+-
+-Open Manage Files, then View that file, and you will see the case-assignment text underlined in green.
+-
+-![image](/images/5c05347a-731b-40d8-943f-921409447403.png)
+\ No newline at end of file
++---
++path: 6.2.-Survey-Imports
++---
++
++# Survey Imports
++
++Open the **Manage** > **Files** page and press the Import Survey button.
++
++<img width="700" height="250" alt="image" src="https://github.com/user-attachments/assets/4b49aacf-fd58-4fe1-a860-a037001e3a2f" />
++
++A survey can be imported from a CSV file (comma separated values) or Microsoft Excel file (xlsx). **The first row must contain the headings for attributes and for the free text data. The first column must contain the unique identifiers for each survey respondent.**
++
++There are some example surveys in the Examples folder:
++
++<img width="320" height="200" alt="image" src="https://github.com/user-attachments/assets/d490de1e-9921-4516-8016-0aa21dcf7c3f" />
++
++Above is the examples folder, showing several survey files.
++
++<img width="700" height="90" alt="image" src="https://github.com/user-attachments/assets/be3c075a-68bd-4b2f-afd9-cbb44d325887" />
++
++Above is the data in _survey456.csv_
++
++<img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/64771e6b-b5a2-4ac9-910a-5836d34cfc9b" />
++
++Above is the data in _survey789.xlsx_
++
++## SECTION UNDER REVIEW 
++
++QualCoder will determine if the other columns (attributes) are Numeric or Character. For Numeric columns, every cell must contain a number, as even blank entries will default to Character.
++
++QualCoder cannot determine if an attribute is qualitative data. You must right-click and change the field type from character to qualitative for those fields that need to be qualitative.
++
++![image](/images/ae540730-b58c-484e-9beb-8aa40093e94d.png)
++
++The default option is that each qualitative response for each row will be stored in its own text file entry in the QualCoder database. This file will be attached to each case (each survey row entry, with the unique ID)
++
++When you click on the OK button, the cases and their attributes will be added.
++
++## Understanding CSV files
++
++Survey files in a CSV format are comma delimited, another delimiter can be chosen. For tab-delimited files type ta, tb, or tab in the Delimiter box so that QualCoder knows the csv file is tab delimited. 
++
++CSV quoting format can be NONE, MINIMAL or ALL. examples of each are shown below, please open your CSV file with a text editor or similar to check how it has been prepared.
++
++```
++NONE
++
++colin, 44, male
++
++MINIMAL
++
++"colin", 44, "male"
++
++ALL
++
++"Colin", "44", "male"
++```
++
++### Older versions of QualCoder, e.g. QualCoder 3.5.
++Each qualitative question answer was appended to ONE text file. Preceding the answer was additional QualCoder-added text to show which case the answer was relevant to.
++
++In this format: _[unique id] The qualitative text._
++
++Open Manage Files, then View that file, and you will see the case-assignment text underlined in green.
++
++![image](/images/5c05347a-731b-40d8-943f-921409447403.png)
+diff --git a/docs/doc/en/6.2.-AI-Prompt-Library.md b/docs/doc/en/6.3.-AI-Prompt-Library.md
+similarity index 97%
+rename from docs/doc/en/6.2.-AI-Prompt-Library.md
+rename to docs/doc/en/6.3.-AI-Prompt-Library.md
+index c4b767a..1362c71 100644
+--- a/docs/doc/en/6.2.-AI-Prompt-Library.md
++++ b/docs/doc/en/6.3.-AI-Prompt-Library.md
+@@ -1,60 +1,60 @@
+----
+-path: 6.2.-AI-Prompt-Library
+----
+-
+-# AI Prompt Library
+-
+-- Prompts play an important role in any type of qualitative data analysis working with large language models. Prompts tell the AI how to analyse your data and respond to your queries. They are written in natural language and are easy for non-programmers to understand.
+-
+-- In QualCoder, the prompts underlying the AI features are accessible in the user interface. They can be customised to fit your methodological approach and research questions.
+-
+-- We have already included some interesting prompts from other qualitative researchers that have been published in various places. We hope that the growing use of AI in qualitative research will be accompanied by a culture of developing, sharing, and discussing sophisticated prompts in the scientific community, so that we can all learn from each other and improve the emerging new methods in the field.
+-
+-## The Structure of a Prompt
+-
+-In a very basic sense, a "prompt" is like the question you type into the web interface of ChatGPT. But even in this case it's a bit more complex. In the background, ChatGPT will accompany your question with an invisible "system prompt" that instructs the AI to be a helpful and supportive assistant, not to give medical or legal advice, etc.
+-
+-Similarly, the prompts in QualCoder are **modular** and consist of several different elements, some of which you can change and some of which you cannot.
+-
+-This is the basic structure:
+-
+-![](/images/b77df95d-f5b3-4ffa-8d3a-a511c82ef9ab.png)
+-
+-This structure consists of
+-
+-- **fixed elements** (shown here in white on blue) that are defined in the source code of the application,
+-- **contextual information** (here in green) that you enter at various places in QualCoder's user interface, such as code names and memos, or the project memo with important information about your research,
+-- **empirical data** (here in yellow), selected in various ways, and
+-- the **analytic prompt** (shown in orange), which you can modify and adapt to your needs.
+-
+-## Analytic prompts
+-
+-Analytic prompts are the **core of QualCoder's AI features.** They instruct the AI on how to analyse your data. These instructions can be quite simple, but can also grow into complex guidelines with detailed descriptions of each step the AI should perform during the analysis, including methodological background, etc. (see Lieder & Schäffer, 2024).<sup>1</sup>
+-
+-QualCoder comes with a set of predefined analytic prompts. But you can also define your own - either by clicking on the "Edit" button next to the prompt selection or by navigating to the "Prompt library" located in the "AI" menu. This will open the following window:
+-
+-![](/images/530f0c1e-f1c3-4827-9dad-1295ea70c18b.png)
+-
+-The prompts are divided into several categories:
+-
+-1) **Type**
+-    - **Search** prompts are used in the [AI assisted coding](4.2.-AI-Assisted-Coding),
+-    - **Code, Topic and Text Analysis** prompts are used in the AI Chat window.
+-
+-2) **Scope**
+-    - **System** prompts are defined on the application level and cannot be altered directly. If you want to change a system prompt, you must duplicate it first.
+-    - **User** prompts are defined by the user and stored on their computer. They are available to any project opened on that computer.
+-    - **Project** specific prompts are stored with the project files. If you or someone else opens the same project on a different computer, these prompts will be available there as well.
+-
+-3) **Prompt name and description**: These are displayed in several places in the user interface where you can select an analytic prompt. The names must be unique within each scope.
+-
+-4) **Prompt text**: These are the actual instructions that will be sent to the AI (the orange box in the image above). If you want to share your prompt with someone else, this is the most important information you will need to send over.
+-
+-
+-!!! note " Note About Languages"
+-    All predefined prompts in QualCoder are written in English. However, they can be applied to data in other languages as well. It is also no problem to write analytic prompts in languages other than English and use them with QualCoder. Most large language models are quite flexible when it comes to mixing different languages.
+-
+-
+-&nbsp;
+-***
++---
++path: 6.3.-AI-Prompt-Library
++---
++
++# AI Prompt Library
++
++- Prompts play an important role in any type of qualitative data analysis working with large language models. Prompts tell the AI how to analyse your data and respond to your queries. They are written in natural language and are easy for non-programmers to understand.
++
++- In QualCoder, the prompts underlying the AI features are accessible in the user interface. They can be customised to fit your methodological approach and research questions.
++
++- We have already included some interesting prompts from other qualitative researchers that have been published in various places. We hope that the growing use of AI in qualitative research will be accompanied by a culture of developing, sharing, and discussing sophisticated prompts in the scientific community, so that we can all learn from each other and improve the emerging new methods in the field.
++
++## The Structure of a Prompt
++
++In a very basic sense, a "prompt" is like the question you type into the web interface of ChatGPT. But even in this case it's a bit more complex. In the background, ChatGPT will accompany your question with an invisible "system prompt" that instructs the AI to be a helpful and supportive assistant, not to give medical or legal advice, etc.
++
++Similarly, the prompts in QualCoder are **modular** and consist of several different elements, some of which you can change and some of which you cannot.
++
++This is the basic structure:
++
++![](/images/b77df95d-f5b3-4ffa-8d3a-a511c82ef9ab.png)
++
++This structure consists of
++
++- **fixed elements** (shown here in white on blue) that are defined in the source code of the application,
++- **contextual information** (here in green) that you enter at various places in QualCoder's user interface, such as code names and memos, or the project memo with important information about your research,
++- **empirical data** (here in yellow), selected in various ways, and
++- the **analytic prompt** (shown in orange), which you can modify and adapt to your needs.
++
++## Analytic prompts
++
++Analytic prompts are the **core of QualCoder's AI features.** They instruct the AI on how to analyse your data. These instructions can be quite simple, but can also grow into complex guidelines with detailed descriptions of each step the AI should perform during the analysis, including methodological background, etc. (see Lieder & Schäffer, 2024).<sup>1</sup>
++
++QualCoder comes with a set of predefined analytic prompts. But you can also define your own - either by clicking on the "Edit" button next to the prompt selection or by navigating to the "Prompt library" located in the "AI" menu. This will open the following window:
++
++![](/images/530f0c1e-f1c3-4827-9dad-1295ea70c18b.png)
++
++The prompts are divided into several categories:
++
++1) **Type**
++    - **Search** prompts are used in the [AI assisted coding](4.2.-AI-Assisted-Coding),
++    - **Code, Topic and Text Analysis** prompts are used in the AI Chat window.
++
++2) **Scope**
++    - **System** prompts are defined on the application level and cannot be altered directly. If you want to change a system prompt, you must duplicate it first.
++    - **User** prompts are defined by the user and stored on their computer. They are available to any project opened on that computer.
++    - **Project** specific prompts are stored with the project files. If you or someone else opens the same project on a different computer, these prompts will be available there as well.
++
++3) **Prompt name and description**: These are displayed in several places in the user interface where you can select an analytic prompt. The names must be unique within each scope.
++
++4) **Prompt text**: These are the actual instructions that will be sent to the AI (the orange box in the image above). If you want to share your prompt with someone else, this is the most important information you will need to send over.
++
++
++!!! note " Note About Languages"
++    All predefined prompts in QualCoder are written in English. However, they can be applied to data in other languages as well. It is also no problem to write analytic prompts in languages other than English and use them with QualCoder. Most large language models are quite flexible when it comes to mixing different languages.
++
++
++&nbsp;
++***
+ <sup>1</sup>Lieder, F. R. & Schäffer, B. (2024). *Reconstructive Social Research Prompting (RSRP). Distributed Interpretation between AI and Researchers in Qualitative Research.* https://doi.org/10.31235/osf.io/d6e9m
+\ No newline at end of file
+diff --git a/docs/doc/en/6.4.-Merge-Projects.md b/docs/doc/en/6.4.-Merge-Projects.md
+new file mode 100644
+index 0000000..25c0b9a
+--- /dev/null
++++ b/docs/doc/en/6.4.-Merge-Projects.md
+@@ -0,0 +1,41 @@
++---
++path: 6.4.-Merge-Projects
++---
++
++# Merge QualCoder Projects
++
++Go to the help menu and select Special Functions:
++
++<img width="222" height="199" alt="image" src="https://github.com/user-attachments/assets/67505afd-aa23-4fde-a663-07738e070034" />
++
++Select a QualCoder project to merge (the source project) into the currently opened project, the destination project.
++
++<img width="742" height="85" alt="image" src="https://github.com/user-attachments/assets/f0804921-e5c1-429e-866f-4b3a456a0396" />
++
++Then click the _Run merge projects_,  button. <img width="30" height="25" alt="image" src="https://github.com/user-attachments/assets/f6acdd75-1f89-4d05-b366-39ec4811b135" />
++
++
++
++**Before performing the merge, make a backup of the destination project.**
++
++Caution: If each project to be merged has the same coder name, e.g., 'default', then these will merge as such, and you will not be able to separate out which coder performed their own coding. This may or may not be an important consideration to your final merged project.
++
++The following occurs:
++
++* Copies unmatched files from source project folders to destination project folders.
++* Adds new (unmatched) source categories to destination database.
++* Adds new (unmatched) source code names to destination database.
++* Adds journals and stored_sql to destination database, only if they have names that do not match existing destination names.
++* Adds text codings, text annotations, image codings, A/V codings to destination database.
++* Adds cases and case_text (links from cases to text file segments and images and A/V).
++* Add attributes for files and cases.
++* Adds attribute values. Existing destination attribute values are not over-written, unless they are blank.
++
++!!! info "Considerations before merging"
++    Ideally, everyone would have the same identical files within the project.
++    Ideally, using the same set of code names - but this could be worked around later if merging or renaming codes occurred in the collated project.
++    Coder names - would need to be unique for each coder. So, when collating the individual coders' work can be identified.
++    Alternatively, coder names could be the same, provided each coder worked on unique files. But that all depends on your end goals, really. If you had a need to collate all under one coder name.
++
++!!! warning "Warnings when merging"
++    The main warning is if the source project and destination project contain the same text file. If the source project text file has been edited, and may be longer or shorter, then the imported text coding positions and annotations will be incorrect. This is because the original destination project text file text stored in the database is not replaced with the edited text file from the source project.
+diff --git a/docs/doc/en/7.3.-QualCoder-Development.md b/docs/doc/en/7.3.-QualCoder-Development.md
+index 2ba663f..b5b1cbc 100644
+--- a/docs/doc/en/7.3.-QualCoder-Development.md
++++ b/docs/doc/en/7.3.-QualCoder-Development.md
+@@ -2,10 +2,12 @@
+ path: 7.3.-QualCoder-Development
+ ---
+ 
+-# QualCoder Development
++# Other Information and Licenses
+ 
+ Currently QualCoder is developed on Windows 11.
+ 
++After the 4.0 version, one area of development will be to review the visual presence, the user interface, of QualCoder. The aim is to make the interface more modern and appealing.
++
+ ## Data structures
+ 
+ The qda data folder contains folders for imported documents, images and audio and video. It also contains the sqlite database, named data.qda, to store coding data.
+@@ -14,9 +16,7 @@ QualCoder creates QualCoder.log and QualCoder_settings.txt files in a .qualcoder
+ 
+ When AI is enabled: There is an ai_data folder containing a chat history sqlite database and a vectorstore. A vector store is a numerical representation of words, phrases and sentences used by the AI language model. The vectorstore uses faiss which is used for the AI similarity searching.
+ 
+-QualCoder is written in python 3 using the Qt6 for the graphical interface.
+-
+-## Other information
++QualCoder is written in python 3 using the Qt6 for the graphical interface. A minimum screen resolution of 1024 × 768 pixels is recommended.
+ 
+ The qda project folder
+ 
+@@ -26,10 +26,86 @@ The .qualcoder settings folder
+ 
+ QualCoder creates QualCoder.log and QualCoder_settings.txt files inside a .qualcoder folder in your home directory. The settings file contains the name of the current coder, a default working directory, font, languages and other options. The log file records program errors and some user actions. There may be several rolling log files. You should not put any files inside this folder, as it is used as a working settings storage area for the QualCoder program. However, you can place a stopwords.txt file in this folder. The stopwords file will override the in-built list of English stopwords.
+ 
+-A minimum screen resolution of 1024 × 768 pixels is recommended.
++## Operating systems used
++
++QualCoder has been used on Ubuntu 24, Fedora, Linux Mint, Arch Linux, Fedora, Windows 10, Windows 11 and MacOS. Using Audio/Video with QualCoder on Fedora crashes QualCoder. 
++Debian with Gnome and the tiled window option - shrinks the QualCoder window size. The best option is to turn off window tiling in the Gnome settings.
+ 
+-**Operating systems used:**
++## Acknowledgements
+ 
+-QualCoder has been used on Ubuntu 24, Fedora, Linux Mint, Arch Linux, Fedora, Windows 10, Windows 11 and MacOS. Using Audio/Video with QualCoder on Fedora crashes QualCoder.
++Ronggui Huang, Zhang Gehao - Created RQDA - inspiration for QualCoder.
++Mike MacCana - Source code for the docx module.
++Julius Reich - Created the QualCoder logo.
++Kai Dröge - Programming, artificial intelligence and much more.
++Justin Missaghieh-Poncet - French translations, programming, setting up the new website and more.
++https://qualcoder.org
++Lorenzo Salomón - Programming and Spanish translations.
++Jofen Kihlstrom for past Swedish translations.
++To the many members on Github for supporting this project.
++
++## Citation
++
++Citation: Curtain C, Dröge K, Missaghieh--Poncet J, Salomón L. (2026) QualCoder 4.0 [Computer software]. Retrieved from https://github.com/ccbogel/QualCoder/releases/tag/QualCoder 4.0
++
++## Licenses
++
++### LGPL-3.0 License
++QualCoder is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
++QualCoder is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
++You should have received a copy of the GNU Lesser General Public License along with QualCoder. If not, see [https://www.gnu.org/licenses ](https://www.gnu.org/licenses)
++
++### License for highlighter.py code
++Copyright (C) 2013 Riverbank Computing Limited.
++
++Copyright (C) 2010 Nokia Corporation and/or its subsidiary(-ies).
++
++All rights reserved.
++
++This file is part of the examples of PyQt.
++
++LICENSE:BSD
++
++You may use this file under the terms of the BSD license as follows:
++
++Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
++
++* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
++* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
++* Neither the name of Nokia Corporation and its Subsidiary(-ies) nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
++
++THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
++"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
++LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
++A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
++OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
++SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
++LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
++DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
++THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
++(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
++OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
++
++### License for docx.py code
++Copyright (c) 2009-2010 Mike MacCana
++
++Permission is hereby granted, free of charge, to any person
++obtaining a copy of this software and associated documentation
++files (the "Software"), to deal in the Software without
++restriction, including without limitation the rights to use,
++copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the
++Software is furnished to do so, subject to the following
++conditions:
++
++The above copyright notice and this permission notice shall be
++included in all copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
++EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
++OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
++NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
++HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
++WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
++FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
++OTHER DEALINGS IN THE SOFTWARE.
+ 
+-Debian with Gnome and the tiled window option - shrinks the QualCoder window size. The best option is to turn off window tiling in the Gnome settings.
+diff --git a/docs/using.md b/docs/using.md
+index b5829b5..7e8e30e 100644
+--- a/docs/using.md
++++ b/docs/using.md
+@@ -2,6 +2,10 @@
+ 
+ These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
+ 
++511 Dindi PD, Sinchaya D, Stiegler N. **Assessing readiness for a register-based census: Institutional preconditions and evidence from Malawi.** Statistical Journal of the IAOS. 2026;0(0). doi:10.1177/18747655261488276
++
++510 **Digital Transformation And Accounting Information Quality As A Pathway To Economic Decision Making: A Qualitative Case Study In Algeria.** Mokhtari Mohamed. Revue Finance & marches, Volume 13, Numéro 2, Pages 208-226, 2026-09-25.
++
+ 509 Wong, F. J., Tengku Hamzah, T. N. N., & Nor Azlida Mohd Nor. (2026). **DENTAL SCIENCE KIT AS A SUPPLEMENTARY ORAL HEALTH EDUCATION TOOL: PERSPECTIVE OF MALAYSIAN TEACHERS AND SCHOOLCHILDREN.** Malaysian Journal of Public Health Medicine, 26(2), 42–52. <https://doi.org/10.37268/mjphm/vol.26/no.2/art.3658>
+ 
+ 508 **The Many Futures of the Territory Stakeholder Imaginaries of Ecotourism in Bahía Solano, Chocó.** Mariana Domínguez Morán 2026 Thesis  WAGENINGEN UNIVERSITY
+@@ -1040,4 +1044,4 @@ Medicina 2023, 59(12). <https://doi.org/10.3390/medicina59122052>
+ 
+ **2 Seeking research software. A qualitative study of humanities scholars' information practices**. Ronny Gey, Masters Thesis, Humboldt University of Berlin 2020
+ 
+-1 **Local--global linkages: Challenges in organizing functional communities for ecosocial justice**. Joel Izlar, Journal of Community Practice 27(3-4) 2019. <https://www.tandfonline.com/doi/full/10.1080/10705422.2019.1657536>
+\ No newline at end of file
++1 **Local--global linkages: Challenges in organizing functional communities for ecosocial justice**. Joel Izlar, Journal of Community Practice 27(3-4) 2019. <https://www.tandfonline.com/doi/full/10.1080/10705422.2019.1657536>
+diff --git a/zensical.toml b/zensical.toml
+index 265c8b8..0431728 100644
+--- a/zensical.toml
++++ b/zensical.toml
+@@ -68,8 +68,9 @@ nav = [
+ 		]},
+ 		{"Advanced Options" = [
+ 			"doc/en/6.1.-Imports-and-Exports.md",  
+-			"doc/en/6.2.-AI-Prompt-Library.md",
+-			"doc/en/6.3.-Survey-Imports.md"
++			"doc/en/6.2.-Survey-Imports.md",
++			"doc/en/6.3.-AI-Prompt-Library.md",
++			"doc/en/6.4.-Merge-Projects.md"
+ 		]},
+ 		{"Other Information" = [
+ 			"doc/en/7.3.-QualCoder-Development.md",  
