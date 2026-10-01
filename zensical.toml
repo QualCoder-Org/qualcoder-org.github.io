@@ -68,8 +68,9 @@ nav = [
 		]},
 		{"Advanced Options" = [
 			"doc/en/6.1.-Imports-and-Exports.md",  
-			"doc/en/6.2.-AI-Prompt-Library.md",
-			"doc/en/6.3.-Survey-Imports.md"
+			"doc/en/6.2.-Survey-Imports.md",
+			"doc/en/6.3.-AI-Prompt-Library.md",
+			"doc/en/6.4.-Merge-Projects.md"
 		]},
 		{"Other Information" = [
 			"doc/en/7.3.-QualCoder-Development.md",  
