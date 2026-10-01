@@ -10,7 +10,7 @@ QualCoder can code text, images, audio and video, write journal notes and memos.
 QualCoder includes a set of AI-assisted features that utilise Large Language Models to help explore, analyse, and interact with data in innovative ways. Familiarise yourself with new data by exploring broad topics or concepts in an interactive chat with the AI. Dive deeper into specific aspects with AI-assisted coding and text analysis. And if you reach the point where you must synthesise and consolidate your results, discuss them in a code chat with the AI.
 
 !!! note "Why use QualCoder?"
-    - **Qualcoder is free of charge**. Many qualitative analysis software requiring expensive one-time fees or monthly subscriptions.
+    - **QualCoder is free of charge**. Many qualitative analysis programs charge expensive one-time fees or monthly subscriptions.
     - **QualCoder is easy to use**. It has all you need to perform qualitative analysis without the complicated interfaces of some alternatives
     - **QualCoder works offline**. Internet is not always available and QualCoder does not require internet to work.
     - **QualCoder is not tied to a computer**. If you change workplace you do not have to worry about being tied to your former workplace's licence or to buy a new licence. The QualCoder licence allows you to use the software regardless of where you work or on what computer it is installed on.
@@ -22,7 +22,7 @@ QualCoder includes a set of AI-assisted features that utilise Large Language Mod
     - **QualCoder is a software option to support open science**. [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
 
 ## Current release
-Software releases are available from [Github](https://github.com/ccbogel/QualCoder/releases). These contain source code and executables. The executables are an easy way to run QualCoder, double click to run, just be aware that it can take up to 20 seconds to open.
+Software releases are available from [GitHub](https://github.com/ccbogel/QualCoder/releases). These contain source code and executables. The executables are an easy way to run QualCoder, double click to run, just be aware that it can take up to 20 seconds to open.
 
 [:octicons-archive-24: Latest Beta release of QualCoder (4.0) available on GitHub](https://github.com/ccbogel/QualCoder/releases#release-4.0-Beta){ .md-button .md-button--primary }
 
