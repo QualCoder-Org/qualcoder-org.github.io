@@ -1,6 +1,6 @@
 ---
 title: "QualCoder : une mise à jour majeure pour l'analyse qualitative"
-date: 2026-08-XX
+date: 2026-10-03
 ---
 
 Nous sommes ravis de vous présenter la dernière version de QualCoder, une mise à jour riche en fonctionnalités qui révolutionne votre façon de travailler avec les données qualitatives. Que vous soyez chercheur, analyste ou professionnel des données, cette version apporte des améliorations significatives en matière de hiérarchie des codes, d’intégration de l’IA, de gestion des fichiers et de visualisation.

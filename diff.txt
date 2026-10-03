@@ -1,0 +1,56 @@
+diff --git a/docs/doc/en/6.2.-Survey-Imports.md b/docs/doc/en/6.2.-Survey-Imports.md
+index 3a88b5e..6d47806 100644
+--- a/docs/doc/en/6.2.-Survey-Imports.md
++++ b/docs/doc/en/6.2.-Survey-Imports.md
+@@ -24,7 +24,7 @@ Above is the data in _survey456.csv_
+ 
+ Above is the data in _survey789.xlsx_
+ 
+-## Importing survey456
++## Importing the file survey456.csv
+ 
+ Press the import survey button and select the file from the Examples folder.
+ 
+@@ -34,7 +34,7 @@ The survey assistant reads the CSV file and shows the column names on the left.
+ 
+ ![image](/images/gh-a17388a6-db2f-423b-8b6d-69f8c59d172a.png)
+ 
+-The participant identifier, called Case in this survey, can be assigned to the Cases/Participants section. The Age, Gender and Interests data columns can be assigned to the attributes. The freetext column can be assigned to Qualitative Texts. In this example we will assign the attributes to files, and we will not autcode the qualitative text with the 'freetext' column name. QualCoder will determine if the attribute columns are Numeric or Character. For Numeric columns, every cell must contain a number, as even blank entries will default to Character.
++The participant identifier, called Case in this survey, can be assigned to the Cases/Participants section. The Age, Gender and Interests data columns can be assigned to the attributes. The freetext column can be assigned to Qualitative Texts. In this example we will assign the attributes to files, and we will not autcode the qualitative text with the 'freetext' column name. QualCoder will determine if the attribute columns are Numeric or Character. For Numeric columns, every cell must contain a number or be empty, otherwise entries will default to Character.
+ 
+ ![image](/images/gh-44838a3e-5d0b-4aac-aef5-ae6b6b6c4758.png)
+ 
+@@ -50,6 +50,26 @@ In the Manage > Cases screen it is shown like this, with one text file assigned
+ 
+ ![image](/images/gh-a35b341a-40e6-4d38-9647-179f6bc25d5e.png)
+ 
++### Adding more data
++Using the survey import button, select and import the survey789.xlsx file. Leave the checkboxes unchecked.
++
++<img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/03a07b75-d7bf-496d-952c-cb397ebab8f7" />
++
++This has two different qualitative columns:
++
++<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/f48d1b04-26a9-45eb-a88a-f86ffb8716f4" />
++
++Press OK
++
++<img width="700" height="120" alt="image" src="https://github.com/user-attachments/assets/79b7a8e5-0bf6-4a80-9acf-ace6965acca7" />
++
++The new qualitative files have been added, and the file attributes are now extended with the three new survey responses.
++The difference here is that the new files had different qualitative components. Both qualitative response columns have been collated into one text file for each case.
++
++<img width="800" height="150" alt="image" src="https://github.com/user-attachments/assets/e5920d18-10e5-47d5-af59-dfd7dced11e1" />
++
++
++
+ 
+ 
+ ## SECTION BEING DEVELOPED
+@@ -64,4 +84,4 @@ In this format: _[unique id] The qualitative text._
+ 
+ Open Manage Files, then View that file, and you will see the case-assignment text underlined in green.
+ 
+-![image](/images/5c05347a-731b-40d8-943f-921409447403.png)
+\ No newline at end of file
++![image](/images/5c05347a-731b-40d8-943f-921409447403.png)
