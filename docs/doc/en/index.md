@@ -26,13 +26,13 @@ Software releases are available from [GitHub](https://github.com/ccbogel/QualCod
 
 [:octicons-archive-24: Latest release of QualCoder (4.0) available on GitHub](/latest){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder_4.0 Windows 11 Installer](/latest-windows){ .md-button .md-button--primary }
+[:fontawesome-brands-windows: QualCoder_4.0 Win_INSTALLER](/latest-windows){ .md-button .md-button--primary }
 
 [:fontawesome-brands-windows: QualCoder_4.0 Windows 11 Portable (Entire software in one file, slower to start)](/latest-windows-portable){ .md-button .md-button--primary }
 
 [:material-apple: QualCoder_4.0 macOS arm64](/latest-mac){ .md-button .md-button--primary }
 
-[:material-linux: QualCoder_4.0_Ubuntu](/latest-linux){ .md-button .md-button--primary }
+[:material-linux: QualCoder_Linux_4.0](/latest-linux){ .md-button .md-button--primary }
 
 The in development code is available here: [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
