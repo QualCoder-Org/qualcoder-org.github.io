@@ -29,11 +29,12 @@ Les versions du logiciel sont disponibles sur [GitHub](https://github.com/ccboge
 
 [:fontawesome-brands-windows: Installateur QualCoder pour Windows 11](/latest-windows){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: QualCoder pour Windows 11 Portable (Ensemble du logiciel dans un fichier, lent à lancer)](/latest-windows-portable){ .md-button .md-button--primary }
+<!--[:fontawesome-brands-windows: QualCoder pour Windows 11 Portable (Ensemble du logiciel dans un fichier, lent à lancer)](/latest-windows-portable){ .md-button .md-button--primary }-->
 
 [:material-apple: QualCoder macOS arm64](/latest-mac){ .md-button .md-button--primary }
 
 [:material-linux: QualCoder Ubuntu](/latest-linux){ .md-button .md-button--primary }
+[:material-linux: Linux Executable](/latest-linux-executable){ .md-button .md-button--primary }
 
 La version en développement est disponible ici : [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 

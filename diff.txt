@@ -1,56 +1,422 @@
+diff --git a/docs/doc/en/2.1.-Installation.md b/docs/doc/en/2.1.-Installation.md
+index 09d9e6a..a68e6ea 100644
+--- a/docs/doc/en/2.1.-Installation.md
++++ b/docs/doc/en/2.1.-Installation.md
+@@ -3,14 +3,14 @@ path: 2.1.-Installation
+ icon: lucide/package-open
+ ---
+ 
+-# QualCoder Installation and running instructions
++# Installation and running
+ 
+ ## INSTALLATION
+ 
+ For the manual installations (using the command line or terminal) A specific release version may be mentioned, for example version 4.0. Please check on the [releases page](https://github.com/ccbogel/QualCoder/releases) for the most current version, as it may be newer.
+ 
+ ### Prerequisites
+-VLC is optional, but you will need it installed if you need to do any audio/video coding. Occasionally on some operating systems (e.g. Fedora) QualCoder cannot find VLC to use it. Optionally, install ffmpeg for waveform display, see [phoenixnap.com/kb/ffmpeg-windows](https://phoenixnap.com/kb/ffmpeg-windows).
++VLC is optional for audio/video coding.Optionally, install ffmpeg for waveform display, see [phoenixnap.com/kb/ffmpeg-windows](https://phoenixnap.com/kb/ffmpeg-windows).  Note, QualCoder crashes on Linux Fedora Fedora when attempting to show or code audio/video. 
+ 
+ === "Windows"
+ 
+@@ -18,11 +18,7 @@ VLC is optional, but you will need it installed if you need to do any audio/vide
+ 
+     You have two options for executables created on Windows 11:
+ 
+-    Option 1: There is a Windows installer on the release page called: **QualCoder.Win.exe**
+-
+-    Option 2: There is a standalone, non-installable exe folder called: **QualCoder.Win.Portable.zip** Download and unzip. It is in a folder alongside an internal folder. These both must be together or the exe will not run. Double-click the QualCoder exe to run, it takes up to 20 seconds to start.
+-
+-    Standalone, portable version: ![QualCoder portable](/images/6be1de98-8b47-4d57-b4b5-c34375e44959.png)
++    There is a Windows installer on the release page.
+ 
+     On first use of the exe, Windows will ask you to allow to run QualCoder. This is because it is from an unknown publisher. It costs a lot of money to get a trusted publisher certificate - so that will not be possible for the foreseeable future. If you are uncomfortable with these warnings install from the source as detailed next.
+ 
+@@ -250,4 +246,4 @@ VLC is optional, but you will need it installed if you need to do any audio/vide
+ 
+     Create a .Desktop file for launch, enter this command (adapt it according to the location of the source code folder):
+ 
+-    `bash -c 'cd ~/.local/share/qualcoder/src/ && ~/.local/share/qualcoder/env/bin/python3.12 -m qualcoder'`
+\ No newline at end of file
++    `bash -c 'cd ~/.local/share/qualcoder/src/ && ~/.local/share/qualcoder/env/bin/python3.12 -m qualcoder'`
+diff --git a/docs/doc/en/2.2.-Settings.md b/docs/doc/en/2.2.-Settings.md
+index d08716f..aa7912c 100644
+--- a/docs/doc/en/2.2.-Settings.md
++++ b/docs/doc/en/2.2.-Settings.md
+@@ -13,9 +13,9 @@ The settings screen allows you to change several features including language, co
+ 
+ Multiple coders can code and annotate the same text. Your current coder name is displayed at the top of the settings dialog.
+ 
+-![grafik](/images/cd0aab19-5f2b-43de-b6f0-08ab171fbb91.png)
++<img width="400" height="60" alt="image" src="https://github.com/user-attachments/assets/04951ae2-c5ab-41e7-854f-dad9819183f4" />
+ 
+-This name will be used to identify your contributions to the project. Click the "Change" button to alter your identity or to create, rename, or merge other coders within the current project. [See here for more information.](2.4.-Working-in-a-Team#important-considerations-regarding-coder-names)
++This name will be used to identify your contributions to the project. Click the "Change" button to alter your identity or to create, rename, or merge other coders within the current project. Read [Working in a Team](2.4.-Working-in-a-Team#important-considerations-regarding-coder-names) for more information.
+ 
+ ### General settings
+ 
+@@ -39,4 +39,4 @@ In your home folder QualCoder will create a .qualcoder folder with a QualCoder.l
+ 
+ ## Advanced options and logging
+ 
+-The **AI related options** at the bottom of the Settings dialog are described here: [AI Setup](2.3.-AI-Setup)
+\ No newline at end of file
++The **AI related options** at the bottom of the Settings dialog are described here: [AI Setup](2.3.-AI-Setup)
+diff --git a/docs/doc/en/4.3.-Coding-Text-on-PDFs.md b/docs/doc/en/4.3.-Coding-Text-on-PDFs.md
+index eb09d7e..774d5f6 100644
+--- a/docs/doc/en/4.3.-Coding-Text-on-PDFs.md
++++ b/docs/doc/en/4.3.-Coding-Text-on-PDFs.md
+@@ -11,23 +11,15 @@ The text and image areas on the PDF can be coded.
+ 
+ ### Key presses
+ 
+-H Show or hide the top sections of the screen.
+-
+-Ctrl F jumps to the text search box.
+-
+-Ctrl Z undoes the last unmarked code.
+-
+-Ctrl 1 Go to next file.
+-
+-Ctrl 2 Go to the latest coded file.
+-
+-Ctrl 4 View and edit file memo.
+-
+-Ctrl 5 Get files list from attributes.
+-
+-Ctrl 9 Show important coded segments. Toggles on and off.
+-
+-Ctrl 0 Show Help page in browser.
++* H Show or hide the top sections of the screen.
++* Ctrl F jumps to the text search box.
++* Ctrl Z undoes the last unmarked code.
++* Ctrl 1 Go to next file.
++* Ctrl 2 Go to the latest coded file.
++* Ctrl 4 View and edit file memo.
++* Ctrl 5 Get files list from attributes.
++* Ctrl 9 Show important coded segments. Toggles on and off.
++* Ctrl 0 Show Help page in browser.
+ 
+ #### In the PDF display area:
+ 
+@@ -37,21 +29,14 @@ Press R to quickly mark selection with a choice of recently used codes.
+ 
+ #### In the plain text area:
+ 
+-A annotate - for current selection - text edit only
+-
+-Q Quick Mark with code - for current selection
+-
+-I Tag important
+-
+-M memo code - at clicked position
+-
+-O Shortcut to cycle through overlapping codes - at the clicked position
+-
+-R opens a context menu for recently used codes for marking text
+-
+-U Unmark at the selected location
+-
+-V assign 'in vivo' code to selected text
++* A annotate - for current selection - text edit only
++* Q Quick Mark with code - for current selection
++* I Tag important
++* M memo code - at clicked position
++* O Shortcut to cycle through overlapping codes - at the clicked position
++* R opens a context menu for recently used codes for marking text
++* U Unmark at the selected location
++* V assign 'in vivo' code to selected text
+ 
+ ## Export reports
+ Export in odt format - compatible with LibreOffice and Microsoft Word. Or as a PDF with highlighting applied.
+@@ -66,4 +51,4 @@ To code, left-click and drag the mouse to select PDF text boxes. This can be tri
+ 
+ ## Categories and codes
+ 
+-See [Categories and Codes](4.7.-Codes-Tree/)
+\ No newline at end of file
++See [Categories and Codes](4.7.-Codes-Tree/)
+diff --git a/docs/doc/en/4.4.-Coding-Images.md b/docs/doc/en/4.4.-Coding-Images.md
+index 668256d..6cae97a 100644
+--- a/docs/doc/en/4.4.-Coding-Images.md
++++ b/docs/doc/en/4.4.-Coding-Images.md
+@@ -25,11 +25,8 @@ Important coded areas, such as exemplars for a report, can be flagged as Importa
+ ## Shortcuts
+ 
+ * Shortcut H. Press h when on the image to hide and unhide the top controls section of the screen.
+-
+ * Shortcut L. Press L to 'Show codes like', to show a shortlist in the codes tree.
+-
+ * Press + or - buttons to enlarge or shrink the image.
+-
+ * Ctrl Z to restore the last unmarked coding area.
+ 
+ ## Convenience buttons underneath the files list
+@@ -59,4 +56,4 @@ The image with coded areas can be exported to an HTML file. After opening the fi
+ 
+ ## Categories and codes
+ 
+-See [Categories and Codes](4.7.-Codes-Tree/)
+\ No newline at end of file
++See [Categories and Codes](4.7.-Codes-Tree/)
+diff --git a/docs/doc/en/4.5.-Coding-Audio-and-Video.md b/docs/doc/en/4.5.-Coding-Audio-and-Video.md
+index 3a5005c..288062c 100644
+--- a/docs/doc/en/4.5.-Coding-Audio-and-Video.md
++++ b/docs/doc/en/4.5.-Coding-Audio-and-Video.md
+@@ -25,17 +25,12 @@ The transcription text can also be coded and annotated in this window. Right-cli
+ 
+ When the text area has focus:
+ 
+-* Shortcut A. Press A to Annotate selected text
+-
+-* Shortcut L. Press L to 'Show codes like', to show a shortlist in the codes tree.
+-
+-* Shortcut M. Press M to memo a code. (Must click over a coded text segment)
+-
+-* Shortcut O. Press O to cycle through overlapping codes in situ. (Must click over an overlapping codes segment - denoted with an overline).
+-
+-* Shortcut Q. Press Q to Quick code with the most recent code. (Must have a text selection)
+-
+-* Shortcut R. Press R to select Recent codes. (Must have a text selection)
++* Press A to Annotate selected text
++* Press L to 'Show codes like', to show a shortlist in the codes tree.
++* Press M to memo a code. (Must click over a coded text segment)
++* Press O to cycle through overlapping codes in situ. (Must click over an overlapping codes segment - denoted with an overline).
++* Press Q to Quick code with the most recent code. (Must have a text selection)
++* Press R to select Recent codes. (Must have a text selection)
+ 
+ ## Audio Video segments
+ 
+@@ -79,4 +74,4 @@ Fedora does not work with the audio and video.
+ 
+ ## Categories and Codes
+ 
+-See [Categories and Codes](4.7.-Codes-Tree/)
+\ No newline at end of file
++See [Categories and Codes](4.7.-Codes-Tree/)
+diff --git a/docs/doc/en/4.7.-Codes-Tree.md b/docs/doc/en/4.7.-Codes-Tree.md
+index fc352a7..7320524 100644
+--- a/docs/doc/en/4.7.-Codes-Tree.md
++++ b/docs/doc/en/4.7.-Codes-Tree.md
+@@ -4,7 +4,7 @@ path: 4.7.-Codes-Tree
+ 
+ #  Categories and codes
+ 
+-Categories are used to organise codes. Categories are organised hierarchically in a tree structure. You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. A code can have sub-codes. Codes and categories can be merged by dropping a code onto a code or a category onto a category. Right-click on a category or code to rename. Right click on a code to change the colour.
++Categories are used to organise codes. Categories are organised hierarchically in a tree structure. You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. A code can have sub-codes (new in version 4.0). Codes and categories can be merged by dropping a code onto a code or a category onto a category. Right-click on a category or code to rename. Right click on a code to change the colour.
+ 
+ Categories and codes can be assigned memos. Memos can contain symbols such as those [shown here](https://www.alt-codes.net//). See the how-to link to insert them - Laptop num lock on, hold the Alt key down then enter the number using the number keypad on the right.
+ 
+@@ -39,4 +39,4 @@ Sort the codes tree acending (key F11 when codes tree in focus), or descending (
+ 
+ In the Coding menu there is an option called **Colour scheme**.
+ 
+-You can apply a range of colours to a range of selected codes, rather than rely on the random generated colours or a one at a time change of colours for each code. In this area you can also view how the code colours may appear to someone who has a variety of colour blindness: red-weak, red blind, green-weak or green blind.
+\ No newline at end of file
++You can apply a range of colours to a range of selected codes, rather than rely on the random generated colours or a one at a time change of colours for each code. In this area you can also view how the code colours may appear to someone who has a variety of colour blindness: red-weak, red blind, green-weak or green blind.
+diff --git a/docs/doc/en/5.1.-AI-chat-based-analysis.md b/docs/doc/en/5.1.-AI-chat-based-analysis.md
+index 5aca625..0a32f12 100644
+--- a/docs/doc/en/5.1.-AI-chat-based-analysis.md
++++ b/docs/doc/en/5.1.-AI-chat-based-analysis.md
+@@ -11,7 +11,7 @@ path: 5.1.-AI-chat-based-analysis
+ 
+ The AI Chat tab in the main window allows you to discuss certain aspects of your analysis with the AI. QualCoder provides four different types of chats:
+ 
+-![Screenshot New Chat](/images/faddc4da-e281-48f9-816e-97c5bad45108.png)
++<img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/e326eb4a-0c6d-4101-b683-41865a256f30" />
+ 
+ !!! note
+     Note that the AI must be **fully loaded** and ready for new queries ("AI: ready" in the status bar) before you can start a chat.
+@@ -83,4 +83,4 @@ From the AI Chat tab, click "New > New Code Analysis Chat". In the following win
+ ## General chat
+ - Ask the AI anything that is not directly related to your data – basically a built-in ChatGPT.
+ 
+-Use this for testing and for brainstorming with the AI about theories, methodology, or what to cook for the next dinner with the research team. Note, however, that this chat has no access to your data and relies solely on the language model's internal knowledge.
+\ No newline at end of file
++Use this for testing and for brainstorming with the AI about theories, methodology, or what to cook for the next dinner with the research team. Note, however, that this chat has no access to your data and relies solely on the language model's internal knowledge.
+diff --git a/docs/doc/en/5.2.-Journals.md b/docs/doc/en/5.2.-Journals.md
+index 498beb7..bd59470 100644
+--- a/docs/doc/en/5.2.-Journals.md
++++ b/docs/doc/en/5.2.-Journals.md
+@@ -28,4 +28,4 @@ The journal window will be free-floating, so that you can enter notes while codi
+ Some markdown is available to highlight wording in a journal.
+ Use one to three hash symbols for heading levels. Single asterisk surrounding words for italic text. Double asterix surround text for bold text.
+ 
+-URLs are identfied and can be opened with right click menu.
+\ No newline at end of file
++URLs are identfied and can be opened with right click menu.
+diff --git a/docs/doc/en/5.3.-Analysis.md b/docs/doc/en/5.3.-Analysis.md
+index d27f8af..5714406 100644
+--- a/docs/doc/en/5.3.-Analysis.md
++++ b/docs/doc/en/5.3.-Analysis.md
+@@ -4,11 +4,11 @@ path: 5.3.-Analysis
+ 
+ # Analysis menu options
+ 
+-* Coding retrieval (the main reporting function)
+-* Code Co-occurrence - for text files (Shows counts where a code abuts/overlaps/exact-matches another code)
+-* Code relations - for text files (shows proximity, exact match, overlaps, distance between selected codes)
+-* Code text exact matches - for text files (Shows counts of exact matches between codes)
+-* Codes by text segments (Shows table of file names (rows), coded text, and codes assigned - denoted by 1).
++* Coding retrieval - the main reporting function.
++* Code Co-occurrence - for text files. Shows counts where a code abuts/overlaps/exact-matches another code.
++* Code relations - for text files. Shows proximity, exact match, overlaps, distance between selected codes.
++* Code text exact matches - for text files. Shows counts of exact matches between codes.
++* Codes by text segments - Shows table of file names, coded text, and assigned codes.
+ * Graph. Create a mind-map, of objects and their linkages.
+ * AI assisted analysis - by topic, by text, by code.
+ 
+@@ -155,4 +155,4 @@ An Excel file can be exported.
+ 
+ ## AI assisted analysis
+ 
+-[See page](5.1.-AI-chat-based-analysis)
+\ No newline at end of file
++[See page](5.1.-AI-chat-based-analysis)
+diff --git a/docs/doc/en/5.4.-Reports.md b/docs/doc/en/5.4.-Reports.md
+index b09be53..348a743 100644
+--- a/docs/doc/en/5.4.-Reports.md
++++ b/docs/doc/en/5.4.-Reports.md
+@@ -19,17 +19,12 @@ This option shows the overall similarities and differences between two coders ac
+ 
+ For each code:
+ 
+-Agreement % shows agreement for a combination of coded and non-coded text characters.
+-
+-A and B % shows agreement for only the coded text characters divided by the total characters in the text.
+-
+-Not A and Not B % shows the total of the uncoded text divided by the total characters in the text.
+-
+-Disagree % shows the percentage of all the coded and non-coded text that did not match between coders. It is the same as 100 – the Agree %.
+-
+-Agree coded only % shows the percentage of all the dual-coded text divided by single plus dual-coded text.
+-
+-Cohen’s Kappa is calculated based on the information in  [Wikipédia](https://en.wikipedia.org/wiki/Cohen%27s_kappa).
++* Agreement % shows agreement for a combination of coded and non-coded text characters.
++* A and B % shows agreement for only the coded text characters divided by the total characters in the text.
++* Not A and Not B % shows the total of the uncoded text divided by the total characters in the text.
++* Disagree % shows the percentage of all the coded and non-coded text that did not match between coders. It is the same as 100 – the Agree %.
++* Agree coded only % shows the percentage of all the dual-coded text divided by single plus dual-coded text.
++* Cohen’s Kappa is calculated based on the information in  [Wikipédia](https://en.wikipedia.org/wiki/Cohen%27s_kappa).
+ 
+ ![Code comparisons table](/images/07e5ef6c-4e84-411b-a432-3f0ceac69b61.png)
+ 
+@@ -154,4 +149,4 @@ Default queries, such as the one shown in the image, are ready-made SQL queries
+ 
+ ![image](/images/18c552a3-b256-453a-80ec-5c2931016e12.png)
+ 
+-As you are able to perform any database queries, including updating data and deleting tables, keep backup copies otherwise it is possible to irreparably destroy the database.
+\ No newline at end of file
++As you are able to perform any database queries, including updating data and deleting tables, keep backup copies otherwise it is possible to irreparably destroy the database.
+diff --git a/docs/doc/en/6.1.-Imports-and-Exports.md b/docs/doc/en/6.1.-Imports-and-Exports.md
+index 04461f2..81ef2e2 100644
+--- a/docs/doc/en/6.1.-Imports-and-Exports.md
++++ b/docs/doc/en/6.1.-Imports-and-Exports.md
+@@ -5,15 +5,13 @@ path: 6.1.-Imports-and-Exports
+ # Imports and exports
+ Project Menu contains most imports and exports.
+ 
+-![image](/images/gh-d7a4f38a-4175-4a8d-9bb4-32a8e50d9bb4.png)
++<img width="400" height="320" alt="image" src="https://github.com/user-attachments/assets/c2551513-0bb0-437b-9b24-002b357bcbe1" />
+ 
+-(Sonal Pi import is a newer option, not shown in this image).
+-
+-Similar options for exports:
++Projects and codebooks can be exported using the REFI-QDA standard. Codebooks can be exported to ODT or plain text.
+ 
+ ![image](/images/gh-d2d1f30f-4058-4533-a568-b814a1b72e82.png)
+ 
+-Surveys are imported via the Manage Files screen.
++Surveys are imported via a button in the Manage Files window. [See Survey Imports](https://qualcoder.org/doc/en/6.2.-Survey-Imports/)
+ 
+ ##  Codebook export
+ 
+@@ -25,9 +23,10 @@ A codebook is a list of your codes. Each code memo should detail the reasons for
+ 
+ Import a codebook as a plain text (.txt) file or as a .csv file. Use two greater than symbols to separate category and code. Use three greater than symbols to define a code under a code.
+ 
+-### Plain text
++### Plain text import
++
++Create a plain text (.txt) file. Use the tab to then add a memo.
+ 
+-Use the tab to then add a memo.
+ ```
+ code1
+ 
+@@ -40,9 +39,9 @@ category3>>code4
+ code5>>>code6>>>code7
+ ```
+ 
+-### CSV
++### CSV file
+ 
+-The categories and codes are in the first column. Any code memos are in the second column.
++Create a CSV file in LibreOffice Calc or MicrosoftOffice Excel. The categories and codes are in the first column, and set up in the same way as for a plain text file. Any code memos are in the second column.
+ ```
+ code1
+ 
+@@ -69,7 +68,7 @@ If no coded data is visible, you may need to change the current coder's name in
+ This is now old (Feb 2021), but a user tested the importation of a REFI-QDA project file generated by QualCoder and imported into MAXQDA, Quirkos, Atlas.ti. Only text and Images were tested. A PDF of the test results is here: [Testing importation of REFI-QDA Project files into Atlas, MAXQDA, Quirkos PDF](https://qualcoder.files.wordpress.com/2021/02/refi-qda-project-import-quirkos-maxqda-atlas.pdf)
+ 
+ ## Taguette
+-Projects created with [Taguette](https://www.taguette.org/) can be imported directly. All your core coding data will be transferred.
++Projects created with [Taguette](https://www.taguette.org/) can be imported from the sqlite file. All your core coding data will be transferred.
+ 
+ Close any open project. Then, in the Main Menu under Project, click on Taguette Project import. You will be asked to create a new project, so enter a name. Then, you will be prompted to select the Taguette project file (usually with a .sqlite3 extension). QualCoder will then proceed to import the data.
+ 
+@@ -102,4 +101,4 @@ This is useful for updating text files, such as blog post extracts, that change
+ 
+ ### Merge Projects
+ 
+-See page: [Merge QualCoder projects](6.4.-Merge-Projects)
+\ No newline at end of file
++See page: [Merge QualCoder projects](6.4.-Merge-Projects)
 diff --git a/docs/doc/en/6.2.-Survey-Imports.md b/docs/doc/en/6.2.-Survey-Imports.md
-index 3a88b5e..6d47806 100644
+index 8bb462f..d39be24 100644
 --- a/docs/doc/en/6.2.-Survey-Imports.md
 +++ b/docs/doc/en/6.2.-Survey-Imports.md
-@@ -24,7 +24,7 @@ Above is the data in _survey456.csv_
- 
- Above is the data in _survey789.xlsx_
- 
--## Importing survey456
-+## Importing the file survey456.csv
- 
- Press the import survey button and select the file from the Examples folder.
- 
-@@ -34,7 +34,7 @@ The survey assistant reads the CSV file and shows the column names on the left.
- 
- ![image](/images/gh-a17388a6-db2f-423b-8b6d-69f8c59d172a.png)
- 
--The participant identifier, called Case in this survey, can be assigned to the Cases/Participants section. The Age, Gender and Interests data columns can be assigned to the attributes. The freetext column can be assigned to Qualitative Texts. In this example we will assign the attributes to files, and we will not autcode the qualitative text with the 'freetext' column name. QualCoder will determine if the attribute columns are Numeric or Character. For Numeric columns, every cell must contain a number, as even blank entries will default to Character.
-+The participant identifier, called Case in this survey, can be assigned to the Cases/Participants section. The Age, Gender and Interests data columns can be assigned to the attributes. The freetext column can be assigned to Qualitative Texts. In this example we will assign the attributes to files, and we will not autcode the qualitative text with the 'freetext' column name. QualCoder will determine if the attribute columns are Numeric or Character. For Numeric columns, every cell must contain a number or be empty, otherwise entries will default to Character.
- 
- ![image](/images/gh-44838a3e-5d0b-4aac-aef5-ae6b6b6c4758.png)
- 
-@@ -50,6 +50,26 @@ In the Manage > Cases screen it is shown like this, with one text file assigned
- 
- ![image](/images/gh-a35b341a-40e6-4d38-9647-179f6bc25d5e.png)
- 
-+### Adding more data
-+Using the survey import button, select and import the survey789.xlsx file. Leave the checkboxes unchecked.
-+
-+<img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/03a07b75-d7bf-496d-952c-cb397ebab8f7" />
-+
-+This has two different qualitative columns:
-+
-+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/f48d1b04-26a9-45eb-a88a-f86ffb8716f4" />
-+
-+Press OK
-+
-+<img width="700" height="120" alt="image" src="https://github.com/user-attachments/assets/79b7a8e5-0bf6-4a80-9acf-ace6965acca7" />
-+
-+The new qualitative files have been added, and the file attributes are now extended with the three new survey responses.
-+The difference here is that the new files had different qualitative components. Both qualitative response columns have been collated into one text file for each case.
-+
-+<img width="800" height="150" alt="image" src="https://github.com/user-attachments/assets/e5920d18-10e5-47d5-af59-dfd7dced11e1" />
-+
-+
-+
+@@ -69,19 +69,5 @@ The difference here is that the new files had different qualitative components.
+ ![image](/images/gh-e5920d18-10e5-47d5-af59-dfd7dced11e1.png)
  
  
+-
+-
+-
  ## SECTION BEING DEVELOPED
-@@ -64,4 +84,4 @@ In this format: _[unique id] The qualitative text._
  
- Open Manage Files, then View that file, and you will see the case-assignment text underlined in green.
- 
+-
+-
+-
+-### Older versions of QualCoder, e.g. QualCoder 3.5.
+-Each qualitative question answer was appended to ONE text file. Preceding the answer was additional QualCoder-added text to show which case the answer was relevant to.
+-
+-In this format: _[unique id] The qualitative text._
+-
+-Open Manage Files, then View that file, and you will see the case-assignment text underlined in green.
+-
 -![image](/images/5c05347a-731b-40d8-943f-921409447403.png)
 \ No newline at end of file
-+![image](/images/5c05347a-731b-40d8-943f-921409447403.png)
+diff --git a/docs/doc/en/index.md b/docs/doc/en/index.md
+index 6ca775b..72b18ee 100644
+--- a/docs/doc/en/index.md
++++ b/docs/doc/en/index.md
+@@ -26,13 +26,15 @@ Software releases are available from [GitHub](https://github.com/ccbogel/QualCod
+ 
+ [:octicons-archive-24: Latest release of QualCoder (4.0) available on GitHub](/latest){ .md-button .md-button--primary }
+ 
+-[:fontawesome-brands-windows: QualCoder_4.0 Windows 11 Installer](/latest-windows){ .md-button .md-button--primary }
++[:fontawesome-brands-windows: QualCoder_4.0 Win_INSTALLER.exe](https://github.com/ccbogel/QualCoder/releases/download/4.0/QualCoder_4.0_Win_INSTALLER.exe){ .md-button .md-button--primary }
+ 
+-[:fontawesome-brands-windows: QualCoder_4.0 Windows 11 Portable (Entire software in one file, slower to start)](/latest-windows-portable){ .md-button .md-button--primary }
++<!-- [:fontawesome-brands-windows: QualCoder_4.0 Windows 11 Portable (Entire software in one file, slower to start)](/latest-windows-portable){ .md-button .md-button--primary } -->
+ 
+ [:material-apple: QualCoder_4.0 macOS arm64](/latest-mac){ .md-button .md-button--primary }
+ 
+-[:material-linux: QualCoder_4.0_Ubuntu](/latest-linux){ .md-button .md-button--primary }
++[:material-linux: QualCoder_Linux_4.0_amd64.deb](/latest-linux){ .md-button .md-button--primary }
++
++[:material-linux: QualCoder_Linux_4.0 executable](https://github.com/ccbogel/QualCoder/releases/download/4.0/QualCoder_Linux_4.0){ .md-button .md-button--primary }
+ 
+ The in development code is available here: [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
+ 
