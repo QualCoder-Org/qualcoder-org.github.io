@@ -260,11 +260,9 @@ def build_markdown(lang: str, pages: list[Path]) -> str:
     parts = ["---", "path: print", "template: print.html", "---", "",
              # ---- Page de garde ----
              '<div class="print-cover" markdown="1">', "",
-             f'# Documentation QualCoder {{#top}}', "",
-             f'**Version du {datetime.date.today().strftime("%d/%m/%Y")}**', "",
+             f'# QualCoder {{#top}}', "",
+             f'**{datetime.date.today().strftime("%d/%m/%Y")}**', "",
              f'_{lang_label}_', "",
-             f'Documentation complète de QualCoder — {len(pages)} sections', "",
-             "Manuel d'utilisation du logiciel d'analyse de données qualitatives",
              "",
              '<img src="../../images/logo.png" alt="" class="print-cover-logo">',
              "",
