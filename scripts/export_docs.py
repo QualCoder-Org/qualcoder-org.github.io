@@ -253,7 +253,7 @@ def page_title(page: Path) -> str:
 def build_markdown(lang: str, pages: list[Path]) -> str:
     """Concatenate the pages with a table of contents and a front-matter."""
     anchors = build_anchor_map(pages)
-    parts = ["---", "path: print", "---", "",
+    parts = ["---", "path: print", "template: print.html", "---", "",
              f"# Documentation QualCoder ({lang.upper()}) {{#top}}", "",
              "## Sommaire {#sommaire}", ""]
     for page in pages:
