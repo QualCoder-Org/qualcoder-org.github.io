@@ -3,7 +3,7 @@
 {% block styles %}
   {{ super() }}
   <style>
-    /* ---- Mise en page papier : page print uniquement ---- */
+    /* ================= MISE EN PAGE PAPIER ================= */
 
     /* Cacher le chrome du site */
     .md-header, .md-tabs, .md-sidebar, .md-footer,
@@ -11,7 +11,7 @@
       display: none !important;
     }
 
-    /* Laisser Paged.js maîtriser la largeur (ne pas contraindre les pages A4) */
+    /* Paged.js maîtrise les dimensions : on ne contraint rien */
     .md-grid, .md-content, .md-content__inner {
       max-width: none !important;
       width: auto !important;
@@ -19,75 +19,174 @@
       padding: 0 !important;
     }
 
-    /* Typographie "livre" : serif, justifié, césures */
+    /* Fond de "bureau" neutre autour des feuilles (écran) */
+    body { background: #e9e9ec !important; }
+    .pagedjs_pages { display: flex; flex-direction: column; gap: 10px; align-items: center; }
+    .pagedjs_page { background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+
+    /* ================= TYPOGRAPHIE ================= */
     .md-typeset {
       font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
                    "Book Antiqua", Georgia, serif;
-      font-size: 11pt;
-      line-height: 1.65;
+      font-size: 10.5pt;
+      line-height: 1.6;
       hyphens: auto;
       -webkit-hyphens: auto;
     }
-    .md-typeset p { text-align: justify; }
-    .md-typeset h1, .md-typeset h2, .md-typeset h3,
-    .md-typeset h4, .md-typeset h5, .md-typeset h6 {
-      font-family: inherit;
-      text-align: left;
-    }
-    .md-typeset h1 { font-size: 1.8rem; margin-top: 0; }
-    .md-typeset h2 { font-size: 1.35rem; margin-top: 1.6rem; }
-    .md-typeset code, .md-typeset pre { font-size: 0.85em; }
-
-    /* Fond clair forcé (même en dark mode) */
     html, body { background: #fff !important; }
-    .md-typeset, .md-typeset p, .md-typeset li { color: #000 !important; }
+    .md-typeset, .md-typeset p, .md-typeset li { color: #1a1a1a !important; }
+    .md-typeset p {
+      text-align: justify;
+      margin-top: 0;
+      margin-bottom: 0.45em;
+      orphans: 2; widows: 2;
+    }
+    .md-typeset li { margin-bottom: 0.25em; }
 
-    /* ---- Page de garde ---- */
+    /* ---- Titres : hiérarchie claire, encadrés de chapitre ---- */
+    .md-typeset h1 {
+      font-size: 1.7rem;
+      line-height: 1.25;
+      margin: 0 0 1.2rem 0;
+      padding-bottom: 0.5rem;
+      border-bottom: 2.5px solid #4051b5;
+      color: #2b3674;
+    }
+    .md-typeset h2 {
+      font-size: 1.25rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.6rem;
+      color: #2b3674;
+    }
+    .md-typeset h3 {
+      font-size: 1.05rem;
+      margin-top: 1.4rem;
+      margin-bottom: 0.4rem;
+      color: #333;
+    }
+    .md-typeset h4, .md-typeset h5, .md-typeset h6 {
+      font-size: 1rem; color: #444;
+      margin-top: 1.1rem; margin-bottom: 0.3rem;
+    }
+    .md-typeset code, .md-typeset pre { font-size: 0.85em; }
+    .md-typeset pre {
+      background: #f5f5f2 !important;
+      border: 1px solid #ddd;
+      border-left: 3px solid #4051b5;
+      border-radius: 2px;
+      padding: 0.7em 0.9em !important;
+    }
+    .md-typeset :not(pre) > code {
+      background: #f0f0ec;
+      border: 1px solid #e0e0dc;
+      padding: 0.08em 0.3em;
+      border-radius: 2px;
+    }
+
+    /* ---- Admonitions : encadrés sobres pour le papier ---- */
+    .md-typeset .admonition {
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      border-left: 3.5px solid #4051b5;
+      box-shadow: none;
+      font-size: 0.95em;
+      page-break-inside: avoid;
+    }
+    .md-typeset .admonition-title { font-weight: bold; }
+
+    /* ---- Tableaux : lignes nettes, en-tête grisé ---- */
+    .md-typeset table {
+      width: 100% !important;
+      font-size: 9.5pt;
+      border-collapse: collapse;
+    }
+    .md-typeset table th {
+      background: #ececf2 !important;
+      border-bottom: 1.5px solid #999 !important;
+      color: #222 !important;
+    }
+    .md-typeset table td { border-bottom: 1px solid #ddd !important; }
+    .md-typeset table:not([class]) th,
+    .md-typeset table:not([class]) td {
+      border-left: none; border-right: none; border-top: none;
+      padding: 0.35em 0.6em;
+    }
+
+    /* ---- Images ---- */
+    .md-typeset img { max-width: 100% !important; break-inside: avoid; }
+    .md-typeset figure { break-inside: avoid; margin: 0.8em 0; }
+
+    /* ---- Blocs code : pas de débordement ---- */
+    .md-typeset pre, .md-typeset code {
+      white-space: pre-wrap !important;
+      word-break: break-word;
+    }
+
+    /* ---- Boutons authoring : style sobre à l'impression ---- */
+    .md-typeset .md-button {
+      border: 1.5px solid #4051b5 !important;
+      color: #4051b5 !important;
+      background: #fff !important;
+      font-size: 0.9em;
+    }
+    .md-typeset .md-button--primary {
+      background: #4051b5 !important;
+      color: #fff !important;
+    }
+
+    /* ---- Liens : sobre, URL visible en print ---- */
+    .md-typeset a { color: #1a5fb4 !important; text-decoration: none; }
+
+    /* ================= PAGE DE GARDE ================= */
     .print-cover {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
-      height: 240mm;             /* page A4 utile : 297 - 2x20 de marge */
+      height: 250mm;
       page-break-after: always;
       break-after: page;
     }
     .print-cover h1 {
-      font-size: 2.6rem;
+      font-size: 3rem;
       border: none;
-      margin-bottom: 0.5rem;
+      margin: 0 0 0.6rem 0;
+      color: #2b3674;
+      letter-spacing: 0.02em;
     }
-    .print-cover p { text-align: center !important; margin: 0.25rem 0; }
-    .print-cover img.print-cover-logo { width: 90px; margin-top: 2rem; }
+    .print-cover p {
+      text-align: center !important;
+      margin: 0.25rem 0;
+      font-size: 1.05rem;
+    }
+    .print-cover img.print-cover-logo { width: 110px; margin-top: 2.4rem; }
 
-    /* ---- Sommaire : sa propre page, 2 niveaux, pointillés, n° de page ---- */
+    /* ================= SOMMAIRE ================= */
     .print-toc {
       page-break-before: always;
       break-before: page;
     }
     .print-toc ul { list-style: none; padding-left: 0; margin: 0; }
     .print-toc li { margin: 0; padding: 0; }
+    .print-toc > ul { counter-reset: tocchap; }
 
-    /* niveau 1 : chapitres, en gras */
+    /* niveau 1 : chapitres */
     .print-toc > ul > li {
       font-weight: bold;
-      margin-top: 0.7rem;
+      margin-top: 0.75rem;
       counter-increment: tocchap;
     }
-    .print-toc > ul { counter-reset: tocchap; }
     .print-toc > ul > li > a::before {
       content: counter(tocchap) ". ";
       color: #4051b5;
     }
-
-    /* niveau 2 : sous-sections, indentées, poids normal */
+    /* niveau 2 : sous-sections */
     .print-toc > ul > li > ul {
-      padding-left: 1.6rem;
+      padding-left: 1.7rem;
       font-weight: normal;
     }
-
-    /* ligne "titre ........... n°" : lien + leader + numéro */
+    /* ligne titre ...... n° */
     .print-toc li a {
       display: flex;
       align-items: baseline;
@@ -99,64 +198,62 @@
       content: target-counter(attr(href url), page);
       margin-left: auto;
       font-weight: normal;
+      font paragraph-height: 0;
       font-size: 0.9em;
       color: #444;
     }
-    .print-toc li > a::before { }
     .print-toc li::after {
       content: "";
       display: block;
-      margin-top: -0.75em;      /* remonte sous le texte pour former
-                                    la ligne de pointillés */
+      margin-top: -0.75em;
       border-bottom: 1px dotted #999;
     }
 
-    /* chaque chapitre du manuel commence sur une nouvelle page */
+    /* chaque chapitre démarre sur une nouvelle page */
     h1[id]:not([id="top"]):not([id="sommaire"]) {
       break-before: page;
       page-break-before: always;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 0.3rem;
     }
 
-    /* éviter les coupures moches */
+    /* pas de titre orphelin en bas de page */
     h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
     h1, h2, h3, h4, h5, h6,
-    table, figure, blockquote { break-inside: avoid; page-break-inside: avoid; }
-    .md-typeset img { max-width: 100% !important; break-inside: avoid; }
-    .md-typeset pre, .md-typeset code {
-      white-space: pre-wrap !important;
-      word-break: break-word;
+    table, figure, blockquote, .admonition {
+      break-inside: avoid; page-break-inside: avoid;
     }
-    .md-typeset pre { background: #f5f5f5 !important; border: 1px solid #ddd; }
-    table { width: 100% !important; font-size: 10pt; }
-    a { color: #1a5fb4 !important; }
-    .tabbed-set .tabbed-content { display: block !important; }
 
-    /* ---- Pagination Paged.js ---- */
+    /* ================= PAGINATION ================= */
     @page {
       size: A4;
-      margin: 20mm 18mm 22mm 18mm;
+      margin: 22mm 19mm 24mm 19mm;   /* marge basse plus grande : footer */
       @bottom-center {
         content: counter(page) " / " counter(pages);
-        font-size: 9pt;
-        color: #666;
+        font-family: "Palatino Linotype", Palatino, Georgia, serif;
+        font-size: 8.5pt;
+        color: #777;
       }
-      @bottom-left {
+      @bottom-right {
         content: "QualCoder — Documentation";
-        font-size: 8pt;
-        color: #888;
+        font-family: "Palatino Linotype", Palatino, Georgia, serif;
+        font-size: 7.5pt;
+        color: #999;
       }
     }
     @page :first {
+      margin-top: 0;                 /* couverture pleine hauteur */
       @bottom-center { content: none; }
-      @bottom-left { content: none; }
+      @bottom-right { content: none; }
     }
 
-    /* pages Paged.js à l'écran : centrées, fond neutre */
-    body { background: #e8e8e8 !important; }
-    .pagedjs_pages { display: flex; flex-direction: column; gap: 8px; }
-    .pagedjs_page { background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.2); }
+    /* ================= IMPRESSION (Ctrl+P) ================= */
+    @media print {
+      body { background: #fff !important; }
+      .pagedjs_page { box-shadow: none; margin: 0; }
+      .md-typeset a[href^="http"]::after {
+        content: " («  » " attr(href) ")";
+        display: none;   /* désactivé par défaut : trop verbeux ; voir note */
+      }
+    }
   </style>
 {% endblock %}
 
@@ -172,8 +269,6 @@
     document.addEventListener('DOMContentLoaded', expandAll);
   </script>
   <script>
-    // PagedConfig doit être défini AVANT le chargement du polyfill, et la
-    // cible résolue quand le DOM est prêt : auto: false + preview() manuel.
     window.PagedConfig = {
       auto: false,
       after: () => expandAll(),
