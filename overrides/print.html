@@ -19,10 +19,20 @@
       padding: 0 !important;
     }
 
-    /* Fond de "bureau" neutre autour des feuilles (écran) */
-    body { background: #e9e9ec !important; }
-    .pagedjs_pages { display: flex; flex-direction: column; gap: 10px; align-items: center; }
-    .pagedjs_page { background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+    /* Fond de "bureau" neutre autour des feuilles (écran uniquement) */
+    @media screen {
+      body { background: #e9e9ec !important; }
+      .pagedjs_pages {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+      .pagedjs_page {
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,.25);
+      }
+    }
 
     /* ================= TYPOGRAPHIE ================= */
     .md-typeset {
@@ -43,7 +53,7 @@
     }
     .md-typeset li { margin-bottom: 0.25em; }
 
-    /* ---- Titres : hiérarchie claire, encadrés de chapitre ---- */
+    /* ---- Titres ---- */
     .md-typeset h1 {
       font-size: 1.7rem;
       line-height: 1.25;
@@ -75,6 +85,8 @@
       border-left: 3px solid #4051b5;
       border-radius: 2px;
       padding: 0.7em 0.9em !important;
+      white-space: pre-wrap !important;
+      word-break: break-word;
     }
     .md-typeset :not(pre) > code {
       background: #f0f0ec;
@@ -83,7 +95,7 @@
       border-radius: 2px;
     }
 
-    /* ---- Admonitions : encadrés sobres pour le papier ---- */
+    /* ---- Admonitions ---- */
     .md-typeset .admonition {
       border-radius: 3px;
       border: 1px solid #ccc;
@@ -94,7 +106,7 @@
     }
     .md-typeset .admonition-title { font-weight: bold; }
 
-    /* ---- Tableaux : lignes nettes, en-tête grisé ---- */
+    /* ---- Tableaux ---- */
     .md-typeset table {
       width: 100% !important;
       font-size: 9.5pt;
@@ -112,17 +124,9 @@
       padding: 0.35em 0.6em;
     }
 
-    /* ---- Images ---- */
+    /* ---- Images, figures, boutons, liens ---- */
     .md-typeset img { max-width: 100% !important; break-inside: avoid; }
     .md-typeset figure { break-inside: avoid; margin: 0.8em 0; }
-
-    /* ---- Blocs code : pas de débordement ---- */
-    .md-typeset pre, .md-typeset code {
-      white-space: pre-wrap !important;
-      word-break: break-word;
-    }
-
-    /* ---- Boutons authoring : style sobre à l'impression ---- */
     .md-typeset .md-button {
       border: 1.5px solid #4051b5 !important;
       color: #4051b5 !important;
@@ -133,9 +137,8 @@
       background: #4051b5 !important;
       color: #fff !important;
     }
-
-    /* ---- Liens : sobre, URL visible en print ---- */
     .md-typeset a { color: #1a5fb4 !important; text-decoration: none; }
+    .tabbed-set .tabbed-content { display: block !important; }
 
     /* ================= PAGE DE GARDE ================= */
     .print-cover {
@@ -171,7 +174,6 @@
     .print-toc li { margin: 0; padding: 0; }
     .print-toc > ul { counter-reset: tocchap; }
 
-    /* niveau 1 : chapitres */
     .print-toc > ul > li {
       font-weight: bold;
       margin-top: 0.75rem;
@@ -181,12 +183,10 @@
       content: counter(tocchap) ". ";
       color: #4051b5;
     }
-    /* niveau 2 : sous-sections */
     .print-toc > ul > li > ul {
       padding-left: 1.7rem;
       font-weight: normal;
     }
-    /* ligne titre ...... n° */
     .print-toc li a {
       display: flex;
       align-items: baseline;
@@ -198,7 +198,6 @@
       content: target-counter(attr(href url), page);
       margin-left: auto;
       font-weight: normal;
-      font paragraph-height: 0;
       font-size: 0.9em;
       color: #444;
     }
@@ -215,17 +214,17 @@
       page-break-before: always;
     }
 
-    /* pas de titre orphelin en bas de page */
+    /* pas de titre orphelin, pas de bloc coupé */
     h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
     h1, h2, h3, h4, h5, h6,
     table, figure, blockquote, .admonition {
       break-inside: avoid; page-break-inside: avoid;
     }
 
-    /* ================= PAGINATION ================= */
+    /* ================= PAGINATION (Paged.js) ================= */
     @page {
       size: A4;
-      margin: 22mm 19mm 24mm 19mm;   /* marge basse plus grande : footer */
+      margin: 22mm 19mm 24mm 19mm;
       @bottom-center {
         content: counter(page) " / " counter(pages);
         font-family: "Palatino Linotype", Palatino, Georgia, serif;
@@ -240,24 +239,21 @@
       }
     }
     @page :first {
-      margin-top: 0;                 /* couverture pleine hauteur */
       @bottom-center { content: none; }
       @bottom-right { content: none; }
     }
 
     /* ================= IMPRESSION (Ctrl+P) ================= */
     @media print {
-      /* Les feuilles Paged.js embarquent déjà les marges : le navigateur
-         n'en rajoute pas. */
-      @page { size: A4; margin: 0; }
       html, body { background: #fff !important; }
       .pagedjs_pages { gap: 0 !important; display: block !important; }
       .pagedjs_page {
         margin: 0 !important;
         box-shadow: none !important;
-        break-after: page;      /* une feuille HTML = une feuille papier */
+        break-after: page;   /* une feuille HTML = une feuille papier */
       }
-    }  </style>
+    }
+  </style>
 {% endblock %}
 
 {% block scripts %}
@@ -284,8 +280,8 @@
   </script>
   <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
   <script>
-    // Si Paged.js n'a pas paginé (CDN bloqué, erreur), réinjecter des
-    // marges de page pour que l'impression reste lisible.
+    // Filet de sécurité : si Paged.js n'a pas pu paginer (CDN bloqué,
+    // erreur), réinjecter des marges pour que l'impression reste lisible.
     window.addEventListener('beforeprint', () => {
       if (!document.querySelector('.pagedjs_page')) {
         const style = document.createElement('style');
