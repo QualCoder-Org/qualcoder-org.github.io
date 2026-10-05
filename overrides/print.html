@@ -7,119 +7,50 @@
 
     /* Cacher le chrome du site */
     .md-header, .md-tabs, .md-sidebar, .md-footer,
-    .md-top, .md-content__button, .md-nav__link[data-md-state="blur"] {
+    .md-top, .md-content__button {
       display: none !important;
     }
 
-    /* Colonne unique centrée, largeur de lecture papier */
-    .md-grid {
-      max-width: 72rem !important;
-    }
-    .md-content {
-      max-width: 100% !important;
-      margin-inline: auto !important;
-    }
-    .md-content__inner {
-      padding-inline: 0 !important;
+    /* Laisser Paged.js maîtriser la largeur (ne pas contraindre les pages A4) */
+    .md-grid, .md-content, .md-content__inner {
+      max-width: none !important;
+      width: auto !important;
+      margin: 0 !important;
+      padding: 0 !important;
     }
 
     /* Typographie "livre" : serif, justifié, césures */
     .md-typeset {
       font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
                    "Book Antiqua", Georgia, serif;
-      font-size: 1.1rem;
+      font-size: 11pt;
       line-height: 1.65;
       hyphens: auto;
       -webkit-hyphens: auto;
     }
-    .md-typeset p {
-      text-align: justify;
-    }
+    .md-typeset p { text-align: justify; }
     .md-typeset h1, .md-typeset h2, .md-typeset h3,
     .md-typeset h4, .md-typeset h5, .md-typeset h6 {
       font-family: inherit;
       text-align: left;
     }
-    .md-typeset h1 {
-      font-size: 1.9rem;
-      margin-top: 2.5rem;
-    }
-    .md-typeset h2 {
-      font-size: 1.5rem;
-      margin-top: 2rem;
-    }
-    .md-typeset code, .md-typeset pre {
-      font-size: 0.85em;
-    }
+    .md-typeset h1 { font-size: 1.8rem; margin-top: 0; }
+    .md-typeset h2 { font-size: 1.35rem; margin-top: 1.6rem; }
+    .md-typeset code, .md-typeset pre { font-size: 0.85em; }
 
-    /* Sommaire : liste numérotée aérée */
-    #sommaire + ul {
-      list-style-type: none;
-      counter-reset: tocitem;
-      padding-left: 0;
-    }
-    #sommaire + ul > li {
-      counter-increment: tocitem;
-      margin-bottom: 0.35rem;
-    }
-    #sommaire + ul > li::before {
-      content: counter(tocitem, decimal) ". ";
-      font-weight: bold;
-      color: var(--md-primary-fg-color, #4051b5);
-    }
+    /* Fond clair forcé (même en dark mode) */
+    html, body { background: #fff !important; }
+    .md-typeset, .md-typeset p, .md-typeset li { color: #000 !important; }
 
-    /* Chaque page de la doc (section d'origine) commence sur une nouvelle
-       feuille : le premier h1 de chaque section d'origine a un id de page. */
-    h1[id]:not([id="top"]):not([id="sommaire"]) {
-      break-before: page;
-      page-break-before: always;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 0.3rem;
-    }
-
-    /* ---- Ctrl+P / impression ---- */
-    @media print {
-      .md-typeset {
-        font-size: 11pt;
-      }
-      .md-typeset img, .md-typeset video {
-        max-width: 100% !important;
-        break-inside: avoid;
-      }
-      .md-typeset pre, .md-typeset code {
-        white-space: pre-wrap !important;
-        word-break: break-word;
-      }
-      h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
-      h1, h2, h3, h4, h5, h6,
-      table, figure, blockquote { break-inside: avoid; page-break-inside: avoid; }
-      table { width: 100% !important; font-size: 10pt; }
-      a { color: #1a5fb4 !important; text-decoration: none; }
-      /* Fond blanc forcé même en dark mode */
-      html, body {
-        background: #fff !important;
-      }
-      .md-typeset, .md-typeset p, .md-typeset li {
-        color: #000 !important;
-      }
-      .md-typeset pre {
-        background: #f5f5f5 !important;
-        border: 1px solid #ddd;
-      }
-      /* Afficher tous les contenus d'onglets */
-      .tabbed-set .tabbed-content {
-        display: block !important;
-      }
-    }
-        /* ---- Page de garde : pleine page, centrée ---- */
+    /* ---- Page de garde ---- */
     .print-cover {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
-      min-height: 240mm;           /* ~ pleine page A4 moins marges */
-      page-break-after: always;    /* la couverture est une page entière */
+      height: 240mm;             /* page A4 utile : 297 - 2x20 de marge */
+      page-break-after: always;
       break-after: page;
     }
     .print-cover h1 {
@@ -127,22 +58,82 @@
       border: none;
       margin-bottom: 0.5rem;
     }
-    .print-cover p {
-      text-align: center !important;
-      margin: 0.3rem 0;
-    }
-    .print-cover img.print-cover-logo {
-      width: 90px;
-      margin-top: 2rem;
-    }
+    .print-cover p { text-align: center !important; margin: 0.25rem 0; }
+    .print-cover img.print-cover-logo { width: 90px; margin-top: 2rem; }
 
-    /* La TOC démarre sur sa propre page après la couverture */
+    /* ---- Sommaire : sa propre page, 2 niveaux, pointillés, n° de page ---- */
     .print-toc {
       page-break-before: always;
       break-before: page;
     }
+    .print-toc ul { list-style: none; padding-left: 0; margin: 0; }
+    .print-toc li { margin: 0; padding: 0; }
 
-    /* ---- Pagination (rappel, déjà en place) ---- */
+    /* niveau 1 : chapitres, en gras */
+    .print-toc > ul > li {
+      font-weight: bold;
+      margin-top: 0.7rem;
+      counter-increment: tocchap;
+    }
+    .print-toc > ul { counter-reset: tocchap; }
+    .print-toc > ul > li > a::before {
+      content: counter(tocchap) ". ";
+      color: #4051b5;
+    }
+
+    /* niveau 2 : sous-sections, indentées, poids normal */
+    .print-toc > ul > li > ul {
+      padding-left: 1.6rem;
+      font-weight: normal;
+    }
+
+    /* ligne "titre ........... n°" : lien + leader + numéro */
+    .print-toc li a {
+      display: flex;
+      align-items: baseline;
+      gap: 0.4rem;
+      text-decoration: none;
+      color: inherit;
+    }
+    .print-toc li a::after {
+      content: target-counter(attr(href url), page);
+      margin-left: auto;
+      font-weight: normal;
+      font-size: 0.9em;
+      color: #444;
+    }
+    .print-toc li > a::before { }
+    .print-toc li::after {
+      content: "";
+      display: block;
+      margin-top: -0.75em;      /* remonte sous le texte pour former
+                                    la ligne de pointillés */
+      border-bottom: 1px dotted #999;
+    }
+
+    /* chaque chapitre du manuel commence sur une nouvelle page */
+    h1[id]:not([id="top"]):not([id="sommaire"]) {
+      break-before: page;
+      page-break-before: always;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    /* éviter les coupures moches */
+    h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
+    h1, h2, h3, h4, h5, h6,
+    table, figure, blockquote { break-inside: avoid; page-break-inside: avoid; }
+    .md-typeset img { max-width: 100% !important; break-inside: avoid; }
+    .md-typeset pre, .md-typeset code {
+      white-space: pre-wrap !important;
+      word-break: break-word;
+    }
+    .md-typeset pre { background: #f5f5f5 !important; border: 1px solid #ddd; }
+    table { width: 100% !important; font-size: 10pt; }
+    a { color: #1a5fb4 !important; }
+    .tabbed-set .tabbed-content { display: block !important; }
+
+    /* ---- Pagination Paged.js ---- */
     @page {
       size: A4;
       margin: 20mm 18mm 22mm 18mm;
@@ -161,30 +152,37 @@
       @bottom-center { content: none; }
       @bottom-left { content: none; }
     }
+
+    /* pages Paged.js à l'écran : centrées, fond neutre */
+    body { background: #e8e8e8 !important; }
+    .pagedjs_pages { display: flex; flex-direction: column; gap: 8px; }
+    .pagedjs_page { background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.2); }
   </style>
 {% endblock %}
 
 {% block scripts %}
   {{ super() }}
   <script>
-    // Déplier les admonitions repliables et activer tous les tabs
-    // avant l'impression (Ctrl+P) et avant l'aperçu.
     const expandAll = () => {
       document.querySelectorAll('details').forEach(d => { d.open = true; });
       document.querySelectorAll('.tabbed-set input[type="radio"]')
         .forEach(r => { r.checked = false; });
     };
     window.addEventListener('beforeprint', expandAll);
-    window.addEventListener('pagehide', expandAll);
-    // au chargement : tout déplier aussi à l'écran (page "papier")
     document.addEventListener('DOMContentLoaded', expandAll);
   </script>
   <script>
+    // PagedConfig doit être défini AVANT le chargement du polyfill, et la
+    // cible résolue quand le DOM est prêt : auto: false + preview() manuel.
     window.PagedConfig = {
-      auto: true,
-      // ne paginer que la zone de contenu, pas le chrome résiduel
-      content: document.querySelector('.md-content__inner'),
+      auto: false,
+      after: () => expandAll(),
     };
+    document.addEventListener('DOMContentLoaded', () => {
+      const content = document.querySelector('.md-content__inner');
+      window.PagedPolyfill.preview(content ?? document.body, window.PagedConfig)
+        .catch(err => console.error('paged.js:', err));
+    });
   </script>
- <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
 {% endblock %}
