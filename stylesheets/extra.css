@@ -91,4 +91,9 @@
   .md-typeset .md-nav__list {
     display: block;
   }
+        .md-typeset a[href^="http"]::after {
+        content: " (" attr(href) ")";
+        font-size: 9pt;
+        color: #555;
+      }
 }
