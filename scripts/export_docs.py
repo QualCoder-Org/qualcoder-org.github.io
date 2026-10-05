@@ -10,6 +10,9 @@ To survive concatenation, every heading gets an explicit id prefixed with the
 page id (e.g. "{#2-2-settings}" on page 2.2.-Settings), and cross-page links
 are rewritten to same-document anchors pointing at those ids.
 
+Image paths are rewritten from site-root-absolute (/images/...) to a path
+relative to the print page URL (/<lang>/print/ -> ../../images/...).
+
 Usage:
     python scripts/export_docs.py            # -> print.md for every multi-page language
     python scripts/export_docs.py fr        # -> docs/doc/fr/print.md only
@@ -34,6 +37,8 @@ ATTR_LIST_RE = re.compile(r"\s*(\{[^}]*})\s*$")
 SITE_LINK_RE = re.compile(r"\[([^]]+)]\(/[^)]*\)")
 DOC_LINK_RE = re.compile(
     r"\[([^]]+)]\(([^)#\s]+?)(?:\.md)?(?:/)?(?:#([^)]*))?\)")
+# Root-absolute image paths (/images/...) become relative to /<lang>/print/.
+IMAGE_RE = re.compile(r"(\!\[[^]]*]\()(/?images/)")
 
 
 def load_config() -> dict:
@@ -192,9 +197,10 @@ def add_heading_ids(text: str, pid: str) -> str:
 
 
 def page_to_markdown(path: Path, anchors: dict[tuple[str, str | None], str]) -> str:
-    """Read one page: strip front-matter, rewrite links, add heading ids."""
+    """Read one page: strip front-matter, rewrite images and links, add ids."""
     text = path.read_text(encoding="utf-8")
     text = FRONT_MATTER_RE.sub("", text, count=1)
+    text = IMAGE_RE.sub(r"\1../../images/", text)
     text = rewrite_links(text, anchors)
     text = add_heading_ids(text, page_id(path))
     return text.strip()
