@@ -21,7 +21,9 @@ jobs:
         with:
           python-version: 3.x
       - name: Generate blog index
-        run: python scripts/generate_blog.py      
+        run: python scripts/generate_blog.py     
+      - name: Generate print section
+        run: python scripts/export_docs.py 
       - run: pip install zensical
       - run: zensical build --clean 
       - uses: actions/upload-pages-artifact@v4
