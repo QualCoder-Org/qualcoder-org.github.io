@@ -12,9 +12,10 @@ No external dependencies: front-matter and XML are produced manually.
 from __future__ import annotations
 
 import argparse
+import datetime
+import re
 import sys
-from datetime import date, datetime, timezone
-from html import escape
+import tomllib
 from pathlib import Path
 
 # --- Configuration -----------------------------------------------------------
