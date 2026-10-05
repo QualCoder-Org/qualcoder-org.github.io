@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+514 **Feminization, Fetishization, and Gender Hierarchy: How Trans Feminization, Fetishization, and Gender Hierarchy: How Trans Women are Represented in Porn for a Cishetero Audience Women are Represented in Porn for a Cishetero Audience.** May Van Linden. Thesis 2026, Syracuse University <https://surface.syr.edu/cgi/viewcontent.cgi?article=2019&context=thesis>
+
 513 Čatipović, M., Rajković, N., Rafaj, G., Puharić, Z., Čatipović, P., & Košč, M. (2026). **A qualitative analysis of breastfeeding experiences among first-time mothers in Croatia.** Paediatria Croatica, 70(suppl 4), 66. <https://doi.org/10.13112/pc.1268>
 
 512 **Structure-agency interaction and emergence of hybrid electoral culture post 2013 in Khyber Pakhtunkhwa, Pakistan.** Khan et al. Otoritas : Jurnal Ilmu Pemerintahan Vol. 16, No.2, 2026. <https://doi.org/10.26618/ojip.v16i2.22365>
