@@ -111,6 +111,56 @@
         display: block !important;
       }
     }
+        /* ---- Page de garde : pleine page, centrée ---- */
+    .print-cover {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 240mm;           /* ~ pleine page A4 moins marges */
+      page-break-after: always;    /* la couverture est une page entière */
+      break-after: page;
+    }
+    .print-cover h1 {
+      font-size: 2.6rem;
+      border: none;
+      margin-bottom: 0.5rem;
+    }
+    .print-cover p {
+      text-align: center !important;
+      margin: 0.3rem 0;
+    }
+    .print-cover img.print-cover-logo {
+      width: 90px;
+      margin-top: 2rem;
+    }
+
+    /* La TOC démarre sur sa propre page après la couverture */
+    .print-toc {
+      page-break-before: always;
+      break-before: page;
+    }
+
+    /* ---- Pagination (rappel, déjà en place) ---- */
+    @page {
+      size: A4;
+      margin: 20mm 18mm 22mm 18mm;
+      @bottom-center {
+        content: counter(page) " / " counter(pages);
+        font-size: 9pt;
+        color: #666;
+      }
+      @bottom-left {
+        content: "QualCoder — Documentation";
+        font-size: 8pt;
+        color: #888;
+      }
+    }
+    @page :first {
+      @bottom-center { content: none; }
+      @bottom-left { content: none; }
+    }
   </style>
 {% endblock %}
 
