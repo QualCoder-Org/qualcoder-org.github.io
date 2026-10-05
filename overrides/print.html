@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block styles %}
+  {{ super() }}
+  <style>
+    /* ---- Mise en page papier : page print uniquement ---- */
+
+    /* Cacher le chrome du site */
+    .md-header, .md-tabs, .md-sidebar, .md-footer,
+    .md-top, .md-content__button, .md-nav__link[data-md-state="blur"] {
+      display: none !important;
+    }
+
+    /* Colonne unique centrée, largeur de lecture papier */
+    .md-grid {
+      max-width: 72rem !important;
+    }
+    .md-content {
+      max-width: 100% !important;
+      margin-inline: auto !important;
+    }
+    .md-content__inner {
+      padding-inline: 0 !important;
+    }
+
+    /* Typographie "livre" : serif, justifié, césures */
+    .md-typeset {
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
+                   "Book Antiqua", Georgia, serif;
+      font-size: 1.1rem;
+      line-height: 1.65;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+    }
+    .md-typeset p {
+      text-align: justify;
+    }
+    .md-typeset h1, .md-typeset h2, .md-typeset h3,
+    .md-typeset h4, .md-typeset h5, .md-typeset h6 {
+      font-family: inherit;
+      text-align: left;
+    }
+    .md-typeset h1 {
+      font-size: 1.9rem;
+      margin-top: 2.5rem;
+    }
+    .md-typeset h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+    }
+    .md-typeset code, .md-typeset pre {
+      font-size: 0.85em;
+    }
+
+    /* Sommaire : liste numérotée aérée */
+    #sommaire + ul {
+      list-style-type: none;
+      counter-reset: tocitem;
+      padding-left: 0;
+    }
+    #sommaire + ul > li {
+      counter-increment: tocitem;
+      margin-bottom: 0.35rem;
+    }
+    #sommaire + ul > li::before {
+      content: counter(tocitem, decimal) ". ";
+      font-weight: bold;
+      color: var(--md-primary-fg-color, #4051b5);
+    }
+
+    /* Chaque page de la doc (section d'origine) commence sur une nouvelle
+       feuille : le premier h1 de chaque section d'origine a un id de page. */
+    h1[id]:not([id="top"]):not([id="sommaire"]) {
+      break-before: page;
+      page-break-before: always;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    /* ---- Ctrl+P / impression ---- */
+    @media print {
+      .md-typeset {
+        font-size: 11pt;
+      }
+      .md-typeset img, .md-typeset video {
+        max-width: 100% !important;
+        break-inside: avoid;
+      }
+      .md-typeset pre, .md-typeset code {
+        white-space: pre-wrap !important;
+        word-break: break-word;
+      }
+      h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
+      h1, h2, h3, h4, h5, h6,
+      table, figure, blockquote { break-inside: avoid; page-break-inside: avoid; }
+      table { width: 100% !important; font-size: 10pt; }
+      a { color: #1a5fb4 !important; text-decoration: none; }
+      /* Fond blanc forcé même en dark mode */
+      html, body {
+        background: #fff !important;
+      }
+      .md-typeset, .md-typeset p, .md-typeset li {
+        color: #000 !important;
+      }
+      .md-typeset pre {
+        background: #f5f5f5 !important;
+        border: 1px solid #ddd;
+      }
+      /* Afficher tous les contenus d'onglets */
+      .tabbed-set .tabbed-content {
+        display: block !important;
+      }
+    }
+  </style>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    // Déplier les admonitions repliables et activer tous les tabs
+    // avant l'impression (Ctrl+P) et avant l'aperçu.
+    const expandAll = () => {
+      document.querySelectorAll('details').forEach(d => { d.open = true; });
+      document.querySelectorAll('.tabbed-set input[type="radio"]')
+        .forEach(r => { r.checked = false; });
+    };
+    window.addEventListener('beforeprint', expandAll);
+    window.addEventListener('pagehide', expandAll);
+    // au chargement : tout déplier aussi à l'écran (page "papier")
+    document.addEventListener('DOMContentLoaded', expandAll);
+  </script>
+{% endblock %}
