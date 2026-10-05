@@ -283,4 +283,15 @@
     });
   </script>
   <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+  <script>
+    // Si Paged.js n'a pas paginé (CDN bloqué, erreur), réinjecter des
+    // marges de page pour que l'impression reste lisible.
+    window.addEventListener('beforeprint', () => {
+      if (!document.querySelector('.pagedjs_page')) {
+        const style = document.createElement('style');
+        style.textContent = '@page { size: A4; margin: 20mm 18mm 22mm 18mm; }';
+        document.head.appendChild(style);
+      }
+    });
+  </script>
 {% endblock %}
