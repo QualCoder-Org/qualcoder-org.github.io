@@ -1,29 +1,26 @@
 #!/usr/bin/env python3
-"""Export the documentation of one language to a standalone PDF.
+"""Concatenate the documentation of each language into single Markdown pages.
 
-Reads docs/doc/<lang>/ according to the nav defined in zensical.toml, strips the
-YAML front-matter from each page, concatenates them in nav order, rewrites image
-paths to the local docs/images/ directory, converts cross-page links into
-same-document anchors, and converts the result with pandoc into a standalone
-PDF with a table of contents, titled "QualCoder - <generation date>".
+Reads docs/doc/<lang>/ according to the nav defined in zensical.toml, strips
+the YAML front-matter from each page, and concatenates them in nav order into
+docs/doc/<lang>/print.md, preserving the authoring syntax (admonitions, tabs,
+attr_list, icons) so that Zensical renders it with the usual styling.
+
+To survive concatenation, every heading gets an explicit id prefixed with the
+page id (e.g. "{#2-2-settings}" on page 2.2.-Settings), and cross-page links
+are rewritten to same-document anchors pointing at those ids.
 
 Usage:
-    python scripts/export_docs.py fr             # -> qualcoder-doc-fr.pdf
-    python scripts/export_docs.py en -o doc.pdf  # -> doc.pdf
-
-Requirements: pandoc and a LaTeX engine (pdflatex, xelatex or lualatex).
-No third-party Python dependencies (tomllib is in the standard library since
-Python 3.11).
+    python scripts/export_docs.py            # -> print.md for every multi-page language
+    python scripts/export_docs.py fr        # -> docs/doc/fr/print.md only
+    python scripts/export_docs.py fr -o t.md
 """
+
 from __future__ import annotations
 
 import argparse
-import datetime
 import re
-import shutil
-import subprocess
 import sys
-import tempfile
 import tomllib
 from pathlib import Path
 
@@ -31,65 +28,35 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_FILE = REPO_ROOT / "zensical.toml"
 DOC_DIR = REPO_ROOT / "docs" / "doc"
 
-# Mapping of admonition markers to a bold label inserted at the start of the
-# block (e.g. "!!! note \"Why?\"" -> "> **Note** (Why?)").
-ADMONITIONS = {"note": "Note", "warning": "Warning", "info": "Info",
-               "tip": "Tip", "example": "Example", "question": "Question",
-               "success": "Success", "failure": "Failure", "danger": "Danger",
-               "bug": "Bug", "abstract": "Abstract"}
-# Admonition blocks: `!!! note "Title"` or collapsible details `??? tip "Title"`.
-ADMONITION_RE = re.compile(r'^(!{3,}|\?{3}) ?(\w+)?(?:\s+"([^"]*)")?\s*$')
-# Tabbed content blocks: `=== "Tab name"` (pymdownx.tabbed).
-TAB_RE = re.compile(r'^=== "([^"]*)"\s*$')
-# attr_list suffixes on links or images, e.g. `{ .md-button .md-button--primary }`.
-ATTR_LIST_RE = re.compile(r'\{\s*\.[^}]*\}\s*$')
-# Icon shortcodes, e.g. `[:octicons-archive-24: Text](url)` -> `[Text](url)`,
-# or bare `:material-apple:`. Restricted to known icon namespaces so time
-# formats like [hh:mm:ss] in the docs are left untouched.
-ICON_RE = re.compile(r"\[?:(octicons|fontawesome|material|mdi|lucide)[a-z0-9-]*: ?")
-
 FRONT_MATTER_RE = re.compile(r"\A---\s*\n.*?\n---\s*\n", re.DOTALL)
-IMAGE_RE = re.compile(r"(\!\[[^\]]*\]\()/images/")
-# Site-wide links such as (/latest) or (/community) are resolved by the
-# website generator; keep only their label in the exported document.
-SITE_LINK_RE = re.compile(r"\[([^\]]+)\]\(/[^)]*\)")
-# Cross-page links: (2.4.-Working-in-a-Team), (4.2.-AI-Assisted-Coding#anchor),
-# (2.4.-Working-in-a-Team.md/#anchor) or (index). The ".md" part is optional.
+HEADING_RE = re.compile(r"^(#{1,6}) (.+?)\s*(\{[^}]*})?\s*$")
+ATTR_LIST_RE = re.compile(r"\s*(\{[^}]*})\s*$")
+SITE_LINK_RE = re.compile(r"\[([^]]+)]\(/[^)]*\)")
 DOC_LINK_RE = re.compile(
-    r"\[([^\]]+)\]\(([^)#\s]+?)(?:\.md)?(?:/)?(?:#([^)]*))?\)"
-)
+    r"\[([^]]+)]\(([^)#\s]+?)(?:\.md)?(?:/)?(?:#([^)]*))?\)")
 
 
-def load_lang_pages(lang: str) -> list[Path]:
-    """Return the documentation pages of a language in nav order."""
+def load_config() -> dict:
+    """Parse zensical.toml or exit with an error."""
     if not CONFIG_FILE.exists():
         sys.exit(f"error: {CONFIG_FILE} not found")
-    if not (DOC_DIR / lang).is_dir():
-        sys.exit(f"error: unknown language '{lang}' (no {DOC_DIR / lang}/ directory)")
-
     with open(CONFIG_FILE, "rb") as fh:
-        config = tomllib.load(fh)
+        return tomllib.load(fh)
 
-    pages: list[Path] = []
-    for entry in config["project"]["nav"]:
-        items = entry.values() if isinstance(entry, dict) else [entry]
-        for value in items:
-            collect_pages(value, lang, pages)
 
-    if not pages:
-        sys.exit(f"error: language '{lang}' not found in the nav of zensical.toml")
-
-    missing = [p for p in pages if not p.exists()]
-    if missing:
-        listing = "\n  ".join(str(m) for m in missing)
-        sys.exit(f"error: pages listed in the nav are missing:\n  {listing}")
-    return pages
+def load_nav_entries(config: dict) -> list:
+    """Flat list of the top-level nav entries of zensical.toml."""
+    entries = config["project"]["nav"]
+    out = []
+    for entry in entries:
+        out.extend(entry.values() if isinstance(entry, dict) else [entry])
+    return out
 
 
 def collect_pages(node, lang: str, pages: list[Path]) -> None:
     """Recursively gather doc/<lang>/ page paths from a nav subtree."""
     if isinstance(node, str):
-        if node.startswith(f"doc/{lang}/"):
+        if node.startswith(f"doc/{lang}/") and not node.endswith(f"{lang}/print.md"):
             pages.append(DOC_DIR.parent / node)
     elif isinstance(node, list):
         for item in node:
@@ -99,201 +66,200 @@ def collect_pages(node, lang: str, pages: list[Path]) -> None:
             collect_pages(item, lang, pages)
 
 
-def frontmatter_path(page: Path) -> str:
-    """Value of the 'path' front-matter key, falling back to the file stem."""
-    match = re.search(
-        r"^path:\s*(.+?)\s*$", page.read_text(encoding="utf-8"), re.MULTILINE
-    )
-    return match.group(1) if match else page.stem
+def load_lang_pages(lang: str) -> list[Path]:
+    """Return the documentation pages of a language in nav order."""
+    if not (DOC_DIR / lang).is_dir():
+        sys.exit(f"error: unknown language '{lang}' (no {DOC_DIR / lang}/ directory)")
+    pages: list[Path] = []
+    for value in load_nav_entries(load_config()):
+        collect_pages(value, lang, pages)
+    if not pages:
+        sys.exit(f"error: language '{lang}' not found in the nav of zensical.toml")
+    missing = [p for p in pages if not p.exists()]
+    if missing:
+        listing = "\n  ".join(str(m) for m in missing)
+        sys.exit(f"error: pages listed in the nav are missing:\n  {listing}")
+    return pages
 
 
-def page_anchor(page_url: str, heading: str) -> str:
-    """Deterministic anchor identifying a page (and optionally a heading)."""
-    base = page_url.strip("/").rpartition("/")[2]
-    slug = slugify(heading) if heading else ""
-    return f"{base}-{slug}" if slug else base
+def collect_lang_counts(node, counts: dict[str, int]) -> None:
+    """Recursively count doc/<lang>/ pages in a nav subtree."""
+    if isinstance(node, str) and node.startswith("doc/"):
+        parts = node.split("/")
+        if len(parts) > 2 and not node.endswith("/print.md"):
+            lang = parts[1]
+            counts[lang] = counts.get(lang, 0) + 1
+    elif isinstance(node, list):
+        for item in node:
+            collect_lang_counts(item, counts)
+    elif isinstance(node, dict):
+        for item in node.values():
+            collect_lang_counts(item, counts)
+
+
+def nav_langs() -> dict[str, int]:
+    """Count the pages per language found in the nav of zensical.toml."""
+    config = load_config()
+    counts: dict[str, int] = {}
+    for value in load_nav_entries(config):
+        collect_lang_counts(value, counts)
+    return counts
 
 
 def slugify(text: str) -> str:
     """Lowercase ASCII-ish slug, similar to common site generators."""
     text = text.strip().lower()
     text = re.sub(r"[^\w\s-]", "", text, flags=re.UNICODE)
-    return re.sub(r"[\s_-]+", "-", text)
+    return re.sub(r"[\s_-]+", "-", text).strip("-")
 
 
-def rewrite_internal_links(text: str, anchors: dict[str, str]) -> str:
-    """Turn cross-page links into same-document anchors; keep the label of
-    unresolvable site links."""
+def page_id(page: Path) -> str:
+    """Deterministic id for a page, derived from its file stem."""
+    return slugify(page.stem)
 
-    def site_link_sub(match: re.Match) -> str:
-        return match.group(1)
 
+def frontmatter_path(page: Path) -> str:
+    """Value of the 'path' front-matter key, falling back to the file stem."""
+    match = re.search(
+        r"^path:\s*(.+?)\s*$", page.read_text(encoding="utf-8"), re.MULTILINE)
+    return match.group(1) if match else page.stem
+
+
+def build_anchor_map(pages: list[Path]) -> dict[tuple[str, str | None], str]:
+    """Map (page key, heading or None) -> same-document anchor id.
+
+    The page key accepts both the file stem and the front-matter 'path' value
+    so that links written either way keep working.
+    """
+    anchors: dict[tuple[str, str | None], str] = {}
+    for page in pages:
+        pid = page_id(page)
+        for key in {page.stem, frontmatter_path(page)}:
+            anchors[(key, None)] = pid
+        used: set[str] = set()
+        for line in page.read_text(encoding="utf-8").splitlines():
+            match = HEADING_RE.match(line)
+            if not match:
+                continue
+            hid = f"{pid}-{slugify(match.group(2))}"
+            if hid in used:
+                suffix = 1
+                while f"{hid}-{suffix}" in used:
+                    suffix += 1
+                hid = f"{hid}-{suffix}"
+            used.add(hid)
+            for key in {page.stem, frontmatter_path(page)}:
+                anchors[(key, slugify(match.group(2)))] = hid
+    return anchors
+
+
+def rewrite_links(text: str, anchors: dict[tuple[str, str | None], str]) -> str:
+    """Rewrite cross-page Markdown links to same-document anchors."""
     def doc_link_sub(match: re.Match) -> str:
         label, target, heading = match.group(1), match.group(2), match.group(3)
-        if target not in anchors:
+        key = (target, slugify(heading) if heading else None)
+        if key not in anchors:
             return match.group(0)
-        return f"[{label}](#{page_anchor(anchors[target], heading or '')})"
+        return f"[{label}](#{anchors[key]})"
 
-    text = SITE_LINK_RE.sub(site_link_sub, text)
+    text = SITE_LINK_RE.sub(lambda m: m.group(1), text)
     return DOC_LINK_RE.sub(doc_link_sub, text)
 
 
-def convert_authoring_syntax(text: str) -> str:
-    """Convert Zensical/MkDocs-specific syntax to plain Markdown for pandoc.
-
-    Handles admonitions (`!!! note "..."`), collapsible details
-    (`??? note "..."`), tabbed content (`=== "..."`), attr_list suffixes
-    (`{ .md-button ... }`) and icon shortcodes (`:octicons-archive-24:`).
-    Anything unrecognised is left untouched.
-    """
+def add_heading_ids(text: str, pid: str) -> str:
+    """Give every heading an explicit attr_list id prefixed with the page id."""
+    used: set[str] = set()
     out_lines: list[str] = []
-    # 'quote' while inside an admonition/details block, 'dedent' inside a tab
-    # block; None otherwise.
-    block: str | None = None
-    for raw_line in text.splitlines():
-        line = ATTR_LIST_RE.sub("", raw_line).rstrip()
-        def icon_sub(m: re.Match) -> str:
-            return "[" if m.group(0).startswith("[") else ""
-
-        line = ICON_RE.sub(icon_sub, line)
-
-        match = ADMONITION_RE.match(line)
+    in_fence = False
+    for line in text.splitlines():
+        if line.lstrip().startswith("```"):
+            in_fence = not in_fence
+            out_lines.append(line)
+            continue
+        match = HEADING_RE.match(line) if not in_fence else None
         if match:
-            kind = match.group(2) or "Note"
-            label = ADMONITIONS.get(kind.lower(), kind.capitalize())
-            extra = f" ({match.group(3)})" if match.group(3) else ""
-            out_lines.append("")
-            out_lines.append(f"> **{label}**{extra}")
-            block = "quote"
-            continue
-
-        tab_match = TAB_RE.match(line)
-        if tab_match:
-            out_lines.append("")
-            out_lines.append(f"**{tab_match.group(1)}**")
-            block = "dedent"
-            continue
-
-        if block == "quote":
-            if not line.strip():
-                out_lines.append(">")
-                continue
-            if line.startswith(("    ", "\t")):
-                out_lines.append("> " + line.strip())
-                continue
-            block = None
-        elif block == "dedent":
-            if not line.strip():
-                out_lines.append("")
-                continue
-            if line.startswith(("    ", "\t")):
-                out_lines.append(line.strip())
-                continue
-            block = None
-
-        out_lines.append(line)
-
+            heading_id = f"{pid}-{slugify(match.group(2))}"
+            if heading_id in used:
+                suffix = 1
+                while f"{heading_id}-{suffix}" in used:
+                    suffix += 1
+                heading_id = f"{heading_id}-{suffix}"
+            used.add(heading_id)
+            out_lines.append(f"{match.group(1)} {match.group(2)} {{#{heading_id}}}")
+        else:
+            out_lines.append(line)
     return "\n".join(out_lines)
 
 
-def page_to_markdown(path: Path, anchors: dict[str, str]) -> str:
-    """Read one page: strip front-matter, rewrite images and cross-page links,
-    and convert Zensical-specific syntax to plain Markdown.
-
-    Pages already contain their own level-1 heading, so no title is inserted.
-    """
+def page_to_markdown(path: Path, anchors: dict[tuple[str, str | None], str]) -> str:
+    """Read one page: strip front-matter, rewrite links, add heading ids."""
     text = path.read_text(encoding="utf-8")
     text = FRONT_MATTER_RE.sub("", text, count=1)
-    text = IMAGE_RE.sub(r"\1images/", text)
-    text = rewrite_internal_links(text, anchors)
-    text = convert_authoring_syntax(text)
+    text = rewrite_links(text, anchors)
+    text = add_heading_ids(text, page_id(path))
     return text.strip()
 
 
-def build_markdown(pages: list[Path]) -> str:
-    anchors = {p.stem: frontmatter_path(p) for p in pages}
-    parts = [page_to_markdown(p, anchors) for p in pages]
+def page_title(page: Path) -> str:
+    """Level-1 heading of a page (or its stem as a fallback)."""
+    for line in page.read_text(encoding="utf-8").splitlines():
+        if line.startswith("# "):
+            return ATTR_LIST_RE.sub("", line[2:]).strip()
+    return page.stem
+
+
+def build_markdown(lang: str, pages: list[Path]) -> str:
+    """Concatenate the pages with a table of contents and a front-matter."""
+    anchors = build_anchor_map(pages)
+    parts = ["---", "path: print", "---", "",
+             f"# Documentation QualCoder ({lang.upper()})", "",
+             "## Sommaire {#sommaire}", ""]
+    for page in pages:
+        parts.append(f"- [{page_title(page)}](#{page_id(page)})")
+    parts += ["", "---", ""]
+    for page in pages:
+        parts.append(page_to_markdown(page, anchors))
     return "\n\n".join(parts) + "\n"
-
-
-def find_pdf_engine() -> str:
-    """Return the first available LaTeX engine."""
-    for engine in ("xelatex", "lualatex", "pdflatex"):
-        if shutil.which(engine):
-            return engine
-    sys.exit("error: PDF output requires a LaTeX engine (pdflatex, xelatex or lualatex)")
-
-
-def run_pandoc(markdown: str, output: Path, title: str) -> None:
-    """Convert the assembled Markdown into a standalone PDF with pandoc."""
-    if shutil.which("pandoc") is None:
-        sys.exit("error: pandoc is not installed (see https://pandoc.org/installing.html)")
-
-    command = [
-        "pandoc",
-        # raw_tex off: the docs contain literal TeX-looking text (e.g.
-        # "\input et \include" in the file formats list); with raw_tex pandoc
-        # passes it through to LaTeX, which then fails to compile.
-        "--from", "markdown-raw_tex",
-        "--to", "pdf",
-        "--standalone",
-        "--toc",
-        "--metadata", f"title={title}",
-        "--resource-path", str(REPO_ROOT / "docs"),
-        "--pdf-engine", find_pdf_engine(),
-        "--output", str(output),
-    ]
-
-    with tempfile.NamedTemporaryFile(
-        "w", suffix=".md", encoding="utf-8", delete=False
-    ) as tmp:
-        tmp.write(markdown)
-        tmp_path = tmp.name
-
-    command.append(tmp_path)
-    try:
-        result = subprocess.run(command, check=False, capture_output=True, text=True)
-    finally:
-        Path(tmp_path).unlink(missing_ok=True)
-
-    if result.returncode != 0:
-        sys.exit(f"error: pandoc failed:\n{result.stderr}")
-    if result.stderr.strip():
-        print(result.stderr, file=sys.stderr)
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Export the documentation of one language as a standalone PDF"
-                    " with a table of contents.",
-    )
+        description="Concatenate the documentation of one language into"
+                    " docs/doc/<lang>/print.md, keeping authoring syntax and"
+                    " unique heading anchors. Without a language argument,"
+                    " every multi-page language is exported.")
     parser.add_argument(
-        "lang",
-        help="documentation language: en, fr, es, de, or a single-page language",
-    )
+        "lang", nargs="?",
+        help="documentation language (en, fr, es, de, ...); if omitted,"
+             " all multi-page languages are exported")
     parser.add_argument(
         "-o", "--output", type=Path,
-        help="output PDF file (default: qualcoder-doc-<lang>.pdf in the current"
-             " directory)",
-    )
+        help="output Markdown file (default: docs/doc/<lang>/print.md;"
+             " only valid with a single language)")
     return parser.parse_args(argv)
 
 
 def main(argv: list[str]) -> int:
     args = parse_args(argv)
-    output = args.output or Path(f"qualcoder-doc-{args.lang}.pdf")
-    if output.suffix.lower() != ".pdf":
-        sys.exit("error: the output file must end in .pdf")
+    if args.output and not args.lang:
+        sys.exit("error: -o/--output requires a single language argument")
 
-    pages = load_lang_pages(args.lang)
-    markdown = build_markdown(pages)
+    if args.lang:
+        langs = [args.lang]
+    else:
+        counts = nav_langs()
+        langs = sorted(lang for lang, count in counts.items() if count > 1)
+        if not langs:
+            sys.exit("error: no multi-page language found in the nav of zensical.toml")
+        print(f"languages to export: {', '.join(langs)}")
 
-    generation_date = datetime.date.today().isoformat()
-    title = f"QualCoder - {generation_date}"
-
-    output.parent.mkdir(parents=True, exist_ok=True)
-    run_pandoc(markdown, output, title)
-    print(f"exported {len(pages)} page(s) of '{args.lang}' to {output}")
+    for lang in langs:
+        pages = load_lang_pages(lang)
+        markdown = build_markdown(lang, pages)
+        output = args.output or DOC_DIR / lang / "print.md"
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(markdown, encoding="utf-8")
+        print(f"exported {len(pages)} page(s) of '{lang}' to {output}")
     return 0
 
 
