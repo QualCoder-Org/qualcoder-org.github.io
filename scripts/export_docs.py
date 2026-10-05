@@ -251,18 +251,38 @@ def page_title(page: Path) -> str:
 
 
 def build_markdown(lang: str, pages: list[Path]) -> str:
-    """Concatenate the pages with a table of contents and a front-matter."""
+    """Concatenate the pages with a cover, a table of contents and content."""
     anchors = build_anchor_map(pages)
+    lang_names = {"fr": "Français", "en": "English", "es": "Español",
+                  "de": "Deutsch"}
+    lang_label = lang_names.get(lang, lang.upper())
     parts = ["---", "path: print", "template: print.html", "---", "",
-             f"# Documentation QualCoder ({lang.upper()}) {{#top}}", "",
+             # ---- Page de garde ----
+             '<div class="print-cover" aria-hidden="true">', "",
+             f'# Documentation QualCoder {{#top}}', "",
+             f'**Version du {datetime.date.today().strftime("%d/%m/%Y")}**', "",
+             f'_{lang_label}_', "",
+             f'Documentation complète de QualCoder — {len(pages)} sections', "",
+             "Manuel d'utilisation du logiciel d'analyse de données qualitatives",
+             "",
+             '<img src="../../images/logo.png" alt="" class="print-cover-logo">',
+             "",
+             "</div>", "",
+             '<div class="print-toc">', "",
              "## Sommaire {#sommaire}", ""]
+    # --- Sommaire 2 niveaux (inchangé) ---
     for page in pages:
         parts.append(f"- [{page_title(page)}](#{page_id(page)})")
-    parts += ["", "---", ""]
+        pid = page_id(page)
+        for line, match in iter_lines(
+                FRONT_MATTER_RE.sub("", page.read_text(encoding="utf-8"), count=1)):
+            if match and len(match.group(1)) == 2:
+                section = match.group(2)
+                parts.append(f"  - [{section}](#{pid}-{slugify(section)})")
+    parts += ["", "</div>", "", "---", ""]
     for page in pages:
         parts.append(page_to_markdown(page, anchors))
     return "\n\n".join(parts) + "\n"
-
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
