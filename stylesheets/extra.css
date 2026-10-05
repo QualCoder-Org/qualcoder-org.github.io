@@ -1,99 +1,31 @@
-/* ------------------------------------------------------------------ */
-/* Impression : page unique "print" -> Ctrl+P -> Enregistrer en PDF   */
-/* ------------------------------------------------------------------ */
+    /* ---- Pagination "livre" via Paged.js ---- */
+    @page {
+      size: A4;
+      margin: 20mm 18mm 22mm 18mm;
 
-@media print {
-  /* Hide interactive / on-screen chrome */
-  .md-sidebar--primary,
-  .md-sidebar--secondary,
-  .md-header,
-  .md-tabs,
-  .md-footer,
-  .md-top,
-  .md-content__button,
-  .md-nav__link[data-md-state="blur"] {
-    display: none !important;
-  }
-
-  /* Full width, no sidebar margins */
-  .md-grid {
-    max-width: 100% !important;
-  }
-  .md-content {
-    max-width: 100% !important;
-    margin-inline: 0 !important;
-  }
-  .md-content__inner {
-    padding-inline: 0 !important;
-  }
-  .md-typeset {
-    font-size: 11pt;
-    max-width: 100% !important;
-  }
-
-  /* Dark-mode palette to white background, black text */
-  html[data-md-color-scheme="slate"] {
-    --md-default-bg-color: #ffffff;
-    --md-typeset-a-color: #1a5fb4;
-  }
-  .md-typeset,
-  .md-typeset p,
-  .md-typeset li {
-    color: #000000 !important;
-  }
-  .md-typeset a {
-    color: #1a5fb4 !important;
-  }
-
-  /* Webkits: images and code blocks must not overflow the page */
-  .md-typeset img,
-  .md-typeset video {
-    max-width: 100% !important;
-    page-break-inside: avoid;
-  }
-  .md-typeset pre,
-  .md-typeset code {
-    white-space: pre-wrap !important;
-    word-break: break-word;
-  }
-  .md-typeset pre > code {
-    white-space: pre-wrap !important;
-  }
-
-  /* Clean page breaks */
-  h1, h2, h3 {
-    break-after: avoid;
-    page-break-after: avoid;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-  table, figure, blockquote, ol, ul {
-    break-inside: avoid;
-  }
-  table {
-    width: 100% !important;
-    font-size: 10pt;
-  }
-  img {
-    break-inside: print-doc;
-  }
-
-  /* Force dark-mode colors on code blocks */
-  .md-typeset pre {
-    background: #f5f5f5 !important;
-    color: #000 !important;
-    border: 1px solid #ddd;
-  }
-
-  /* Re-enable the TOC line numbers/header rules if used */
-  .md-typeset .md-nav__list {
-    display: block;
-  }
-        .md-typeset a[href^="http"]::after {
-        content: " (" attr(href) ")";
+      @bottom-center {
+        content: counter(page) " / " counter(pages);
+        font-family: "Palatino Linotype", Palatino, Georgia, serif;
         font-size: 9pt;
-        color: #555;
+        color: #666;
       }
-}
+      @bottom-left {
+        content: "QualCoder — Documentation";
+        font-family: inherit;
+        font-size: 8pt;
+        color: #888;
+      }
+    }
+    @page :first {
+      /* pas de footer sur la couverture / titre */
+      @bottom-center { content: none; }
+      @bottom-left { content: none; }
+    }
+
+    /* Chaque section démarre sur une nouvelle page */
+    h1[id]:not([id="top"]):not([id="sommaire"]) {
+      break-before: page;
+      page-break-before: always;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
