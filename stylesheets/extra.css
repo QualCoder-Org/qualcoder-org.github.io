@@ -1,0 +1,7 @@
+@media print {
+  .md-sidebar--primary, .md-sidebar--secondary, .md-header,
+  .md-tabs, .md-footer, .md-top { display: none; }
+  .md-content { max-width: 100% !important; }
+  article { break-before: page; }  /* chaque section démarre sur une nouvelle page */
+  .md-typeset { font-size: 11pt; }
+}
