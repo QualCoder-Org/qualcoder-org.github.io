@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+515 Welipitiya, W. D.; Hettihewa, L. M.; and Samage, S. N. (2026) **Capacity Utilization in Pharmaceutical Manufacturing Industry in Sri Lanka: A Mixed-Methods Analysis of Systemic Constraints.** Journal of Innovation in Science, Engineering and Technology: Vol. 7: Iss. 2, Article 12. <https://doi.org/10.66543/3084-858X.1121>
+
 514 **Feminization, Fetishization, and Gender Hierarchy: How Trans Feminization, Fetishization, and Gender Hierarchy: How Trans Women are Represented in Porn for a Cishetero Audience Women are Represented in Porn for a Cishetero Audience.** May Van Linden. Thesis 2026, Syracuse University <https://surface.syr.edu/cgi/viewcontent.cgi?article=2019&context=thesis>
 
 513 Čatipović, M., Rajković, N., Rafaj, G., Puharić, Z., Čatipović, P., & Košč, M. (2026). **A qualitative analysis of breastfeeding experiences among first-time mothers in Croatia.** Paediatria Croatica, 70(suppl 4), 66. <https://doi.org/10.13112/pc.1268>
