@@ -247,14 +247,17 @@
 
     /* ================= IMPRESSION (Ctrl+P) ================= */
     @media print {
-      body { background: #fff !important; }
-      .pagedjs_page { box-shadow: none; margin: 0; }
-      .md-typeset a[href^="http"]::after {
-        content: " («  » " attr(href) ")";
-        display: none;   /* désactivé par défaut : trop verbeux ; voir note */
+      /* Les feuilles Paged.js embarquent déjà les marges : le navigateur
+         n'en rajoute pas. */
+      @page { size: A4; margin: 0; }
+      html, body { background: #fff !important; }
+      .pagedjs_pages { gap: 0 !important; display: block !important; }
+      .pagedjs_page {
+        margin: 0 !important;
+        box-shadow: none !important;
+        break-after: page;      /* une feuille HTML = une feuille papier */
       }
-    }
-  </style>
+    }  </style>
 {% endblock %}
 
 {% block scripts %}
