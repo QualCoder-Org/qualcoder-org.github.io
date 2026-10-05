@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+512 **Structure-agency interaction and emergence of hybrid electoral culture post 2013 in Khyber Pakhtunkhwa, Pakistan.** Khan et al. Otoritas : Jurnal Ilmu Pemerintahan Vol. 16, No.2, 2026. <https://doi.org/10.26618/ojip.v16i2.22365>
+
 511 Dindi PD, Sinchaya D, Stiegler N. **Assessing readiness for a register-based census: Institutional preconditions and evidence from Malawi.** Statistical Journal of the IAOS. 2026;0(0). doi:10.1177/18747655261488276
 
 510 **Digital Transformation And Accounting Information Quality As A Pathway To Economic Decision Making: A Qualitative Case Study In Algeria.** Mokhtari Mohamed. Revue Finance & marches, Volume 13, Numéro 2, Pages 208-226, 2026-09-25.
