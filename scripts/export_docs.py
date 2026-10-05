@@ -259,7 +259,7 @@ def build_markdown(lang: str, pages: list[Path]) -> str:
     lang_label = lang_names.get(lang, lang.upper())
     parts = ["---", "path: print", "template: print.html", "---", "",
              # ---- Page de garde ----
-             '<div class="print-cover" aria-hidden="true">', "",
+             '<div class="print-cover" markdown="1">', "",
              f'# Documentation QualCoder {{#top}}', "",
              f'**Version du {datetime.date.today().strftime("%d/%m/%Y")}**', "",
              f'_{lang_label}_', "",
@@ -269,7 +269,7 @@ def build_markdown(lang: str, pages: list[Path]) -> str:
              '<img src="../../images/logo.png" alt="" class="print-cover-logo">',
              "",
              "</div>", "",
-             '<div class="print-toc">', "",
+             '<div class="print-toc" markdown="1">', "",
              "## Sommaire {#sommaire}", ""]
     # --- Sommaire 2 niveaux (inchangé) ---
     for page in pages:
