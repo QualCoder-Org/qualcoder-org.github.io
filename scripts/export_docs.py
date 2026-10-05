@@ -6,15 +6,14 @@ the YAML front-matter from each page, and concatenates them in nav order into
 docs/doc/<lang>/print.md, preserving the authoring syntax (admonitions, tabs,
 attr_list, icons) so that Zensical renders it with the usual styling.
 
-To survive concatenation, every heading gets an explicit id prefixed with the
-page id (e.g. "{#2-2-settings}" on page 2.2.-Settings), and cross-page links
-are rewritten to same-document anchors pointing at those ids.
-
-Image paths are rewritten from site-root-absolute (/images/...) to a path
-relative to the print page URL (/<lang>/print/ -> ../../images/...).
+Heading ids are prefixed with the page id (first h1 gets the bare page id) so
+that anchors stay unique after concatenation; cross-page links are rewritten
+to same-document anchors pointing at those ids. Site-root shortcut links
+(/latest, /community...) and their trailing attr_list are reduced to their
+label so no orphan `{ .md-button }` leaks into the rendered page.
 
 Usage:
-    python scripts/export_docs.py            # -> print.md for every multi-page language
+    python scripts/export_docs.py            # every multi-page language
     python scripts/export_docs.py fr        # -> docs/doc/fr/print.md only
     python scripts/export_docs.py fr -o t.md
 """
@@ -34,15 +33,15 @@ DOC_DIR = REPO_ROOT / "docs" / "doc"
 FRONT_MATTER_RE = re.compile(r"\A---\s*\n.*?\n---\s*\n", re.DOTALL)
 HEADING_RE = re.compile(r"^(#{1,6}) (.+?)\s*(\{[^}]*})?\s*$")
 ATTR_LIST_RE = re.compile(r"\s*(\{[^}]*})\s*$")
-SITE_LINK_RE = re.compile(r"\[([^]]+)]\(/[^)]*\)")
-DOC_LINK_RE = re.compile(
-    r"\[([^]]+)]\(([^)#\s]+?)(?:\.md)?(?:/)?(?:#([^)]*))?\)")
+# Site-root shortcut link, optionally followed by an attr_list that would
+# otherwise leak as literal text once the link is reduced to its label.
+SITE_LINK_RE = re.compile(r"\[([^]]+)]\(/[^)]*\)(\s*\{[^}]*})?")
+DOC_LINK_RE = re.compile(r"\[([^]]+)]\(([^)#\s]+?)(?:\.md)?(?:/)?(?:#([^)]*))?\)")
 # Root-absolute image paths (/images/...) become relative to /<lang>/print/.
 IMAGE_RE = re.compile(r"(\!\[[^]]*]\()(/?images/)")
 
 
 def load_config() -> dict:
-    """Parse zensical.toml or exit with an error."""
     if not CONFIG_FILE.exists():
         sys.exit(f"error: {CONFIG_FILE} not found")
     with open(CONFIG_FILE, "rb") as fh:
@@ -50,10 +49,8 @@ def load_config() -> dict:
 
 
 def load_nav_entries(config: dict) -> list:
-    """Flat list of the top-level nav entries of zensical.toml."""
-    entries = config["project"]["nav"]
     out = []
-    for entry in entries:
+    for entry in config["project"]["nav"]:
         out.extend(entry.values() if isinstance(entry, dict) else [entry])
     return out
 
@@ -104,9 +101,8 @@ def collect_lang_counts(node, counts: dict[str, int]) -> None:
 
 def nav_langs() -> dict[str, int]:
     """Count the pages per language found in the nav of zensical.toml."""
-    config = load_config()
     counts: dict[str, int] = {}
-    for value in load_nav_entries(config):
+    for value in load_nav_entries(load_config()):
         collect_lang_counts(value, counts)
     return counts
 
@@ -130,8 +126,32 @@ def frontmatter_path(page: Path) -> str:
     return match.group(1) if match else page.stem
 
 
+def iter_lines(text: str):
+    """Yield (line, heading_match); headings inside fenced code are ignored."""
+    fence = False
+    for line in text.splitlines():
+        if line.lstrip().startswith("```"):
+            fence = not fence
+            yield line, None
+            continue
+        yield line, (None if fence else HEADING_RE.match(line))
+
+
+def unique_id(base: str, used: set[str]) -> str:
+    """Return base, or base-1, base-2... if it was already used."""
+    if base not in used:
+        used.add(base)
+        return base
+    suffix = 1
+    while f"{base}-{suffix}" in used:
+        suffix += 1
+    hid = f"{base}-{suffix}"
+    used.add(hid)
+    return hid
+
+
 def build_anchor_map(pages: list[Path]) -> dict[tuple[str, str | None], str]:
-    """Map (page key, heading or None) -> same-document anchor id.
+    """Map (page key, heading slug or None) -> same-document anchor id.
 
     The page key accepts both the file stem and the front-matter 'path' value
     so that links written either way keep working.
@@ -139,27 +159,28 @@ def build_anchor_map(pages: list[Path]) -> dict[tuple[str, str | None], str]:
     anchors: dict[tuple[str, str | None], str] = {}
     for page in pages:
         pid = page_id(page)
-        for key in {page.stem, frontmatter_path(page)}:
+        keys = {page.stem, frontmatter_path(page)}
+        for key in keys:
             anchors[(key, None)] = pid
+        text = FRONT_MATTER_RE.sub("", page.read_text(encoding="utf-8"), count=1)
         used: set[str] = set()
-        for line in page.read_text(encoding="utf-8").splitlines():
-            match = HEADING_RE.match(line)
+        first_h1 = True
+        for _, match in iter_lines(text):
             if not match:
                 continue
-            hid = f"{pid}-{slugify(match.group(2))}"
-            if hid in used:
-                suffix = 1
-                while f"{hid}-{suffix}" in used:
-                    suffix += 1
-                hid = f"{hid}-{suffix}"
-            used.add(hid)
-            for key in {page.stem, frontmatter_path(page)}:
+            if first_h1 and len(match.group(1)) == 1:
+                hid = pid
+                first_h1 = False
+            else:
+                hid = f"{pid}-{slugify(match.group(2))}"
+            hid = unique_id(hid, used)
+            for key in keys:
                 anchors[(key, slugify(match.group(2)))] = hid
     return anchors
 
 
 def rewrite_links(text: str, anchors: dict[tuple[str, str | None], str]) -> str:
-    """Rewrite cross-page Markdown links to same-document anchors."""
+    """Rewrite cross-page links to anchors; reduce shortcut links to labels."""
     def doc_link_sub(match: re.Match) -> str:
         label, target, heading = match.group(1), match.group(2), match.group(3)
         key = (target, slugify(heading) if heading else None)
@@ -172,25 +193,19 @@ def rewrite_links(text: str, anchors: dict[tuple[str, str | None], str]) -> str:
 
 
 def add_heading_ids(text: str, pid: str) -> str:
-    """Give every heading an explicit attr_list id prefixed with the page id."""
+    """Give every heading an explicit id; the first h1 becomes the page id."""
     used: set[str] = set()
+    first_h1 = True
     out_lines: list[str] = []
-    in_fence = False
-    for line in text.splitlines():
-        if line.lstrip().startswith("```"):
-            in_fence = not in_fence
-            out_lines.append(line)
-            continue
-        match = HEADING_RE.match(line) if not in_fence else None
+    for line, match in iter_lines(text):
         if match:
-            heading_id = f"{pid}-{slugify(match.group(2))}"
-            if heading_id in used:
-                suffix = 1
-                while f"{heading_id}-{suffix}" in used:
-                    suffix += 1
-                heading_id = f"{heading_id}-{suffix}"
-            used.add(heading_id)
-            out_lines.append(f"{match.group(1)} {match.group(2)} {{#{heading_id}}}")
+            if first_h1 and len(match.group(1)) == 1:
+                hid = pid
+                first_h1 = False
+            else:
+                hid = f"{pid}-{slugify(match.group(2))}"
+            hid = unique_id(hid, used)
+            out_lines.append(f"{match.group(1)} {match.group(2)} {{#{hid}}}")
         else:
             out_lines.append(line)
     return "\n".join(out_lines)
@@ -218,7 +233,7 @@ def build_markdown(lang: str, pages: list[Path]) -> str:
     """Concatenate the pages with a table of contents and a front-matter."""
     anchors = build_anchor_map(pages)
     parts = ["---", "path: print", "---", "",
-             f"# Documentation QualCoder ({lang.upper()})", "",
+             f"# Documentation QualCoder ({lang.upper()}) {{#top}}", "",
              "## Sommaire {#sommaire}", ""]
     for page in pages:
         parts.append(f"- [{page_title(page)}](#{page_id(page)})")
