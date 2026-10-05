@@ -51,9 +51,9 @@ SITE_SHORTCUTS = {
     "latest-windows-portable": "https://github.com/ccbogel/QualCoder/releases/latest",
     "latest-mac": "https://github.com/ccbogel/QualCoder/releases/latest",
     "latest-linux": "https://github.com/ccbogel/QualCoder/releases/latest",
+    "latest-linux-executable": "https://github.com/ccbogel/QualCoder/releases/latest",
     "community": "https://qualcoder.org/community/",
 }
-
 
 def load_config() -> dict:
     if not CONFIG_FILE.exists():
