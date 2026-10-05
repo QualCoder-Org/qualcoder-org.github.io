@@ -9,8 +9,9 @@ attr_list, icons) so that Zensical renders it with the usual styling.
 Heading ids are prefixed with the page id (first h1 gets the bare page id) so
 that anchors stay unique after concatenation; cross-page links are rewritten
 to same-document anchors pointing at those ids. Site-root shortcut links
-(/latest, /community...) and their trailing attr_list are reduced to their
-label so no orphan `{ .md-button }` leaks into the rendered page.
+(/latest, /community...) are resolved to their real destinations when known
+(download buttons keep their attr_list and render as buttons), and reduced to
+their label otherwise.
 
 Usage:
     python scripts/export_docs.py            # every multi-page language
@@ -33,12 +34,25 @@ DOC_DIR = REPO_ROOT / "docs" / "doc"
 FRONT_MATTER_RE = re.compile(r"\A---\s*\n.*?\n---\s*\n", re.DOTALL)
 HEADING_RE = re.compile(r"^(#{1,6}) (.+?)\s*(\{[^}]*})?\s*$")
 ATTR_LIST_RE = re.compile(r"\s*(\{[^}]*})\s*$")
-# Site-root shortcut link, optionally followed by an attr_list that would
-# otherwise leak as literal text once the link is reduced to its label.
-SITE_LINK_RE = re.compile(r"\[([^]]+)]\(/[^)]*\)(\s*\{[^}]*})?")
+# Site-root shortcut link: [label](/path){ .attr } — the path and the optional
+# attr_list are captured separately so known shortcuts can be resolved to
+# real URLs (keeping the attr_list, i.e. the button styling) while unknown
+# ones are reduced to their label.
+SITE_LINK_RE = re.compile(
+    r"\[([^]]+)]\(/([^)#\s]+?)\)(\s*\{[^}]*})?")
 DOC_LINK_RE = re.compile(r"\[([^]]+)]\(([^)#\s]+?)(?:\.md)?(?:/)?(?:#([^)]*))?\)")
 # Root-absolute image paths (/images/...) become relative to /<lang>/print/.
 IMAGE_RE = re.compile(r"(\!\[[^]]*]\()(/?images/)")
+
+# Real destinations of the site shortcuts (download and community buttons).
+SITE_SHORTCUTS = {
+    "latest": "https://github.com/ccbogel/QualCoder/releases/latest",
+    "latest-windows": "https://github.com/ccbogel/QualCoder/releases/latest",
+    "latest-windows-portable": "https://github.com/ccbogel/QualCoder/releases/latest",
+    "latest-mac": "https://github.com/ccbogel/QualCoder/releases/latest",
+    "latest-linux": "https://github.com/ccbogel/QualCoder/releases/latest",
+    "community": "https://qualcoder.org/community/",
+}
 
 
 def load_config() -> dict:
@@ -180,7 +194,7 @@ def build_anchor_map(pages: list[Path]) -> dict[tuple[str, str | None], str]:
 
 
 def rewrite_links(text: str, anchors: dict[tuple[str, str | None], str]) -> str:
-    """Rewrite cross-page links to anchors; reduce shortcut links to labels."""
+    """Rewrite cross-page links to anchors; resolve or reduce shortcut links."""
     def doc_link_sub(match: re.Match) -> str:
         label, target, heading = match.group(1), match.group(2), match.group(3)
         key = (target, slugify(heading) if heading else None)
@@ -188,7 +202,14 @@ def rewrite_links(text: str, anchors: dict[tuple[str, str | None], str]) -> str:
             return match.group(0)
         return f"[{label}](#{anchors[key]})"
 
-    text = SITE_LINK_RE.sub(lambda m: m.group(1), text)
+    def site_link_sub(match: re.Match) -> str:
+        label, target, attr = match.group(1), match.group(2), match.group(3)
+        if target in SITE_SHORTCUTS:
+            return f"[{label}]({SITE_SHORTCUTS[target]}){attr or ''}"
+        # Unknown shortcut: keep the label, drop the link and the attr_list.
+        return label
+
+    text = SITE_LINK_RE.sub(site_link_sub, text)
     return DOC_LINK_RE.sub(doc_link_sub, text)
 
 
