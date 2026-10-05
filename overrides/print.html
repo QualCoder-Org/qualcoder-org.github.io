@@ -129,5 +129,12 @@
     // au chargement : tout déplier aussi à l'écran (page "papier")
     document.addEventListener('DOMContentLoaded', expandAll);
   </script>
+  <script>
+    window.PagedConfig = {
+      auto: true,
+      // ne paginer que la zone de contenu, pas le chrome résiduel
+      content: document.querySelector('.md-content__inner'),
+    };
+  </script>
  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
 {% endblock %}
