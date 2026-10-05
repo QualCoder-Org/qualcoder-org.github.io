@@ -138,7 +138,12 @@
       color: #fff !important;
     }
     .md-typeset a { color: #1a5fb4 !important; text-decoration: none; }
-    .tabbed-set .tabbed-content { display: block !important; }
+     
+    .tabbed-set > input, .tabbed-set > label { display: none !important; }
+    .tabbed-set > div { display: block !important; }
+    .tabbed-set > div::before {
+      content: attr(data-tab-title);   /* nécessite que le thème expose le titre */
+    }
 
     /* ================= PAGE DE GARDE ================= */
     .print-cover {
