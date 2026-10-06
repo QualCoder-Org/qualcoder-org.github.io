@@ -50,11 +50,6 @@ into a single, optimized tool with shared logic and a simplified CLI.
   links-md-ext     -> normalize relative .md link targets (majority style)
   frontmatter      -> add `path:` key to docs/doc/<lang>/*.md
   images-external  -> download external images (WP, GitHub, BuyMeACoffee) to docs/images/
-  typography        -> language-aware typography rules (from doc/<lang>/ or --typo-lang):
-                       fr: non-breaking (thin) spaces before : ; ! ? %, « … » guillemets
-                       de: „…" guillemets | es/it: « … » | en: “ … ”
-                       all supported languages: ' -> ’ (apostrophe), ... -> … (ellipsis),
-                       straight double-quoted pairs "x" -> typographic quotes
 
 ## Usage Examples
 
@@ -73,13 +68,9 @@ python quality_tool.py --check --fix
 python quality_tool.py --check --only headings whitespace
 python quality_tool.py --fix --only headings frontmatter
 
-# Preview only the typography fixes
-python quality_tool.py --fix --dry-run --only typography
-
 # Custom options
 python quality_tool.py --check --strict --docs-dir mydocs
 python quality_tool.py --fix --dry-run --only images-external
-python quality_tool.py --fix --typo-lang fr  # default lang for files outside doc/<lang>/
 
 ## Exit Codes
 
@@ -157,60 +148,6 @@ DOC_LANGS: set[str] | None = None
 
 
 # =============================================================================
-# TYPOGRAPHY CONSTANTS (language-aware)
-# =============================================================================
-
-NBSP = "\u00a0"   # espace insécable
-NNBSP = "\u202f"  # espace fine insécable
-
-# Espace fine insécable AVANT ces signes (règle française)
-_TYPO_BEFORE_THIN = {
-    "fr": ";!?%",
-    "es": "!?",
-    "it": ";!?",
-}
-# Espace insécable pleine AVANT ces signes
-_TYPO_BEFORE_FULL = {
-    "fr": ":",
-    "es": ":",
-    "it": ":",
-}
-# Guillemets typographiques : (ouvrant, fermant)
-_TYPO_QUOTES = {
-    "fr": ("«", "»"),
-    "de": ("„", "“"),
-    "es": ("«", "»"),
-    "it": ("«", "»"),
-    "en": ("“", "”"),
-}
-# Convertir les paires de guillemets droits "x" en guillemets typographiques
-_TYPO_CONVERT_DQUOTES = {
-    "fr": True,
-    "de": True,
-    "es": True,
-    "it": True,
-    "en": True,
-}
-# Apostrophe droite -> apostrophe typographique
-_TYPO_APOSTROPHE = {"fr", "en", "de", "es", "it"}
-# Trois points -> points de suspension
-_TYPO_ELLIPSIS = {"fr", "en", "de", "es", "it"}
-
-TYPO_RULES = {
-    "thin_before": _TYPO_BEFORE_THIN,
-    "full_before": _TYPO_BEFORE_FULL,
-    "quotes": _TYPO_QUOTES,
-    "convert_dquotes": _TYPO_CONVERT_DQUOTES,
-    "apostrophe": _TYPO_APOSTROPHE,
-    "ellipsis": _TYPO_ELLIPSIS,
-}
-
-DQUOTE_PAIR_RE = re.compile(r'"([^"\n]{1,200}?)"')
-TYPO_APOSTROPHE_RE = re.compile(r"(?<=\w)'(?=\w)")
-TYPO_ELLIPSIS_RE = re.compile(r"\.\.\.")
-
-
-# =============================================================================
 # SHARED DATA STRUCTURES
 # =============================================================================
 
@@ -266,7 +203,7 @@ def parse_front_matter(fm: str) -> dict[str, str]:
 
 def strip_code_blocks(text: str) -> tuple[str, list[bool]]:
     """Return text with fenced code blocks replaced by blank lines, and a mask.
-
+    
     Returns (cleaned_text, is_code_line_list) where is_code_line_list[i] is True
     if line i was inside a code block.
     """
@@ -275,7 +212,7 @@ def strip_code_blocks(text: str) -> tuple[str, list[bool]]:
     code_mask: list[bool] = []
     in_fence = False
     fence_marker = ""
-
+    
     for line in lines:
         stripped = line.lstrip()
         if not in_fence and re.match(r"^(```|~~~)", stripped):
@@ -287,12 +224,15 @@ def strip_code_blocks(text: str) -> tuple[str, list[bool]]:
         if in_fence:
             if stripped.startswith(fence_marker):
                 in_fence = False
-            out.append("")
-            code_mask.append(True)
+                out.append("")
+                code_mask.append(True)
+            else:
+                out.append("")
+                code_mask.append(True)
             continue
         out.append(line)
         code_mask.append(False)
-
+    
     return "\n".join(out), code_mask
 
 
@@ -302,7 +242,7 @@ def strip_code_blocks_simple(text: str) -> str:
     out: list[str] = []
     in_fence = False
     fence_marker = ""
-
+    
     for line in lines:
         stripped = line.lstrip()
         if not in_fence and re.match(r"^(```|~~~)", stripped):
@@ -313,10 +253,12 @@ def strip_code_blocks_simple(text: str) -> str:
         if in_fence:
             if stripped.startswith(fence_marker):
                 in_fence = False
-            out.append("")
+                out.append("")
+            else:
+                out.append("")
             continue
         out.append(line)
-
+    
     return "\n".join(out)
 
 
@@ -351,23 +293,23 @@ def _resolve_md_target(
     """Resolve a relative link target to an existing .md file."""
     target, _frag = _split_url_fragment(url)
     target = target.split("?", 1)[0]  # strip query string
-
+    
     if not target:
         return current_file
-
+    
     if target.startswith(("http://", "https://", "mailto:")):
         return None
-
+    
     base = current_file.parent
     candidate = (base / target).resolve()
     candidates = []
-
+    
     if candidate.suffix == ".md":
         candidates.append(candidate)
     else:
         candidates.append(Path(str(candidate) + ".md"))
         candidates.append(candidate / "index.md")
-
+    
     for c in candidates:
         if c.exists():
             return c
@@ -379,15 +321,15 @@ def _resolve_resource(docs_dir: Path, current_file: Path, url: str) -> Path | No
     target, _frag = _split_url_fragment(url)
     if not target:
         return current_file
-
+    
     if target.startswith(("http://", "https://", "mailto:", "data:")):
         return None
-
+    
     if target.startswith("/"):
         candidate = (docs_dir / target.lstrip("/")).resolve()
     else:
         candidate = (current_file.parent / target).resolve()
-
+    
     return candidate if candidate.exists() else None
 
 
@@ -395,19 +337,19 @@ def _abs_to_relative_target(docs_dir: Path, current_file: Path, url: str) -> str
     """For an internal absolute URL, compute the suggested relative path."""
     parsed = urlparse(url)
     path = unquote(parsed.path)
-
+    
     if path.endswith("/"):
         path = path[:-1]
     if not path:
         return None
-
+    
     rel_path = path.lstrip("/")
     candidates = [
         docs_dir / (rel_path + ".md"),
         docs_dir / rel_path / "index.md",
         docs_dir / (rel_path + "/index.md"),
     ]
-
+    
     # Try with doc/ prefix if direct candidates failed
     if not any(c.exists() for c in candidates) and not rel_path.startswith("doc/"):
         doc_path = "doc/" + rel_path
@@ -416,11 +358,11 @@ def _abs_to_relative_target(docs_dir: Path, current_file: Path, url: str) -> str
             docs_dir / doc_path / "index.md",
             docs_dir / (doc_path + "/index.md"),
         ]
-
+    
     target = next((c for c in candidates if c.exists()), None)
     if target is None:
         return None
-
+    
     rel = os_relpath(current_file.parent, target)
     if parsed.fragment:
         rel += f"#{parsed.fragment}"
@@ -431,15 +373,15 @@ def _abs_resource_to_relative(docs_dir: Path, current_file: Path, url: str) -> s
     """For an internal absolute image URL, compute the suggested relative path."""
     parsed = urlparse(url)
     target = unquote(parsed.path)
-
+    
     if target.startswith("/"):
         candidate = (docs_dir / target.lstrip("/")).resolve()
     else:
         candidate = (current_file.parent / target).resolve()
-
+    
     if not candidate.exists():
         return None
-
+    
     rel = os_relpath(current_file.parent, candidate)
     if parsed.fragment:
         rel += f"#{parsed.fragment}"
@@ -451,14 +393,14 @@ def _resource_exists(docs_dir: Path, current_file: Path, url: str) -> bool:
     target, _frag = _split_url_fragment(url)
     if not target:
         return True
-
+    
     target = target.split("?", 1)[0]  # strip query string
-
+    
     if target.startswith("/"):
         candidate = (docs_dir / target.lstrip("/")).resolve()
     else:
         candidate = (current_file.parent / target).resolve()
-
+    
     return candidate.exists()
 
 
@@ -477,11 +419,11 @@ def collect_anchors(md_file: Path) -> set[str]:
         content = md_file.read_text(encoding="utf-8")
     except OSError:
         return set()
-
+    
     _, body = split_front_matter(content)
     body = strip_code_blocks_simple(body)
     anchors: set[str] = set()
-
+    
     for line in body.splitlines():
         m = re.match(r"^\s{0,3}(#{1,6})\s+(.+?)\s*#*\s*$", line)
         if m:
@@ -494,14 +436,14 @@ def discover_doc_langs(docs_dir: Path) -> set[str]:
     global DOC_LANGS
     if DOC_LANGS is not None:
         return DOC_LANGS
-
+    
     langs: set[str] = set()
     doc_dir = docs_dir / "doc"
     if doc_dir.is_dir():
         for child in doc_dir.iterdir():
             if child.is_dir() and not child.name.startswith("."):
                 langs.add(child.name)
-
+    
     DOC_LANGS = langs
     return langs
 
@@ -512,19 +454,14 @@ def _lang_of_file(docs_dir: Path, md_file: Path) -> str | None:
         rel = md_file.relative_to(docs_dir / "doc")
     except ValueError:
         return None
-
+    
     if not rel.parts:
         return None
-
+    
     lang = rel.parts[0]
     if lang in discover_doc_langs(docs_dir):
         return lang
     return None
-
-
-def detect_lang(docs_dir: Path, current_file: Path, default_lang: str) -> str:
-    """Language of a file: doc/<lang>/... if found, else the default language."""
-    return _lang_of_file(docs_dir, current_file) or default_lang
 
 
 # =============================================================================
@@ -536,20 +473,20 @@ def check_headings(path: Path, text: str) -> list[Issue]:
     issues: list[Issue] = []
     _, body = split_front_matter(text)
     cleaned = strip_code_blocks_simple(body)
-
+    
     headings: list[tuple[int, str, int]] = []  # (level, title, line_no)
-
+    
     for line_no, line in enumerate(cleaned.splitlines(), start=1):
         m = re.match(r"^(#{1,6})\s+(.+?)\s*#*\s*$", line)
         if m:
             level = len(m.group(1))
             title = m.group(2)
             headings.append((level, title, line_no))
-
+    
     if not headings:
         # No headings at all - this might be intentional (e.g., index files)
         return issues
-
+    
     # Check 1: Only one H1 (level 1) per file
     h1_count = sum(1 for h in headings if h[0] == 1)
     if h1_count > 1:
@@ -571,15 +508,17 @@ def check_headings(path: Path, text: str) -> list[Issue]:
                 severity="warning",
             )
         )
-
+    
     # Check 2: Consistent heading hierarchy (no level skips)
     for i in range(1, len(headings)):
         prev_level = headings[i-1][0]
         curr_level = headings[i][0]
-
+        
+        # After H1, next can be H1, H2, H3, H4, H5, H6
+        # After H2, next can be H2, H3, H4, H5, H6 (not H1 or skip to H4+)
         # General rule: curr_level should be <= prev_level + 1
         # Exception: can jump back to any level (H3 -> H1 is fine for section breaks)
-
+        
         if curr_level > prev_level + 1:
             # Skipped a level (e.g., H1 -> H3, or H2 -> H4)
             issues.append(
@@ -591,8 +530,10 @@ def check_headings(path: Path, text: str) -> list[Issue]:
                     severity="warning",
                 )
             )
-
+    
     return issues
+
+
 
 
 def check_html(path: Path, text: str) -> list[Issue]:
@@ -602,12 +543,12 @@ def check_html(path: Path, text: str) -> list[Issue]:
     cleaned = strip_code_blocks_simple(body)
     cleaned = strip_html_comments(cleaned)
     cleaned = strip_inline_code(cleaned)
-
+    
     for m in HTML_TAG_RE.finditer(cleaned):
         tag = m.group(0)
         line_no = cleaned[: m.start()].count("\n") + 1
         name = re.match(r"</?([a-zA-Z][a-zA-Z0-9-]*)", tag).group(1).lower()
-
+        
         if name == "img":
             suggestion = "use Markdown syntax `![alt](src)`"
             issues.append(
@@ -615,7 +556,7 @@ def check_html(path: Path, text: str) -> list[Issue]:
             )
         else:
             issues.append(Issue("html", f"forbidden HTML tag: {tag!r}", line_no))
-
+    
     return issues
 
 
@@ -626,11 +567,11 @@ def check_links_absolute(
     issues: list[Issue] = []
     body_front, body = split_front_matter(text)
     cleaned = strip_code_blocks_simple(body)
-
+    
     for m in MD_LINK_RE.finditer(cleaned):
         url = m.group(2).strip()
         url = re.sub(r'\s+"[^"]*"$', "", url)
-
+        
         if _is_internal_absolute(url, site_domain):
             line_no = cleaned[: m.start()].count("\n") + 1
             suggestion = _abs_to_relative_target(docs_dir, path, url)
@@ -642,7 +583,7 @@ def check_links_absolute(
                     line_no,
                 )
             )
-
+    
     return issues
 
 
@@ -651,24 +592,24 @@ def check_links_broken(path: Path, text: str, docs_dir: Path) -> list[Issue]:
     issues: list[Issue] = []
     body_front, body = split_front_matter(text)
     cleaned = strip_code_blocks_simple(body)
-
+    
     for m in MD_LINK_RE.finditer(cleaned):
         url = m.group(2).strip()
         url = re.sub(r'\s+"[^"]*"$', "", url)
-
+        
         if not url or url.startswith("#"):
             continue
         if url.startswith(("http://", "https://", "mailto:")):
             continue
-
+        
         resolved = _resolve_md_target(docs_dir, path, url)
         line_no = cleaned[: m.start()].count("\n") + 1
-
+        
         if resolved is None:
             issues.append(
                 Issue("links-broken", f"broken relative link (target not found): {url!r}", line_no)
             )
-
+    
     return issues
 
 
@@ -677,27 +618,27 @@ def check_anchors(path: Path, text: str, docs_dir: Path) -> list[Issue]:
     issues: list[Issue] = []
     body_front, body = split_front_matter(text)
     cleaned = strip_code_blocks_simple(body)
-
+    
     for m in MD_LINK_RE.finditer(cleaned):
         url = m.group(2).strip()
         url = re.sub(r'\s+"[^"]*"$', "", url)
-
+        
         if not url.startswith("#") and "#" not in url:
             continue
         if url.startswith(("http://", "https://", "mailto:")):
             continue
-
+        
         target, frag = _split_url_fragment(url)
         if not frag:
             continue
-
+        
         resolved = _resolve_md_target(docs_dir, path, url)
         if resolved is None:
             continue  # already reported by links-broken
-
+        
         anchors = collect_anchors(resolved)
         line_no = cleaned[: m.start()].count("\n") + 1
-
+        
         if frag not in anchors:
             issues.append(
                 Issue(
@@ -707,7 +648,7 @@ def check_anchors(path: Path, text: str, docs_dir: Path) -> list[Issue]:
                     severity="warning",
                 )
             )
-
+    
     return issues
 
 
@@ -716,37 +657,37 @@ def check_links_md_ext(path: Path, text: str, docs_dir: Path) -> list[Issue]:
     issues: list[Issue] = []
     body_front, body = split_front_matter(text)
     cleaned = strip_code_blocks_simple(body)
-
+    
     with_ext: list[tuple[int, str]] = []
     without_ext: list[tuple[int, str]] = []
-
+    
     for m in MD_LINK_RE.finditer(cleaned):
         url = m.group(2).strip()
         url = re.sub(r'\s+"[^"]*"$', "", url)
-
+        
         if not url or url.startswith("#"):
             continue
         if url.startswith(("http://", "https://", "mailto:")):
             continue
-
+        
         target, _frag = _split_url_fragment(url)
         if not target:
             continue
-
+        
         resolved = _resolve_md_target(docs_dir, path, url)
         if resolved is None or resolved.suffix != ".md":
             continue
-
+        
         line_no = cleaned[: m.start()].count("\n") + 1
-
+        
         if target.endswith(".md"):
             with_ext.append((line_no, url))
         else:
             without_ext.append((line_no, url))
-
+    
     if not with_ext and not without_ext:
         return issues
-
+    
     if len(with_ext) >= len(without_ext):
         for line_no, url in without_ext:
             issues.append(
@@ -767,7 +708,7 @@ def check_links_md_ext(path: Path, text: str, docs_dir: Path) -> list[Issue]:
                     severity="warning",
                 )
             )
-
+    
     return issues
 
 
@@ -778,17 +719,17 @@ def check_images_external(
     issues: list[Issue] = []
     body_front, body = split_front_matter(text)
     cleaned = strip_code_blocks_simple(body)
-
+    
     def _classify(url: str, line_no: int, kind: str) -> None:
         url = url.strip()
         url = re.sub(r'\s+"[^"]*"$', "", url)
-
+        
         if not url.startswith(("http://", "https://")):
             return
-
+        
         parsed = urlparse(url)
         host = parsed.netloc.lower()
-
+        
         if host == site_domain or host.endswith("." + site_domain):
             suggestion = _abs_resource_to_relative(docs_dir, path, url)
             hint = f" -> suggested: {suggestion!r}" if suggestion else ""
@@ -807,15 +748,15 @@ def check_images_external(
                     line_no,
                 )
             )
-
+    
     for m in MD_IMAGE_RE.finditer(cleaned):
         line_no = cleaned[: m.start()].count("\n") + 1
         _classify(m.group(2), line_no, "md")
-
+    
     for m in IMG_SRC_RE.finditer(cleaned):
         line_no = cleaned[: m.start()].count("\n") + 1
         _classify(m.group(1), line_no, "img")
-
+    
     return issues
 
 
@@ -824,30 +765,30 @@ def check_images(path: Path, text: str, docs_dir: Path) -> list[Issue]:
     issues: list[Issue] = []
     body_front, body = split_front_matter(text)
     cleaned = strip_code_blocks_simple(body)
-
+    
     for m in MD_IMAGE_RE.finditer(cleaned):
         url = m.group(2).strip()
         url = re.sub(r'\s+"[^"]*"$', "", url)
-
+        
         if not url or url.startswith(("http://", "https://", "data:", "mailto:")):
             continue
-
+        
         line_no = cleaned[: m.start()].count("\n") + 1
-
+        
         if not _resource_exists(docs_dir, path, url):
             issues.append(Issue("images-missing", f"image not found: {url!r}", line_no))
-
+    
     for m in IMG_SRC_RE.finditer(cleaned):
         url = m.group(1).strip()
-
+        
         if not url or url.startswith(("http://", "https://", "data:")):
             continue
-
+        
         line_no = cleaned[: m.start()].count("\n") + 1
-
+        
         if not _resource_exists(docs_dir, path, url):
             issues.append(Issue("images-missing", f"<img> image not found: {url!r}", line_no))
-
+    
     return issues
 
 
@@ -855,17 +796,17 @@ def check_frontmatter(path: Path, text: str) -> list[Issue]:
     """Check for presence of `path:` key in YAML front-matter for translated docs."""
     if "doc" not in path.parts:
         return []
-
+    
     issues: list[Issue] = []
     fm, _body = split_front_matter(text)
-
+    
     if not fm:
         return [Issue("frontmatter", "missing YAML front-matter (no `path:` key)", 1)]
-
+    
     data = parse_front_matter(fm)
     if "path" not in data:
         issues.append(Issue("frontmatter", "`path:` key missing from front-matter", 1))
-
+    
     return issues
 
 
@@ -874,7 +815,7 @@ def check_placeholders(path: Path, text: str) -> list[Issue]:
     issues: list[Issue] = []
     _, body = split_front_matter(text)
     cleaned = strip_code_blocks_simple(body)
-
+    
     for line_no, line in enumerate(cleaned.splitlines(), start=1):
         for pat in PLACEHOLDER_PATTERNS:
             for m in pat.finditer(line):
@@ -886,7 +827,7 @@ def check_placeholders(path: Path, text: str) -> list[Issue]:
                         severity="warning",
                     )
                 )
-
+    
     return issues
 
 
@@ -894,7 +835,7 @@ def check_whitespace(path: Path, text: str) -> list[Issue]:
     """Check for trailing whitespace and multiple blank lines at EOF."""
     issues: list[Issue] = []
     lines = text.splitlines()
-
+    
     for line_no, line in enumerate(lines, start=1):
         if line != line.rstrip():
             issues.append(
@@ -905,14 +846,14 @@ def check_whitespace(path: Path, text: str) -> list[Issue]:
                     severity="warning",
                 )
             )
-
+    
     trailing_blank = 0
     for line in reversed(lines):
         if line.strip() == "":
             trailing_blank += 1
         else:
             break
-
+    
     if trailing_blank > 1:
         issues.append(
             Issue(
@@ -922,7 +863,7 @@ def check_whitespace(path: Path, text: str) -> list[Issue]:
                 severity="warning",
             )
         )
-
+    
     return issues
 
 
@@ -930,22 +871,22 @@ def collect_md_by_lang(docs_dir: Path) -> dict[str, dict[str, Path]]:
     """Return {lang: {filename: path}} for the doc/ subdirectory."""
     result: dict[str, dict[str, Path]] = {}
     doc_dir = docs_dir / "doc"
-
+    
     if not doc_dir.is_dir():
         return result
-
+    
     for lang_dir in sorted(doc_dir.iterdir()):
         if not lang_dir.is_dir() or lang_dir.name.startswith("."):
             continue
-
+        
         files: dict[str, Path] = {}
         for md in lang_dir.rglob("*.md"):
             rel = md.relative_to(lang_dir).as_posix()
             files[rel] = md
-
+        
         if files:
             result[lang_dir.name] = files
-
+    
     return result
 
 
@@ -953,20 +894,20 @@ def check_i18n(docs_dir: Path, ref_lang: str) -> list[Issue]:
     """Check translation consistency across languages."""
     issues: list[Issue] = []
     by_lang = collect_md_by_lang(docs_dir)
-
+    
     if ref_lang not in by_lang:
         return issues
-
+    
     ref_files = set(by_lang[ref_lang])
-
+    
     for lang, files in sorted(by_lang.items()):
         if lang == ref_lang:
             continue
-
+        
         names = set(files)
         missing = sorted(ref_files - names)
         extra = sorted(names - ref_files)
-
+        
         for name in missing:
             issues.append(
                 Issue(
@@ -975,7 +916,7 @@ def check_i18n(docs_dir: Path, ref_lang: str) -> list[Issue]:
                     0,
                 )
             )
-
+        
         for name in extra:
             issues.append(
                 Issue(
@@ -985,7 +926,7 @@ def check_i18n(docs_dir: Path, ref_lang: str) -> list[Issue]:
                     severity="warning",
                 )
             )
-
+    
     return issues
 
 
@@ -999,15 +940,15 @@ def _local_name_for(url: str) -> str:
     if m:
         name = m.group("name").split("?")[0]
         return f"wp-{m.group('y')}-{m.group('m')}-{name}"
-
+    
     m = GH_RE.search(url)
     if m:
         return f"gh-{m.group('uuid')}.png"
-
+    
     m = BMC_RE.search(url)
     if m:
         return f"buymeacoffee-{m.group('name').split('?')[0]}"
-
+    
     base = url.split("/")[-1].split("?")[0]
     return f"ext-{base}"
 
@@ -1017,7 +958,7 @@ def _unique_local_path(out_dir: Path, name: str) -> Path:
     base = out_dir / name
     if not base.exists():
         return base
-
+    
     stem, dot, ext = name.rpartition(".")
     i = 1
     while True:
@@ -1030,15 +971,15 @@ def _unique_local_path(out_dir: Path, name: str) -> Path:
 def _resolve_external_local(out_dir: Path, url: str) -> str | None:
     """Return '/images/<name>' if a local file exists for this external URL."""
     name = _local_name_for(url)
-
+    
     if (out_dir / name).exists():
         return f"/images/{name}"
-
+    
     stem, dot, ext = name.rpartition(".")
     i = 1
     if (out_dir / f"{stem}-{i}{dot}{ext}").exists():
         return f"/images/{stem}-{i}{dot}{ext}"
-
+    
     return None
 
 
@@ -1062,36 +1003,36 @@ def _wayback(url: str) -> str | None:
 
 def _fetch_to_local(url: str, out_dir: Path, allow_network: bool) -> Path | None:
     """Download an external image to out_dir if not already present.
-
+    
     Returns the absolute local Path, or None if it could not be fetched.
     Honors allow_network=False (only reuse existing files).
     """
     if url in _FETCH_CACHE:
         return _FETCH_CACHE[url]
-
+    
     local = _resolve_external_local(out_dir, url)
     if local:
         p = out_dir.parent / local.lstrip("/")  # docs/images/<name>
         _FETCH_CACHE[url] = p
         return p
-
+    
     if not allow_network:
         return None
-
+    
     name = _local_name_for(url)
     data: bytes | None = None
     candidates = [url]
-
+    
     if url.startswith("https://qualcoder.wordpress.com/") and "?" in url:
         candidates.append(url.split("?", 1)[0])
-
+    
     for cand in candidates:
         try:
             data = _fetch(cand)
             break
         except Exception:
             continue
-
+    
     if data is None:
         wb = _wayback(url.split("?", 1)[0])
         if wb:
@@ -1099,10 +1040,10 @@ def _fetch_to_local(url: str, out_dir: Path, allow_network: bool) -> Path | None
                 data = _fetch(wb)
             except Exception:
                 data = None
-
+    
     if data is None:
         return None
-
+    
     target = _unique_local_path(out_dir, name)
     target.write_bytes(data)
     _FETCH_CACHE[url] = target
@@ -1114,22 +1055,22 @@ def fix_frontmatter(text: str, docs_dir: Path, current_file: Path) -> tuple[str,
     lang = _lang_of_file(docs_dir, current_file)
     if lang is None:
         return text, 0
-
+    
     try:
         rel = current_file.relative_to(docs_dir / "doc" / lang)
     except ValueError:
         return text, 0
-
+    
     path_value = rel.as_posix()
     if path_value.endswith(".md"):
         path_value = path_value[:-3]
-
+    
     fm, body = split_front_matter(text)
     if fm:
         data = parse_front_matter(fm)
         if "path" in data:
             return text, 0  # already present
-
+        
         # Insert `path:` inside the existing YAML block
         lines = text.splitlines()
         for i in range(1, len(lines)):
@@ -1147,23 +1088,23 @@ def fix_whitespace(text: str) -> tuple[str, int]:
     count = 0
     lines = text.splitlines()
     new_lines: list[str] = []
-
+    
     for line in lines:
         if line != line.rstrip():
             count += 1
         new_lines.append(line.rstrip())
-
+    
     # Collapse trailing blank lines
     while len(new_lines) > 1 and new_lines[-1] == "" and new_lines[-2] == "":
         new_lines.pop()
         count += 1
-
+    
     # Preserve final newline
     had_final_newline = text.endswith("\n")
     new_text = "\n".join(new_lines)
     if had_final_newline:
         new_text += "\n"
-
+    
     return new_text, count
 
 
@@ -1171,7 +1112,7 @@ def _rewrite_img_in_line(line: str, line_no: int) -> tuple[str, int, list[str]]:
     """Rewrite all <img ...> tags in a single line to Markdown syntax."""
     errors: list[str] = []
     count = 0
-
+    
     def repl(m: re.Match) -> str:
         nonlocal count
         tag = m.group(0)
@@ -1183,7 +1124,7 @@ def _rewrite_img_in_line(line: str, line_no: int) -> tuple[str, int, list[str]]:
         alt = attrs.get("alt", "")
         count += 1
         return f"![{alt}]({src})"
-
+    
     new_line = IMG_TAG_RE.sub(repl, line)
     return new_line, count, errors
 
@@ -1192,14 +1133,14 @@ def fix_img_tags(text: str) -> tuple[str, int, list[str]]:
     """Convert <img> HTML tags to ![alt](src) Markdown syntax."""
     errors: list[str] = []
     cleaned, code_mask = strip_code_blocks(text)
-
+    
     if not IMG_TAG_RE.search(cleaned):
         return text, 0, errors
-
+    
     lines = text.splitlines()
     new_lines: list[str] = []
     count = 0
-
+    
     for idx, line in enumerate(lines):
         if code_mask[idx]:
             new_lines.append(line)
@@ -1211,7 +1152,7 @@ def fix_img_tags(text: str) -> tuple[str, int, list[str]]:
         new_lines.append(new_line)
         count += n
         errors.extend(errs)
-
+    
     return "\n".join(new_lines), count, errors
 
 
@@ -1220,7 +1161,7 @@ def _rewrite_links_in_line(
 ) -> tuple[str, int]:
     """Rewrite internal absolute links to relative paths in a single line."""
     count = 0
-
+    
     def repl(m: re.Match) -> str:
         nonlocal count
         label = m.group(1)
@@ -1228,19 +1169,19 @@ def _rewrite_links_in_line(
         title_match = re.search(r'\s+"([^"]*)"$', url)
         title = title_match.group(1) if title_match else None
         url_clean = re.sub(r'\s+"[^"]*"$', "", url)
-
+        
         if not _is_internal_absolute(url_clean, site_domain):
             return m.group(0)
-
+        
         suggestion = _abs_to_relative_target(docs_dir, current_file, url_clean)
         if not suggestion:
             return m.group(0)
-
+        
         count += 1
         if title:
             return f"[{label}]({suggestion} \"{title}\")"
         return f"[{label}]({suggestion})"
-
+    
     new_line = MD_LINK_RE.sub(repl, line)
     return new_line, count
 
@@ -1251,13 +1192,13 @@ def fix_links_absolute(
     """Rewrite internal absolute links to relative paths."""
     count = 0
     cleaned, code_mask = strip_code_blocks(text)
-
+    
     if not MD_LINK_RE.search(cleaned):
         return text, 0
-
+    
     lines = text.splitlines()
     new_lines: list[str] = []
-
+    
     for idx, line in enumerate(lines):
         if code_mask[idx] or "[" not in line:
             new_lines.append(line)
@@ -1265,7 +1206,7 @@ def fix_links_absolute(
         new_line, n = _rewrite_links_in_line(line, docs_dir, current_file, site_domain)
         new_lines.append(new_line)
         count += n
-
+    
     return "\n".join(new_lines), count
 
 
@@ -1274,7 +1215,7 @@ def _rewrite_images_in_line(
 ) -> tuple[str, int]:
     """Rewrite absolute image URLs (to site domain) to relative paths in a single line."""
     count = 0
-
+    
     def repl(m: re.Match) -> str:
         nonlocal count
         alt = m.group(1)
@@ -1282,19 +1223,19 @@ def _rewrite_images_in_line(
         title_match = re.search(r'\s+"([^"]*)"$', url)
         title = title_match.group(1) if title_match else None
         url_clean = re.sub(r'\s+"[^"]*"$', "", url)
-
+        
         if not _is_internal_absolute(url_clean, site_domain):
             return m.group(0)
-
+        
         suggestion = _abs_resource_to_relative(docs_dir, current_file, url_clean)
         if not suggestion:
             return m.group(0)
-
+        
         count += 1
         if title:
             return f"![{alt}]({suggestion} \"{title}\")"
         return f"![{alt}]({suggestion})"
-
+    
     new_line = MD_IMAGE_RE.sub(repl, line)
     return new_line, count
 
@@ -1305,13 +1246,13 @@ def fix_images_absolute(
     """Rewrite absolute image URLs (to the site domain) to relative paths."""
     count = 0
     cleaned, code_mask = strip_code_blocks(text)
-
+    
     if not MD_IMAGE_RE.search(cleaned):
         return text, 0
-
+    
     lines = text.splitlines()
     new_lines: list[str] = []
-
+    
     for idx, line in enumerate(lines):
         if code_mask[idx] or "![" not in line:
             new_lines.append(line)
@@ -1319,7 +1260,7 @@ def fix_images_absolute(
         new_line, n = _rewrite_images_in_line(line, docs_dir, current_file, site_domain)
         new_lines.append(new_line)
         count += n
-
+    
     return "\n".join(new_lines), count
 
 
@@ -1328,7 +1269,7 @@ def _normalize_md_ext_in_line(
 ) -> tuple[str, int]:
     """Normalize .md extension in relative links in a single line."""
     count = 0
-
+    
     def repl(m: re.Match) -> str:
         nonlocal count
         label = m.group(1)
@@ -1336,20 +1277,20 @@ def _normalize_md_ext_in_line(
         title_match = re.search(r'\s+"([^"]*)"$', url)
         title = title_match.group(1) if title_match else None
         url_clean = re.sub(r'\s+"[^"]*"$', "", url)
-
+        
         if not url_clean or url_clean.startswith("#"):
             return m.group(0)
         if url_clean.startswith(("http://", "https://", "mailto:")):
             return m.group(0)
-
+        
         target, frag = _split_url_fragment(url_clean)
         if not target:
             return m.group(0)
-
+        
         resolved = _resolve_md_target(docs_dir, current_file, url_clean)
         if resolved is None or resolved.suffix != ".md":
             return m.group(0)
-
+        
         # Only rewrite if there is an actual change to make
         if with_ext and not target.endswith(".md"):
             new_target = target + ".md"
@@ -1359,14 +1300,14 @@ def _normalize_md_ext_in_line(
             count += 1
         else:
             return m.group(0)
-
+        
         new_url = new_target
         if frag:
             new_url += f"#{frag}"
         if title:
             new_url += f' "{title}"'
         return f"[{label}]({new_url})"
-
+    
     new_line = MD_LINK_RE.sub(repl, line)
     return new_line, count
 
@@ -1377,13 +1318,13 @@ def fix_links_md_ext(
     """Normalize relative .md link targets to the majority style."""
     count = 0
     cleaned, code_mask = strip_code_blocks(text)
-
+    
     if not MD_LINK_RE.search(cleaned):
         return text, 0
-
+    
     lines = text.splitlines()
     new_lines: list[str] = []
-
+    
     for idx, line in enumerate(lines):
         if code_mask[idx] or "[" not in line:
             new_lines.append(line)
@@ -1391,7 +1332,7 @@ def fix_links_md_ext(
         new_line, n = _normalize_md_ext_in_line(line, docs_dir, current_file, with_ext)
         new_lines.append(new_line)
         count += n
-
+    
     return "\n".join(new_lines), count
 
 
@@ -1405,26 +1346,26 @@ def _rewrite_external_in_line(
     """Rewrite external image URLs to local /images/<name> in a single line."""
     warnings: list[str] = []
     count = 0
-
+    
     def repl(m: re.Match) -> str:
         nonlocal count
         url = m.group(0)
         local = _fetch_to_local(url, images_out, allow_network=allow_network)
-
+        
         if local is None:
             warnings.append(
                 f"line {line_no}: external image not local & not fetchable, left as-is: {url!r}"
             )
             return url
-
+        
         rel = "/images/" + local.name
         count += 1
         return rel
-
+    
     new_line = EXT_URL_RE.sub(repl, line)
     if count and allow_network and delay:
         time.sleep(delay)
-
+    
     return new_line, count, warnings
 
 
@@ -1437,14 +1378,14 @@ def fix_images_external(
     """Download external images and rewrite their URLs to local /images/<name>."""
     warnings: list[str] = []
     cleaned, code_mask = strip_code_blocks(text)
-
+    
     if not EXT_URL_RE.search(cleaned):
         return text, 0, warnings
-
+    
     lines = text.splitlines()
     new_lines: list[str] = []
     count = 0
-
+    
     for idx, line in enumerate(lines):
         if code_mask[idx] or "https://" not in line:
             new_lines.append(line)
@@ -1455,35 +1396,35 @@ def fix_images_external(
         new_lines.append(new_line)
         count += n
         warnings.extend(warns)
-
+    
     return "\n".join(new_lines), count, warnings
 
 
 def fix_headings(text: str) -> tuple[str, int]:
     """Fix heading structure: ensure only one H1 (#), replace subsequent H1s with H2.
-
+    
     Rules:
     - Keep only the first H1 (#), replace others with H2 (##)
     - Do NOT modify other heading levels (H3-H6)
     - Do NOT fix level skips
-
+    
     Returns (new_text, count_of_fixes).
     """
     lines = text.splitlines()
     new_lines: list[str] = []
     count = 0
-
+    
     # Track if we've seen the first H1
     h1_found = False
-
+    
     for line in lines:
         # Check if this line is a heading
         m = re.match(r"^(#{1,6})\s+(.+?)\s*#*\s*$", line)
-
+        
         if m:
             level = len(m.group(1))
             title = m.group(2)
-
+            
             # Only process H1 (level 1)
             if level == 1:
                 if h1_found:
@@ -1496,120 +1437,15 @@ def fix_headings(text: str) -> tuple[str, int]:
                     # Keep the first H1
                     h1_found = True
             # For other levels (2-6), keep as-is
-
+        
         new_lines.append(line)
-
+    
     # Preserve final newline
     had_final_newline = text.endswith("\n")
     new_text = "\n".join(new_lines)
     if had_final_newline and not new_text.endswith("\n"):
         new_text += "\n"
-
-    return new_text, count
-
-
-# =============================================================================
-# TYPOGRAPHY FIX (language-aware)
-# =============================================================================
-
-def _typo_line(line: str, lang: str) -> str:
-    """Apply language-aware typography rules to a single line.
-
-    Protects inline code and Markdown links from any modification.
-    """
-    if not line.strip():
-        return line
-
-    # Protect inline code `...` and Markdown links [x](y) from modification
-    protected: list[str] = []
-
-    def _mask(m: re.Match) -> str:
-        protected.append(m.group(0))
-        return f"\x00{len(protected) - 1}\x00"
-
-    line = re.sub(r"`[^`\n]+`", _mask, line)
-    line = re.sub(r"\[[^\]]*\]\([^)]*\)", _mask, line)
-
-    # Guillemets typographiques de la langue
-    quotes = TYPO_RULES["quotes"].get(lang)
-    if quotes:
-        o, c = quotes
-        # Espace insécable à l'intérieur des guillemets déjà typographiques
-        line = re.sub(re.escape(o) + r"\s*", o + NBSP, line)
-        line = re.sub(r"\s*" + re.escape(c), NBSP + c, line)
-        # Paires de guillemets droits "x" -> typographiques
-        if TYPO_RULES["convert_dquotes"].get(lang):
-            line = DQUOTE_PAIR_RE.sub(lambda m: f"{o}{m.group(1)}{c}", line)
-
-    # Espace fine insécable avant : ; ! ? % selon la langue
-    thin = TYPO_RULES["thin_before"].get(lang, "")
-    if thin:
-        line = re.sub(
-            r"(\S)( ?)([" + re.escape(thin) + r"])",
-            r"\g<1>" + NNBSP + r"\g<3>",
-            line,
-        )
-
-    # Espace insécable pleine avant : selon la langue
-    full = TYPO_RULES["full_before"].get(lang, "")
-    if full:
-        line = re.sub(
-            r"(\S)( ?)([" + re.escape(full) + r"])",
-            r"\g<1>" + NBSP + r"\g<3>",
-            line,
-        )
-
-    # Apostrophe typographique
-    if lang in TYPO_RULES["apostrophe"]:
-        line = TYPO_APOSTROPHE_RE.sub("’", line)
-
-    # Points de suspension
-    if lang in TYPO_RULES["ellipsis"]:
-        line = TYPO_ELLIPSIS_RE.sub("…", line)
-
-    # Restore protected segments
-    def _unmask(m: re.Match) -> str:
-        return protected[int(m.group(1))]
-
-    return re.sub(r"\x00(\d+)\x00", _unmask, line)
-
-
-def fix_typography(text: str, lang: str) -> tuple[str, int]:
-    """Improve typography according to the file's language.
-
-    Rules are defined per-language in TYPO_RULES; unknown languages are
-    left untouched. Code blocks, inline code and Markdown links are never
-    modified. Returns (new_text, count_of_changed_lines).
-    """
-    has_rules = (
-        lang in TYPO_RULES["quotes"]
-        or lang in TYPO_RULES["apostrophe"]
-        or lang in TYPO_RULES["ellipsis"]
-        or lang in TYPO_RULES["thin_before"]
-        or lang in TYPO_RULES["full_before"]
-    )
-    if not has_rules:
-        # Unknown language (e.g. "pt", "pl"): skip cleanly
-        return text, 0
-
-    lines = text.splitlines()
-    _, code_mask = strip_code_blocks(text)
-
-    count = 0
-    new_lines: list[str] = []
-    for idx, line in enumerate(lines):
-        if code_mask[idx]:
-            new_lines.append(line)
-            continue
-        fixed = _typo_line(line, lang)
-        if fixed != line:
-            count += 1
-        new_lines.append(fixed)
-
-    new_text = "\n".join(new_lines)
-    if text.endswith("\n") and not new_text.endswith("\n"):
-        new_text += "\n"
-
+    
     return new_text, count
 
 
@@ -1617,38 +1453,38 @@ def majority_md_ext(docs_dir: Path) -> bool:
     """Return True if the majority of relative .md links use the .md suffix."""
     with_ext = 0
     without_ext = 0
-
+    
     for md_file in docs_dir.rglob("*.md"):
         try:
             text = md_file.read_text(encoding="utf-8")
         except OSError:
             continue
-
+        
         _, body = split_front_matter(text)
         cleaned, _ = strip_code_blocks(body)
-
+        
         for m in MD_LINK_RE.finditer(cleaned):
             url = m.group(2).strip()
             url = re.sub(r'\s+"[^"]*"$', "", url)
-
+            
             if not url or url.startswith("#"):
                 continue
             if url.startswith(("http://", "https://", "mailto:")):
                 continue
-
+            
             target, _frag = _split_url_fragment(url)
             if not target:
                 continue
-
+            
             resolved = _resolve_md_target(docs_dir, md_file, url)
             if resolved is None or resolved.suffix != ".md":
                 continue
-
+            
             if target.endswith(".md"):
                 with_ext += 1
             else:
                 without_ext += 1
-
+    
     return with_ext >= without_ext
 
 
@@ -1683,8 +1519,18 @@ FIX_NAMES = (
     "links-md-ext",
     "frontmatter",
     "images-external",
-    "typography",
 )
+
+FIX_FUNCTIONS = {
+    "whitespace": fix_whitespace,
+    "img": fix_img_tags,
+    "links-absolute": fix_links_absolute,
+    "images-absolute": fix_images_absolute,
+    "links-md-ext": fix_links_md_ext,
+    "frontmatter": fix_frontmatter,
+    "images-external": fix_images_external,
+    "headings": fix_headings,
+}
 
 
 def run_checks(
@@ -1700,7 +1546,7 @@ def run_checks(
     warning_count = 0
     per_file: dict[str, list[Issue]] = {}
     cross_issues: list[Issue] = []
-
+    
     for md_file in md_files:
         rel = md_file.relative_to(docs_dir).as_posix()
         try:
@@ -1709,7 +1555,7 @@ def run_checks(
             per_file[rel] = [Issue("read", f"could not read file: {e}", 1)]
             error_count += 1
             continue
-
+        
         file_issues: list[Issue] = []
         for name, fn in CHECKS.items():
             if name not in enabled:
@@ -1725,21 +1571,21 @@ def run_checks(
                     file_issues += fn(md_file, text)
             except Exception as e:  # noqa: BLE001
                 file_issues.append(Issue(name, f"check crashed: {e}", 1))
-
+        
         file_errors = [i for i in file_issues if i.severity == "error"]
         file_warnings = [i for i in file_issues if i.severity == "warning"]
-
+        
         if file_issues and (file_errors or not quiet):
             per_file[rel] = file_issues
-
+        
         error_count += len(file_errors)
         warning_count += len(file_warnings)
-
+    
     if "i18n" in enabled:
         cross_issues = check_i18n(docs_dir, ref_lang)
         error_count += sum(1 for i in cross_issues if i.severity == "error")
         warning_count += sum(1 for i in cross_issues if i.severity == "warning")
-
+    
     return error_count, warning_count, per_file, cross_issues
 
 
@@ -1763,11 +1609,11 @@ def render_report(
     lines: list[str] = []
     lines.append("# Markdown Quality Report")
     lines.append("")
-
+    
     generated = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     lines.append(f"Generated: {generated}")
     lines.append("")
-
+    
     lines.append("## Configuration")
     lines.append("")
     lines.append(f"- **Docs directory:** `{docs_dir}`")
@@ -1775,7 +1621,7 @@ def render_report(
     lines.append(f"- **Reference language (i18n):** `{ref_lang}`")
     lines.append(f"- **Active checks:** {', '.join(sorted(enabled)) if enabled else 'none'}")
     lines.append("")
-
+    
     lines.append("## Summary")
     lines.append("")
     status = "FAIL" if (error_count or (strict and warning_count)) else "PASS"
@@ -1784,14 +1630,14 @@ def render_report(
     lines.append(f"- **Warnings:** {warning_count}")
     lines.append(f"- **Files with issues:** {len(per_file)}")
     lines.append("")
-
+    
     # Counts per check
     all_issues = [i for issues in per_file.values() for i in issues] + cross_issues
     by_check: dict[str, dict[str, int]] = {}
     for iss in all_issues:
         by_check.setdefault(iss.check, {"error": 0, "warning": 0})
         by_check[iss.check][iss.severity] += 1
-
+    
     if by_check:
         lines.append("### Issues by check")
         lines.append("")
@@ -1803,7 +1649,7 @@ def render_report(
                 f"| {by_check[check]['error']} | {by_check[check]['warning']} |"
             )
         lines.append("")
-
+    
     # Per-file details
     if per_file:
         lines.append("## Files")
@@ -1815,7 +1661,7 @@ def render_report(
             warns = sum(1 for i in per_file[rel] if i.severity == "warning")
             lines.append(f"| `{_md_inline(rel)}` | {errs} | {warns} |")
         lines.append("")
-
+        
         lines.append("## Details")
         lines.append("")
         for rel in sorted(per_file):
@@ -1838,7 +1684,7 @@ def render_report(
                         f"| {_md_inline(iss.message)} |"
                     )
                 lines.append("")
-
+    
     # Cross-file (i18n) details
     if cross_issues:
         lines.append("## Translation consistency (`docs/doc/`)")
@@ -1851,12 +1697,12 @@ def render_report(
                 f"| {sev} | `{_md_inline(iss.check)}` | {_md_inline(iss.message)} |"
             )
         lines.append("")
-
+    
     lines.append("---")
     lines.append("")
     lines.append(f"Result: **{status}**")
     lines.append("")
-
+    
     return "\n".join(lines)
 
 
@@ -1870,52 +1716,45 @@ def fix_file(
     images_out: Path,
     allow_network: bool,
     delay: float,
-    typo_lang: str,
 ) -> tuple[str, dict[str, int], list[str]]:
     """Apply all enabled fixes to a file's content. Returns (new_text, counts, errors)."""
     counts = {k: 0 for k in FIX_NAMES}
     errors: list[str] = []
-
+    
     if "frontmatter" in enabled:
         text, n = fix_frontmatter(text, docs_dir, current_file)
         counts["frontmatter"] = n
-
+    
     if "headings" in enabled:
         text, n = fix_headings(text)
         counts["headings"] = n
-
+    
     if "whitespace" in enabled:
         text, n = fix_whitespace(text)
         counts["whitespace"] = n
-
+    
     if "img" in enabled:
         text, n, errs = fix_img_tags(text)
         counts["img"] = n
         errors.extend(errs)
-
+    
     if "links-absolute" in enabled:
         text, n = fix_links_absolute(text, docs_dir, current_file, site_domain)
         counts["links-absolute"] = n
-
+    
     if "images-absolute" in enabled:
         text, n = fix_images_absolute(text, docs_dir, current_file, site_domain)
         counts["images-absolute"] = n
-
+    
     if "links-md-ext" in enabled:
         text, n = fix_links_md_ext(text, docs_dir, current_file, with_ext)
         counts["links-md-ext"] = n
-
+    
     if "images-external" in enabled:
         text, n, warns = fix_images_external(text, images_out, allow_network, delay)
         counts["images-external"] = n
         errors.extend(warns)
-
-    # Typography last: language rules adapted via doc/<lang>/ or --typo-lang
-    if "typography" in enabled:
-        lang = detect_lang(docs_dir, current_file, typo_lang)
-        text, n = fix_typography(text, lang)
-        counts["typography"] = n
-
+    
     return text, counts, errors
 
 
@@ -1929,7 +1768,7 @@ def create_parser() -> argparse.ArgumentParser:
         description="Unified Markdown quality tool: use --check to verify, --fix to correct.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
-
+    
     # Mode selection
     parser.add_argument(
         "--check",
@@ -1941,7 +1780,7 @@ def create_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Run auto-fix on safe issues. Use with --check to run both.",
     )
-
+    
     # Common options
     parser.add_argument(
         "--docs-dir", type=Path, default=Path("docs"),
@@ -1955,7 +1794,7 @@ def create_parser() -> argparse.ArgumentParser:
         "--ref-lang", default=DEFAULT_REF_LANG,
         help="Reference language for i18n consistency (default: %s)." % DEFAULT_REF_LANG,
     )
-
+    
     # Check-specific options
     parser.add_argument(
         "--only", nargs="+",
@@ -1977,7 +1816,7 @@ def create_parser() -> argparse.ArgumentParser:
         "--no-report", action="store_true",
         help="Do not print the Markdown report (still sets exit code).",
     )
-
+    
     # Fix-specific options
     parser.add_argument(
         "--dry-run",
@@ -2007,12 +1846,7 @@ def create_parser() -> argparse.ArgumentParser:
         default=0.3,
         help="Seconds to wait between external image downloads (default: 0.3).",
     )
-    parser.add_argument(
-        "--typo-lang",
-        default="en",
-        help="Default typography language for files outside doc/<lang>/ (default: en).",
-    )
-
+    
     return parser
 
 
@@ -2029,9 +1863,9 @@ def run_check(
     error_count, warning_count, per_file, cross_issues = run_checks(
         docs_dir, site_domain, ref_lang, enabled, quiet
     )
-
+    
     exit_code = 1 if error_count or (strict and warning_count) else 0
-
+    
     if not no_report:
         report = render_report(
             docs_dir,
@@ -2045,7 +1879,7 @@ def run_check(
             strict,
         )
         print(report)
-
+    
     return exit_code, error_count, warning_count, per_file, cross_issues
 
 
@@ -2058,38 +1892,36 @@ def run_fix(
     dry_run: bool,
     no_network: bool,
     delay: float,
-    typo_lang: str,
 ) -> tuple[int, bool]:
     """Run auto-fix on files. Returns (exit_code, had_error)."""
     images_out_resolved = images_out.resolve() if images_out else (docs_dir / "images")
     if "images-external" in enabled:
         images_out_resolved.mkdir(parents=True, exist_ok=True)
-
+    
     # Determine .md extension style
     if md_ext_style == "auto":
         with_ext = majority_md_ext(docs_dir)
     else:
         with_ext = md_ext_style == "with"
-
+    
     apply = not dry_run
     allow_network = apply and not no_network
     mode = "APPLY" if apply else "DRY-RUN"
-
+    
     print(f"Markdown quality fixer [{mode}]")
     print(f"  Docs directory: {docs_dir}")
     print(f"  Internal site domain: {site_domain}")
     print(f"  .md extension style: {'with .md' if with_ext else 'without .md'}")
     print(f"  Images out dir: {images_out_resolved}")
     print(f"  Network download: {'enabled' if allow_network else 'disabled (reuse local only)'}")
-    print(f"  Default typography language: {typo_lang}")
     print(f"  Active fixes: {', '.join(sorted(enabled)) if enabled else 'none'}")
     print()
-
+    
     total_counts = {k: 0 for k in FIX_NAMES}
     files_changed = 0
     total_errors = 0
     had_error = False
-
+    
     md_files = sorted(p for p in docs_dir.rglob("*.md"))
     for md_file in md_files:
         rel = md_file.relative_to(docs_dir).as_posix()
@@ -2099,15 +1931,15 @@ def run_fix(
             print(f"  ERROR reading {rel}: {e}", file=sys.stderr)
             had_error = True
             continue
-
+        
         new_text, counts, errors = fix_file(
             original, docs_dir, md_file, site_domain, with_ext, enabled,
-            images_out_resolved, allow_network, delay, typo_lang,
+            images_out_resolved, allow_network, delay,
         )
         for k, v in counts.items():
             total_counts[k] += v
         total_errors += len(errors)
-
+        
         if new_text != original:
             files_changed += 1
             print(f"### {rel}")
@@ -2122,7 +1954,7 @@ def run_fix(
             for err in errors:
                 print(f"### {rel}")
                 print(f"  - WARNING: {err}")
-
+    
     print("\n" + "=" * 60)
     print("Summary:")
     print(f"  Files scanned: {len(md_files)}")
@@ -2131,7 +1963,7 @@ def run_fix(
         print(f"  {k}: {v} fix(es)")
     print(f"  Warnings (untouched issues): {total_errors}")
     print("Result: " + ("DONE" if not had_error else "DONE with warnings"))
-
+    
     return 1 if had_error else 0, had_error
 
 
@@ -2139,16 +1971,16 @@ def main(argv: list[str] | None = None) -> int:
     """Main entry point with simplified CLI."""
     parser = create_parser()
     args = parser.parse_args(argv)
-
+    
     docs_dir = args.docs_dir.resolve()
     if not docs_dir.is_dir():
         print(f"Directory not found: {docs_dir}", file=sys.stderr)
         return 2
-
+    
     # Determine mode
     do_check = args.check or (not args.fix)
     do_fix = args.fix
-
+    
     # Prepare enabled checks/fixes
     all_items = set(CHECKS) | set(CROSS_CHECKS) | set(FIX_NAMES)
     if args.only:
@@ -2156,13 +1988,13 @@ def main(argv: list[str] | None = None) -> int:
     else:
         enabled = all_items
     enabled -= set(args.skip or [])
-
+    
     # Split into check-enabled and fix-enabled
     check_enabled = enabled & (set(CHECKS) | set(CROSS_CHECKS))
     fix_enabled = enabled & set(FIX_NAMES)
-
+    
     exit_code = 0
-
+    
     # Run check if requested
     if do_check:
         check_exit, _, _, _, _ = run_check(
@@ -2175,7 +2007,7 @@ def main(argv: list[str] | None = None) -> int:
             args.strict,
         )
         exit_code = check_exit
-
+    
     # Run fix if requested
     if do_fix:
         fix_exit, had_error = run_fix(
@@ -2187,13 +2019,13 @@ def main(argv: list[str] | None = None) -> int:
             args.dry_run,
             args.no_network,
             args.delay,
-            args.typo_lang,
         )
         if had_error:
             exit_code = 1
-
+    
     return exit_code
 
 
 if __name__ == "__main__":
     sys.exit(main())
+
