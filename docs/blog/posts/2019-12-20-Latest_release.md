@@ -1,5 +1,5 @@
 ---
-title: “Latest release”
+title: "Latest release"
 date: 2019-12-20
 author: ccbogel
 category: Misc

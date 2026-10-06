@@ -1,5 +1,5 @@
 ---
-title: “QualCoder : une mise à jour majeure pour l’analyse qualitative”
+title: "QualCoder : une mise à jour majeure pour l'analyse qualitative"
 date: 2026-10-03
 ---
 
@@ -74,7 +74,7 @@ Vous pouvez désormais importer des PDF annotés et coder automatiquement les se
 Les fichiers LaTeX peuvent désormais être importés et convertis en texte brut lisible. Notez que les présentations complexes ou les fichiers utilisant des commandes telles que |input| ou |include| peuvent ne pas s’importer parfaitement.
 
 # Import de fichiers Sonal pi
-Il est possible d’importer des projets issus u logiciel Sonal Pi
+Il est possible d'importer des projets issus u logiciel Sonal Pi
 
 ## Gestion des références : pièces jointes et Zotero
 
@@ -210,7 +210,7 @@ Le chemin hiérarchique complet s’affiche désormais avant le nom du code (par
 
 ### Codes cooccurrents
 
-Sous chaque note de segment codé, l’ensemble des codes qui se recoupent au sein d’un même fichier est désormais répertorié entre parenthèses, ce qui permet d’identifier rapidement les recoupements de codage. Cette fonctionnalité s’applique aux données textuelles, audio/vidéo et aux images. Vous pouvez consulter et exporter les codes qui se chevauchent.
+Sous chaque note de segment codé, l’ensemble des codes qui se recoupent au sein d’un même fichier est désormais répertorié entre parenthèses, ce qui permet d’identifier rapidement les recoupements de codage. Cette fonctionnalité s'applique aux données textuelles, audio/vidéo et aux images. Vous pouvez consulter et exporter les codes qui se chevauchent.
 
 ### Nouvelle option de tri par catégorie
 

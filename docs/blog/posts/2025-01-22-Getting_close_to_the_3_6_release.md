@@ -1,5 +1,5 @@
 ---
-title: “Getting close to the 3 6 release”
+title: "Getting close to the 3 6 release"
 date: 2025-01-22
 author: ccbogel
 category: Misc

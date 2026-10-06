@@ -1,5 +1,5 @@
 ---
-title: “Markdown formatting in journals”
+title: "Markdown formatting in journals"
 date: 2023-02-03
 author: ccbogel
 category: Misc

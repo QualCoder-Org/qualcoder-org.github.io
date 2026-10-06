@@ -1,5 +1,5 @@
 ---
-title: “Another satisfied user”
+title: "Another satisfied user"
 date: 2025-06-06
 author: ccbogel
 category: Misc

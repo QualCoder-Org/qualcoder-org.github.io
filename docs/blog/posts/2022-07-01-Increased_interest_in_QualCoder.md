@@ -1,5 +1,5 @@
 ---
-title: “Increased interest in QualCoder”
+title: "Increased interest in QualCoder"
 date: 2022-07-01
 author: ccbogel
 category: Misc

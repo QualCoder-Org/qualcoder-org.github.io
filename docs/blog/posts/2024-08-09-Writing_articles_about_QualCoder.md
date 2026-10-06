@@ -1,5 +1,5 @@
 ---
-title: “Writing articles about QualCoder”
+title: "Writing articles about QualCoder"
 date: 2024-08-09
 author: ccbogel
 category: Misc

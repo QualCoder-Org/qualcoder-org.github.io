@@ -1,5 +1,5 @@
 ---
-title: “Windows 10 and VLC versions”
+title: "Windows 10 and VLC versions"
 date: 2019-05-09
 author: ccbogel
 category: Misc

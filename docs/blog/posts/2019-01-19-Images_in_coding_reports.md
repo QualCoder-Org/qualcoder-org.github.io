@@ -1,5 +1,5 @@
 ---
-title: “Images in coding reports”
+title: "Images in coding reports"
 date: 2019-01-19
 author: ccbogel
 category: Misc

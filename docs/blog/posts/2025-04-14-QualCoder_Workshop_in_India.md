@@ -1,5 +1,5 @@
 ---
-title: “QualCoder Workshop in India”
+title: "QualCoder Workshop in India"
 date: 2025-04-14
 author: ccbogel
 category: Misc

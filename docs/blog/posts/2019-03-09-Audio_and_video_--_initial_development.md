@@ -1,5 +1,5 @@
 ---
-title: “Audio and video -- initial development”
+title: "Audio and video -- initial development"
 date: 2019-03-09
 author: ccbogel
 category: Misc

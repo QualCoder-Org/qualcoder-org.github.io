@@ -1,5 +1,5 @@
 ---
-title: “Windows QualCoder exe”
+title: "Windows QualCoder exe"
 date: 2021-07-09
 author: ccbogel
 category: Misc

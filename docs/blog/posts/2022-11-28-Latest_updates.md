@@ -1,5 +1,5 @@
 ---
-title: “Latest updates”
+title: "Latest updates"
 date: 2022-11-28
 author: ccbogel
 category: Misc

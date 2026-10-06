@@ -1,5 +1,5 @@
 ---
-title: “QualCoder  free qualitative data analysis”
+title: "QualCoder  free qualitative data analysis"
 date: 2019-01-15
 author: ccbogel
 category: Misc

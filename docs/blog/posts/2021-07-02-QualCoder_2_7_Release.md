@@ -1,5 +1,5 @@
 ---
-title: “QualCoder 2 7 Release”
+title: "QualCoder 2 7 Release"
 date: 2021-07-02
 author: ccbogel
 category: Misc
@@ -51,9 +51,9 @@ Installation and running QualCoder:
 
 Install VLC or from the Windows Store. Download and unzip the QualCoder-2.7.zip release.
 
-The software does not have an exe for Windows. Download and install the Python programming language <https://www.python.org/downloads/windows/>. The minimum version that works for QualCoder is python 3.6. Download the file (at the bottom of the web site) “Windows installer (64-bit)” (or 32-bit if you have an older system) and install Python. IMPORTANT: in the first window of the installation mark the option “Add Python to PATH”
+The software does not have an exe for Windows. Download and install the Python programming language <https://www.python.org/downloads/windows/>. The minimum version that works for QualCoder is python 3.6. Download the file (at the bottom of the web site) "Windows installer (64-bit)" (or 32-bit if you have an older system) and install Python. IMPORTANT: in the first window of the installation mark the option "Add Python to PATH"
 
-Install extra modules to Python. Type the letters “cmd” in the Windows Start searching engine, and click on the black software “cmd.exe” -- this is the command console for Windows. In the console paste, using the right-click context menu (ctrl+v does not work) the following:
+Install extra modules to Python. Type the letters "cmd" in the Windows Start searching engine, and click on the black software "cmd.exe" -- this is the command console for Windows. In the console paste, using the right-click context menu (ctrl+v does not work) the following:
 
 py -m pip install pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl
 

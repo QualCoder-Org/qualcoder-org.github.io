@@ -1,20 +1,20 @@
 Team collaboration is a recurring point in QualCoder. Although some possibilities exist, nothing is practical with the use of a server.
-I’ve tried thinking about the question, and I propose an approach. Maybe not the best, but it could kick off the discussion:
+I've tried thinking about the question, and I propose an approach. Maybe not the best, but it could kick off the discussion:
 
-The idea would be to create a “locks” lock file to indicate that a file is being edited (with a date to indicate the start: this could be a simple text file, or a JSON with date/coder). This lock would be reset (empty file) when no one is editing.
+The idea would be to create a "locks" lock file to indicate that a file is being edited (with a date to indicate the start: this could be a simple text file, or a JSON with date/coder). This lock would be reset (empty file) when no one is editing.
 This would give:
 
 - You enter a WebDAV server address into QualCoder (an open protocol for file synchronization)
 - QualCoder checks whether there is a lock. If there is a lock, it indicates that someone is modifying, and that you must wait.
 - If no lock, QualCoder creates / edits the lock file to indicate that someone is using it. The files are downloaded. You edit as usual.
-- When done, you click a “send to server” button. The files are upload on server.
+- When done, you click a "send to server" button. The files are upload on server.
 -  The lock is reset, indicating that the project is again available for modification.
 
-It’s maybe the 3e way to working with team, with Sequential Editing of the Same Project and Using a Master Project
+It's maybe the 3e way to working with team, with Sequential Editing of the Same Project and Using a Master Project
 
 An alternative is, at the time of the push, to merge the two .qda files (local and online) using the merge function, with the online version serving as the master document
 
-Pb: lock file and sqlite don’t comptatible with cloud.
+Pb: lock file and sqlite don't comptatible with cloud.
 
 Colin response:
 We cannot do this first approach using the SQLite database. It needs to be a different database management system.
@@ -36,11 +36,11 @@ https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a
 
 
 Kai response:
-It’s not an easy thing to solve, for all the reasons Colin has mentioned already.
+It's not an easy thing to solve, for all the reasons Colin has mentioned already.
 But I do think that the sequential editing approach suggested in the first post is a direction we could investigate further. If we had some kind of centralized server that would manage a lock on projects in use, this would prevent concurrent access and could work with SQLite. A locking mechanism would stop instances from accessing a project that is already opened by another team member, so QualCoder would remain a single-user app.
 We would also need strict versioning of the project file (every change increases a counter in the main project db), which must also be stored on the central server. This way, any instance can ensure that it has the most recent project files before opening a project.
-I’m not sure if WebDAV is the right protocol for managing the lock. A small dedicated QualCoder server, only used to manage project locks and versions in a database, could be a better approach. Each QualCoder project would get a unique GUID for identification, but the server would not know anything about the project’s actual content.
-People could then sync the actual project files using whichever service they have available - WedDAV, OneDrive, a university server… As discussed many times, the main project location should not be in a synced folder because this could interfere with SQLite. But we could automatically create a single zipped “transport file” when the project is closed and store this in a synced folder.
+I'm not sure if WebDAV is the right protocol for managing the lock. A small dedicated QualCoder server, only used to manage project locks and versions in a database, could be a better approach. Each QualCoder project would get a unique GUID for identification, but the server would not know anything about the project's actual content.
+People could then sync the actual project files using whichever service they have available - WedDAV, OneDrive, a university server... As discussed many times, the main project location should not be in a synced folder because this could interfere with SQLite. But we could automatically create a single zipped "transport file" when the project is closed and store this in a synced folder.
 There are still plenty of problems to address, e.g., how to deal with stale locks if an instance crashes or loses network connection, or how to ensure that the synced project file is complete and not corrupted (we probably also need a hash stored on the server). But I think we should not abandon this idea too early, as improving the teamwork capabilities in QualCoder is something that users have requested many times already. However, this is definitely not something that could be implemented quickly, more of a long-term project.
 What do you think?
 

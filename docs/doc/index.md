@@ -1,4 +1,4 @@
-<div class=“grid cards” markdown>
+<div class="grid cards" markdown>
 
 - [Documentation in English](en)
 - [Dokumentation auf Deutsch](de)

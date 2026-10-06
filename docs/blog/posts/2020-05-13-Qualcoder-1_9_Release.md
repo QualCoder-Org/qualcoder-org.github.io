@@ -1,5 +1,5 @@
 ---
-title: “Qualcoder-1 9 Release”
+title: "Qualcoder-1 9 Release"
 date: 2020-05-13
 author: ccbogel
 category: Misc
