@@ -1,5 +1,5 @@
 ---
-title: "QualCoder 3 2 released"
+title: “QualCoder 3 2 released”
 date: 2023-01-20
 author: ccbogel
 category: Misc

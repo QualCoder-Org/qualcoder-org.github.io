@@ -3,21 +3,21 @@
 
 ### QualCoder 3.8
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dF-7kxr_G9c?si=VVRj6UYCRpcxK2bu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“560” height=“315” src=“https://www.youtube.com/embed/dF-7kxr_G9c?si=VVRj6UYCRpcxK2bu” title=“YouTube video player” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 This also applies to QualCoder 3.8.2 the latest and recommended version in the 3.8 series.
 
 ### QualCoder 3.7
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/TCLCT893JcM" title="QualCoder 3.7 part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/TCLCT893JcM” title=“QualCoder 3.7 part 1” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 I added another video using QualCoder 3.7. In this video I do some coding with the artificial intelligence enabled. I also show some hidden menu options in Code Text (and this uncovered an error I have to fix later also). I also look at the Code Relations report.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/-HMtwHE4G5g" title="QualCoder 3.7 part 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/-HMtwHE4G5g” title=“QualCoder 3.7 part 2” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 Dr USP an Associate Professor in Journalism and Mass Communication based in Kolkata has prepared this video using the 3.7 version of QualCoder. Thank you Dr.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/4LqnG22NwXY" title="Master Qualitative Data Analysis  with QualCoder: The Best Free QDA Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/4LqnG22NwXY” title=“Master Qualitative Data Analysis  with QualCoder: The Best Free QDA Tool” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 ### QualCoder 3.6
 Thanks very much to Van Tran, Temple University Librarian for making installation videos for macOS and for showing how the Windows 11 installer and uninstaller works.
@@ -30,7 +30,7 @@ I have not tried out out, and am interested to see comments on its use, but it m
 
 https://github.com/sepp-meyer/qualcoder-docker
 
-<iframe width="500" height="375" src="https://www.youtube.com/embed/Cqwu3mjJJHg" title="How does QualCoder compare with NVivo, ATLAS.ti, MAXQDA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“375” src=“https://www.youtube.com/embed/Cqwu3mjJJHg” title=“How does QualCoder compare with NVivo, ATLAS.ti, MAXQDA?” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 ### Comparison with other software
 
@@ -50,14 +50,14 @@ This workshop will look at QualCoder and compare it with these commercial progra
 
 The Workshop was conducted 12th May by Van Tran Temple University Librarian. The YouTube video is below:
 
-<iframe width="500" height="375" src="https://www.youtube.com/embed/Cqwu3mjJJHg" title="How does QualCoder compare with NVivo, ATLAS.ti, MAXQDA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“375” src=“https://www.youtube.com/embed/Cqwu3mjJJHg” title=“How does QualCoder compare with NVivo, ATLAS.ti, MAXQDA?” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 
 Article about AI and qualitative research published May 2025 at the University of Surrey, by Dr Kai Droege. [Why AI has a "proving the obvious" problem, and what we can do about it | Computer-Assisted Qualitative Data Analysis](https://blogs.surrey.ac.uk/caqdas/2025/05/27/why-ai-has-a-proving-the-obvious-problem-and-what-we-can-do-about-it/)
 
 This presentation by Prof. Erin Owens from the Sam Houston State University shows two free qualitative options: Taguette and QualCoder. The QualCoder version shown is the older 3.5 version but still worth viewing.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/ZggbnBWExtE" title="Free Tools for Qualitative Data Analysis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/ZggbnBWExtE” title=“Free Tools for Qualitative Data Analysis” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 ## Ressources en français
 
@@ -65,7 +65,7 @@ Pour les francophones, un blog sur l’utilisation de Qualcoder 3.5, (For French
 
 Thanks to Justin for making this video.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/7xBeMzewAWg" title="Tuto@76Mate# Justin Missaghieh–Poncet présente le CAQDAS CalCoder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/7xBeMzewAWg” title=“Tuto@76Mate# Justin Missaghieh–Poncet présente le CAQDAS CalCoder” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 ## Recursos en español
 
@@ -87,32 +87,32 @@ https://www.youtube.com/watch?v=OvR0IZTcxgY
 
 Thank you to Alfonso Robles for creating this post in Spanish for Qualcoder 3.0.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/edFRlug1bQg" title="Instalación de Qualcoder 3 en Windows y crear proyecto." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/edFRlug1bQg” title=“Instalación de Qualcoder 3 en Windows y crear proyecto.” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/K2zzA8l0mAk" title="Conociendo Qualcoder (Software de análisis cualitativo): codificación, categorización y reporte" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/K2zzA8l0mAk” title=“Conociendo Qualcoder (Software de análisis cualitativo): codificación, categorización y reporte” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 Alfonso Robles has made a YouTube video (in Spanish) to create a coding match matrix and GEPHI Network Visualisation using data from QualCoder and the R statistics package.
 
 You need to extract the data in QualCoder and export to a csv file. The data source is from the menu Reports > Database queries. Then in the list on the side: Default Queries > GET CODING TABLE
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/Jh7f6-Vb7_Q" title="Tutorial del paquete iranges para obtener una matriz de coincidencias" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/Jh7f6-Vb7_Q” title=“Tutorial del paquete iranges para obtener una matriz de coincidencias” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/XxZR_wySa3I" title="Codificación de datos cualitativos con software gratuito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/XxZR_wySa3I” title=“Codificación de datos cualitativos con software gratuito” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 Adding the Gemini AI engine to QualCoder. This youtube from Lorenzo is spoken in Spanish. It has texts in multiple languages. Short and fairly easy to follow.
-<iframe width="500" height="281" src="https://www.youtube.com/embed/lYFagjWAaXM" title="QualCoder (3.6): incorporación del motor de IA Gemini (-Windows-)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/lYFagjWAaXM” title=“QualCoder (3.6): incorporación del motor de IA Gemini (-Windows-)” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 
 A new video post on the installation of Qualcoder 3.7 from the exe file in Spanish:
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/Te5f4fMGVws" title="Instalación de QualCoder 3.7 (alternativa open source a NVIVO y ATLAS.ti)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/Te5f4fMGVws” title=“Instalación de QualCoder 3.7 (alternativa open source a NVIVO y ATLAS.ti)” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 QualCoder: Creación de proyecto, carga de archivos de texto, creación de códigos y creación de citas
 Another video post in Spanish, showing text coding.
-<iframe width="500" height="281" src="https://www.youtube.com/embed/UQGdRdZci-Y" title="QualCoder: Creación de proyecto, carga de archivos de texto, creación de códigos y creación de citas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/UQGdRdZci-Y” title=“QualCoder: Creación de proyecto, carga de archivos de texto, creación de códigos y creación de citas” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 ## Recursos em português
-<iframe width="500" height="281" src="https://www.youtube.com/embed/QrMKY3uVJfU" title="Introdução ao QualCoder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/QrMKY3uVJfU” title=“Introdução ao QualCoder” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>
 
 ## Risorse in italiano
 Agnese Vardanega of the Facoltà di Scienze Politiche, Università degli Studi di Teramo has written an introductory article, in Italian, on installation and use of QualCoder (3rd Jan 2022).
@@ -151,4 +151,4 @@ Dieses Video gibt eine praktische Einführung entlang verschiedener Stationen de
 ## Resources in Malayalam
 Dr Chinchu has provided a video on using QualCoder with AI in Malayalam.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/sRHYGyHVcnE" title="Qualitative Data Analysis ചെയ്യാൻ QualCoder Free Software - Malayalam Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=“500” height=“281” src=“https://www.youtube.com/embed/sRHYGyHVcnE” title=“Qualitative Data Analysis ചെയ്യാൻ QualCoder Free Software - Malayalam Video” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen></iframe>

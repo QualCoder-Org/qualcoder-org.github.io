@@ -1,5 +1,5 @@
 ---
-title: "User Manual"
+title: “User Manual”
 date: 2019-02-15
 author: ccbogel
 category: Misc

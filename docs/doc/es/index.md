@@ -1,5 +1,5 @@
 ---
-path: index
+path : index
 ---
 # Qué es QualCoder
 
@@ -9,7 +9,7 @@ QualCoder puede codificar texto, imágenes, audio y video, escribir notas de dia
 
 QualCoder incluye un conjunto de funciones asistidas por IA que utilizan grandes modelos de lenguaje para ayudar a explorar, analizar e interactuar con los datos de maneras innovadoras. Familiarícese con datos nuevos explorando temas o conceptos amplios en un chat interactivo con la IA. Profundice en aspectos específicos con la codificación asistida por IA y el análisis de texto. Y si llega al punto en el que debe sintetizar y consolidar sus resultados, discútalos en un chat de códigos con la IA.
 
-!!! note "¿Por qué usar QualCoder?"
+! !! note «¿Por qué usar QualCoder ?»
     - **QualCoder es gratuito**. Muchos software de análisis cualitativo exigen costosos pagos únicos o suscripciones mensuales.
     - **QualCoder es fácil de usar**. Tiene todo lo que necesita para realizar análisis cualitativo sin las complicadas interfaces de algunas alternativas
     - **QualCoder funciona sin conexión**. Internet no siempre está disponible y QualCoder no requiere internet para funcionar.
@@ -35,7 +35,7 @@ Las versiones del software están disponibles en [Github](https://github.com/ccb
 
 [:material-linux: QualCoder_3.8.2_Ubuntu](/latest-linux){ .md-button .md-button--primary }
 
-El código en desarrollo está disponible aquí: [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
+El código en desarrollo está disponible aquí : [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
 ## Apoye a QualCoder
 
@@ -45,13 +45,13 @@ Si le gusta mucho QualCoder, o ha desarrollado un uso novedoso para él, por fav
 
 Ha tomado muchísimas horas de trabajo crear este software que se ofrece de forma gratuita.**Si usa y le gusta QualCoder, por favor apoye su desarrollo.**
 
-<a href="https://www.buymeacoffee.com/ccbogelB" target="_blank">![Buy Me A Coffee](/images/buymeacoffee-default-orange.png)</a>
+<a href=«https ://www.buymeacoffee.com/ccbogelB» target=«_blank»> ![Buy Me A Coffee](/images/buymeacoffee-default-orange.png)</a>
 
-QualCoder está escrito en python usando Qt6 para la interfaz gráfica. QualCoder se ha utilizado en Windows 11, macOS y varias distribuciones de Linux: Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
+QualCoder está escrito en python usando Qt6 para la interfaz gráfica. QualCoder se ha utilizado en Windows 11, macOS y varias distribuciones de Linux : Ubuntu, Lubuntu, ZorinOS, Arch, Fedora.
 
 ## Cita
 
-Curtain, C. Dröge, K. Missaghieh--Poncet, J. Salomón, L. (2025) QualCoder 3.8.2 [Computer software]. Recuperado de https://github.com/ccbogel/QualCoder/releases/tag/3.8.2
+Curtain, C. Dröge, K. Missaghieh--Poncet, J. Salomón, L. (2025) QualCoder 3.8.2 [Computer software]. Recuperado de https ://github.com/ccbogel/QualCoder/releases/tag/3.8.2
 
 Reemplace el número de versión (3.8.2) según corresponda a la versión que esté utilizando.
 

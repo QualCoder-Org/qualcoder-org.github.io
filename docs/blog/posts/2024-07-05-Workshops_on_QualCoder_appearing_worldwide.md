@@ -1,5 +1,5 @@
 ---
-title: "Workshops on QualCoder appearing worldwide"
+title: “Workshops on QualCoder appearing worldwide”
 date: 2024-07-05
 author: ccbogel
 category: Misc

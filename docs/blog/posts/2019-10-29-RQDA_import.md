@@ -1,5 +1,5 @@
 ---
-title: "RQDA import"
+title: “RQDA import”
 date: 2019-10-29
 author: ccbogel
 category: Misc

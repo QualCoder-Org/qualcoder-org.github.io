@@ -1,5 +1,5 @@
 ---
-title: "Comparisons with similar software"
+title: “Comparisons with similar software”
 date: 2024-06-28
 author: ccbogel
 category: Misc

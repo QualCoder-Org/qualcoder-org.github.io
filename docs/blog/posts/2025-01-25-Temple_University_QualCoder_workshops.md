@@ -1,5 +1,5 @@
 ---
-title: "Temple University QualCoder workshops"
+title: “Temple University QualCoder workshops”
 date: 2025-01-25
 author: ccbogel
 category: Misc

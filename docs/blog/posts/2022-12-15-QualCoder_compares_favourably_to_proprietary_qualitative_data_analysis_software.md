@@ -1,5 +1,5 @@
 ---
-title: "QualCoder compares favourably to proprietary qualitative data analysis software"
+title: “QualCoder compares favourably to proprietary qualitative data analysis software”
 date: 2022-12-15
 author: ccbogel
 category: Misc

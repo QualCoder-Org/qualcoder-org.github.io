@@ -1,5 +1,5 @@
 # Enhance UI
-It's possible to enhance UI with PyQt6.
+It’s possible to enhance UI with PyQt6.
 
 Key takeaways:
 - vertical tabs on the left
@@ -16,7 +16,7 @@ Idea of themes for pyqt6
 https://dev.to/hi3ris/creer-des-interfaces-python-modernes-et-fluides-avec-pyqt6-b5m
 https://github.com/Wanderson-Magalhaes/Modern_GUI_PyDracula_PySide6_or_PyQt6
 
-this text it's "brainstorming" with AI. I "vibecode" for have idea of UI.
+this text it’s “brainstorming” with AI. I “vibecode” for have idea of UI.
 
 ## QualCoder UI Modernization — Summary
 
@@ -32,7 +32,7 @@ QualCoder (PyQt6) already has a solid foundation for modernization:
 
 - Hardcoded QSS as Python strings (beige/gray colors, fixed 12px sizes)
 - No system light/dark mode following — users must pick manually
-- Minimal padding and 2px border-radius — a "2000s spreadsheet" feel
+- Minimal padding and 2px border-radius — a “2000s spreadsheet” feel
 - Each theme duplicates ~40 QSS rules → hard to maintain, inconsistencies between themes
 - Icons present but underused (toolbars, menus)
 
@@ -57,7 +57,7 @@ QualCoder (PyQt6) already has a solid foundation for modernization:
 
 7. **Visual testing without breaking existing themes**: keep current themes as fallback for backward compatibility; add modern `auto` + `light` + `dark` as new defaults without removing legacy ones (original, rainbow, etc.).
 
-8. **(Optional, ambitious) Responsive layout**: use QSplitter with persistent proportions and a "Home" tab with start icons (Open project, New, Help) for a modern first impression.
+8. **(Optional, ambitious) Responsive layout**: use QSplitter with persistent proportions and a “Home” tab with start icons (Open project, New, Help) for a modern first impression.
 
 ## Bolder Ideas (still PyQt6)
 
@@ -65,16 +65,16 @@ The first PR modernized the styling. For a real leap in impression, you need to 
 
 ## 1. From Tab Bar to Lateral Navigation (Sidebar)
 
-Today: a horizontal 5-tab QTabWidget at the top — the archetype of "2000s toolbox software." Modern apps (VS Code, Notion, Linear) use an icon rail on the left:
+Today: a horizontal 5-tab QTabWidget at the top — the archetype of “2000s toolbox software.” Modern apps (VS Code, Notion, Linear) use an icon rail on the left:
 - Replace the horizontal QTabWidget with `setTabPosition(QTabWidget.West)` + icon-only tabs (already available via qtawesome) + tooltips, label appearing only on hover or in wide mode.
-- A very cheap change (one line of QSS + `setTabPosition`) that instantly transforms the app's silhouette. Gains vertical space for content and reads like a 2024 app.
+- A very cheap change (one line of QSS + `setTabPosition`) that instantly transforms the app’s silhouette. Gains vertical space for content and reads like a 2024 app.
 
-## 2. Home Screen / "Home" Page
+## 2. Home Screen / “Home” Page
 
 Instead of landing on the action log, show a home page with:
 - Clickable cards (Open recent project, New project, Help)
 - Current project status (name, file count, code count, last activity)
-- Shortcuts to sections. Built with a QFrame + grid layout of qtawesome icons. Delivers the "first impression" that makes all the difference.
+- Shortcuts to sections. Built with a QFrame + grid layout of qtawesome icons. Delivers the “first impression” that makes all the difference.
 
 ## 3. Contextual Inspector Panel (macOS / Inspector style)
 
@@ -82,14 +82,14 @@ Many dialogs (code_text, code_pdf, code_av) are large fixed 2-or-3-panel QSplitt
 
 ## 4. Icon Toolbars Instead of Text Menus
 
-The QMenuBar is overloaded (11 menus in ui_main.ui). Extract the most frequent actions into an icon QToolBar (qtawesome icons + tooltips) at the top of the content area, and keep only rare actions in the menubar. QMenus remain accessible, but the visual bar gives a "pro app" feel.
+The QMenuBar is overloaded (11 menus in ui_main.ui). Extract the most frequent actions into an icon QToolBar (qtawesome icons + tooltips) at the top of the content area, and keep only rare actions in the menubar. QMenus remain accessible, but the visual bar gives a “pro app” feel.
 
 ## 5. Subtle Animations and Transitions
 
 - QPropertyAnimation on retractable panels (AI sidebar, inspector) for a slide instead of a jarring appearance.
 - QGraphicsOpacityEffect on tab change (fade). Negligible cost, strong perceived effect.
 
-## 6. "Comfort" Density by Default + Global Zoom
+## 6. “Comfort” Density by Default + Global Zoom
 
 Offer an interface scale (small/comfort/large) that adjusts all metrics (padding, tree row height, icon size), not just the font. The user keeps control, but the default becomes airy rather than dense.
 
@@ -103,29 +103,29 @@ qtawesome is already wired. Currently icons use `highlight_color()`. Would benef
 - Clearer indentation and subtle guide lines (already partially in the QSS)
 - Frequency badges on each node (GitHub style)
 - Code color as a chip left of the label
-- Drag handle for reordering. It's the most-viewed element; modernizing it pays the most.
+- Drag handle for reordering. It’s the most-viewed element; modernizing it pays the most.
 
-## 9. "Focus" Mode for Coding
+## 9. “Focus” Mode for Coding
 
-When coding text, hide sidebar/menubar and keep only the document + code palette as a lateral overlay. QMainWindow allows dynamically hiding dock areas. Delivers a "distraction-free" experience highly valued in qualitative analysis.
+When coding text, hide sidebar/menubar and keep only the document + code palette as a lateral overlay. QMainWindow allows dynamically hiding dock areas. Delivers a “distraction-free” experience highly valued in qualitative analysis.
 
 ## 10. (Most Ambitious) Dockable Layout Overhaul
 
 Transform the main window into a QMainWindow with QDockWidgets for codes/files/inspector, letting the user rearrange and detach panels. This is the VS Code / Qt Creator model. More costly, but radically transforms perception and flexibility.
 
-Let me quickly verify a couple of technical facts so the wiki page is accurate (QGIS specifics and QualCoder's actual structure).
+Let me quickly verify a couple of technical facts so the wiki page is accurate (QGIS specifics and QualCoder’s actual structure).
 Confirmed: no `QDockWidget`/`saveState`/`statusBar` usage today; the main window is a splitter + QTabWidget + a hand-built sidebar. Here is the synthesis for the wiki.
 
 ---
 
 ## UI Modernization: Analysis and Roadmap
 
-## Why QualCoder's UI feels dated (despite using Qt)
+## Why QualCoder’s UI feels dated (despite using Qt)
 
 QualCoder runs on PyQt6, the same toolkit as QGIS, Krita, FreeCAD, and Qt Creator — all of which look modern and professional. The framework is not the limit. The difference is **architecture and styling discipline**, not the toolkit.
 
 ### 1. Dialog-driven workflow instead of a unified workspace
-QualCoder's `MainWindow` (`src/qualcoder/__main__.py`, `class MainWindow(QtWidgets.QMainWindow)`) is a `QMainWindow` only in name. Its real structure is a horizontal `QSplitter` containing:
+QualCoder’s `MainWindow` (`src/qualcoder/__main__.py`, `class MainWindow(QtWidgets.QMainWindow)`) is a `QMainWindow` only in name. Its real structure is a horizontal `QSplitter` containing:
 - a `QTabWidget` with 5 tabs (Action Log, Manage, Coding, Reports, AI Agent), where **each tab holds only a placeholder `QTextBrowser`**;
 - a hand-built `sidebar` widget on the right.
 
@@ -133,7 +133,7 @@ The actual work happens in **separate dialogs** launched on demand: `DialogCodeT
 
 **Effect:** the user opens a box, works, closes it, opens another. There is no persistent context. This is the single biggest reason the app feels old — it is the workflow model of early-2000s software, not a modern workspace.
 
-### 2. No use of QMainWindow's native facilities
+### 2. No use of QMainWindow’s native facilities
 - **No `QDockWidget`s** — panels cannot be moved, undocked, or rearranged.
 - **No saved layout** — `saveState()` / `restoreState()` are never called; the dockable layout cannot persist.
 - **No status bar usage** — `QMainWindow.statusBar()` is not exploited for project info, current code/file, or a locator.
@@ -157,13 +157,13 @@ QGIS achieves a professional, modern feel without leaving Qt by leaning on stand
 | Pattern | QGIS | Why it reads as modern |
 |---|---|---|
 | Dockable workspace | `QMainWindow` + `QDockWidget`s; Panels and Toolbars toggle on/off from View menu / right-click; drag to rearrange; layout saved via `saveState`/`restoreState` | Persistent, customizable, multi-monitor friendly |
-| Single central canvas | The map canvas is the focus; all panels serve it | One clear "stage" the eye locks onto |
+| Single central canvas | The map canvas is the focus; all panels serve it | One clear “stage” the eye locks onto |
 | Status bar | Scale, CRS, coordinates, progress | Always-on context, no dialogs needed |
 | Locator bar | A search field in the status bar that finds layers, features, algorithms, options and runs them | Command-palette UX (like VS Code/Sublime) — instantly feels pro |
 | Toolbars | Dockable, contextual, hideable | Quick access without menu diving |
 | Native style + SVG icon theme (light/dark) | Uses the platform style; icons ship as SVG with light/dark variants | Looks like the OS, not a custom skin |
 
-**The lesson:** QGIS's modernity comes from the **dockable architecture + central canvas + status/locator bar**, not from decoration. The QSS just follows. Redecorating controls (rounded corners, accent colors) improves aesthetics but does not change the workflow experience.
+**The lesson:** QGIS’s modernity comes from the **dockable architecture + central canvas + status/locator bar**, not from decoration. The QSS just follows. Redecorating controls (rounded corners, accent colors) improves aesthetics but does not change the workflow experience.
 
 ---
 
@@ -185,15 +185,15 @@ Both are valuable but **neither touches the root cause**: the dialog-per-functio
 
 ## Recommended direction: a dockable workspace (the QGIS pattern)
 
-Transform `MainWindow` from a "splitter + tabs of placeholder browsers" into a real dockable workspace with a single central canvas. This is the change that actually modernizes the experience.
+Transform `MainWindow` from a “splitter + tabs of placeholder browsers” into a real dockable workspace with a single central canvas. This is the change that actually modernizes the experience.
 
 ### Proposed structure
 
 | Region | Widget | Content |
 |---|---|---|
-| **Center** | `QStackedWidget` (set via `setCentralWidget`) | The document being coded: `QTextEdit` for text, the PDF view, the image view, or the AV player + waveform. This is the "map canvas" equivalent. |
+| **Center** | `QStackedWidget` (set via `setCentralWidget`) | The document being coded: `QTextEdit` for text, the PDF view, the image view, or the AV player + waveform. This is the “map canvas” equivalent. |
 | **Left docks** | `QDockWidget`s | **Documents** (from `DialogManageFiles`), **Codes** (the shared code tree), **Cases**, **Journals/Memos** — tabbed together or stacked |
-| **Bottom dock** | `QDockWidget` | **Retrieved Segments** / query results (like MAXQDA's fourth window) |
+| **Bottom dock** | `QDockWidget` | **Retrieved Segments** / query results (like MAXQDA’s fourth window) |
 | **Right dock** | `QDockWidget` (optional) | **Inspector** — context info on the selected code/document |
 | **Status bar** | `QMainWindow.statusBar()` | Project name + path (left), current file/code/segment count (center), theme toggle, language, help (right) |
 | **Locator** | `QLineEdit` in/above the status bar | Find a code, open a file, run a menu action — by typing |
@@ -229,7 +229,7 @@ The dockable workspace can be built incrementally without breaking existing dial
 5. **Retrieved Segments dock** at the bottom.
 6. **Saved layout**: wire `saveState()` / `restoreState()`.
 
-Steps 1 + 2 alone (status bar + permanent codes dock) deliver roughly 70% of the "QGIS feel" without touching the existing coding dialogs. The full canvas migration (steps 3–4) is the larger, riskier work and can follow.
+Steps 1 + 2 alone (status bar + permanent codes dock) deliver roughly 70% of the “QGIS feel” without touching the existing coding dialogs. The full canvas migration (steps 3–4) is the larger, riskier work and can follow.
 
 ---
 
@@ -278,11 +278,11 @@ The actual work happens in **separate dialogs** launched from these tabs and emb
 | `DialogReportCodes` and variants | Analysis reports |
 | `DialogCases`, `DialogJournals` | Cases and journals |
 
-Because each function is a self-contained dialog with its own internal splitter (code tree | document | segments), the user spends the session opening and closing boxes rather than working in one unified workspace. This modal-dialog pattern is the primary source of the "dated" impression. Secondary causes: no status bar usage, no command/locator bar, hardcoded QSS that overrides the native look, and a forced bundled font (`Noto Sans`).
+Because each function is a self-contained dialog with its own internal splitter (code tree | document | segments), the user spends the session opening and closing boxes rather than working in one unified workspace. This modal-dialog pattern is the primary source of the “dated” impression. Secondary causes: no status bar usage, no command/locator bar, hardcoded QSS that overrides the native look, and a forced bundled font (`Noto Sans`).
 
 ## The target: a dockable workspace (the QGIS / MAXQDA / ATLAS.ti model)
 
-Move from "a window with tabs that launch dialogs" to **a single dockable workspace centered on the document being coded**.
+Move from “a window with tabs that launch dialogs” to **a single dockable workspace centered on the document being coded**.
 
 ### 1. Central canvas (`QStackedWidget`)
 A single central area that shows the currently open document, switching by type:
@@ -319,13 +319,13 @@ A search field integrated into the status bar (or just above it) that:
 - launches a menu action (new project, import, settings…)
 - finds a coded segment
 
-This is the single highest "modern feel" payoff for the least effort.
+This is the single highest “modern feel” payoff for the least effort.
 
 ### 5. Dockable contextual toolbars
 A toolbar whose icons change depending on what is in the canvas (text coding vs AV vs image). Dockable, toggleable by right-click on the menu bar.
 
-### 6. "Manage" becomes a real panel, not an isolated tab
-Import, attributes, links, references → a left "Manage" dock rather than a tab the user leaves and returns to.
+### 6. “Manage” becomes a real panel, not an isolated tab
+Import, attributes, links, references → a left “Manage” dock rather than a tab the user leaves and returns to.
 
 ## Technical impact
 
@@ -344,11 +344,11 @@ Import, attributes, links, references → a left "Manage" dock rather than a tab
 5. **Retrieved Segments** bottom dock.
 6. **Saved layout** (`saveState` / `restoreState`).
 
-Steps 1 + 2 alone deliver roughly 70% of the "QGIS feel" without touching the existing dialogs.
+Steps 1 + 2 alone deliver roughly 70% of the “QGIS feel” without touching the existing dialogs.
 
 ## Companion work (already in progress on feature branches)
 
-- **OS-integrated theme** (`system` mode): delegate drawing to the native Qt/OS style and palette, follow the system light/dark scheme live, use the system font by default. This is the QGIS approach to theming and removes the custom-QSS "dated" look at the same time as the dockable work removes the "modal-dialog" feel.
+- **OS-integrated theme** (`system` mode): delegate drawing to the native Qt/OS style and palette, follow the system light/dark scheme live, use the system font by default. This is the QGIS approach to theming and removes the custom-QSS “dated” look at the same time as the dockable work removes the “modal-dialog” feel.
 - Both directions are complementary: the dockable workspace fixes the **structure**, the OS-native theme fixes the **look**.
 
 ## Key takeaway

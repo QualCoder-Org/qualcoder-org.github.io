@@ -1,5 +1,5 @@
 ---
-title: "QualCoder 2 2 Release"
+title: “QualCoder 2 2 Release”
 date: 2020-12-11
 author: ccbogel
 category: Misc

@@ -10,7 +10,7 @@ For additional languages (community maintained), download the relevant .zip file
 
 In addition, support materials are available in several languages.
 
-<div class="grid cards" markdown>
+<div class=“grid cards” markdown>
 
 -   **English (en)**
 

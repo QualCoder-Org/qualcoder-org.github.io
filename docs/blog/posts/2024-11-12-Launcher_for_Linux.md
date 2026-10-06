@@ -1,5 +1,5 @@
 ---
-title: "Launcher for Linux"
+title: “Launcher for Linux”
 date: 2024-11-12
 author: ccbogel
 category: Misc
@@ -16,7 +16,7 @@ Thanks to Carlos Lira for this post on his blog. This is how to make a launcher 
 
     `#!/bin/bash`\
     `\
-    QUALCODER_DIRECTORY="/home/aldats/Documents/qualcoder"`\
+    QUALCODER_DIRECTORY=“/home/aldats/Documents/qualcoder”`\
     `\
     source $QUALCODER_DIRECTORY/qualcoder/bin/activate\
     $QUALCODER_DIRECTORY/qualcoder/bin/qualcoder &`
@@ -48,4 +48,4 @@ On Linux, launchers generate a list of launchable programs by looking for specia
     `Type=Application`\
     `StartupWMCClass=qualcoder`
 3.  Move your `qualcoder.desktop` file to a directory your launcher will find desktop files in, like `/usr/share/applications/` or `~/.local/share/applications/`.
-4.  In your launcher, look up "QualCoder" and launch.
+4.  In your launcher, look up “QualCoder” and launch.

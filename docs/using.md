@@ -32,7 +32,7 @@ These are records that I have found on the internet, or that authors have inform
 
 501 Diane Lafarge, Joël Charbit, Antoine Lamer, Margot Trimbur, Louise Carton. **Barriers to prescribing methylphenidate for adults with ADHD: A qualitative study.** Therapies, 2026, ISSN 0040-5957.
 
-500 Samantha Marsh, Nikki Turner, Tony Dowell et al. **“Health is Wealth”: co-designing and piloting a respiratory winter preparedness intervention with a Samoan church community in Aotearoa New Zealand**, 29 August 2026, PREPRINT (Version 1) available at Research Square <https://doi.org/10.21203/rs.3.rs-10657495/v1>
+500 Samantha Marsh, Nikki Turner, Tony Dowell et al. **“ Health is Wealth ”: co-designing and piloting a respiratory winter preparedness intervention with a Samoan church community in Aotearoa New Zealand**, 29 August 2026, PREPRINT (Version 1) available at Research Square <https://doi.org/10.21203/rs.3.rs-10657495/v1>
 
 499 **Care in Meal Presentation: A Quantitative and Qualitative Analysis of the Effects of Aesthetic Meal Presentation in Healthcare Settings.** (2026). Dissertation Nursing, 5(2), 265-291. <https://doi.org/10.54103/dn/28798>
 
@@ -60,7 +60,7 @@ These are records that I have found on the internet, or that authors have inform
 
 487 Koivukangas, Hanna, 2026 Thesis. **Representing food preparedness : a WPR analysis of consultation responses to Swedish food preparedness strategy.** Second cycle, A2E. Uppsala: SLU, Dept. of Urban and Rural Development.
 
-486 Paolo Diana, Valentina D'Auria, Giovannipaolo Ferrari, **Communicating disability in sports media. Paralympic visibility and everyday journalistic practices**. on "Rassegna Italiana di Sociologia, Rivista trimestrale fondata da Camillo Pellizzi" 2/2026, pp. 375-395, doi: 10.1423/121300
+486 Paolo Diana, Valentina D’Auria, Giovannipaolo Ferrari, **Communicating disability in sports media. Paralympic visibility and everyday journalistic practices**. on “Rassegna Italiana di Sociologia, Rivista trimestrale fondata da Camillo Pellizzi” 2/2026, pp. 375-395, doi: 10.1423/121300
 
 485 **Examining Job Demands and Resources Important for Employees with ADHD.** S Plotnick, Thesis Western University Canada, 2026. <https://hdl.handle.net/20.500.14721/40427>
 
@@ -76,7 +76,7 @@ These are records that I have found on the internet, or that authors have inform
 
 479 Pfister L, Mannheimer J, Hedkvist I, Stern RT, Sarkadi A. **The role of medical evidence certifying PTSD for legal outcomes in Swedish asylum cases 2016–2020**. Social Science & Medicine. 2026 Jun 26:119531. 10.1016/j.socscimed.2026.119531
 
-478 **Co-Creativity at the Table: A Qualitative Analysis of Creative Interactions in the Podcast "Adventure AI"**. Hanna Dodd, Daniel G. Brown. arXiv:2606.18010  <https://doi.org/10.48550/arXiv.2606.18010>
+478 **Co-Creativity at the Table: A Qualitative Analysis of Creative Interactions in the Podcast “Adventure AI”**. Hanna Dodd, Daniel G. Brown. arXiv:2606.18010  <https://doi.org/10.48550/arXiv.2606.18010>
 
 477 **DEVELOPMENT OF ORGANIZATIONAL BEHAVIOR MANAGEMENT SYSTEMS IN THE IMPLEMENTATION OF ANTHROPOMORPHIC AI AGENTS IN ENTERPRISES.** (2026). SBS Journal of Applied Business Research, 2(1), 125-158. <https://doi.org/10.70301/SBS.MONO.2026.1.5>
 
@@ -98,9 +98,9 @@ These are records that I have found on the internet, or that authors have inform
 
 468 **Designer as Guest, Collaborating with Materials: Theorizing video game development practice through the Materializing Design Method.** Adrian Demleitner, Rilla Khaled, Courtney Blamey. FDG '26: Proceedings of the 21st International Conference on the Foundations of Digital Games. Article No.: 83, Pages 1 - 4. <https://doi.org/10.1145/3815598.3815688>
 
-467 Nguyen, Khanh Linh and Do, Phuong Duy and Nguyen, Ngoc Khanh Linh and Nguyen, Dieu Huyen and Truong, Nguyen Hanh Quyen. **Protection Without Control? Gendered Formalisation Pathways for Female Informal Waste Pickers in Hanoi Amid Vietnam's Circular Transition.** (September 18, 2026). Available at SSRN: <http://dx.doi.org/10.2139/ssrn.7486899>
+467 Nguyen, Khanh Linh and Do, Phuong Duy and Nguyen, Ngoc Khanh Linh and Nguyen, Dieu Huyen and Truong, Nguyen Hanh Quyen. **Protection Without Control? Gendered Formalisation Pathways for Female Informal Waste Pickers in Hanoi Amid Vietnam’s Circular Transition.** (September 18, 2026). Available at SSRN: <http://dx.doi.org/10.2139/ssrn.7486899>
 
-466 Kinnig, T., Rohmer, O., Timera, A., & Sanrey, C. (2026). **Poursuivre ses études à l’université: qu’en disent les étudiant· es en situation de handicap invisible?. L'orientation scolaire et professionnelle (Pursuing university studies: what do students with invisible disabilities say? Educational and vocational guidance.)**, (55/2), 265-290. <https://doi.org/10.4000/16da8>
+466 Kinnig, T., Rohmer, O., Timera, A., & Sanrey, C. (2026). **Poursuivre ses études à l’université: qu’en disent les étudiant· es en situation de handicap invisible?. L’orientation scolaire et professionnelle (Pursuing university studies: what do students with invisible disabilities say? Educational and vocational guidance.)**, (55/2), 265-290. <https://doi.org/10.4000/16da8>
 
 465 Nguyen, Q. K. (2026). **Comparing Learners’ Perceptions of AI-Enabled Writing Feedback and Human Teacher Feedback in IELTS Writing Preparation.** Asian Journal of Educational Sciences, 1(2), 62-83. <https://doi.org/10.52714/dthu.ajes.27.2022>
 
@@ -118,13 +118,13 @@ These are records that I have found on the internet, or that authors have inform
 
 458 Erol, İ. E. (2026). **İletişim Araştırmalarında Dijital Simülasyon Yaklaşımları: Sistematik Bir İnceleme (DIGITAL SIMULATION APPROACHES IN COMMUNICATION STUDIES: A SYSTEMATIC REVIEW).** The Turkish Online Journal of Design Art and Communication, 16 (3), 1533-1552. https://doi.org/10.7456/tojdac.1929130
 
-457 **Engaging Undergraduates in Ocean Science through Podcasts: Enhancing Connection, Belonging, and Career Awareness.** d'Alva Duchrow, Lucas; Capece, Lena R.; Wrobel, Alex ; Dornan, Natalie ; Raven, Morgan R.; Phillips, Alexandra Atlee The Ocean Sciences Meeting (OSM) 2026, held in Glasgow, Scotland, 22-27 February 2026, Session: Education, Public Engagement, and Arts / Coastal Community Science in the Undergraduate Classroom: Science That Matters to Students and Communities I Poster, Poster No. 007, id. ED24C-007.
+457 **Engaging Undergraduates in Ocean Science through Podcasts: Enhancing Connection, Belonging, and Career Awareness.** d’Alva Duchrow, Lucas; Capece, Lena R.; Wrobel, Alex ; Dornan, Natalie ; Raven, Morgan R.; Phillips, Alexandra Atlee The Ocean Sciences Meeting (OSM) 2026, held in Glasgow, Scotland, 22-27 February 2026, Session: Education, Public Engagement, and Arts / Coastal Community Science in the Undergraduate Classroom: Science That Matters to Students and Communities I Poster, Poster No. 007, id. ED24C-007.
 
 456 Agudelo García, J. D., Ávalos, I., Villalobos Soto, R., Carrera Gambetta, F., & (RLABM), R. L. d. B. M. (2026). **Gobernanza colaborativa en acción: Lecciones desde cuatro Bosques Modelo en América del Sur (Collaborative governance in action: Lessons from four Model Forests in South America).** CATIE - Centro Agronómico Tropical de Investigación y Enseñanza. <https://repositorio.catie.ac.cr/handle/11554/14283>
 
 455 **Desafíos pedagógicos en la educación superior para la atención a estudiantes con necesidades educativas específicas. (Pedagogical challenges in higher education regarding support for students with specific educational needs).** (2026). Revista Docencia Universitaria, 7(2), 239-253. <https://doi.org/10.46954/revistadusac.v7i2.181>
 
-454 Marcos Vinicius Cruz, Pragya Verma, and Grischa Liebel. 2026. **Experiences of Dyslexic Software Engineers - A Qualitative Study.** In Proceedings of the 19th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE'26). Association for Computing Machinery, New York, NY, USA, 155–165. <https://doi.org/10.1145/3794860.3794895>
+454 Marcos Vinicius Cruz, Pragya Verma, and Grischa Liebel. 2026. **Experiences of Dyslexic Software Engineers - A Qualitative Study.** In Proceedings of the 19th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE’26). Association for Computing Machinery, New York, NY, USA, 155–165. <https://doi.org/10.1145/3794860.3794895>
 
 453 Mary Chun, Ngai Y., Aaron Simpson, Nikos Ntoumanis, Claire Willis, Marina Milyavskaya, and Timothy Budden. 2026. **Exploring Goal Flexibility and Mental Health in University Students: A Qualitative Approach.** Stress and Health: e70195. <https://doi.org/10.1002/smi.70195>
 
@@ -139,7 +139,7 @@ Murdoch University. DOI: https://doi.org/10.60867/00000090
 
 448 Ahmed, F. (2026). **Innovation Ecosystem around Additive Manufacturing (AM) in Swedish Healthcare : A Technology Innovation Systems (TIS) Approach**. (Dissertation). <https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-588581>
 
-447 **Entre el pueblo y el Estado: los procesos de enmarcamiento del discurso de Andrés Manuel López Obrador (Between the people and the State: the framing processes of Andrés Manuel López Obrador's speech).** Jorge Mejía Valenzuela Thesis 2026. FLACSO MEXICO.<https://flacso.repositorioinstitucional.mx/jspui/handle/1026/566>
+447 **Entre el pueblo y el Estado: los procesos de enmarcamiento del discurso de Andrés Manuel López Obrador (Between the people and the State: the framing processes of Andrés Manuel López Obrador’s speech).** Jorge Mejía Valenzuela Thesis 2026. FLACSO MEXICO.<https://flacso.repositorioinstitucional.mx/jspui/handle/1026/566>
 
 446 **Terapija i analiza ciljeva terapijskog rada:prikaz slučaja učenika sa specifičnim poremećajem učenja (Therapy and analysis of the goals of therapeutic work: presentation of the case of a student with a specific learning disorder).** Vulić, Nikolina. 2026 Diplomski SVEUČILIŠTE U RIJECI. <https://urn.nsk.hr/urn:nbn:hr:231:683582>
 
@@ -186,7 +186,7 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 425 Dela Luna KLG, Sy ADR, Rama-Sabandal RLCM, Jacinto CBK, Malimban RC, Sales BEG, Marollano RA, Marin AC. **A Qualitative Program Evaluation Study on the Perceived Impact of Health and Nutrition Programs among Beneficiaries of a Civil Society Organization in the Philippines.** Acta Med Philipp. 2026 Apr 30;60(8):23-36. doi: 10.47895/amp.vi0.12745. PMID: 42256103
 
-424 Baquet E, Tarteret P, Deschamps A, Filali A, Foley RA, D'Acremont V. **Perceptions and Needs of Primary Healthcare Providers Regarding Electricity Shortages and Blackouts: A Qualitative Study Using a Realistic Narrative Approach.** Int J Public Health. 2026 Apr 20;71:1609319. doi: 10.3389/ijph.2026.1609319.
+424 Baquet E, Tarteret P, Deschamps A, Filali A, Foley RA, D’Acremont V. **Perceptions and Needs of Primary Healthcare Providers Regarding Electricity Shortages and Blackouts: A Qualitative Study Using a Realistic Narrative Approach.** Int J Public Health. 2026 Apr 20;71:1609319. doi: 10.3389/ijph.2026.1609319.
 
 423 K. Q. Nguyen, Q. N. Vo, and L. T. T. To, **An Exploratory Comparison of the THPT English Exam and an IELTS Benchmark: A Question of Equivalence.** TTU Journal of Science, vol. 1, no. 2, pp. 71–77, Jun. 2026.
 
@@ -245,7 +245,7 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 396 Rodrigo Olmedo Yúdico Becerril. **Développement de stratégies de production écrite en FLE à travers un dispositif hybride. Linguistique.** Université Grenoble Alpes [2020-..], 2025. Français.
 
-395 Arifin, Misbahul, Muhammad Ilzamul Khoir, and Achmad Zahri N.A. 2026. **“Centralized Adaptive Governance for Curriculum Development in Islamic Education under Society 5.0”.** Journal of Educational Research and Practice 4 (1). Tulungagung, Indonesia:111-27. <https://doi.org/10.70376/jerp.v4i1.401>
+395 Arifin, Misbahul, Muhammad Ilzamul Khoir, and Achmad Zahri N.A. 2026. **“ Centralized Adaptive Governance for Curriculum Development in Islamic Education under Society 5.0 ”.** Journal of Educational Research and Practice 4 (1). Tulungagung, Indonesia:111-27. <https://doi.org/10.70376/jerp.v4i1.401>
 
 394 Lee-Remond, S., Alavi, S., Ballouk, H., & Notari, M. (2026). **Designing together: student co-design of educational games in a complex interdisciplinary course.** CoDesign, 1–25. <https://doi.org/10.1080/15710882.2026.2655696>
 
@@ -281,7 +281,7 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 378 **The TOBE Playbook: Identifying Barriers and Drivers of Digital Success in the Service Sector.** Csiki et al. Central European Business Review, 2026.  DOI: 10.18267/j.cebr.410
 
-377 Andrea Furnaro, Gregory Trencher. **Acknowledging while doubling down: Japan's responses to uncertainty in the hydrogen sector.** Technological Forecasting and Social Change. Volume 227. 2026. <https://doi.org/10.1016/j.techfore.2026.124654>
+377 Andrea Furnaro, Gregory Trencher. **Acknowledging while doubling down: Japan’s responses to uncertainty in the hydrogen sector.** Technological Forecasting and Social Change. Volume 227. 2026. <https://doi.org/10.1016/j.techfore.2026.124654>
 
 376 **Antifeministische Kräfte zur Absicherung patriarchaler Verhältnisse. Struktureller und bewegungsförmiger Antifeminismus in Westdeutschland zwischen 1945 und 1990.** Blum, Rebekka. 2026 Budrich Academic Press. <https://library.oapen.org/handle/20.500.12657/112125>
 
@@ -311,14 +311,14 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 363 **Analyses of Employee Retention and Best Practices Strategies.** Bezerra, Alessandro (2026) Thesis Laurea University. <https://www.theseus.fi/handle/10024/911490>
 
-362 **“Just Swapping One Drug Out for Another”: Beliefs and Attitudes Influencing Support for Medication-Assisted Treatment in Rural Communities.**(2026). Georgetown Scientific Research Journal, 6(1), 22-49. <https://doi.org/10.48091/0np39e98>
+362 **“ Just Swapping One Drug Out for Another ”: Beliefs and Attitudes Influencing Support for Medication-Assisted Treatment in Rural Communities.**(2026). Georgetown Scientific Research Journal, 6(1), 22-49. <https://doi.org/10.48091/0np39e98>
 
 361 Barszczak, Rafal Sławomir (2025) **Precarity, Aspiration, Cultural and Ideological Capture: A Phenomenological Study of Generation Rent in Ireland’s Financialised Housing System.** Masters thesis, Dublin, National College of Ireland.
 
 360 Kavousi,E.,Ewing,M.,&Brunetto,Y. (2026). **Neuroleadership research in HRM: A systematic review.** Journal of Management & Organization, 1–23. <https://doi.org/10.1017/jmo.2026.10086>
 
 359 Jacquellyn Nambi Ssanyu, Shannon McMorrow, Leif Eriksson, Joan Nakayaga Kalyango, Mats Målqvist, Peter Waiswa,
-**Women's experiences negotiating barriers and asserting agency on family planning in urban east-central Uganda: A photovoice study**. SSM - Qualitative Research in Health, Volume 9, 2026, <https://doi.org/10.1016/j.ssmqr.2026.100736>
+**Women’s experiences negotiating barriers and asserting agency on family planning in urban east-central Uganda: A photovoice study**. SSM - Qualitative Research in Health, Volume 9, 2026, <https://doi.org/10.1016/j.ssmqr.2026.100736>
 
 358 **Integrating a Digital Medication Dispenser into Community Pharmacy Practice: Insights from Portuguese Pharmacists**. Martins et al. 10th PCNE Working Symposium, 17 Feb 2026, Innsbruck, Conference Abstract.
 
@@ -334,11 +334,11 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 352 BRASIL. Ministério da Justiça e Segurança Pública. Secretaria Nacional de Direitos Digitais. **Mecanismos de aferição de idade. Análise das Contribuições à Consulta Pública e Subsídios para Regulamentação da Lei (Age verification mechanisms. Analysis of contributions to the public consultation and input for the regulation of the law)** nº 15.211/2025. Brasília: MJSP, janeiro de 2026. <https://www.gov.br/mj/pt-br/assuntos/noticias/relatorio-sedigi-consulta-de-afericao-de-idade.pdf>
 
-351 Higgins K, Thompson AS, Sari NH, Collins O, Frewer LJ (2026;), "Exploring healthy and sustainable food choice in the Roma community". British Food Journal, Vol. ahead-of-print No. ahead-of-print. <https://doi.org/10.1108/BFJ-04-2025-0441>
+351 Higgins K, Thompson AS, Sari NH, Collins O, Frewer LJ (2026;), “Exploring healthy and sustainable food choice in the Roma community”. British Food Journal, Vol. ahead-of-print No. ahead-of-print. <https://doi.org/10.1108/BFJ-04-2025-0441>
 
 350 Michele Guerini, Fabien Hoblea, Marco Giardino, Ludovic Ravane. **The role of participatory tools and vernacular knowledge in interpreted landscapes: Two examples from the French Alps.** International Journal of Geoheritage and Parks 2026 Preprint. <https://doi.org/10.1016/j.ijgeop.2026.01.001>
 
-349 Dey C (2026;), **"Understanding the influence of AI-driven personalized recommendations on consumer buying behavior in halal marketing"** Journal of Islamic Marketing, Vol. ahead-of-print No. ahead-of-print. <https://doi.org/10.1108/JIMA-05-2025-0311>
+349 Dey C (2026;), **“Understanding the influence of AI-driven personalized recommendations on consumer buying behavior in halal marketing”** Journal of Islamic Marketing, Vol. ahead-of-print No. ahead-of-print. <https://doi.org/10.1108/JIMA-05-2025-0311>
 
 348 Dey, C. (2025). **Using systems theory to understand sustainable careers in Indian higher education** Journal of Higher Education Policy and Management, 1–18. <https://doi.org/10.1080/1360080X.2025.2606658>
 
@@ -346,15 +346,15 @@ intensive care nurses.** BMC Complement Med Ther (2026). <https://doi.org/10.118
 
 346 Jacquellyn Nambi Ssanyu, Catherine Birabwa, Kharim Mwebaza Muluya, Felix Kizito, Sarah Namutamba, Moses Kyangwa, Othman Kakaire, Peter Waiswa, Rornald Muhumuza Kananura. **Co-designing family planning interventions: Insights from religious leaders in urban eastern Uganda** SSM - Health Systems, Volume 6, 2026. <https://doi.org/10.1016/j.ssmhs.2026.100176>
 
-345 **“Just Swapping One Drug Out for Another”: Beliefs and Attitudes Influencing Support for Medication-Assisted Treatment in Rural Communities** (2026). Georgetown Scientific Research Journal, 6(1), 22-49. <https://doi.org/10.48091/0np39e98>
+345 **“ Just Swapping One Drug Out for Another ”: Beliefs and Attitudes Influencing Support for Medication-Assisted Treatment in Rural Communities** (2026). Georgetown Scientific Research Journal, 6(1), 22-49. <https://doi.org/10.48091/0np39e98>
 
 344 **El pensamiento computacional en la población infantile latinoamericana: un análisis de la prueba BCTt (Computational Thinking in the Latin American Child Population: an Analysis of the BCTt Test)** Mabel Osnaya-Moreno, Jorge Luis Rodríguez Ortiz, Lina Marcela Ocampo y Sergio Augusto Cardona Torres. Interdisciplinary Journal of Didactics, Núm. 4, 2026, pp. 17-33. <https://doi.org/10.14198/ijd.30616>
 
-343 Bechtiger, Oliver Robert. 2025. **"Securitization in East Asia."** MA thesis. University of Vienna. doi:10.25365/thesis.79963
+343 Bechtiger, Oliver Robert. 2025. **“Securitization in East Asia.”** MA thesis. University of Vienna. doi:10.25365/thesis.79963
 
 342 Zamora Vázquez, A. F., & Auxiliadora Santacruz , M. (2026). **Implicaciones de responsabilidad civil ante la inviabilidad de transferencia embrionaria por causas médicas o jurídicas.** Universidad Y Sociedad, 18(1), e5641. Recuperado a partir de <https://rus.ucf.edu.cu/index.php/rus/article/view/5641>
 
-341 Hertel, I. (2025). **“What a Cliché, Right?” Insights from Mothers Opting for Part-Time Employment in Germany.** Socialinė Teorija, Empirija, Politika Ir Praktika, 32, 91-109. <https://doi.org/10.15388/>
+341 Hertel, I. (2025). **“ What a Cliché, Right? ” Insights from Mothers Opting for Part-Time Employment in Germany.** Socialinė Teorija, Empirija, Politika Ir Praktika, 32, 91-109. <https://doi.org/10.15388/>
 
 340 **Resistance and Memory in Polluted Territories: Social Mappings of Damage and Narratives of Well-Being in Quintero-Puchuncaví, Chile.** Yendry Vargas Trejos, Andrés Gómez Seguel. REDER 10(1) 2026. <https://doi.org/10.55467/reder.v10i1.209>
 
@@ -367,15 +367,15 @@ Quantum-Like Society.** Jie et al. Journal of social Sciences and Humanities 202
 
 336 Baljé et al. 'After All, They are Your Children': A Mixed-Methods Study of Barriers and Facilitators of Family Reunification for Children in Out-of-Home Care. <http://dx.doi.org/10.2139/ssrn.5798033>
 
-335 **"I'd Never Actually Realized How Big An Impact It Had Until Now": Perspectives of University Students with Disabilities on Generative Artificial Intelligence.** Atcheson et al. CHI '25: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems. <https://doi.org/10.1145/3706598.3714121>
+335 **“I’d Never Actually Realized How Big An Impact It Had Until Now”: Perspectives of University Students with Disabilities on Generative Artificial Intelligence.** Atcheson et al. CHI '25: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems. <https://doi.org/10.1145/3706598.3714121>
 
-334 Collis, R. B. (2025). **The design of the "autistics in (educational) space: building our own futures" doctoral project**. Autism, 29(9), 2356-2367. <https://doi.org/10.1177/13623613251328495> (2025)
+334 Collis, R. B. (2025). **The design of the “autistics in (educational) space: building our own futures” doctoral project**. Autism, 29(9), 2356-2367. <https://doi.org/10.1177/13623613251328495> (2025)
 
 333 Maniataki, P. (2025). **Bereavement and psychological resilience: A phenomenological exploration.** Homo Virtualis, 8(2), 175--219. <https://doi.org/10.12681/homvir.43491>
 
 332 **Public perceptions of challenges facing inclusive governance of hot spring landscapes in China.** Li et al. FrontEnvironSci 2025(13). Sec. Environmental Policy and Governance. <https://doi.org/10.3389/fenvs.2025.1727982>
 
-331 González-Mon, B., Cabello, V., Jiménez-Aceituno, A. *et al.* **Unstable bridges---exploring the possibilities for "in between" spaces amidst divergent narratives in environmental governance.** *Sustain Sci* (2025). <https://doi.org/10.1007/s11625-025-01772-x>
+331 González-Mon, B., Cabello, V., Jiménez-Aceituno, A. *et al.* **Unstable bridges---exploring the possibilities for “in between” spaces amidst divergent narratives in environmental governance.** *Sustain Sci* (2025). <https://doi.org/10.1007/s11625-025-01772-x>
 
 330 **Library-coordinated institutional membership in The Carpentries: A qualitative case study.** Brooks-Kieffer, Jamene. Libraries and the Academy, July 2026. <https://hdl.handle.net/1808/36240>
 
@@ -385,7 +385,7 @@ Quantum-Like Society.** Jie et al. Journal of social Sciences and Humanities 202
 
 327 **Guides and Tellers: A Review of Tutoring Behaviours**. Przemyslaw Pawluk and Judi McCuaig. Proceedings of the Future Technologies Conference (FTC) 2025, Volume 4 Springer.
 
-326 **Behavioral Insights for Macau's Volatile Real Estate Investment: A Qualitative Approach**.\
+326 **Behavioral Insights for Macau’s Volatile Real Estate Investment: A Qualitative Approach**.\
 Chan, Vincent Wing Chi.   California Southern University ProQuest Dissertations & Theses,  2025. 32278644.
 
 325 **¿Qué cambia cuando ellas participan? Relación entre participación femenina y desempeño de las Organizaciones Comunitarias de Servicios de Agua y Saneamiento (OCSAS) (What changes when they participate? Relationship between female participation and performance of Community Organizations for Water and Sanitation Services (OCSAS)).** Ana Guadalupe Pinto Pinto. Thesis 2025 CENTRO AGRONÓMICO TROPICAL DE INVESTIGACIÓN Y ENSEÑANZA.
@@ -396,9 +396,9 @@ Chan, Vincent Wing Chi.   California Southern University ProQuest Disserta
 
 322 **Splétání mezidruhových přátelství, etnografie houbařského spolku (Weaving interspecies friendships, an ethnography of a mushroom association)**. Natálie Matějková Thesis 2025 UNIVERZITA KARLOVA
 
-321 **Tulevaisuuden automaatiojärjestelmät: Tarpeet ja odotukset organisaation strategian tukena (Future automation systems: Needs and expectations in support of the organization's strategy).** Hannu Virta. Thesis 2025 SEINÄJOEN AMMATTIKORKEAKOULU.
+321 **Tulevaisuuden automaatiojärjestelmät: Tarpeet ja odotukset organisaation strategian tukena (Future automation systems: Needs and expectations in support of the organization’s strategy).** Hannu Virta. Thesis 2025 SEINÄJOEN AMMATTIKORKEAKOULU.
 
-320 **Le pois carré : l'introduction d'une légumineuse oubliée dans les pratiques alimentaires (The square pea: the introduction of a forgotten legume into dietary practices).** Rosalie MOISSET. Thesis 2025 Universite de Toulouse
+320 **Le pois carré : l’introduction d’une légumineuse oubliée dans les pratiques alimentaires (The square pea: the introduction of a forgotten legume into dietary practices).** Rosalie MOISSET. Thesis 2025 Universite de Toulouse
 
 319 **Human factors in the standardization of AI governance: Improving the design of risk management standards for ethical AI.** Z Kilhoffer. Thesis 2025 University of Illinois. <https://hdl.handle.net/2142/129214>
 
@@ -426,7 +426,7 @@ Chan, Vincent Wing Chi.   California Southern University ProQuest Disserta
 
 307 **Master en fondements et pratiques de la durabilité. La conception de la sobriété énergétique et les enjeux liés à sa politisation dans le canton de Vaud.** E Deiana. Thesis. 2025. Universite de Lausanne.
 
-306 **"She's Like a Person but Better": Characterizing Companion-Assistant Dynamics in Human-AI Relationships.** Manoli et al. eprint arXiv:2510.15905 2025. <https://doi.org/10.48550/arXiv.2510.15905>
+306 **“She’s Like a Person but Better”: Characterizing Companion-Assistant Dynamics in Human-AI Relationships.** Manoli et al. eprint arXiv:2510.15905 2025. <https://doi.org/10.48550/arXiv.2510.15905>
 
 305 Hanschur, Leonard and Hanschur, Leonard and Henkel, Joachim, **Open Source AI: Strategic Motives for the Selective Revealing of AI System Components** (September 12, 2025). Available at SSRN: <http://dx.doi.org/10.2139/ssrn.5475926>
 
@@ -443,7 +443,7 @@ Chan, Vincent Wing Chi.   California Southern University ProQuest Disserta
 
 299 G Grzeszczyk, C Unterhitzenberger, M Abdelmegid et al. **Beyond Guesswork: Predicting Project Delays and Timelines with a Forward-Looking Risk-Adjusted Approach.** 2025\. Construction Management and Economics. ISSN: 0144-6193 (In Press) <https://doi.org/10.1080/01446193.2025.2559646>
 
-298 **La gestion du diabète de type 2 sous une perspective de genre en santé : exploration des expériences et représentations des femmes face aux recommandations nutritionnelles (Management of type 2 diabetes from a gender perspective in health: exploration of women's experiences and representations regarding nutritional recommendations).** A Dubuffee. 2025. Dissertation. L'Université de Liège. <http://hdl.handle.net/2268.2/24106>
+298 **La gestion du diabète de type 2 sous une perspective de genre en santé : exploration des expériences et représentations des femmes face aux recommandations nutritionnelles (Management of type 2 diabetes from a gender perspective in health: exploration of women’s experiences and representations regarding nutritional recommendations).** A Dubuffee. 2025. Dissertation. L’Université de Liège. <http://hdl.handle.net/2268.2/24106>
 
 297 **Adapting the AI Ecological Education Policy Framework to the Canadian Context.** J Woodworth, E Ballantyne. 2025. Mount Saint Vincent University. <https://osf.io/akgzf/download>
 
@@ -453,7 +453,7 @@ Chan, Vincent Wing Chi.   California Southern University ProQuest Disserta
 
 294 Ritondo, Rafaël, **Mapping Learning in Foresight: A Methodological Framework Using Cognitive Maps and fsQCA.** [Preprint] 2025 <https://ssrn.com/abstract=5503406>
 
-293 **Perceptions and Attitudes Towards Palliative Care Among Healthcare Professionals in Qatar's Home Care Setting.** Haddad et al. Front.Med. Sec. Family Medicine and Primary Care. vol 12 2025. doi: 10.3389/fmed.2025.1678462
+293 **Perceptions and Attitudes Towards Palliative Care Among Healthcare Professionals in Qatar’s Home Care Setting.** Haddad et al. Front.Med. Sec. Family Medicine and Primary Care. vol 12 2025. doi: 10.3389/fmed.2025.1678462
 
 292 **Experiences of Black Women School Counselors Coping With Student Suicide.** M Ray. Walden University ProQuest Dissertations & Theses,  2025. 32044128.
 
@@ -485,7 +485,7 @@ Chan, Vincent Wing Chi.   California Southern University ProQuest Disserta
 
 278 **Cultura e Identidad afIrmaCIón, negoCIaCIón y negaCIón de IdentIdades en las InterseCCIones entre Cultura y teCnología: reflexIones teórICas e InvestIgaCIones empírICas.** Francesco Gervasi, Gabriel Pérez Salazar. 2025. Universidad aUtónoma de Coahuila.
 
-277 Hargrove, É. (2025). **Abusive or authoritarian? The elite media's inconsistent framing of surveillance scandals.** European Politics and Society, 1--24. <https://doi.org/10.1080/23745118.2025.2502803>
+277 Hargrove, É. (2025). **Abusive or authoritarian? The elite media’s inconsistent framing of surveillance scandals.** European Politics and Society, 1--24. <https://doi.org/10.1080/23745118.2025.2502803>
 
 276 **Metalinguistic Commentary on Black Queer Language and Belonging.** D Canning. Dissertation 2025 University of Michigan. <https://dx.doi.org/10.7302/27264>
 
@@ -503,9 +503,9 @@ Chan, Vincent Wing Chi.   California Southern University ProQuest Disserta
 
 269 **Лексико-семантический анализ нейротехнологических терминологий в подкастах (LEXICAL AND SEMANTIC ANALYSIS OF THE NEUROTECHNOLOGY TERMINOLOGY IN PODCASTS)**. Сажина (Sazhina) et al. Главная / Архивы / № 1 (2025): Вестник Кокшетауского университета им. Ш.Уалиханова. Серия филологическая / ПРОБЛЕМЫ ЯЗЫКОЗНАНИЯ (Home / Archives / No. 1 (2025): Bulletin of Kokshetau University named after. Sh. Ualikhanov. Philological series / PROBLEMS OF LINGUISTICS) <https://doi.org/10.59102/kufil/2025/iss1pp150-166>
 
-268 ŠOLÍNŮ, Eri Ezra. **Obsahová analýza pokrytí kauzy hry "Hogwarts Legacy" v české herní žurnalistice (Coverage content analysis of the controversy behind the game "Hogwarts Legacy" in Czech game journalism)**. Bakalářská práce, vedoucí Fousek Krobová, Tereza. Praha: Univerzita Karlova, Fakulta sociálních věd, Katedra mediálních studií, 2025.
+268 ŠOLÍNŮ, Eri Ezra. **Obsahová analýza pokrytí kauzy hry “Hogwarts Legacy” v české herní žurnalistice (Coverage content analysis of the controversy behind the game “Hogwarts Legacy” in Czech game journalism)**. Bakalářská práce, vedoucí Fousek Krobová, Tereza. Praha: Univerzita Karlova, Fakulta sociálních věd, Katedra mediálních studií, 2025.
 
-267 Proske, U., & Melsen, L. A. (2025). **How climate model developers deal with bugs**. Earth's Future, 13, e2025EF006318 <https://doi.org/10.1029/2025EF006318>
+267 Proske, U., & Melsen, L. A. (2025). **How climate model developers deal with bugs**. Earth’s Future, 13, e2025EF006318 <https://doi.org/10.1029/2025EF006318>
 
 266 Michele Terraferma, Francesco Izzo, Raffaele Cecere; **From activity to meaning: how context shapes fan convention experiences.** International Journal of Event and Festival Management 2025; <https://doi.org/10.1108/IJEFM-02-2025-0020>
 
@@ -518,7 +518,7 @@ Dennis Zyska, Ilia Kuznetsov, Florian Müller, Iryna Gurevych. Mensch und Comput
 
 262 A **Critical Approach to Online, English Language Representation of Korean Linguistic Variation.** Simon Barnes-Sadler. University of Oxford
 
-261 Shen, My., Feng, Zx., Jin, Jw. et al. **Transformative learning through the "Honor Walk" in nursing education: a qualitative study.** BMC Nurs 24, 1015 (2025). <https://doi.org/10.1186/s12912-025-03634-4>
+261 Shen, My., Feng, Zx., Jin, Jw. et al. **Transformative learning through the “Honor Walk” in nursing education: a qualitative study.** BMC Nurs 24, 1015 (2025). <https://doi.org/10.1186/s12912-025-03634-4>
 
 260 **Is AI Chatbot Coaching Actually 'Coaching'? Exploring Relationship and Reflection in AI-Human Conversations.** Andy Nobes. International Journal of Evidence Based Coaching and Mentoring, 2025, S19, pp.92-109. DOI: 10.24384/xjc6-cv40
 
@@ -530,7 +530,7 @@ Dennis Zyska, Ilia Kuznetsov, Florian Müller, Iryna Gurevych. Mensch und Comput
 
 256 **U3Design: Metodologia centrada no utilizador para a manufatura aditiva de dispositivos de assistência.** V Coelho. 2024. Thesis. Nova School of Science and Technology.
 
-255 **Building Tomorrow's Workforce: How Youth Workers Can Prepare Youth for a Dynamic Labour Market.** M Gómez-Abundis. 2025. Thesis. University of Lapland
+255 **Building Tomorrow’s Workforce: How Youth Workers Can Prepare Youth for a Dynamic Labour Market.** M Gómez-Abundis. 2025. Thesis. University of Lapland
 
 254 **Venture Studio: A Framework for Digital Sustainability Entrepreneurship.** J Kuparinen. 2025. thesis. University of Turku.
 
@@ -550,11 +550,11 @@ Dennis Zyska, Ilia Kuznetsov, Florian Müller, Iryna Gurevych. Mensch und Comput
 
 246 Johansson, Maria, 2025. **Power, trust, and youth climate dialogues : an analysis of young participants' experiences in dialogue with policymakers**. Second cycle, A2E. Uppsala: SLU, Dept. of Urban and Rural Development. <https://stud.epsilon.slu.se/21186/>
 
-245 Mineiro, M., & d'Ávila, C. (2025). **A PRÁTICA DOCENTE UNIVERSITÁRIA: EXPERIÊNCIAS DE LUDICIDADE COM ABORDAGEM SENSÍVEL.** EVISTA ELETRÔNICA ESQUISEDUCA, 17(45), 95--118. <https://doi.org/10.58422/repesq.2025.e1787>
+245 Mineiro, M., & d’Ávila, C. (2025). **A PRÁTICA DOCENTE UNIVERSITÁRIA: EXPERIÊNCIAS DE LUDICIDADE COM ABORDAGEM SENSÍVEL.** EVISTA ELETRÔNICA ESQUISEDUCA, 17(45), 95--118. <https://doi.org/10.58422/repesq.2025.e1787>
 
 244 Tyson, K. K. (2025). **Examining how global education leaders' perceptions, practices, and lived experiences may influence study abroad participation at historically black colleges and universities** (Order No. 32122218). Available from ProQuest Dissertations & Theses Global: The Humanities and Social Sciences Collection. (3228950299).
 
-243 d'Ávila, C., & Mineiro, M. (2025). **A centralidade da didática na formação de professores e as contribuições da didática sensível.** Educação, 50(1), e67/1--34. <https://doi.org/10.5902/1984644489343>
+243 d’Ávila, C., & Mineiro, M. (2025). **A centralidade da didática na formação de professores e as contribuições da didática sensível.** Educação, 50(1), e67/1--34. <https://doi.org/10.5902/1984644489343>
 
 242 **Příslušnost k politické skupině v Evropském parlamentu: případová studie hnutí Starostové a nezávislí (Political Group Affiliation in the European Parliament: A Case Study of the Mayors and Independents Movement).** Gajďoková, Petra. Thesis. 2025. Univerzita Karlova, Fakulta sociálních věd. <http://hdl.handle.net/20.500.11956/201224>
 
@@ -562,7 +562,7 @@ Dennis Zyska, Ilia Kuznetsov, Florian Müller, Iryna Gurevych. Mensch und Comput
 
 240 **Motivacija za igre igranja uloga: Kvalitativna analiza (Motivation for role-playing games: A qualitative analysis).** Batory, Lucija. Sveučilište u Zagrebu. urn:nbn:hr:131:407390. <https://urn.nsk.hr/urn:nbn:hr:131:407390>
 
-239 HÁJKOVÁ, Sára. **"My už dobré sousedy máme." Vícedruhová etnografie záměru výstavby gigafactory v Dolní Lutyni ("We already have good neighbors." A Multispecies Ethnography of the Planned Gigafactory in Dolní Lutyně).** Diplomová práce, vedoucí Kuřík, Bohuslav. Praha: Univerzita Karlova, Fakulta humanitních studií, Katedra sociální a kulturní antropologie, 2025.
+239 HÁJKOVÁ, Sára. **“My už dobré sousedy máme.” Vícedruhová etnografie záměru výstavby gigafactory v Dolní Lutyni (“We already have good neighbors.” A Multispecies Ethnography of the Planned Gigafactory in Dolní Lutyně).** Diplomová práce, vedoucí Kuřík, Bohuslav. Praha: Univerzita Karlova, Fakulta humanitních studií, Katedra sociální a kulturní antropologie, 2025.
 
 238 **Traumainformoitu työote lastensuojelun sosiaalityöntekijän työhyvinvoinnin tukena (Trauma-informed work sample to support the well-being of child welfare social workers)**. Aster Hedman. Pro gradu -tutkielma Sosiaalityö Yhteiskuntatieteiden laitos Itä-Suomen yliopisto Huhtikuu. 2025 University of Eastern Finland.
 
@@ -570,7 +570,7 @@ Dennis Zyska, Ilia Kuznetsov, Florian Müller, Iryna Gurevych. Mensch und Comput
 
 236 Soto, JL: Calvo, F. 2025. **Funcionalidad y autovaloración de mecanismos de gobernanza para la ACC/AbE en Ecuador (Functionality and self-assessment of governance mechanisms for ACC/EbA in Ecuador).** Turrialba, Costa Rica, CATIE. <https://repositorio.catie.ac.cr/handle/11554/12971>
 
-235 Aitken, Lauren, **"Queer and Thriving: Community as Resilience in an Anti-LGBTQ State"** (2025). Graduate Thesis and Dissertation post-2024. 89. <https://stars.library.ucf.edu/etd2024/89>
+235 Aitken, Lauren, **“Queer and Thriving: Community as Resilience in an Anti-LGBTQ State”** (2025). Graduate Thesis and Dissertation post-2024. 89. <https://stars.library.ucf.edu/etd2024/89>
 
 234 **Mine, Yours, Ours? Focusing on Affective Publicness in Urban Public Space.** Mark. Talko, Anna. Thesis 2025. Lund University. <http://lup.lub.lu.se/student-papers/record/9195231>
 
@@ -644,18 +644,18 @@ Dennis Zyska, Ilia Kuznetsov, Florian Müller, Iryna Gurevych. Mensch und Comput
 
 199 **Лексико-семантический анализ нейротехнологических терминологий в подкастах (Lexico-semantic analysis of neurotechnological terminologies in podcasts)**. Сажина et al. Bulletin of S.Ualikhanov KU. Philological Series. No 1, 2025.
 
-198 **Using Immersive Virtual Reality to Measure Strike and Dip and Teach Geological Mapping Concepts.** Natalie Bursztyn, Ashley D'Antonio, Bart Masters. Earth Science, Systems and Society 2025.\
+198 **Using Immersive Virtual Reality to Measure Strike and Dip and Teach Geological Mapping Concepts.** Natalie Bursztyn, Ashley D’Antonio, Bart Masters. Earth Science, Systems and Society 2025.\
 <https://doi.org/10.1144/esss2024-008>
 
 197 **Interiorización de los comportamientos ambientales de los habitantes de la comunidad del cerro Tecana, en Santa Ana (Internalization of Environmental Behaviors Among Residents of the Cerro Tecana Community in Santa Ana).** Brenda Rivas, Nancy Silva, Karen Ramírez. ECA 79(779) 2025-04-08
 
-196 **"I'd Never Actually Realized How Big An Impact It Had Until Now": Perspectives of University Students with Disabilities on Generative Artificial Intelligence.** A Atcheson et al. CHI Conference on Human Factors in Computing Systems (CHI '25), April 26--May 01, 2025, Yokohama, Japan. ACM, New York, USA. <https://doi.org/10.1145/3706598.3714121>
+196 **“I’d Never Actually Realized How Big An Impact It Had Until Now”: Perspectives of University Students with Disabilities on Generative Artificial Intelligence.** A Atcheson et al. CHI Conference on Human Factors in Computing Systems (CHI '25), April 26--May 01, 2025, Yokohama, Japan. ACM, New York, USA. <https://doi.org/10.1145/3706598.3714121>
 
-195 **The design of the "autistics in (educational) space: building our own futures" doctoral project.** R Collis. 2025. Autism. <https://doi.org/10.1177/13623613251328495>
+195 **The design of the “autistics in (educational) space: building our own futures” doctoral project.** R Collis. 2025. Autism. <https://doi.org/10.1177/13623613251328495>
 
 194 **Directives in teacher talk with primary school EFL learners: A study of five teachers in Croatia.** Eva Jakupčević. Neofilolog 2025 64/1. <https://doi.org/10.14746/n.2025.64.1.5>
 
-193 **La difficile prise en compte du point de vue des enfants ou les limites de l'organisation des ACM. (The difficulty of taking into account the point of view of children or the limits of the organization of ACMs).** Baptiste Besse-Patin, Nathalie Roucous. Institut national de la jeunesse et de l'éducation populaire. 2025, pp.135. ⟨hal-04875175⟩
+193 **La difficile prise en compte du point de vue des enfants ou les limites de l’organisation des ACM. (The difficulty of taking into account the point of view of children or the limits of the organization of ACMs).** Baptiste Besse-Patin, Nathalie Roucous. Institut national de la jeunesse et de l’éducation populaire. 2025, pp.135. ⟨hal-04875175⟩
 
 192 **Facilidad de evolución y mantenimiento de software: una revisión de la literaturaSoftware evolvability and maintainability: a literatutre review.** Hernández et al. COMPUTACION E INFORMATICA. 2025.
 
@@ -665,7 +665,7 @@ Dennis Zyska, Ilia Kuznetsov, Florian Müller, Iryna Gurevych. Mensch und Comput
 
 189 **Prolonged Drought and Governance Challenges in Turkana County, Kenya -- Access to Water and Livelihood Changes.** Asokan et al. Environmental Development. 2025 In Press. <https://doi.org/10.1016/j.envdev.2025.101193>
 
-188 **"Dina Boluarte, the accidental president": En analys av legitimitetskris och förtroendefall i ett politiskt instabilt Peru under åren 2022-2024.** **(An analysis of the legitimacy crisis and declining trust in a politically unstable Peru during 2022--2024).** Simon Hössung. 2025. Thesis. Högskolan Dalarna.
+188 **“Dina Boluarte, the accidental president”: En analys av legitimitetskris och förtroendefall i ett politiskt instabilt Peru under åren 2022-2024.** **(An analysis of the legitimacy crisis and declining trust in a politically unstable Peru during 2022--2024).** Simon Hössung. 2025. Thesis. Högskolan Dalarna.
 
 187 **Evaluation of Satisfaction With a Secure, Connected Mobile App for Women in Assisted Reproductive Technology Programs: Prospective Observational Study.** Plouvier et al. JMIR Human Factors 2025 vol 12. [doi:10.2196/63570](https://doi.org/10.2196/63570)
 
@@ -684,9 +684,9 @@ Negotiating the French-German Interface -- T Meyer, F Weber (Editors) eBook 2024
 
 181 **Experiences of Women who Faced Insecurity in Public Transport and its Impact on their Emotional Well-being: A Qualitative Study from Urban Area of Tamil Nadu, India.** S Govindaraj et al. Journal of Clinical & Diagnostic Research. Dec 2024, Vol. 18 Issue 12, p16-20. 5p.
 
-180 **La difficile prise en compte du point de vue des enfants ou les limites de l'organisation des ACM (The difficulty of taking into account the point of view of children or the limits of the organization of ACM).** Baptiste Besse-Patin, Nathalie Roucous. Institut national de la jeunesse et de l'éducation populaire. 2025, pp.135. ffhal-04875175f
+180 **La difficile prise en compte du point de vue des enfants ou les limites de l’organisation des ACM (The difficulty of taking into account the point of view of children or the limits of the organization of ACM).** Baptiste Besse-Patin, Nathalie Roucous. Institut national de la jeunesse et de l’éducation populaire. 2025, pp.135. ffhal-04875175f
 
-179 **The role of citizen science in increasing communities' and individual's agency and participation in research.** Nyokabi et al. Conference: Systemic Change for Sustainable Future, Trapani, Italy 2024.
+179 **The role of citizen science in increasing communities' and individual’s agency and participation in research.** Nyokabi et al. Conference: Systemic Change for Sustainable Future, Trapani, Italy 2024.
 
 178 **Interorganisational collaboration in Networks -- Networks and their differing success factors regarding the successful integration of Ukrainian newcomers in The Netherlands, Belgium and Finland.** Dani Smith Thesis 2025. University of Twente. <https://essay.utwente.nl/104803/>
 
@@ -705,11 +705,11 @@ Nadu: Are they being Educated or Exploited?** A Eashwa et al. Cureus 2025 17(1):
 
 171 **How are VR and AR used in geoscience? Interview of geologists for immersive reality system requirements gathering.** Douglass-Bonner et al. 2024. Queensland University of Technology.
 
-170 **A Multimodal Analysis of Swiss-German Internet Memes.** B Achermann. 2024. Master's Thesis. Bern University of Applied Sciences.
+170 **A Multimodal Analysis of Swiss-German Internet Memes.** B Achermann. 2024. Master’s Thesis. Bern University of Applied Sciences.
 
 169 **Adapting Sustainable Software Development Methods Into Agile Processes.** T Rinne. 2024 Thesis University of Turku. <https://www.utupub.fi/bitstream/handle/10024/179491/Rinne_Tuomas_opinnayte.pdf?sequence=1&isAllowed=y>
 
-168 **«Her var det navn, og her var det fjes -- men jeg vet ikke hvem de er.» En tematisk analyse av rollen til fagsosiale fellesskap for nettstudenters livskvalitet ("Here were names, and here were faces -- but I don't know who they are." A thematic analysis of the role of academic social communities for online students' quality of life.)**. Madeleine Stuedal. 2024. Thesis. Institutt for psykologi, Oslo Nye Høyskole
+168 **«Her var det navn, og her var det fjes -- men jeg vet ikke hvem de er.» En tematisk analyse av rollen til fagsosiale fellesskap for nettstudenters livskvalitet (“Here were names, and here were faces -- but I don’t know who they are.” A thematic analysis of the role of academic social communities for online students' quality of life.)**. Madeleine Stuedal. 2024. Thesis. Institutt for psykologi, Oslo Nye Høyskole
 
 167 **Ludicidade: conceitos, paradigmas e concepções no ensino superior (Ludicity: concepts, paradigms and conceptions in higher education).** Márcia Mineiro. Práxis Educacional, Vitória da Conquista, v. 20(51). <https://doi.org/10.22481/praxisedu.v20i51.13947>
 
@@ -730,11 +730,11 @@ DOI: 10.1055/a-2422-0496
 
 159 **The Perceptions of Software Engineers Concerning the Utilization of Bots in the OSS Development Process: An Exploratory Survey.** Danyellias Vaz de Lima Manso, Valdemar Vicente Graciano Neto, Mohamad Kassab. 2024. arXiv:2411.09467 <https://doi.org/10.48550/arXiv.2411.09467>
 
-158 **Political parties and Russia's escalation of the war in Ukraine: consequences for left-wing parties in Moldova.** Isabell Burmester. Cambridge Review of International Affairs. Published online: 11 Nov 2024. <https://doi.org/10.1080/09557571.2024.2426781>
+158 **Political parties and Russia’s escalation of the war in Ukraine: consequences for left-wing parties in Moldova.** Isabell Burmester. Cambridge Review of International Affairs. Published online: 11 Nov 2024. <https://doi.org/10.1080/09557571.2024.2426781>
 
 157 **Breaking barriers: an expanded TOE framework for identifying main barriers in digital technology adoption within the service sector.** O Csiki et al. Conference: EurOMA 2024. TRANSFORMING PEOPLE AND PROCESSES FOR A BETTER WORLD. Barcelona, 29.06-04.07 <https://business-digitalization.ro/wp-content/uploads/filr/5956/EurOMA_2024_Barriers.pdf>
 
-156 **MEN'S DREAMS. THE CASTLE-HOUSE AT THE END OF LIFE A QUALITATIVE STUDY OF THE PROJECTS FOR BUILDING A SECONDARY RESIDENCE AMONG INDIVIDUALS FROM THE LARGE URBAN SPACES OF ROMANIAN SOCIETY.** C Octavian. 2024. Revista Universitară de Sociologie. Article.
+156 **MEN’S DREAMS. THE CASTLE-HOUSE AT THE END OF LIFE A QUALITATIVE STUDY OF THE PROJECTS FOR BUILDING A SECONDARY RESIDENCE AMONG INDIVIDUALS FROM THE LARGE URBAN SPACES OF ROMANIAN SOCIETY.** C Octavian. 2024. Revista Universitară de Sociologie. Article.
 
 155 **Improving Access to Community-Based Services for Sexual Assault Survivors**.\
 J Brosnan, R Shannon, S Krueger, K Wolgast. Journal of Forensic Nursing 2024. DOI: 10.1097/JFN.0000000000000516
@@ -743,7 +743,7 @@ J Brosnan, R Shannon, S Krueger, K Wolgast. Journal of Forensic Nursing 2024. DO
 
 153 **History & Evolution Of Plastic Mulching Technology: An Ethnography Of California Strawberry Plasticulture.** K Conrad. Thesis 2024. California Polytechnic State University. <https://digitalcommons.calpoly.edu/theses/2910/>
 
-152 **Navigating Global and Local: Reddit's Influence on Community Formation and Identity Among Gen Z Indian Users.** V Tewari, A Mishra. Indian Journal of Social Science and Literature, 2024 4(1). <https://www.ijssl.latticescipub.com/wp-content/uploads/papers/v4i1/E114103050924.pdf>
+152 **Navigating Global and Local: Reddit’s Influence on Community Formation and Identity Among Gen Z Indian Users.** V Tewari, A Mishra. Indian Journal of Social Science and Literature, 2024 4(1). <https://www.ijssl.latticescipub.com/wp-content/uploads/papers/v4i1/E114103050924.pdf>
 
 151 **Intangible cultural heritage versus tourism: residents' reactions to temporal overtourism during the Day of the Dead in Mixquic, Mexico.** D Sánchez-Aguirre, I Alvarado-Sizzo, B Moury-Fernandes. Journal of Heritage Tourism. 2024. <https://www.tandfonline.com/doi/full/10.1080/1743873X.2024.2415334>
 
@@ -757,7 +757,7 @@ J Brosnan, R Shannon, S Krueger, K Wolgast. Journal of Forensic Nursing 2024. DO
 
 146 **Generative AI in the Workplace: Unraveling the Impact on IT Consultants' Work Habits and Information Guidelines.** N Martinsen. Thesis 2024. Norges teknisk-naturvitenskapelige universitet. <https://hdl.handle.net/11250/3154733>
 
-145 **"Tajuan kyllä, puhu vain suoraan minulle" -- Ohipuhumisen kokemukset vammaisten henkilöiden arjessa 2020-luvun Suomessa ("I understand, just talk directly to me" -- Experiences of passing by in the everyday lives of disabled people in Finland in the 2020s)**. T Kakkonen. Thesis 2024. University of Eastern Finland
+145 **“Tajuan kyllä, puhu vain suoraan minulle” -- Ohipuhumisen kokemukset vammaisten henkilöiden arjessa 2020-luvun Suomessa (“I understand, just talk directly to me” -- Experiences of passing by in the everyday lives of disabled people in Finland in the 2020s)**. T Kakkonen. Thesis 2024. University of Eastern Finland
 
 144 **DevOps Metrics and KPIs: A Multivocal Literature Review.** R Amaro, R Pereira, M da Silva. ACM Computing Surveys, Volume 56(9) 9 Article No.231. <https://doi.org/10.1145/3652508>
 
@@ -767,7 +767,7 @@ J Brosnan, R Shannon, S Krueger, K Wolgast. Journal of Forensic Nursing 2024. DO
 
 141 **Generative AI in the Workplace: Unraveling the Impact on IT-Consultants' Work Habits and Information Guidelines.** N Martinsen. Thesis 2024. Norges teknisk-naturvitenskapelige universitet.
 
-140 **Avoir le sens de la formule : le droit à l'épreuve de l'activité de production des marchés publics d'un conseil Départemental (Having a flair for the formula : the law put to the test in the production of public procurement within a departmental council).** Thomas Forte. 2024. Thesis. Université de Bordeaux. <https://theses.hal.science/tel-04677710>
+140 **Avoir le sens de la formule : le droit à l’épreuve de l’activité de production des marchés publics d’un conseil Départemental (Having a flair for the formula : the law put to the test in the production of public procurement within a departmental council).** Thomas Forte. 2024. Thesis. Université de Bordeaux. <https://theses.hal.science/tel-04677710>
 
 139 **Přístup muzejních pracovníků k virtuálním výstavám v rámci digitálního kurátorství (Approach of museum workers to virtual exhibitions within digital curation).** Anna Doušová. 2024. Thesis. Univerzita Karlova. <https://dspace.cuni.cz/handle/20.500.11956/190781>
 
@@ -775,7 +775,7 @@ J Brosnan, R Shannon, S Krueger, K Wolgast. Journal of Forensic Nursing 2024. DO
 
 137 **Vibrotactile Rendering of Sliders in Virtual Reality.** D Larsen-Rosner. 2024. Thesis. University of Calgary. <https://hdl.handle.net/1880/119762>
 
-136 **"I Solemnly Swear": A Comparative Study of Codes of Professional Ethics amongst Pharmacists from Culturally Diverse European Countries.** R Raimundo, A Cavaco. Pharmacy 2024, 12(5), 143; <https://doi.org/10.3390/pharmacy12050143>
+136 **“I Solemnly Swear”: A Comparative Study of Codes of Professional Ethics amongst Pharmacists from Culturally Diverse European Countries.** R Raimundo, A Cavaco. Pharmacy 2024, 12(5), 143; <https://doi.org/10.3390/pharmacy12050143>
 
 135 **Balancing Act: A Qualitative Study on the Dual Nature of Video Game Addiction among medical college students in Chengalpattu district, Tamil Nadu**. G Sushmitha, VM Anantha Eashwar, RJ Charulatha, BN Surya. 2024. Preprint under review. <https://doi.org/10.21203/rs.3.rs-4812020/v1>
 
@@ -793,7 +793,7 @@ J Brosnan, R Shannon, S Krueger, K Wolgast. Journal of Forensic Nursing 2024. DO
 
 128 **Low-Resourced Languages and Online Knowledge Repositories: A Need-Finding Study.** H Nigatu, J Canny, S Chasins. CHI '24: Proceedings of the CHI Conference on Human Factors in Computing Systems. Article No.: 562, Pages 1 -- 21. <https://doi.org/10.1145/3613904.3642605>
 
-127 **It's a Marathon, Not a Sprint: Challenges Yet to Overcome for Digital Laboratories in Education.** Soll M et al. Conference Paper: Journal: Smart Technologies for a Sustainable Future Lecture Notes in Networks and Systems, 2024, p. 220-231. <https://doi.org/10.1007/978-3-031-61905-2_22>
+127 **It’s a Marathon, Not a Sprint: Challenges Yet to Overcome for Digital Laboratories in Education.** Soll M et al. Conference Paper: Journal: Smart Technologies for a Sustainable Future Lecture Notes in Networks and Systems, 2024, p. 220-231. <https://doi.org/10.1007/978-3-031-61905-2_22>
 
 126 **Opportunity realized: Successful implementation of undergraduate research at three geographically diverse community colleges.** Daniel Beugnet. Dissertation. 2024. Florida State University. <https://www.proquest.com/docview/3064718019?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses>
 
@@ -805,7 +805,7 @@ J Brosnan, R Shannon, S Krueger, K Wolgast. Journal of Forensic Nursing 2024. DO
 
 122 **Probing the Role of Digital Payment Solutions in Gambling Behavior: Preliminary Results From an Exploratory Focus Group Session With Problem Gamblers.** Lakew N, Jonsson J, Lindner P. JMIR Hum Factors 2024(11:e54951) doi: 10.2196/54951
 
-121 **One size does not fit all: farmer's attitudes and preferences towards agricultural innovation in\
+121 **One size does not fit all: farmer’s attitudes and preferences towards agricultural innovation in\
 alpine valleys.** Laura Priscila Penate Lopez, Daniele Cavicchioli, Eugenio Demartini,Danilo Bertoni. Abstract. V CONVEGNO AISSA #UNDER40. 2024. <https://iris.unibs.it/bitstream/11379/601345/1/BOOK%20OF%20ABSTRACTS.pdf>
 
 120 **Toxicity in online gaming: An analysis of initial toxic behavior in League of Legends.** Rebeca Daolio. 2024. Thesis. University of Kansas
@@ -816,14 +816,14 @@ alpine valleys.** Laura Priscila Penate Lopez, Daniele Cavicchioli, Eugenio Dema
 
 117 **Feasibility of a nurse-led, mHealth-assisted, and team-based collaborative care model for heart failure care in India: Findings from a multi-stakeholder qualitative study.** Thomas SC, Neenumol K, Chacko S et al. [awaiting peer review]. Wellcome Open Res 2024, 9:219. <https://doi.org/10.12688/wellcomeopenres.21175.1>
 
-116 **"Fuel To Complete My Degree": Hmong College Students' (In)Validating Advising Experiences.** Soua Xiong. NACADA Journal vol 44 (1). June 2024. <https://doi.org/10.12930/NACADA-23-35>
+116 **“Fuel To Complete My Degree”: Hmong College Students' (In)Validating Advising Experiences.** Soua Xiong. NACADA Journal vol 44 (1). June 2024. <https://doi.org/10.12930/NACADA-23-35>
 
-115 **"We Don't Work with Paper; We Work with People" Experiences of the Mentor Mother Model in Gothenburg, Sweden.** S Eklund. Thesis, Uppsala University. 2024.\
+115 **“We Don’t Work with Paper; We Work with People” Experiences of the Mentor Mother Model in Gothenburg, Sweden.** S Eklund. Thesis, Uppsala University. 2024.\
 <https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1876222&dswid=9727>
 
 114 **Institutional features driving socially sustainable urban mobility: Contributions from the Northern Central American Triangle.** C Grande-Ayala, LNavas-Gracia. Cities vol 160, 2025. <https://doi.org/10.1016/j.cities.2025.105807>
 
-113 **Three "Powerfuls" for the sustainability curriculum in higher education: Investigating empowering knowledge for sustainability students.** L Håkansson. June 2024. Thesis, Gothenburg University. <https://hdl.handle.net/2077/81828>
+113 **Three “Powerfuls” for the sustainability curriculum in higher education: Investigating empowering knowledge for sustainability students.** L Håkansson. June 2024. Thesis, Gothenburg University. <https://hdl.handle.net/2077/81828>
 
 112 **Towards better preparedness for future catastrophes. Lessons Learned from Civil-Military Pandemic Response.** Markus Ries. Book. 2024. Heidelberg University. <https://doi.org/10.11588/heibooks.1331>
 
@@ -831,7 +831,7 @@ alpine valleys.** Laura Priscila Penate Lopez, Daniele Cavicchioli, Eugenio Dema
 
 110 **The importance of distribution channels and food supply chain challenges on the viability of market gardening farms: insights from market gardeners in Belgium at a territorial level.** N Biot, C Hecquet, K Maréchal, G Lobet, N Dendoncker. 2024. Preprint. <https://hal.science/hal-04594127/>
 
-109 **Design Principles for a Digital Assistant for Parkinson's' Patients: A Case Study with Clinicians.** R Rubiano-Cruz, S Greulich, T Feige, N Schnalke, B Falkenburger. (2024). AMCIS 2024 Proceedings. <https://aisel.aisnet.org/amcis2024/health_it/health_it/12>
+109 **Design Principles for a Digital Assistant for Parkinson’s' Patients: A Case Study with Clinicians.** R Rubiano-Cruz, S Greulich, T Feige, N Schnalke, B Falkenburger. (2024). AMCIS 2024 Proceedings. <https://aisel.aisnet.org/amcis2024/health_it/health_it/12>
 
 108 **Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explanation Type and Presentation on Lay User Understanding.** Peter VanNostrand, Dennis Hofmann, Lei Ma, Elke Rundensteiner. FAccT '24: Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency. June 2024. Pages 1682--1700. <https://doi.org/10.1145/3630106.3658997>
 
@@ -843,7 +843,7 @@ alpine valleys.** Laura Priscila Penate Lopez, Daniele Cavicchioli, Eugenio Dema
 
 104 **Activists and volunteers organising amid constraints: the key role of time.** Simon Combes. Journal of Organizational Ethnography, May 2024. <https://www.emerald.com/insight/content/doi/10.1108/JOE-10-2022-0029/full/html>
 
-103 **"I Searched for a Religious Song in Amharic and Got Sexual Content Instead": Investigating Online Harm in Low-Resourced Languages on YouTube.** Hellina Hailu Nigatu, Inioluwa Deborah Raji. ACM Conference on Fairness, Accountability, and Transparency 2024. <https://doi.org/10.48550/arXiv.2405.16656>
+103 **“I Searched for a Religious Song in Amharic and Got Sexual Content Instead”: Investigating Online Harm in Low-Resourced Languages on YouTube.** Hellina Hailu Nigatu, Inioluwa Deborah Raji. ACM Conference on Fairness, Accountability, and Transparency 2024. <https://doi.org/10.48550/arXiv.2405.16656>
 
 102 **Es gibt so viele wicked problems in der Welt, warum sollten wir uns jetzt mit Seepferdchen beschäftigen?** Sabrina Welte Masters Thesis 2023 Universität Wien
 
@@ -892,7 +892,7 @@ Comparative Study**. Hensi Gor, Cynthia James. International Journal for Multidi
 
 80 **Doctors' perceptions of using their digital twins in patient care.** M Zalake. Scientific Reports volume 13, Article number: 21693 (2023)
 
-79 **"Meidän täytyy miettiä, minkälaista kulttuuria me välitetään." Laadullinen haastattelututkimus kulttuurisesta vastuullisuudesta peruskoulun musiikinopetuksessa ("We have to think about what kind of culture we are passing on." Qualitative interview research on cultural responsibility in primary school music education).** H Mustaniemi. Masters Thesis. 2023. University of the Arts (UniArts Helsinki). <https://taju.uniarts.fi/bitstream/handle/10024/7991/Mustaniemi_Hanna_2023.pdf>
+79 **“Meidän täytyy miettiä, minkälaista kulttuuria me välitetään.” Laadullinen haastattelututkimus kulttuurisesta vastuullisuudesta peruskoulun musiikinopetuksessa (“We have to think about what kind of culture we are passing on.” Qualitative interview research on cultural responsibility in primary school music education).** H Mustaniemi. Masters Thesis. 2023. University of the Arts (UniArts Helsinki). <https://taju.uniarts.fi/bitstream/handle/10024/7991/Mustaniemi_Hanna_2023.pdf>
 
 78 **Temporalità, globalizzazione e carcere: uno sguardo etnografico sul tempo della pena e i possibili futuri (Temporality, globalization and prison: an ethnographic look at the time of punishment and possible futures).** E Salamino. Thesis. 2023. University of Pisa. <https://etd.adm.unipi.it/t/etd-10012023-174218/>
 
@@ -901,7 +901,7 @@ Comparative Study**. Hensi Gor, Cynthia James. International Journal for Multidi
 76 **Community Pharmacists' Role in Reducing the Incidence of Cardiometabolic Adverse Drug Events in Schizophrenia: Insights from Mental Health Professionals.** R Karge, C Curtain, M Salahudeen.\
 Medicina 2023, 59(12). <https://doi.org/10.3390/medicina59122052>
 
-75 **Homeless: Breaking the silence! Facilitated intergroup dialogue in Maltese communities**. M Caruana. 2023. Master's dissertation. University of Malta. <https://www.um.edu.mt/library/oar/handle/123456789/113701>
+75 **Homeless: Breaking the silence! Facilitated intergroup dialogue in Maltese communities**. M Caruana. 2023. Master’s dissertation. University of Malta. <https://www.um.edu.mt/library/oar/handle/123456789/113701>
 
 74 **Power users: Technology, trust and Canadian sex workers during COVID-19.** L Kennedy. 2023. <https://doi.org/10.31235/osf.io/u5kd2>
 
@@ -915,7 +915,7 @@ Medicina 2023, 59(12). <https://doi.org/10.3390/medicina59122052>
 
 69 **Odkryjte příběhy 20. století : evaluace interaktivní a multimediální výstavy (Discover stories from the 20th century : interactive and multimedia exhibition evaluation).** Nina Wančová. Museologica Brunensia. 2023, vol. 12, iss. 1, pp. 16-30 <https://doi.org/10.5817/MuB2023-1-2>
 
-68 **"Determined to Prove Them All Wrong": The College Aspirations of Hmong Males.** Soua Xiong. American Journal of Qualitative Research 2023, Vol. 7 No. 4, pp. 203-219\
+68 **“Determined to Prove Them All Wrong”: The College Aspirations of Hmong Males.** Soua Xiong. American Journal of Qualitative Research 2023, Vol. 7 No. 4, pp. 203-219\
 <https://doi.org/10.29333/ajqr/13728>
 
 67 **ᓄᓇᕗᑦ -- Our land : On policies and guidelines regarding sustainable design and Inuit self-determination in Nunavut.** Arina Nikolaeva. 2023. Thesis. University of Akureyri. <https://skemman.is/handle/1946/45866>
@@ -936,7 +936,7 @@ Medicina 2023, 59(12). <https://doi.org/10.3390/medicina59122052>
 
 59 **CONTESTED LABELS. The operationalization of the IDP category in South Sudan**. D Tejero. Thesis. 2022. Institut Barcelona Estudis Internacionals. <https://www.ibei.org/student-paper-series-69_319968.pdf>
 
-58 **Aux frontières de la géothermie profonde : l'émergence du milieu « sous-sol » dans un contexte de transition énergétique** **(At the frontiers of deep geothermal energy: the emergence of the "underground" environment in a context of energy transition)**. Justin Missaghieh-poncet. Thesis. Université de Pau et des Pays de l'Adour. 2023. <https://www.theses.fr/2023PAUU1117.pdf>
+58 **Aux frontières de la géothermie profonde : l’émergence du milieu « sous-sol » dans un contexte de transition énergétique** **(At the frontiers of deep geothermal energy: the emergence of the “underground” environment in a context of energy transition)**. Justin Missaghieh-poncet. Thesis. Université de Pau et des Pays de l’Adour. 2023. <https://www.theses.fr/2023PAUU1117.pdf>
 
 57 **Gaming in multicultural classrooms with refugee/migrant children: exploring the potential of culturally tailored serious games as spaces for Second Language acquisition**. Konstantina Panagou. Dissertation. Hellenic Open University. 2023. <https://apothesis.eap.gr/archive/item/185171>
 
@@ -975,7 +975,7 @@ Medicina 2023, 59(12). <https://doi.org/10.3390/medicina59122052>
 
 40 **STEREOTYPY A IDENTIFIKACE V KONTEXTU BDSM (Stereotypes and identification in the context of BDSM)**. Radka Výborná. Bachelor Thesis. 2023. Univerzita Palackého v Olomouci. <https://theses.cz/id/hhj4pb/VYBORNA_Stereotypy_a_identifikace_v_kontextu_BDSM.pdf>
 
-39 **The changing meaning of "no" in Canadian sex work advertising: Peace of mind, Safety and Race.** L Kennedy. Sex work population project. Feb 2023. <https://doi.org/10.31235/osf.io/w5qfj><https://doi.org/10.31235/osf.io/w5qfj>
+39 **The changing meaning of “no” in Canadian sex work advertising: Peace of mind, Safety and Race.** L Kennedy. Sex work population project. Feb 2023. <https://doi.org/10.31235/osf.io/w5qfj><https://doi.org/10.31235/osf.io/w5qfj>
 
 38 **Practicing solidarity -- learning from transnational feminist groups**. Hannah Langkafel. Master thesis. University Graz 2022 <https://unipub.uni-graz.at/obvugrhs/download/pdf/8591759?originalFilename=true>
 
@@ -1021,21 +1021,21 @@ Medicina 2023, 59(12). <https://doi.org/10.3390/medicina59122052>
 
 **17 Qualitative exploration of the experiences of community pharmacists delivering the Diabetes MedsCheck service.** Diane Gargya, Corinne Mirkazemi, Colin Curtain. Journal of Clinical Pharmacy and Therapeutics, 2022 DOI: [http://doi.org/10.1111/jcpt.13654](https://protect-au.mimecast.com/s/ZQiSCXLK3AfXkNMOwUVHP3C?domain=doi.org)
 
-16 **What do we mean by "data" in the arts and humanities? Interview transcripts (University of Bologna, FICLIT) and GTM coding.** Bianca Gualandi, Luca Pareschi, Silvio Peroni. DATASET. 2022 Available from: <https://www.zenodo.org/record/6123290> Report. <https://arxiv.org/ftp/arxiv/papers/2205/2205.06764.pdf>
+16 **What do we mean by “data” in the arts and humanities? Interview transcripts (University of Bologna, FICLIT) and GTM coding.** Bianca Gualandi, Luca Pareschi, Silvio Peroni. DATASET. 2022 Available from: <https://www.zenodo.org/record/6123290> Report. <https://arxiv.org/ftp/arxiv/papers/2205/2205.06764.pdf>
 
-15 **Recep Tayyip Erdoğan's Distinctive Populist Discourse: Content Analysis / Recep Tayyip Erdoğan'ın Özgün Popülist Söylemi: İçerik Analizi**. Furkan Çay. Reflektif Journal of Social Sciences, volume 3 (1) pp 201-222, 2022 DOI: <https://doi.org/10.47613/reflektif.2022.65>
+15 **Recep Tayyip Erdoğan’s Distinctive Populist Discourse: Content Analysis / Recep Tayyip Erdoğan’ın Özgün Popülist Söylemi: İçerik Analizi**. Furkan Çay. Reflektif Journal of Social Sciences, volume 3 (1) pp 201-222, 2022 DOI: <https://doi.org/10.47613/reflektif.2022.65>
 
 **14 Promoting Dialogic Action through the Expansion of English Language Learners' Communicative Repertoires / Promoviendo la Acción Dialógica a través de la Expansión de los Repertorios Comunicativos de Aprendices de Inglés**. JS Gómez-Giraldo. HOW journal, volume 29 (1) pp 84-104, 2022 DOI: <https://doi.org/10.19183/how.29.1.647>
 
 **13 EFL Instructors' views on the effectiveness of on-site and online writing feedback**. Seda Açıkportalı, Buse Aksoy. Biruni University 1st International English Language Teaching (ELT) Conference, 2021
 
-**12 "If we just plant the seed": Community Technology Centers, Community Organization, and Social Justice.** Durham Joel Izlar. University of Georgia. Thesis. 2021 Available from: <https://esploro.libs.uga.edu/esploro/outputs/doctoral/If-We-Just-Plant-the-Seed/9949420829002959?institution=01GALI_UGA>
+**12 “If we just plant the seed”: Community Technology Centers, Community Organization, and Social Justice.** Durham Joel Izlar. University of Georgia. Thesis. 2021 Available from: <https://esploro.libs.uga.edu/esploro/outputs/doctoral/If-We-Just-Plant-the-Seed/9949420829002959?institution=01GALI_UGA>
 
 **11 Lésbica. Huella raíz de praxis ecofeministas en Abyayala**. Tatiana Paola Hernández Nieto. Universidad de Manizales. Thesis. 2021.<https://ridum.umanizales.edu.co/xmlui/handle/20.500.12746/5814>
 
 **10 A negotiation support system for defining utility functions for multi-stakeholder self-adaptive systems**. Rebekka Wohlrab, David Garlan. Requirements Engineering, 2022 DOI: <https://doi.org/10.1007/s00766-021-00368-y>
 
-**9 Enhancing Rare Disease Research with Semantic Integration of Environmental and Health Data**. Albert Navarro-Gallinad, Fabrizio Orlandi, Declan O'Sullivan. Knowledge Graphs (IJCKG'21), December 6--8, 2021, Virtual Event, Thailand. ACM, New York, NY, USA, 9 pages. <https://doi.org/10.1145/3502223.3502226>
+**9 Enhancing Rare Disease Research with Semantic Integration of Environmental and Health Data**. Albert Navarro-Gallinad, Fabrizio Orlandi, Declan O’Sullivan. Knowledge Graphs (IJCKG’21), December 6--8, 2021, Virtual Event, Thailand. ACM, New York, NY, USA, 9 pages. <https://doi.org/10.1145/3502223.3502226>
 
 8 **Wikipedia y brecha de género**. David Ramírez-Ordóñez. Universitat Oberta de Catalunya. Poster 2021. <http://hiperterminal.com/david/personal/en/blog/2021-02-02-wikipedia-y-brecha-de-genero>
 

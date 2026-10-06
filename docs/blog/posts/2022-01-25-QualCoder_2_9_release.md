@@ -1,5 +1,5 @@
 ---
-title: "QualCoder 2 9 release"
+title: “QualCoder 2 9 release”
 date: 2022-01-25
 author: ccbogel
 category: Misc
@@ -22,7 +22,7 @@ Fixed a time stamp error when inserting a time stamp on a transcription.
 Manage bad links to files
 -------------------------
 
-Added an automated search that looks through the user's home directory for up to 2 matching file names. This intended to speed up finding the link to files where the link is currently pointing to nothing.
+Added an automated search that looks through the user’s home directory for up to 2 matching file names. This intended to speed up finding the link to files where the link is currently pointing to nothing.
 
 Coding text
 -----------

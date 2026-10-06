@@ -1,5 +1,5 @@
 ---
-title: "Audio and Video coding"
+title: “Audio and Video coding”
 date: 2019-03-14
 author: ccbogel
 category: Misc

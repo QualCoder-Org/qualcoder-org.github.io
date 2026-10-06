@@ -1,5 +1,5 @@
 ---
-title: "New facebook page and group for QualCoder"
+title: “New facebook page and group for QualCoder”
 date: 2022-07-09
 author: ccbogel
 category: Misc
