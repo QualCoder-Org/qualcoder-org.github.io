@@ -58,7 +58,7 @@ Current maintainers:
 
 ### Contributors
 
-Anyone who submits code, documentation, translations, bug reports, tests or support to other users. Contributors do not need write access. Contributions are made under the project licence (LGPL v3), as described in CONTRIBUTING.md.
+Anyone who submits code, documentation, translations, bug reports, tests or support to other users. Contributors do not need write access. Contributions are made under the project licence (LGPL v3), as described in [CONTRIBUTING.md](https://github.com/ccbogel/QualCoder/blob/master/docs/CONTRIBUTING.md).
 
 ### Translators
 
