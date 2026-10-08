@@ -28,7 +28,7 @@ Software releases are available from [GitHub](https://github.com/ccbogel/QualCod
 
 [:fontawesome-brands-windows: QualCoder_4.0 Win_INSTALLER.exe](/latest-windows){ .md-button .md-button--primary }
 
-[:fontawesome-brands-windows: Qualcoder_4.0_PORTABLE.exe (Entire software in one file, slower to start)](https://github.com/ccbogel/QualCoder/releases/download/4.0/Qualcoder-4.0_Win_PORTABLE.exe){ .d-button .md-button--primary }
+[:fontawesome-brands-windows: Qualcoder_4.0_PORTABLE.exe](https://github.com/ccbogel/QualCoder/releases/download/4.0/Qualcoder-4.0_Win_PORTABLE.exe){ .md-button .md-button--primary }  Entire software in one file, slower to start.
 
 [:material-apple: QualCoder_4.0 macOS arm64](/latest-mac){ .md-button .md-button--primary }
 
