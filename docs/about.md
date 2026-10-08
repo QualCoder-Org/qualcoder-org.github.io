@@ -52,7 +52,7 @@ Current maintainers:
 | Name | Main areas 
 |------|------------|
 | Colin Curtain | Project lead, core application, Windows builds |
-| Kai Dröge | AI features, MCP integration, macOS builds | German translation.|
+| Kai Dröge | AI features, MCP integration, macOS builds, German translation.|
 | Justin Missaghieh-Poncet | Website (qualcoder.org), Linux builds, French translation |
 | Lorenzo Salomón | Testing, interface and module development, Spanish translation |
 
@@ -63,6 +63,13 @@ Anyone who submits code, documentation, translations, bug reports, tests or supp
 ### Translators
 
 Translations are maintained through the `.po`/`.ts` files in `other_languages` and the `rebuild_lang.py` script. Translators are credited in the release notes.
+
+| Translation coordinator  | Language |
+|--------------------------|----------|
+| Kai Dröge                | German   |
+| Justin Missaghieh-Poncet | French   |
+| Lorenzo Salomón          | Spanish  |
+|                          |          |
 
 ## How decisions are made
 
