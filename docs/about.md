@@ -88,18 +88,6 @@ A contributor may be invited to become a maintainer when they have:
 
 Any maintainer can propose a new maintainer. The proposal is discussed among the maintainers and accepted if no maintainer objects. The new maintainer is added to the table above and given repository access.
 
-## Stepping down or inactivity
-
-Maintainers may step down at any time by telling the other maintainers. A maintainer who has been inactive for twelve months may be moved to emeritus status after being contacted; access is removed and they are kept in the project credits. Emeritus maintainers can return by asking.
-
-## Releases
-
-Releases are published on GitHub (with a mirror on Codeberg) by the project lead or a maintainer the lead designates. Each release includes release notes, source code and binaries for Windows, macOS and Linux where the team can build them. QualCoder does not endorse binaries distributed elsewhere.
-
-## Conflicts of interest and affiliations
-
-Maintainers are affiliated with universities and research institutes, listed in the README. No maintainer is paid by a vendor to work on QualCoder. If a maintainer has a personal or commercial interest in a decision (for example, paid training or a service built on QualCoder), they say so in the discussion and let the other maintainers decide.
-
 ## Continuity
 
 The repository lives under the project lead's GitHub account. To reduce the risk of the project depending on a single person:
