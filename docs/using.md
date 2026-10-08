@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+516 Bruchhof SD, Mölsted Alvesson H, Idevall Hagren J, Winkle K, Matta L, Göransson M, McKeever S, Daivadanam M. **User Experiences With a Social Robot for Cardiometabolic Risk Assessment in a Community Setting in Uppsala, Sweden: Qualitative Semistructured Interview Study.** J Med Internet Res 2026;28:e87025. doi: 10.2196/87025. PMID: 42837519
+
 515 Welipitiya, W. D.; Hettihewa, L. M.; and Samage, S. N. (2026) **Capacity Utilization in Pharmaceutical Manufacturing Industry in Sri Lanka: A Mixed-Methods Analysis of Systemic Constraints.** Journal of Innovation in Science, Engineering and Technology: Vol. 7: Iss. 2, Article 12. <https://doi.org/10.66543/3084-858X.1121>
 
 514 **Feminization, Fetishization, and Gender Hierarchy: How Trans Feminization, Fetishization, and Gender Hierarchy: How Trans Women are Represented in Porn for a Cishetero Audience Women are Represented in Porn for a Cishetero Audience.** May Van Linden. Thesis 2026, Syracuse University <https://surface.syr.edu/cgi/viewcontent.cgi?article=2019&context=thesis>
