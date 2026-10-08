@@ -31,7 +31,7 @@ There are also many other contributors who have added code or suggestions for im
 
 # Governance
 
-This document describes how the QualCoder project is run, who makes decisions and how people can take on responsibility. It is deliberately short. QualCoder is a volunteer project and the aim is to write down what already happens, not to add bureaucracy.
+This document describes how the QualCoder project is run, who makes decisions and how people can take on responsibility. It is deliberately short. QualCoder is a volunteer project and the aim is to write down what already happens, not to add bureaucracy. Full details are here [GOVERNANCE.md](https://github.com/ccbogel/QualCoder/blob/master/docs/GOVERNANCE.md).
 
 ## Roles
 
@@ -108,10 +108,7 @@ The repository lives under the project lead's GitHub account. To reduce the risk
 - At least two maintainers hold the credentials for the project website and the CI secrets. [TO CONFIRM]
 - If the project lead takes an extended break, the other maintainers can keep handling issues, reviewing contributions and publishing releases in the meantime.
 
-## Changing this document
-
-Changes to this document are proposed as pull requests and need agreement from the maintainers, following the same process as any larger change.
 
 ## Code of Conduct
 
-All participation in the project is subject to the Code of Conduct in `CODE_OF_CONDUCT.md`. Reports are handled by the maintainers.
+All participation in the project is subject to the Code of Conduct in [CONDUCT.md](https://github.com/ccbogel/QualCoder/blob/master/docs/CONDUCT.md).. Reports are handled by the maintainers.
