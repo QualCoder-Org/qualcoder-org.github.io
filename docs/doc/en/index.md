@@ -34,7 +34,7 @@ Software releases are available from [GitHub](https://github.com/ccbogel/QualCod
 
 [:material-linux: QualCoder_Linux_4.0_amd64.deb](/latest-linux){ .md-button .md-button--primary }
 
-[:material-linux: QualCoder_Linux_4.0 executable](/latest-linux-executable){ .md-button .md-button--primary }
+[:material-linux: QualCoder_Linux_4.0 executable](/latest-linux-executable){ .md-button .md-button--primary } Edit Properties to make executable.
 
 The in development code is available here: [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
