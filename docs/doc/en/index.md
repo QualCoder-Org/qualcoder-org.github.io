@@ -22,19 +22,8 @@ QualCoder includes a set of AI-assisted features that utilise Large Language Mod
     - **QualCoder is a software option to support open science**. [UNESCO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
 
 ## Current release
-Software releases are available from [GitHub](https://github.com/ccbogel/QualCoder/releases). These contain source code and executables. The executables are an easy way to run QualCoder, double click to run, just be aware that it can take up to 20 seconds to open.
 
-[:octicons-archive-24: Latest release of QualCoder (4.0) available on GitHub](/latest){ .md-button .md-button--primary }
-
-[:fontawesome-brands-windows: QualCoder_4.0 Win_INSTALLER.exe](/latest-windows){ .md-button .md-button--primary }
-
-[:fontawesome-brands-windows: Qualcoder_4.0_PORTABLE.exe](/latest-windows-portable){ .md-button .md-button--primary }  Entire software in one file, slower to start.
-
-[:material-apple: QualCoder_4.0 macOS arm64](/latest-mac){ .md-button .md-button--primary }
-
-[:material-linux: QualCoder_Linux_4.0_amd64.deb](/latest-linux){ .md-button .md-button--primary }
-
-[:material-linux: QualCoder_Linux_4.0 executable](/latest-linux-executable){ .md-button .md-button--primary } Edit Properties to make executable.
+[:octicons-archive-24: Download latest version available on GitHub](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
 
 The in development code is available here: [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
