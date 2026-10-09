@@ -10,14 +10,7 @@ For additional languages (community maintained), download the relevant .zip file
 
 In addition, support materials are available in several languages.
 
-| Translation coordinator  | Language |
-|--------------------------|----------|
-| Kai Dröge                | German   |
-| Justin Missaghieh-Poncet | French   |
-| Lorenzo Salomón          | Spanish  |
-|                          |          |
-
-
+You can view the list of translation coordinators on [this page](https://qualcoder.org/about/).
 
 <div class="grid cards" markdown>
 
