@@ -36,7 +36,7 @@ nav = [
 	{"Community" = "community.md"},  
 	{"en" = [
 		"doc/en/index.md",  
-		"doc/en/1.-Overview.md",
+		# "doc/en/1.-Overview.md",
 		{"Setup" = [
 				"doc/en/2.1.-Installation.md",  
 				"doc/en/2.2.-Settings.md",  
@@ -81,7 +81,7 @@ nav = [
 	]},  
 	{"fr" = [
 		"doc/fr/index.md",  
-		"doc/fr/1.-Overview.md",
+		# "doc/fr/1.-Overview.md",
 		{"Démarrer" = [
 				"doc/fr/2.1.-Installation.md",  
 				"doc/fr/2.2.-Settings.md",  
@@ -126,7 +126,7 @@ nav = [
 	]},  
 	{"es" = [
 		"doc/es/index.md",  
-		"doc/es/1.-Overview.md",
+		# "doc/es/1.-Overview.md",
 		{"Configuración" = [
 				"doc/es/2.1.-Installation.md",  
 				"doc/es/2.2.-Settings.md",  
@@ -166,7 +166,7 @@ nav = [
 	]},  
 	{"de" = [
 		"doc/de/index.md",  
-		"doc/de/1.-Overview.md",
+		# "doc/de/1.-Overview.md",
 		{"Einrichtung" = [
 				"doc/de/2.1.-Installation.md",  
 				"doc/de/2.2.-Settings.md",  
