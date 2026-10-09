@@ -62,7 +62,15 @@ Anyone who submits code, documentation, translations, bug reports, tests or supp
 
 ### Translators
 
-Translations are maintained through the `.po`/`.ts` files in `other_languages` and the `rebuild_lang.py` script. Translators are credited in the release notes. You can view the list of translation coordinators on [this page](https://qualcoder.org/community/).
+Translations are maintained through the `.po`/`.ts` files in `other_languages` and the `rebuild_lang.py` script. Translators are credited in the release notes. 
+
+| Translation coordinator  | Language |
+|--------------------------|----------|
+| Kai Dröge                | German   |
+| Justin Missaghieh-Poncet | French   |
+| Lorenzo Salomón          | Spanish  |
+|                          |          |
+
 
 ## How decisions are made
 
