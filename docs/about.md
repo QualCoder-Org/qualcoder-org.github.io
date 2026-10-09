@@ -29,7 +29,7 @@ There are also many other contributors who have added code or suggestions for im
 
 ========
 
-# Governance
+## Governance
 
 This document describes how the QualCoder project is run, who makes decisions and how people can take on responsibility. It is deliberately short. QualCoder is a volunteer project and the aim is to write down what already happens, not to add bureaucracy. Full details are here [GOVERNANCE.md](https://github.com/ccbogel/QualCoder/blob/master/docs/GOVERNANCE.md).
 
@@ -49,7 +49,7 @@ Maintainers have write access to the repository. They review and merge pull requ
 
 Current maintainers:
 
-| Name | Main areas 
+| Name | Main areas
 |------|------------|
 | Colin Curtain | Project lead, core application, Windows builds |
 | Kai Dröge | AI features, MCP integration, macOS builds, German translation.|
