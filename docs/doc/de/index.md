@@ -20,25 +20,13 @@ QualCoder enthält eine Reihe von KI-gestützten Funktionen, die große Sprachmo
     - **QualCoder ist plattformübergreifend**. Es läuft unter Linux, Windows und macOS. Das bedeutet, dass Sie sich keine Sorgen machen müssen, wenn Sie das Betriebssystem wechseln, und dass Sie mit Kollegen auf verschiedenen Plattformen zusammenarbeiten können. Siehe Hinweis.
     - **QualCoder stützt sich auf die Community**. Wenn Sie einen Fehler finden, eine Funktionsanfrage haben oder Feedback geben möchten, schreiben Sie dies auf der [QualCoder-Seite auf GitHub](https://github.com/ccbogel/QualCoder).
     - **QualCoder wird ständig verbessert**. QualCoder wird aktiv weiterentwickelt, was bedeutet, dass regelmäßig neue, verbesserte Versionen veröffentlicht werden.
-    - **QualCoder unterstützt offene Standards**. QualCoder zielt darauf ab, den [REFI-QDA-Standard](https://www.qdasoftware.org/) zu unterstützen. Sie können Codebücher und Projekte mit Ihren Kollegen austauschen, auch wenn diese QualCoder nicht verwenden, da
-    - **QualCoder unterstützt offene Standards**. QualCoder zielt darauf ab, den [REFI-QDA-Standard](https://www.qdasoftware.org/) zu unterstützen. Sie können Codebücher und Projekte mit Ihren Kollegen teilen, auch wenn diese QualCoder nicht verwenden, da    - **QualCoder offene Standards unterstützt**. QualCoder zielt darauf ab, den [REFI-QDA-Standard](https://www.qdasoftware.org/) zu unterstützen, sodass Sie Codebücher und Projekte mit Ihren Kollegen austauschen können, auch wenn diese QualCoder nicht verwenden, vorausgesetzt, die von ihnen verwendete Software unterstützt den REFI-QDA-Standard. Das bedeutet, dass Sie nicht riskieren, dass Ihre Daten nicht mehr verfügbar sind. Die 100-prozentige Konformität mit dem REFI-QDA-Projekt ist noch nicht garantiert. Es sind weitere Tests erforderlich, insbesondere für den Export und Import von Audio- und Videodateien sowie für relativ verknüpfte Dateien.
+    - **QualCoder unterstützt offene Standards**. QualCoder zielt darauf ab, den [REFI-QDA-Standard](https://www.qdasoftware.org/) zu unterstützen. Sie können Codebücher und Projekte mit Ihren Kollegen austauschen, auch wenn diese QualCoder nicht verwenden, vorausgesetzt, die von ihnen verwendete Software unterstützt den REFI-QDA-Standard. Das bedeutet, dass Sie nicht riskieren, dass Ihre Daten nicht mehr verfügbar sind. Die 100-prozentige Konformität mit dem REFI-QDA-Projekt ist noch nicht garantiert. Es sind weitere Tests erforderlich, insbesondere für den Export und Import von Audio- und Videodateien sowie für relativ verknüpfte Dateien.
     - **QualCoder kann modifiziert werden**. Sie können QualCoder an Ihre Bedürfnisse anpassen, vorausgesetzt, Sie stellen Ihre Änderungen allen zur Verfügung. Das bedeutet auch, dass Sie die Software kopieren und kostenlos an Ihre Kollegen oder Studierenden weitergeben können.
     - **QualCoder ist eine Softwareoption, die zur Unterstützung von Open Science entwickelt wurde**. [UNESCO-Empfehlungen zu Open Science](https://www.unesco.org/en/open-science?hub=686)
 
 ## Aktuelle Version
-Software-Versionen sind auf [GitHub](https://github.com/ccbogel/QualCoder/releases) verfügbar. Diese enthalten Quellcode und ausführbare Dateien. Die ausführbaren Dateien bieten eine einfache Möglichkeit, QualCoder auszuführen – einfach doppelklicken, um das Programm zu starten. Beachten Sie jedoch, dass das Öffnen bis zu 20 Sekunden dauern kann.
 
-[:octicons-archive-24: Neueste Version von QualCoder (3.8.2) auf GitHub verfügbar](/latest){ .md-button .md-button--primary }
-
-[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11-Installationsprogramm](/latest-windows){ .md-button .md-button--primary }
-
-[:fontawesome-brands-windows: QualCoder_3.8.2 Windows 11 Portable (Gesamte Software in einer Datei, langsamerer Start)](/latest-windows-portable){ .md-button .md-button--primary }
-
-[:material-apple: QualCoder_3.8.2 macOS arm64](/latest-mac){ .md-button .md-button--primary }
-
-[:material-linux: QualCoder_3.8.2_Ubuntu](/latest-linux){ .md-button .md-button--primary }
-
-
+[:octicons-archive-24: Aktuellste auf GitHub verfügbare Version herunterladen](https://github.com/ccbogel/QualCoder/releases/latest){ .md-button .md-button--primary }
 
 ## QualCoder unterstützen
 
