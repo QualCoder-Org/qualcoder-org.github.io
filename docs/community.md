@@ -10,6 +10,15 @@ For additional languages (community maintained), download the relevant .zip file
 
 In addition, support materials are available in several languages.
 
+| Translation coordinator  | Language |
+|--------------------------|----------|
+| Kai Dröge                | German   |
+| Justin Missaghieh-Poncet | French   |
+| Lorenzo Salomón          | Spanish  |
+|                          |          |
+
+
+
 <div class="grid cards" markdown>
 
 -   **English (en)**
