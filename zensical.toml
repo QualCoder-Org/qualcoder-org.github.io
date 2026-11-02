@@ -137,25 +137,30 @@ nav = [
 				"doc/es/3.1.-Creating-a-New-Project.md",  
 				"doc/es/3.2.-Files.md",  
 				"doc/es/3.3.-Cases.md",  
-				"doc/es/3.4.-Attributes.md" 
+				"doc/es/3.4.-Attributes.md",
+				"doc/es/3.5.-References.md"
 		]},
 		{"Codificación" = [
-			"doc/es/4.1.-Coding-Text.md",  
-			"doc/es/4.2.-AI-Assisted-Coding.md",  
-			"doc/es/4.3.-Coding-Text-on-PDFs.md",  
-			"doc/es/4.4.-Coding-Images.md",  
-			"doc/es/4.5.-Coding-Audio-and-Video.md",  
-			"doc/es/4.6.-Code-Organiser.md"
+			"doc/es/4.1.-Coding-Text.md",
+			"doc/es/4.2.-AI-Assisted-Coding.md",
+			"doc/es/4.3.-Coding-Text-on-PDFs.md",
+			"doc/es/4.4.-Coding-Images.md",
+			"doc/es/4.5.-Coding-Audio-and-Video.md",
+			"doc/es/4.6.-Code-Organiser.md",
+			"doc/es/4.7.-Codes-Tree.md"
 		]},
 		{"Análisis de resultados" = [
-			"doc/es/5.1.-AI-chat-based-analysis.md",  
-			"doc/es/5.2.-Journals.md",  
-			"doc/es/5.3.-Reports.md",  
-			"doc/es/5.4.-Graph.md"
+			"doc/es/5.1.-AI-chat-based-analysis.md",
+			"doc/es/5.2.-Journals.md",
+			"doc/es/5.3.-Analysis.md",
+			"doc/es/5.4.-Reports.md",
+			"doc/es/5.5.-Graph.md"
 		]},
 		{"Opciones avanzadas" = [
-			"doc/es/6.1.-Imports-and-Exports.md",  
-			"doc/es/6.2.-AI-Prompt-Library.md"
+			"doc/es/6.1.-Imports-and-Exports.md",
+			"doc/es/6.2.-Survey-Imports.md",
+			"doc/es/6.3.-AI-Prompt-Library.md",
+			"doc/es/6.4.-Merge-Projects.md"
 		]},
 		{"Otra información" = [
 			"doc/es/7.3.-QualCoder-Development.md",  
@@ -267,7 +272,7 @@ nav = [
 	{"ja" = [{"概要" = "doc/ja/index.md"}]}
 ]
   
-# Keep English, French and German help links in previously released apps working.
+# Keep English, French, German and Spanish help links in previously released apps working.
 # The former Reports URL redirects to a legacy landing page because its
 # contents are now split between Analysis and Reports.
 [project.plugins.redirects.redirect_maps]
@@ -284,6 +289,11 @@ nav = [
 "doc/de/4.6-Code-Organiser.md" = "doc/de/4.6.-Code-Organiser.md"
 "doc/de/5.4.-Graph.md" = "doc/de/5.5.-Graph.md"
 "doc/de/5.3.-Reports.md" = "doc/de/5.3.-legacy-reports-landing.md"
+"doc/es/6.2.-AI-Prompt-Editing.md" = "doc/es/6.3.-AI-Prompt-Library.md"
+"doc/es/6.2.-AI-Prompt-Library.md" = "doc/es/6.3.-AI-Prompt-Library.md"
+"doc/es/4.6-Code-Organiser.md" = "doc/es/4.6.-Code-Organiser.md"
+"doc/es/5.4.-Graph.md" = "doc/es/5.5.-Graph.md"
+"doc/es/5.3.-Reports.md" = "doc/es/5.3.-legacy-reports-landing.md"
 
 [project.theme]
 variant = "modern"  
