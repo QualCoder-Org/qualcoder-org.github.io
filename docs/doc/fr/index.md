@@ -3,11 +3,11 @@ path: index
 ---
 # Présentation de QualCoder
 
-QualCoder est un logiciel de bureau gratuit et libre destiné à l’analyse de données qualitatives.
+QualCoder est un logiciel de bureau gratuit et libre destiné à l’analyse de données qualitatives. QualCoder est à la recherche Qualitative ce que R est à la statistique.
 
 QualCoder s'adresse aux chercheurs indépendants, aux universitaires, aux étudiants ou aux petites équipes qui gèrent leurs propres projets qualitatifs ou utilisant des méthodes mixtes.
 
-QualCoder permet de coder du texte, des images, des fichiers audio et vidéo, ainsi que de rédiger des notes de journal et des mémos. Vous pouvez organiser les codes selon une structure hiérarchique de type arborescent. Divers rapports peuvent être générés. La plupart des rapports peuvent être exportés au format HTML, OpenDocument Text (ODT), texte brut ou Excel.
+QualCoder permet de coder du texte, des images, des fichiers audio et vidéo, ainsi que de rédiger des notes de journal et des mémos. Vous pouvez organiser les codes selon une structure hiérarchique de type arborescent. Divers rapports peuvent être générés. La plupart des rapports peuvent être exportés au format HTML, OpenDocument Text (ODT), texte brut ou Excel.  Pour l'instant, nous vous recommandons d'éviter d'importer du texte contenant des emojis, ou au moins de supprimer ou de remplacer les emojis par un caractère de texte brut, par exemple « * », avant l'importation, car les emojis affectent certains rapports et ont un impact négatif sur le redimensionnement des segments de texte codés. Il existe des sites en ligne permettant de supprimer les emojis d'un texte. La version 4.1, actuellement en cours de développement, vise à résoudre ces problèmes.
 
 QualCoder comprend un ensemble de fonctionnalités assistées par l’IA qui utilisent de grands modèles linguistiques pour vous aider à explorer, analyser et interagir avec les données de manière innovante. Familiarisez-vous avec de nouvelles données en explorant des thèmes ou des concepts généraux lors d’une conversation interactive avec l’IA. Approfondissez des aspects spécifiques grâce au codage et à l’analyse de texte assistés par l’IA. Et si vous arrivez au stade où vous devez synthétiser et consolider vos résultats, discutez-en dans un chat de codage avec l’IA.
 
@@ -20,7 +20,7 @@ QualCoder comprend un ensemble de fonctionnalités assistées par l’IA qui uti
     - **QualCoder est multiplateforme**. Il fonctionne sous Linux, Windows et macOS, ce qui signifie que vous n’avez pas à vous inquiéter si vous changez de système d’exploitation, et que vous pouvez également collaborer avec des collègues utilisant différentes plateformes. Voir la remarque.
     - **QualCoder s’appuie sur la communauté**. Si vous constatez une erreur, souhaitez proposer une nouvelle fonctionnalité ou faire part de vos commentaires, n’hésitez pas à en faire part sur la [page GitHub de QualCoder](https://github.com/ccbogel/QualCoder).
     - **QualCoder ne cesse de s’améliorer**. QualCoder fait l’objet d’un développement actif, ce qui signifie que des versions plus récentes et améliorées sont régulièrement publiées.
-    - **QualCoder prend en charge les normes ouvertes**. QualCoder vise à prendre en charge la [norme REFI-QDA](https://www.qdasoftware.org/) ; vous pouvez échanger des livrets de codes et des projets avec vos collègues même s’ils n’utilisent pas QualCoder, à condition que le logiciel qu’ils utilisent prenne en charge la norme REFI-QDA. Cela signifie que vous ne courez pas le risque de ne plus pouvoir accéder à vos données. La conformité à 100 % avec le projet REFI-QDA n’est pas encore garantie. Des tests supplémentaires sont nécessaires, notamment pour les exportations et importations audio et vidéo, ainsi que pour les fichiers liés de manière relative.
+    - **QualCoder prend en charge les normes ouvertes**. QualCoder vise à prendre en charge la [norme REFI-QDA](https://www.qdasoftware.org/) ; vous pouvez échanger des livrets de codes et des projets avec vos collègues même s’ils n’utilisent pas QualCoder, à condition que le logiciel qu’ils utilisent prenne en charge la norme REFI-QDA. Cela signifie que vous ne courez pas le risque de ne plus pouvoir accéder à vos données. La conformité à 100 % des importations et exportations au format REFI-QDA n'est pas garantie.
     - **QualCoder peut être modifié**. Vous pouvez modifier et adapter QualCoder à vos besoins, à condition de mettre vos modifications à la disposition de tous. Cela signifie également que vous pouvez copier le logiciel et le transmettre gratuitement à vos collègues ou à vos étudiants.
     - **QualCoder est un logiciel conçu pour soutenir la science ouverte**. [Recommandations de l’UNESCO sur la science ouverte](https://www.unesco.org/en/open-science?hub=686)
 
@@ -40,7 +40,7 @@ Les versions du logiciel sont disponibles sur [GitHub](https://github.com/ccboge
 [:material-linux: Linux Executable](/latest-linux-executable){ .md-button .md-button--primary } Modifier les propriétés pour le rendre executable.
 -->
 
-La version en développement est disponible ici : [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
+Le code est disponible ici : [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
 
 ## Soutenir QualCoder {#support-qualcoder}
 
