@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+534 **Exploring User Barriers to OS Updates:  A Qualitative Analysis of Perceptions on Interface Design.** Denis Sinanaj, Sorin-Aurel. 9th International Scientific Conference ITEMA 2025 – Selected Papers 2026. <https://doi.org/10.31410/ITEMA.S.P.2025.11>
+
 533 **Pratiques Pédagogiques Expérientielles Et Structuration Des Compétences D’employabilité Dans L’enseignement Supérieur Malgache.** Nestoria Nambinintsoa RAOELISON, Jonatana Finoana RAKOTONDRAMANANA. International Journal of Progressive Sciences and Technologies, vol 59 No 2 2026. <http://dx.doi.org/10.52155/ijpsat.v59.2.8745>
 
 532 **greCAPTCHA: Assessing Understanding as Evidence of Research Authorship Under Generative AI.** Justin Payan, Bálint Gyevnár, Atoosa Kasirzadeh, Nihar B. Shah. Digital Libraries. 2026 <https://doi.org/10.48550/arXiv.2609.20481>
