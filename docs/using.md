@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+535 KHRIBECH, K., & FAIZ, M. (2026). **Theoretical Analysis of the Relationship Between Climate Change and Sustainable Development.** International Journal of Accounting, Finance, Auditing, Management and Economics, 7(13), 311–326.
+
 534 **Exploring User Barriers to OS Updates:  A Qualitative Analysis of Perceptions on Interface Design.** Denis Sinanaj, Sorin-Aurel. 9th International Scientific Conference ITEMA 2025 – Selected Papers 2026. <https://doi.org/10.31410/ITEMA.S.P.2025.11>
 
 533 **Pratiques Pédagogiques Expérientielles Et Structuration Des Compétences D’employabilité Dans L’enseignement Supérieur Malgache.** Nestoria Nambinintsoa RAOELISON, Jonatana Finoana RAKOTONDRAMANANA. International Journal of Progressive Sciences and Technologies, vol 59 No 2 2026. <http://dx.doi.org/10.52155/ijpsat.v59.2.8745>
