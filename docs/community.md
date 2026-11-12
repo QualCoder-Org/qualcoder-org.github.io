@@ -10,7 +10,7 @@ For additional languages (community maintained), download the relevant .zip file
 
 In addition, support materials are available in several languages.
 
-You can view the list of translation coordinators on [this page](https://qualcoder.org/about/).
+You can view the list of translation coordinators on [this page](about).
 
 <div class="grid cards" markdown>
 
@@ -95,7 +95,7 @@ You can view the list of translation coordinators on [this page](https://qualcod
 
     ---
 
-    *Community maintained (WIP)* 
+    *Community maintained (WIP)*
     Translator coordinator: Alberto Antonio Rebonatto Neto
 
     [:octicons-arrow-right-24: Download language file](https://github.com/ccbogel/QualCoder/raw/refs/heads/master/other_languages/pt.zip)

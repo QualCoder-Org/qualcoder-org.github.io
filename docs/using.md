@@ -6,7 +6,7 @@ These are records that I have found on the internet, or that authors have inform
 
 537 Navas Daza, A. S. (2025). **La movilidad funcional como práctica administrativa: implicaciones estructurales y efectos sobre el vínculo organizacional. Un estudio de caso en Carvajal Soluciones de Comunicación.** [Trabajo de Grado, Universidad Santo Tomás]. Repositorio Institucional.
 
-536 **Barriers to Safe Opioid Prescribing in Al-Ahsa Hospitals: A Multicenter Qualitative Study** Rashed M. Almuqbil, Mostafa Shaban, Sayed Ibrahim Ali. Healthcare 2026 14. 
+536 **Barriers to Safe Opioid Prescribing in Al-Ahsa Hospitals: A Multicenter Qualitative Study** Rashed M. Almuqbil, Mostafa Shaban, Sayed Ibrahim Ali. Healthcare 2026 14.
 
 535 KHRIBECH, K., & FAIZ, M. (2026). **Theoretical Analysis of the Relationship Between Climate Change and Sustainable Development.** International Journal of Accounting, Finance, Auditing, Management and Economics, 7(13), 311–326.
 
@@ -16,7 +16,7 @@ These are records that I have found on the internet, or that authors have inform
 
 532 **greCAPTCHA: Assessing Understanding as Evidence of Research Authorship Under Generative AI.** Justin Payan, Bálint Gyevnár, Atoosa Kasirzadeh, Nihar B. Shah. Digital Libraries. 2026 <https://doi.org/10.48550/arXiv.2609.20481>
 
-531 Lamiae HASNAOUI, **La résilience des écosystèmes artisanaux marocains comme patrimoine vivant : Une analyse par l’encastrement social et le sens pratique.** Sciences Methods and Technologies International Journal (SciMeTech), Vol 2, Special Issue (FR papers), P71-74. 
+531 Lamiae HASNAOUI, **La résilience des écosystèmes artisanaux marocains comme patrimoine vivant : Une analyse par l’encastrement social et le sens pratique.** Sciences Methods and Technologies International Journal (SciMeTech), Vol 2, Special Issue (FR papers), P71-74.
 
 530 **“Living as a threesome; me, him, and depression.” Nondepressed romantic partners’ perspective on communal coping regarding their depressed partner’s chronic symptoms of depression - a qualitative study.** V Salinas. Thesis University of Texas 2026. <https://doi.org/10.26153/tsw/64814>
 
@@ -32,11 +32,11 @@ These are records that I have found on the internet, or that authors have inform
 
 524 Santos-Carvalho, A., & Navalhas, I. N. (2026). **Mapping science communication in Portugal: Twelve years of community, practices and traditions.** Cultures of Science, 9(3), 268-282. <https://doi.org/10.1177/20966083261481289>
 
-523 San Jose, Dominic Bryan S. (2026) **Resilience in Aging: A Grounded Theory Study on How Older Japanese Adults Navigate Chronic Illness.** Asia-Pacific Social Science Review: Vol. 26: Iss. 3, Article 7. <https://doi.org/10.59588/2350-8329.1621> 
+523 San Jose, Dominic Bryan S. (2026) **Resilience in Aging: A Grounded Theory Study on How Older Japanese Adults Navigate Chronic Illness.** Asia-Pacific Social Science Review: Vol. 26: Iss. 3, Article 7. <https://doi.org/10.59588/2350-8329.1621>
 
 522 Eashwar VM A, Nithya V, Charulatha RJ, Grace G A, Sujitha P, Sekhar MA. **A Culturally Derived Serious Videogame as an Adjunct to Pharmacotherapy for Depression: A Randomised Controlled Trial from Chennai, India.** Natl J Community Med [Internet]. 2026 Oct. 1;17(10):942-5. <https://njcmindia.com/index.php/file/article/view/6934>
 
-521 **Under Pressure: How Autonomy and Competence Shape AI Adoption in Citizen Broadcasting.** Kirill Kronhardt, Erik Böttcher, Max Pascher, Jens GerkenAuthors. MuC '26: Proceedings of Mensch und Computer 2026. Pages 520 - 524. <https://doi.org/10.1145/3820253.3831384> 
+521 **Under Pressure: How Autonomy and Competence Shape AI Adoption in Citizen Broadcasting.** Kirill Kronhardt, Erik Böttcher, Max Pascher, Jens GerkenAuthors. MuC '26: Proceedings of Mensch und Computer 2026. Pages 520 - 524. <https://doi.org/10.1145/3820253.3831384>
 
 520 Nguyễn, K., Vo, Q., To, L., & Le, N. (2026). **PHÂN TÍCH LIÊN NGÀNH VỀ ALBUM "FOLKLORE" CỦA TAYLOR SWIFT: ĐẶC ĐIỂM TỪ VỰNG, TÍNH PHỨC TẠP CỦA CHỦ ĐỀ VÀ ỨNG DỤNG SƯ PHẠM TRONG NỀN KINH TẾ SÁNG TẠO. (AN INTERDISCIPLINARY ANALYSIS OF TAYLOR SWIFT’S FOLKLORE:LEXICAL PROFILING, THEMATIC COMPLEXITY, AND PEDAGOGICAL APPLICATIONS IN THE CREATIVE ECONOMY)** Tạp Chí Khoa học Liên ngành Và Nghệ thuật, 2(3), 40-57. <https://doi.org/10.64711/r8f0eb16>
 

@@ -42,7 +42,7 @@ Anyone who submits code, documentation, translations, bug reports, tests or supp
 
 ### Translators
 
-Translations are maintained through the `.po`/`.ts` files in `other_languages` and the `rebuild_lang.py` script. Translators are credited in the release notes. 
+Translations are maintained through the `.po`/`.ts` files in `other_languages` and the `rebuild_lang.py` script. Translators are credited in the release notes.
 
 | Translation coordinator  | Language |
 |--------------------------|----------|
