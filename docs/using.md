@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+539 **Estrés académico en estudiantes de Universidad.** Hannahyael Valerio Robles, Hazelyael Valerio-Robles. Emergentes Revista Multidiscisplinaria Vol 5 (4) 2025. <https://doi.org/10.60112/erc.v5.i4.587>
+
 538 **Finfluencers como arquitetos de escolha: táticas de nudge mindspace no conteúdo financeiro digital brasileiro.** Carmanini V. UnThesis 2026 Universidate Presbiteriana Mackenzie. <https://dspace.mackenzie.br/handle/10899/43959>
 
 537 Navas Daza, A. S. (2025). **La movilidad funcional como práctica administrativa: implicaciones estructurales y efectos sobre el vínculo organizacional. Un estudio de caso en Carvajal Soluciones de Comunicación.** [Trabajo de Grado, Universidad Santo Tomás]. Repositorio Institucional.
