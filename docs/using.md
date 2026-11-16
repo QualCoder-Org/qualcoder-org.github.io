@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+543 **Lo que el sismo del 24j nos dejó: tensiones en la acción pública, crisis de la mediación técnica y vulnerabilidad socio-política en Venezuela. (What the earthquake of 24j left us: tensions in public action, crisis of technical mediation and socio-political vulnerability in Venezuela).** Aurora B. PIÑA-DÍAZ. TraHs 2026 No 22. <https://www.unilim.fr/trahs/8371>
+
 542 Maza Burgos, A. K. Carrera Yépez, Y. E. (2026)** Diseño de una guía metodológica para academias de danza ecuatoriana fundamentado en los aportes de la Escuela Cubana de Ballet** Tesis de Posgrado, Universidad Técnica Particular de Loja. Repositorio Institucional. <https://dspace.utpl.edu.ec/handle/29.500.19856/84758>
 
 541 Akintunde, H.O., Yusuff, H.A. & Olarinmoye, A.O. **Determinants of measles vaccine hesitancy among caregivers of under five children in selected local government areas of Ogun State Nigeria.** Discov Public Health (2026). <https://doi.org/10.1186/s12982-026-03321-y>
