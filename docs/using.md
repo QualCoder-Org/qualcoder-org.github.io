@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+542 Maza Burgos, A. K. Carrera Yépez, Y. E. (2026)** Diseño de una guía metodológica para academias de danza ecuatoriana fundamentado en los aportes de la Escuela Cubana de Ballet** Tesis de Posgrado, Universidad Técnica Particular de Loja. Repositorio Institucional. <https://dspace.utpl.edu.ec/handle/29.500.19856/84758>
+
 541 Akintunde, H.O., Yusuff, H.A. & Olarinmoye, A.O. **Determinants of measles vaccine hesitancy among caregivers of under five children in selected local government areas of Ogun State Nigeria.** Discov Public Health (2026). <https://doi.org/10.1186/s12982-026-03321-y>
 
 540 Kennedy, L., Pak, B., Lamsey, M. et al. **Older adults’ acceptance of robot-led rehabilitative exercise.** Discov. Robot. 2, 37 (2026). <https://doi.org/10.1007/s44430-026-00051-3>
