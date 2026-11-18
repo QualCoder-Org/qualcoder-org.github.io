@@ -2,6 +2,12 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+546 Lavrusevich P. (2023) **Zhit’ borom ili zhit’ v boru: praktiki sobiratel’stva i prisvoenie prostranstva (keys Karakanskogo bora) [To Live with a Pine Wood or to Live in a Pine Wood: Gathering Practices and Space Appropriation (The Case of Karakansky Pine Wood)]**. Journal of Economic Sociology = Ekonomicheskaya sostiologiya, vol. 24, no 3, pp. doi (in Russian). <https://ecsoc.hse.ru/ru/article/view/18197?ysclid=mwkjonfg2905827213>
+
+545 Skalaban I.А., Alekseev T.D., Lavrusevich P.Е. (2024) **The Social Worlds of the Karakan Pine Forest: Prospects for Rapprochement and Imperatives of Justice.** Mir Rossii, vol. 33, no 1, pp. 115–143 (in Russian). DOI: 10.17323/1811-038X-2024-33-1-115-143. <https://mirros.hse.ru/ru/article/view/19065>
+
+544 Lavrusevich P. E. (2024) **"It Is All Mine, Native!": A Sense of Place in the Context of Informal Nature Management (the Case of Karakansky Pine Wood).** Interaction. Interview. Interpretation. Vol. 16. No. 4. P. 25–43. <https://doi.org/10.19181/inter.2024.16.4.2>
+
 543 **Lo que el sismo del 24j nos dejó: tensiones en la acción pública, crisis de la mediación técnica y vulnerabilidad socio-política en Venezuela. (What the earthquake of 24j left us: tensions in public action, crisis of technical mediation and socio-political vulnerability in Venezuela).** Aurora B. PIÑA-DÍAZ. TraHs 2026 No 22. <https://www.unilim.fr/trahs/8371>
 
 542 Maza Burgos, A. K. Carrera Yépez, Y. E. (2026)** Diseño de una guía metodológica para academias de danza ecuatoriana fundamentado en los aportes de la Escuela Cubana de Ballet** Tesis de Posgrado, Universidad Técnica Particular de Loja. Repositorio Institucional. <https://dspace.utpl.edu.ec/handle/29.500.19856/84758>
