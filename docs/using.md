@@ -2,6 +2,9 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+547 Hong S, Nam H, Jeong S, Choi H, Kweon H. **AI-Based Rehabilitation System for Congenital Muscular Torticollis: Formative Usability Evaluation.**
+JMIR Hum Factors 2026;13:e101427 DOI: 10.2196/101427
+
 546 Lavrusevich P. (2023) **Zhit’ borom ili zhit’ v boru: praktiki sobiratel’stva i prisvoenie prostranstva (keys Karakanskogo bora) [To Live with a Pine Wood or to Live in a Pine Wood: Gathering Practices and Space Appropriation (The Case of Karakansky Pine Wood)]**. Journal of Economic Sociology = Ekonomicheskaya sostiologiya, vol. 24, no 3, pp. doi (in Russian). <https://ecsoc.hse.ru/ru/article/view/18197?ysclid=mwkjonfg2905827213>
 
 545 Skalaban I.А., Alekseev T.D., Lavrusevich P.Е. (2024) **The Social Worlds of the Karakan Pine Forest: Prospects for Rapprochement and Imperatives of Justice.** Mir Rossii, vol. 33, no 1, pp. 115–143 (in Russian). DOI: 10.17323/1811-038X-2024-33-1-115-143. <https://mirros.hse.ru/ru/article/view/19065>
