@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+548 Smith, Alprentice. **Navigating the Inevitable: How Organizational Leaders Recognize and Manage Unconscious Bias in Decision-Making.** Journal of Fundamental & Applied Business Research: Vol. 5, Article 11. <https://digitalcommons.liberty.edu/jbr/vol5/iss1/11>
+
 547 Hong S, Nam H, Jeong S, Choi H, Kweon H. **AI-Based Rehabilitation System for Congenital Muscular Torticollis: Formative Usability Evaluation.**
 JMIR Hum Factors 2026;13:e101427 DOI: 10.2196/101427
 
