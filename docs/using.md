@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+549 Sharma, R., & John, D. (2027). **Speaking challenges and strategies of tertiary level group.** Research Journal in Advanced Humanities, 8(1). <https://doi.org/10.58256/6x683v17>
+
 548 Smith, Alprentice. **Navigating the Inevitable: How Organizational Leaders Recognize and Manage Unconscious Bias in Decision-Making.** Journal of Fundamental & Applied Business Research: Vol. 5, Article 11. <https://digitalcommons.liberty.edu/jbr/vol5/iss1/11>
 
 547 Hong S, Nam H, Jeong S, Choi H, Kweon H. **AI-Based Rehabilitation System for Congenital Muscular Torticollis: Formative Usability Evaluation.**
