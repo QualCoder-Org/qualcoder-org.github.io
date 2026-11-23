@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+550 **Eksplorasi Pengalaman Siswa SMA Negeri 7 Malang dalam Self-Regulated Learning dan Motivasi Belajar melalui ChatGPT.** (2026). Jurnal Pengembangan Teknologi Dan Ilmu Komputer, 10(11). <https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/17105>
+
 549 Sharma, R., & John, D. (2027). **Speaking challenges and strategies of tertiary level group.** Research Journal in Advanced Humanities, 8(1). <https://doi.org/10.58256/6x683v17>
 
 548 Smith, Alprentice. **Navigating the Inevitable: How Organizational Leaders Recognize and Manage Unconscious Bias in Decision-Making.** Journal of Fundamental & Applied Business Research: Vol. 5, Article 11. <https://digitalcommons.liberty.edu/jbr/vol5/iss1/11>
