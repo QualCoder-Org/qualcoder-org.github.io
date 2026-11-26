@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+553 Porter, Nathaniel D., and Sebastian Karcher. 2026. **Building Open Qualitative Science with Open Curriculum.** Journal of eScience Librarianship 15 (1): e1172. <https://doi.org/10.7191/jeslib.1172>
+
 552 Siregar, YM, Hasanah, E, & Santosa, AB. (2026). **The Principal’s Leadership in Integrating Deep Learning, Coding, and Artificial Intelligence in Elementary Schools.** Edusoshum : Journal of Islamic Education and Social Humanities, 6(3), 2973–2983. <https://doi.org/10.52366/edusoshum.v6i3.738>
 
 551 Alistair Cameron, Ezron Mucyo, Steven Snijders, Catherine Honeyman. **Secondary Education in Rwanda: Country Case Study** (Laterite, 2026), country case study prepared for the Mastercard Foundation. <https://cdn.buttercms.com/content=t:attachment/V96XjLzGSmYtc3PYBR3A>
