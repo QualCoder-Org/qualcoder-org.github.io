@@ -260,48 +260,48 @@ nav = [
 		]}
 	]},
 	{"jp" = [
-		{"Overview" = "doc/jp/index.md"},
-		# "doc/jp/1.-Overview.md",
+		{"Overview" = "doc/ja/index.md"},
+		# "doc/ja/1.-Overview.md",
 		{"Setup" = [
-				"doc/jp/2.1.-Installation.md",  
-				"doc/jp/2.2.-Settings.md",  
-				"doc/jp/2.3.-AI-Setup.md",  
-				"doc/jp/2.4.-Working-in-a-Team.md"
+				"doc/ja/2.1.-Installation.md",  
+				"doc/ja/2.2.-Settings.md",  
+				"doc/ja/2.3.-AI-Setup.md",  
+				"doc/ja/2.4.-Working-in-a-Team.md"
 		]},
 		{"Managing Data" = [
-				"doc/jp/3.1.-Creating-a-New-Project.md",  
-				"doc/jp/3.2.-Files.md",  
-				"doc/jp/3.3.-Cases.md",  
-				"doc/jp/3.4.-Attributes.md",
-				"doc/jp/3.5.-References.md"
+				"doc/ja/3.1.-Creating-a-New-Project.md",  
+				"doc/ja/3.2.-Files.md",  
+				"doc/ja/3.3.-Cases.md",  
+				"doc/ja/3.4.-Attributes.md",
+				"doc/ja/3.5.-References.md"
 		]},
 		{"Coding" = [
-			"doc/jp/4.1.-Coding-Text.md",  
-			"doc/jp/4.2.-AI-Assisted-Coding.md",  
-			"doc/jp/4.3.-Coding-Text-on-PDFs.md",  
-			"doc/jp/4.4.-Coding-Images.md",  
-			"doc/jp/4.5.-Coding-Audio-and-Video.md",  
-			"doc/jp/4.6.-Code-Organiser.md",
-			"doc/jp/4.7.-Codes-Tree.md"
+			"doc/ja/4.1.-Coding-Text.md",  
+			"doc/ja/4.2.-AI-Assisted-Coding.md",  
+			"doc/ja/4.3.-Coding-Text-on-PDFs.md",  
+			"doc/ja/4.4.-Coding-Images.md",  
+			"doc/ja/4.5.-Coding-Audio-and-Video.md",  
+			"doc/ja/4.6.-Code-Organiser.md",
+			"doc/ja/4.7.-Codes-Tree.md"
 		]},
 		{"Analyzing the Results" = [
-			"doc/jp/5.1.-AI-chat-based-analysis.md",  
-			"doc/jp/5.2.-Journals.md", 
-			"doc/jp/5.3.-Analysis.md",
-			"doc/jp/5.4.-Reports.md",  
-			"doc/jp/5.5.-Graph.md"
+			"doc/ja/5.1.-AI-chat-based-analysis.md",  
+			"doc/ja/5.2.-Journals.md", 
+			"doc/ja/5.3.-Analysis.md",
+			"doc/ja/5.4.-Reports.md",  
+			"doc/ja/5.5.-Graph.md"
 		]},
 		{"Advanced Options" = [
-			"doc/jp/6.1.-Imports-and-Exports.md",  
-			"doc/jp/6.2.-Survey-Imports.md",
-			"doc/jp/6.3.-AI-Prompt-Library.md",
-			"doc/jp/6.4.-Merge-Projects.md"
+			"doc/ja/6.1.-Imports-and-Exports.md",  
+			"doc/ja/6.2.-Survey-Imports.md",
+			"doc/ja/6.3.-AI-Prompt-Library.md",
+			"doc/ja/6.4.-Merge-Projects.md"
 		]},
 		{"Other Information" = [
-			"doc/jp/7.3.-QualCoder-Development.md",  
-			"doc/jp/7.4.-SQlite-Data-Structure.md",  
-			"doc/jp/7.5.-AI-Technical-Information.md",  
-			"doc/jp/7.6.-How-to-contribute.md"
+			"doc/ja/7.3.-QualCoder-Development.md",  
+			"doc/ja/7.4.-SQlite-Data-Structure.md",  
+			"doc/ja/7.5.-AI-Technical-Information.md",  
+			"doc/ja/7.6.-How-to-contribute.md"
 		]}
 	]},  
 	{"eo" = [{"Superrigardo" = "doc/eo/index.md"}]},
