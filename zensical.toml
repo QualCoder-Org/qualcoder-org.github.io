@@ -258,6 +258,51 @@ nav = [
 			"doc/pt/7.5.-AI-Technical-Information.md",  
 			"doc/pt/7.6.-How-to-contribute.md"
 		]}
+	]},
+	{"jp" = [
+		{"Overview" = "doc/jp/index.md"},
+		# "doc/jp/1.-Overview.md",
+		{"Setup" = [
+				"doc/jp/2.1.-Installation.md",  
+				"doc/jp/2.2.-Settings.md",  
+				"doc/jp/2.3.-AI-Setup.md",  
+				"doc/jp/2.4.-Working-in-a-Team.md"
+		]},
+		{"Managing Data" = [
+				"doc/jp/3.1.-Creating-a-New-Project.md",  
+				"doc/jp/3.2.-Files.md",  
+				"doc/jp/3.3.-Cases.md",  
+				"doc/jp/3.4.-Attributes.md",
+				"doc/jp/3.5.-References.md"
+		]},
+		{"Coding" = [
+			"doc/jp/4.1.-Coding-Text.md",  
+			"doc/jp/4.2.-AI-Assisted-Coding.md",  
+			"doc/jp/4.3.-Coding-Text-on-PDFs.md",  
+			"doc/jp/4.4.-Coding-Images.md",  
+			"doc/jp/4.5.-Coding-Audio-and-Video.md",  
+			"doc/jp/4.6.-Code-Organiser.md",
+			"doc/jp/4.7.-Codes-Tree.md"
+		]},
+		{"Analyzing the Results" = [
+			"doc/jp/5.1.-AI-chat-based-analysis.md",  
+			"doc/jp/5.2.-Journals.md", 
+			"doc/jp/5.3.-Analysis.md",
+			"doc/jp/5.4.-Reports.md",  
+			"doc/jp/5.5.-Graph.md"
+		]},
+		{"Advanced Options" = [
+			"doc/jp/6.1.-Imports-and-Exports.md",  
+			"doc/jp/6.2.-Survey-Imports.md",
+			"doc/jp/6.3.-AI-Prompt-Library.md",
+			"doc/jp/6.4.-Merge-Projects.md"
+		]},
+		{"Other Information" = [
+			"doc/jp/7.3.-QualCoder-Development.md",  
+			"doc/jp/7.4.-SQlite-Data-Structure.md",  
+			"doc/jp/7.5.-AI-Technical-Information.md",  
+			"doc/jp/7.6.-How-to-contribute.md"
+		]}
 	]},  
 	{"eo" = [{"Superrigardo" = "doc/eo/index.md"}]},
 	{"eu" = [{"Ikuspegi orokorra" = "doc/eu/index.md"}]},
@@ -268,8 +313,7 @@ nav = [
 	{"ro" = [{"Prezentare generală" = "doc/ro/index.md"}]},
 	{"sv" = [{"Översikt" = "doc/sv/index.md"}]},
 	{"fa" = [{"نمای کلی" = "doc/fa/index.md"}]},
-	{"zh" = [{"概览" = "doc/zh/index.md"}]},
-	{"ja" = [{"概要" = "doc/ja/index.md"}]}
+	{"zh" = [{"概览" = "doc/zh/index.md"}]}
 ]
   
 # Keep English, French, German and Spanish help links in previously released apps working.
