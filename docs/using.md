@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+556 **Citoyenneté hydrique et sobriété domestique au Maroc : perceptions citoyennes face au stress hydrique dans la région Marrakech-Safi. (Water Citizenship and Domestic Water Sobriety in Morocco: -Safi Region M)** Mohamed Amine YOUB, Hicham EL BAYED. JournaL d'Economie, de Management, d'Environment et de Droit, vol 9 Numbero 3 (2026).
+
 555 **Correlates and Lived Experiences of Aerobic Exercise Adherence Among Indonesian Menopausal Women: A Mixed-Methods Study Using Pender’s Model.** (2026). JURNAL KEPERAWATAN DAN FISIOTERAPI (JKF), 9(1), 204-212. <https://doi.org/10.35451/jkf.v9i1.4081>
 
 554 Melissa Yoong, **'We are Malaysians': A membership categorisation analysis of queer visibility on Reddit** Discourse, Context & Media, Volume 75, 2027, 101079. <https://doi.org/10.1016/j.dcm.2026.101079>
