@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+554 Melissa Yoong, **'We are Malaysians': A membership categorisation analysis of queer visibility on Reddit** Discourse, Context & Media, Volume 75, 2027, 101079. <https://doi.org/10.1016/j.dcm.2026.101079>
+
 553 Porter, Nathaniel D., and Sebastian Karcher. 2026. **Building Open Qualitative Science with Open Curriculum.** Journal of eScience Librarianship 15 (1): e1172. <https://doi.org/10.7191/jeslib.1172>
 
 552 Siregar, YM, Hasanah, E, & Santosa, AB. (2026). **The Principal’s Leadership in Integrating Deep Learning, Coding, and Artificial Intelligence in Elementary Schools.** Edusoshum : Journal of Islamic Education and Social Humanities, 6(3), 2973–2983. <https://doi.org/10.52366/edusoshum.v6i3.738>
