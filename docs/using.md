@@ -2,6 +2,8 @@
 
 These are records that I have found on the internet, or that authors have informed me about. Studies, reports, abstracts, conference proceeding, datasets are listed from newest to oldest :
 
+552 Siregar, YM, Hasanah, E, & Santosa, AB. (2026). **The Principal’s Leadership in Integrating Deep Learning, Coding, and Artificial Intelligence in Elementary Schools.** Edusoshum : Journal of Islamic Education and Social Humanities, 6(3), 2973–2983. <https://doi.org/10.52366/edusoshum.v6i3.738>
+
 551 Alistair Cameron, Ezron Mucyo, Steven Snijders, Catherine Honeyman. **Secondary Education in Rwanda: Country Case Study** (Laterite, 2026), country case study prepared for the Mastercard Foundation. <https://cdn.buttercms.com/content=t:attachment/V96XjLzGSmYtc3PYBR3A>
 
 550 Rafly Achmad Barran, Okta Purnawirawan, Nurul Hidayat. **Eksplorasi Pengalaman Siswa SMA Negeri 7 Malang dalam Self-Regulated Learning dan Motivasi Belajar melalui ChatGPT.** (2026). Jurnal Pengembangan Teknologi Dan Ilmu Komputer, 10(11). <https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/17105>
